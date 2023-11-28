@@ -1,0 +1,25 @@
+Wildling
+Night's Watch
+Dothraki
+Foreign Noble
+Foreign Peasant
+Peasant
+Outlaw
+House Bolton
+House Stark
+House Arryn
+House Greyjoy
+House Frey
+House Tully
+House Lannister
+House Tyrell
+House Martell
+House Baratheon
+House Targaryen
+Soldier
+Noble
+
+
+
+
+House Baelish
