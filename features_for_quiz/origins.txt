@@ -1,488 +1,488 @@
 culture,house,origin
-Andal,unknown,
-Andals,unknown,
-Asshai,R'hllor,
-Asshai,unknown,
-Asshai'i,unknown,
-Astapor,Good Masters,
-Astapori,unknown,
-Astapori,Good Masters,
-Braavos,unknown,
-Braavosi,R'hllor,
-Braavosi,House Stark,
-Braavosi,Iron Bank of Braavos,
-Braavosi,unknown,
-Braavosi,Happy Port,
-Braavosi,Second Sons,
-Crannogmen,House Reed,
-Dorne,House Dayne of High Hermitage,
-Dorne,House Martell,
-Dornish,Brave Companions,
-Dornish,House Allyrion,
-Dornish,House Santagar,
-Dornish,House Vaith,
-Dornish,House Martell,
-Dornish,House Jordayne,
-Dornish,House Dalt,
-Dornish,House Gargalen,
-Dornish,House Toland,
-Dornish,House Uller,
-Dornish,House Drinkwater,
-Dornish,House Dayne,
-Dornish,House Blackmont,
-Dornish,House Nymeros Martell,
-Dornish,House Wells,
-Dornishmen,House Martell,
-Dornishmen,House Vaith,
-Dornishmen,House Dayne,
-Dornishmen,unknown,
-Dornishmen,House Fowler,
-Dothraki,House Targaryen,
-Dothraki,Brave Companions,
-Dothraki,unknown,
-Dothraki,Khal,
-First Men,House Stark,
-First Men,unknown,
-Free Folk,unknown,
-Free Folk,Thenn,
-Free folk,House Stark,
-Free folk,unknown,
-Ghiscari,Wise Masters,
-Ghiscari,Stormcrows,
-Ghiscari,House of Loraq,
-Ghiscari,Graces,
-Ghiscari,unknown,
-Ghiscari,House of Merreq,
-Ghiscari,House of Pahl,
-Ghiscari,House of Ghazeen,
-Ghiscari,House of Kandaq,
-Ghiscari,House of Galare,
-Ghiscari,House of Reznak,
-Ghiscaricari,House of Loraq,
-Ibbenese,Brave Companions,
-Ironborn,House Volmark,
-Ironborn,House Farwynd of the Lonely Light,
-Ironborn,House Harlaw of Grey Garden,
-Ironborn,House Harlaw of the Tower of Glimmering,
-Ironborn,unknown,
-Ironborn,House Greyjoy,
-Ironborn,House Ironmaker,
-Ironborn,House Shepherd,
-Ironborn,House Tawney,
-Ironborn,House Codd,
-Ironborn,House Kenning of Harlaw,
-Ironborn,Drowned men,
-Ironborn,House Sharp,
-Ironborn,House Blacktyde,
-Ironborn,House Wynch,
-Ironborn,House Goodbrother of Shatterstone,
-Ironborn,House Stonehouse,
-Ironborn,Night's Watch,
-Ironborn,House Harlaw,
-Ironborn,House Harlaw of Harridan Hill,
-Ironborn,House Weaver,
-Ironborn,House Farwynd,
-Ironborn,House Drumm,
-Ironborn,House Webber,
-Ironborn,House Sparr,
-Ironborn,House Merlyn,
-Ironborn,House Humble,
-Ironborn,House Botley,
-Ironborn,House Stonetree,
-Ironborn,House Myre,
-Ironborn,House Harlaw of Harlaw Hall,
-Ironborn,House Goodbrother,
-Ironmen,Drowned men,
-Ironmen,unknown,
-Ironmen,House Greyjoy,
-Lhazareen,unknown,
-Lhazarene,House Targaryen,
-Lysene,House Targaryen,
-Lysene,House Baratheon of Dragonstone,
-Lysene,unknown,
-Lyseni,Golden Company,
-Lyseni,unknown,
-Meereen,House of Pahl,
-Meereenese,House Targaryen,
-Meereenese,House of Galare,
-Myrish,House Darklyn,
-Myrish,House Merryweather,
-Myrish,Kingdom of the Three Daughters,
-Naathi,House Targaryen,
-Northern mountain clans,House Liddle,
-Northern mountain clans,House Wull,
-Northern mountain clans,House Norrey,
-Northmen,House Poole,
-Northmen,House Mollen,
-Northmen,House Umber,
-Northmen,House Glover,
-Northmen,House Manderly,
-Northmen,House Cassel,
-Northmen,House Flint of Widow's Watch,
-Northmen,House Karstark,
-Northmen,House Tallhart,
-Northmen,House Stout,
-Northmen,House Ryswell,
-Northmen,House Wells,
-Northmen,House Cerwyn,
-Northmen,unknown,
-Northmen,House Flint,
-Northmen,House Dustin,
-Northmen,House Woods,
-Northmen,House Bolton,
-Northmen,House Hornwood,
-Northmen,House Stark,
-Northmen,House Mormont,
-Northmen,House Bolton of the Dreadfort,
-Northmen,House Locke,
-Norvos,House Martell,
-Norvoshi,unknown,
-Pentoshi,House Targaryen,
-Pentoshi,unknown,
-Qarth,unknown,
-Qartheen,Stormcrows,
-Qartheen,Pureborn,
-Qartheen,unknown,
-Qartheen,Thirteen,
-Qohor,Brave Companions,
-Qohor,unknown,
-Reach,House Fossoway of New Barrel,
-Reach,unknown,
-Reach,House Ashford,
-Reach,House Redwyne,
-Reach,House Oakheart,
-Reach,House Tyrell,
-Reach,House Rowan,
-Reach,House Meadows,
-Reachmen,House Merryweather,
-Rhoynar,House Martell,
-Riverlands,House Mallister,
-Riverlands,House Frey,
-Rivermen,House Lychester,
-Rivermen,House Whent,
-Rivermen,House Piper,
-Rivermen,House Frey,
-Rivermen,House Tully,
-Sistermen,Night's Watch,
-Sistermen,House Borrell,
-Stormlander,House Swann,
-Stormlands,House Connington,
-Stormlands,House Cole,
-Stormlands,House Estermont,
-Stormlands,House Baratheon,
-Summer Islander,Golden Company,
-Summer Islands,Summer Islands,
-Summer Isles,unknown,
-Summer Isles,House Targaryen,
-Summer Isles,Chataya's brothel,
-The Reach,House Tyrell,
-Tyroshi,Stormcrows,
-Tyroshi,Band of Nine,
-Tyroshi,Night's Watch,
-Tyroshi,Kingdom of the Three Daughters,
-Tyroshi,Brotherhood without banners,
-Tyroshi,unknown,
-Vale,House Arryn,
-Vale mountain clans,Stone Crows,
-Vale mountain clans,Burned Men,
-Vale mountain clans,Black Ears,
-Vale mountain clans,Moon Brothers,
-Valemen,House Egen,
-Valemen,House Arryn,
-Valemen,House Tollett,
-Valemen,House Hardyng,
-Valemen,House Baelish,
-Valemen,House Moore,
-Valemen,House Redfort,
-Valemen,House Royce,
-Valyrian,House Blackfyre,
-Valyrian,unknown,
-Valyrian,House Velaryon,
-Valyrian,House Targaryen,
-Westerlands,House Lannister,
-Westerman,House Greenfield,
-Westerman,House Farman,
-Westerman,House Marbrand,
-Westerman,House Lannister,
-Westermen,House Westerling,
-Westermen,House Greenfield,
-Westeros,House Targaryen,
-Westeros,House Seaworth,
-Westeros,House Bolton,
-Westeros,House Stark,
-Westeros,House Selmy,
-Westeros,Night's Watch,
-Westeros,House Payne,
-Westeros,House Darry,
-Westeros,unknown,
-Wildling,Mance Rayder,
-Wildling,Night's Watch,
-Wildlings,unknown,
-Wildlings,Night's Watch,
-free folk,unknown,
-ironborn,House Greyjoy,
-northmen,House Stark,
-northmen,House Bolton,
-unknown,House Vikary,
-unknown,R'hllor,
-unknown,House Massey,
-unknown,House Chyttering,
-unknown,Brotherhood without Banners,
-unknown,House Mallery,
-unknown,brotherhood without banners,
-unknown,House Lydden,
-unknown,House Bettley,
-unknown,House Grell,
-unknown,House Peckledon,
-unknown,House Erenford,
-unknown,House Rhysling,
-unknown,House Potter,
-unknown,House Darry,
-unknown,House Horpe,
-unknown,House Fossoway,
-unknown,House Bywater,
-unknown,House Kenning of Kayce,
-unknown,House Woolfield,
-unknown,House Turnberry,
-unknown,House Blackbar,
-unknown,House Selmy,
-unknown,House Errol,
-unknown,House Wythers,
-unknown,House Sarsfield,
-unknown,House Leek,
-unknown,Undying Ones,
-unknown,House Yarwyck,
-unknown,House Trant,
-unknown,House Botley,
-unknown,House Santagar,
-unknown,House Templeton,
-unknown,House Toyne,
-unknown,House Jordayne,
-unknown,House Lannister of Casterly Rock,
-unknown,House Mudd,
-unknown,House Condon,
-unknown,House Sunderland,
-unknown,House Hetherspoon,
-unknown,House Uller,
-unknown,House Wayn,
-unknown,House Poole,
-unknown,Maesters,
-unknown,House Blanetree,
-unknown,House Suggs,
-unknown,Company of the Cat,
-unknown,House Coldwater,
-unknown,House Crane,
-unknown,House Longthorpe,
-unknown,House Flint,
-unknown,House Chester,
-unknown,House Strickland,
-unknown,Unsullied,
-unknown,House Tyrell of Brightwater Keep,
-unknown,House Baratheon of King's Landing,
-unknown,House Yronwood,
-unknown,House Kettleblack,
-unknown,House Blount,
-unknown,House Foote,
-unknown,House Hasty,
-unknown,House Chelsted,
-unknown,House Banefort,
-unknown,House Ball,
-unknown,House Cox,
-unknown,House Ruttiger,
-unknown,House Estren,
-unknown,House Rykker,
-unknown,House Longwaters,
-unknown,House Thorne,
-unknown,House Flint of Widow's Watch,
-unknown,House Moreland,
-unknown,House Hogg,
-unknown,House Vyrwel,
-unknown,House Byrch,
-unknown,House Rambton,
-unknown,House Hunt,
-unknown,House Oakheart,
-unknown,House Hightower,
-unknown,House Stokeworth,
-unknown,House Frey of Riverrun,
-unknown,Brave Companions,
-unknown,Faceless Men,
-unknown,House Baelish,
-unknown,Second Sons,
-unknown,Sea watch,
-unknown,House Ryger,
-unknown,House Heddle,
-unknown,House Costayne,
-unknown,House Clegane,
-unknown,House Martell,
-unknown,House Lynderly,
-unknown,Peach,
-unknown,House Tarly,
-unknown,House Varner,
-unknown,House Bracken,
-unknown,House Whent,
-unknown,House Charlton,
-unknown,House Butterwell,
-unknown,House Baratheon of Dragonstone,
-unknown,House Drumm,
-unknown,House Redfort,
-unknown,House Greenhill,
-unknown,House Conklyn,
-unknown,House Caswell,
-unknown,Black Ears,
-unknown,House Buckler,
-unknown,House Payne,
-unknown,House Fossoway of Cider Hall,
-unknown,House Smallwood,
-unknown,House Bulwer,
-unknown,House Baratheon,
-unknown,House Beesbury,
-unknown,House Blacktyde,
-unknown,House Bushy,
-unknown,Alchemists' Guild,
-unknown,House Stark,
-unknown,House Ambrose,
-unknown,House Qorgyle,
-unknown,House Cafferen,
-unknown,House Deddings,
-unknown,House Bolton,
-unknown,House Staunton,
-unknown,House Tyrell,
-unknown,House Blackfyre,
-unknown,House Blackwood,
-unknown,Kingswood Brotherhood,
-unknown,House Targaryen,
-unknown,Happy Port,
-unknown,House Farwynd of the Lonely Light,
-unknown,House Manderly,
-unknown,House Dayne,
-unknown,House Waynwood,
-unknown,House Webber,
-unknown,Brotherhood Without Banners,
-unknown,House Fell,
-unknown,House Wode,
-unknown,House Wylde,
-unknown,Night's Watch,
-unknown,House Osgrey,
-unknown,House Arryn,
-unknown,House Swyft,
-unknown,wildling,
-unknown,House Royce of the Gates of the Moon,
-unknown,House Nayland,
-unknown,House Greyjoy,
-unknown,House Spicer,
-unknown,Antler Men,
-unknown,House Crabb,
-unknown,House Lannister of Lannisport,
-unknown,House Harclay,
-unknown,House Connington,
-unknown,House Westerling,
-unknown,House Darklyn,
-unknown,House Crakehall,
-unknown,House Leygood,
-unknown,House Lannister,
-unknown,House Hollard,
-unknown,House Frey,
-unknown,House Paege,
-unknown,House Brax,
-unknown,House Reyne,
-unknown,House Lonmouth,
-unknown,House Farrow,
-unknown,House Rowan,
-unknown,House Vance of Wayfarer's Rest,
-unknown,House Tarth,
-unknown,House Wagstaff,
-unknown,House Slynt,
-unknown,House Redwyne,
-unknown,House Caron,
-unknown,House Cuy,
-unknown,House Rosby,
-unknown,House Brune of Brownhollow,
-unknown,House Broom,
-unknown,House Belmore,
-unknown,House Hawick,
-unknown,House Celtigar,
-unknown,House Farring,
-unknown,House Estermont,
-unknown,House Jast,
-unknown,House Haigh,
-unknown,House Stackspear,
-unknown,House Graceford,
-unknown,House Cockshaw,
-unknown,City Watch of King's Landing,
-unknown,House Seaworth,
-unknown,House Staedmon,
-unknown,House Velaryon,
-unknown,House Vance,
-unknown,House Shett of Gull Tower,
-unknown,House Vypren,
-unknown,House Marbrand,
-unknown,House Hoare,
-unknown,The Citadel,
-unknown,House Grimm,
-unknown,House Sunglass,
-unknown,Citadel,
-unknown,House Peake,
-unknown,House Hewett,
-unknown,Blacks,
-unknown,House Gower,
-unknown,House Pemford,
-unknown,House Goodbrook,
-unknown,House Brune of the Dyre Den,
-unknown,House Hayford,
-unknown,House Hunter,
-unknown,House Norridge,
-unknown,House Mooton,
-unknown,House Bar Emmon,
-unknown,House Locke,
-unknown,House Dalt,
-unknown,House Hardyng,
-unknown,House Prester,
-unknown,House Plumm,
-unknown,House Inchfield,
-unknown,House Fossoway of New Barrel,
-unknown,House Norcross,
-unknown,Chataya's brothel,
-unknown,House Blackberry,
-unknown,House Clifton,
-unknown,House Bolling,
-unknown,House Ashford,
-unknown,House Uffering,
-unknown,House Sawyer,
-unknown,House Grandison,
-unknown,House Mallister,
-unknown,House Grafton,
-unknown,House Gaunt,
-unknown,House Corbray,
-unknown,House Morrigen,
-unknown,House Tully,
-unknown,House Willum,
-unknown,Faith of the Seven,
-unknown,House Risley,
-unknown,House Harlaw,
-unknown,House Manwoody,
-unknown,Kingsguard,
-unknown,House Boggs,
-unknown,Three-eyed crow,
-unknown,House Cupps,
-unknown,House Mertyns,
-unknown,House Florent,
-unknown,House Mullendore,
-unknown,House Yew,
-unknown,House Lothston,
-unknown,House Dondarrion,
-unknown,House Meadows,
-unknown,Queensguard,
-unknown,House Hardy,
-unknown,House Swann,
-unknown,House Roote,
-unknown,House Lefford,
-unknown,House Lorch,
-unknown,House Serry,
-unknown,Windblown,
-unknown,House Royce,
-unknown,Brotherhood without banners,
-unknown,House Vance of Atranta,
-unknown,House Penrose,
-unknown,House Penny,
-unknown,House Strong,
-westermen,House Lannister,
+Andal,,Peasant
+Andals,,Peasant
+Asshai,R'hllor,Foreign Noble
+Asshai,,Foreign Peasant
+Asshai'i,,Foreign Peasant
+Astapor,Good Masters,Foreign Noble
+Astapori,Good Masters,Foreign Noble
+Astapori,,Foreign Peasant
+Braavos,,Foreign Peasant
+Braavosi,,Foreign Peasant
+Braavosi,House Stark,Foreign Noble
+Braavosi,Second Sons,Outlaw
+Braavosi,Iron Bank of Braavos,Foreign Noble
+Braavosi,R'hllor,Foreign Noble
+Braavosi,Happy Port,Foreing Peasant
+Crannogmen,House Reed,House Stark
+Dorne,House Dayne of High Hermitage,House Martell
+Dorne,House Martell,House Martell
+Dornish,Brave Companions,House Martell
+Dornish,House Santagar,House Martell
+Dornish,House Nymeros Martell,House Martell
+Dornish,House Martell,House Martell
+Dornish,House Vaith,House Martell
+Dornish,House Drinkwater,House Martell
+Dornish,House Blackmont,House Martell
+Dornish,House Uller,House Martell
+Dornish,House Toland,House Martell
+Dornish,House Allyrion,House Martell
+Dornish,House Gargalen,House Martell
+Dornish,House Dayne,House Martell
+Dornish,House Dalt,House Martell
+Dornish,House Wells,House Martell
+Dornish,House Jordayne,House Martell
+Dornishmen,House Fowler,House Martell
+Dornishmen,,House Martell
+Dornishmen,House Vaith,House Martell
+Dornishmen,House Martell,House Martell
+Dornishmen,House Dayne,House Martell
+Dothraki,House Targaryen,Dothraki
+Dothraki,Brave Companions,Dothraki
+Dothraki,,Dothraki
+Dothraki,Khal,Dothraki
+First Men,,Foreign Noble
+First Men,House Stark,House Stark
+Free Folk,,Wildling
+Free Folk,Thenn,Wildling
+Free folk,,Wildling
+Free folk,House Stark,Wildling
+Ghiscari,House of Ghazeen,Foreign Noble
+Ghiscari,House of Galare,Foreign Noble
+Ghiscari,House of Reznak,Foreign Noble
+Ghiscari,House of Kandaq,Foreign Noble
+Ghiscari,Stormcrows,Outlaw
+Ghiscari,House of Merreq,Foreign Noble
+Ghiscari,House of Pahl,Foreign Noble
+Ghiscari,Wise Masters,Foreign Noble
+Ghiscari,House of Loraq,Foreign Peasant
+Ghiscari,,Foreign Peasant
+Ghiscari,Graces,Foreign Peasant
+Ghiscaricari,House of Loraq,Foreign Peasant
+Ibbenese,Brave Companions,Foreign Peasant
+Ironborn,House Harlaw of Grey Garden,House Greyjoy
+Ironborn,House Volmark,House Greyjoy
+Ironborn,Drowned men,House Greyjoy
+Ironborn,House Farwynd of the Lonely Light,House Greyjoy
+Ironborn,House Shepherd,House Greyjoy
+Ironborn,House Wynch,House Greyjoy
+Ironborn,House Sparr,House Greyjoy
+Ironborn,House Merlyn,House Greyjoy
+Ironborn,House Harlaw of Harridan Hill,House Greyjoy
+Ironborn,House Myre,House Greyjoy
+Ironborn,House Harlaw of the Tower of Glimmering,House Greyjoy
+Ironborn,House Humble,House Greyjoy
+Ironborn,House Ironmaker,House Greyjoy
+Ironborn,House Stonetree,House Greyjoy
+Ironborn,House Drumm,House Greyjoy
+Ironborn,House Kenning of Harlaw,House Greyjoy
+Ironborn,House Goodbrother,House Greyjoy
+Ironborn,House Botley,House Greyjoy
+Ironborn,House Webber,House Greyjoy
+Ironborn,House Codd,House Greyjoy
+Ironborn,Night's Watch,Night's Watch
+Ironborn,,House Greyjoy
+Ironborn,House Sharp,House Greyjoy
+Ironborn,House Farwynd,House Greyjoy
+Ironborn,House Weaver,House Greyjoy
+Ironborn,House Harlaw,House Greyjoy
+Ironborn,House Blacktyde,House Greyjoy
+Ironborn,House Harlaw of Harlaw Hall,House Greyjoy
+Ironborn,House Greyjoy,House Greyjoy
+Ironborn,House Stonehouse,House Greyjoy
+Ironborn,House Goodbrother of Shatterstone,House Greyjoy
+Ironborn,House Tawney,House Greyjoy
+Ironmen,,House Greyjoy
+Ironmen,House Greyjoy,House Greyjoy
+Ironmen,Drowned men,House Greyjoy
+Lhazareen,,Foreign Peasant
+Lhazarene,House Targaryen,Foreign Noble
+Lysene,House Baratheon of Dragonstone,House Baratheon
+Lysene,,Foreign Noble
+Lysene,House Targaryen,House Targaryen
+Lyseni,,Foreign Peasant
+Lyseni,Golden Company,Foreign Peasant
+Meereen,House of Pahl,Foreign Peasant
+Meereenese,House of Galare,Foreign Peasant
+Meereenese,House Targaryen,House Targaryen
+Myrish,Kingdom of the Three Daughters,Foreign Peasant
+Myrish,House Darklyn,Foreign Noble
+Myrish,House Merryweather,Foreign Peasant
+Naathi,House Targaryen,House Targaryen
+Northern mountain clans,House Wull,Outlaw
+Northern mountain clans,House Norrey,Outlaw
+Northern mountain clans,House Liddle,Outlaw
+Northmen,House Ryswell,House Stark
+Northmen,House Locke,House Stark
+Northmen,House Bolton of the Dreadfort,House Stark
+Northmen,House Glover,House Stark
+Northmen,House Wells,House Stark
+Northmen,House Stout,House Stark
+Northmen,House Hornwood,House Stark
+Northmen,House Stark,House Stark
+Northmen,House Tallhart,House Stark
+Northmen,House Manderly,House Stark
+Northmen,House Karstark,House Stark
+Northmen,House Umber,House Stark
+Northmen,House Bolton,House Stark
+Northmen,House Flint,House Stark
+Northmen,House Woods,House Stark
+Northmen,,House Stark
+Northmen,House Mollen,House Stark
+Northmen,House Cerwyn,House Stark
+Northmen,House Mormont,House Stark
+Northmen,House Poole,House Stark
+Northmen,House Flint of Widow's Watch,House Stark
+Northmen,House Cassel,House Stark
+Northmen,House Dustin,House Stark
+Norvos,House Martell,House Martell
+Norvoshi,,Foreign Peasant
+Pentoshi,,Foreign Noble
+Pentoshi,House Targaryen,House Targaryen
+Qarth,,Foreign Peasant
+Qartheen,,Foreign Peasant
+Qartheen,Thirteen,Foreign Noble
+Qartheen,Pureborn,Forein Peasant
+Qartheen,Stormcrows,Outlaw
+Qohor,,Foreign Peasant
+Qohor,Brave Companions,Outlaw
+Reach,House Meadows,House Tyrell
+Reach,,House Tyrell
+Reach,House Tyrell,House Tyrell
+Reach,House Rowan,House Tyrell
+Reach,House Oakheart,House Tyrell
+Reach,House Ashford,House Tyrell
+Reach,House Fossoway of New Barrel,House Tyrell
+Reach,House Redwyne,House Tyrell
+Reachmen,House Merryweather,House Tyrell
+Rhoynar,House Martell,House Martell
+Riverlands,House Mallister,House Tully
+Riverlands,House Frey,House Frey
+Rivermen,House Frey,House Frey
+Rivermen,House Tully,House Tully
+Rivermen,House Piper,House Tully
+Rivermen,House Whent,House Tully
+Rivermen,House Lychester,House Tully
+Sistermen,Night's Watch,Night's Watch
+Sistermen,House Borrell,House Arryn
+Stormlander,House Swann,House Baratheon
+Stormlands,House Cole,House Baratheon
+Stormlands,House Estermont,House Baratheon
+Stormlands,House Connington,House Baratheon
+Stormlands,House Baratheon,House Baratheon
+Summer Islander,Golden Company,Foreign Peasant
+Summer Islands,Summer Islands,Foreign Noble
+Summer Isles,,Foreign Peasant
+Summer Isles,Chataya's brothel,Foreign Peasant
+Summer Isles,House Targaryen,House Targaryen
+The Reach,House Tyrell,House Tyrell
+Tyroshi,Kingdom of the Three Daughters,Foreign Peasant
+Tyroshi,Night's Watch,Night's Watch
+Tyroshi,Brotherhood without banners,Outlaw
+Tyroshi,Band of Nine,Foreign Peasant
+Tyroshi,Stormcrows,Outlaw
+Tyroshi,,Foreign Noble
+Vale,House Arryn,House Arryn
+Vale mountain clans,Moon Brothers,Outlaw
+Vale mountain clans,Burned Men,Outlaw
+Vale mountain clans,Stone Crows,Outlaw
+Vale mountain clans,Black Ears,Outlaw
+Valemen,House Royce,House Arryn
+Valemen,House Baelish,House Arryn
+Valemen,House Hardyng,House Arryn
+Valemen,House Tollett,House Arryn
+Valemen,House Arryn,House Arryn
+Valemen,House Moore,House Arryn
+Valemen,House Egen,House Arryn
+Valemen,House Redfort,House Arryn
+Valyrian,House Blackfyre,Foreign Peasant
+Valyrian,,Foreign Peasant
+Valyrian,House Velaryon,Foreign Noble
+Valyrian,House Targaryen,House Targaryen
+Westerlands,House Lannister,House Lannister
+Westerman,House Marbrand,House Lannister
+Westerman,House Lannister,House Lannister
+Westerman,House Greenfield,House Lannister
+Westerman,House Farman,House Lannister
+Westermen,House Westerling,House Lannister
+Westermen,House Greenfield,House Lannister
+Westeros,House Darry,House Frey
+Westeros,House Bolton,House Bolton
+Westeros,Night's Watch,Night's Watch
+Westeros,,Peasant
+Westeros,House Targaryen,House Targaryen
+Westeros,House Selmy,House Baratheon
+Westeros,House Stark,House Stark
+Westeros,House Payne,House Lannister
+Westeros,House Seaworth,House Lannister
+Wildling,Night's Watch,Night's Watch
+Wildling,Mance Rayder,Wildling
+Wildlings,,Wildling
+Wildlings,Night's Watch,Night's Watch
+free folk,,Wildling
+ironborn,House Greyjoy,House Greyjoy
+northmen,House Bolton,House Bolton
+northmen,House Stark,House Stark
+westermen,House Lannister,House Lannister
+,House Swyft,
+,House Arryn,
+,House Osgrey,
+,Night's Watch,
+,House Wylde,
+,House Wode,
+,House Fell,
+,Brotherhood Without Banners,
+,House Webber,
+,House Waynwood,
+,House Dayne,
+,House Manderly,
+,House Farwynd of the Lonely Light,
+,Happy Port,
+,House Targaryen,
+,Kingswood Brotherhood,
+,House Blackwood,
+,House Blackfyre,
+,House Tyrell,
+,wildling,
+,House Royce of the Gates of the Moon,
+,House Nayland,
+,House Greyjoy,
+,House Vance of Wayfarer's Rest,
+,House Rowan,
+,House Farrow,
+,House Lonmouth,
+,House Reyne,
+,House Brax,
+,House Paege,
+,House Frey,
+,House Hollard,
+,House Tarth,
+,House Lannister,
+,House Crakehall,
+,House Darklyn,
+,House Westerling,
+,House Connington,
+,House Harclay,
+,House Lannister of Lannisport,
+,House Crabb,
+,Antler Men,
+,House Spicer,
+,House Staunton,
+,House Leygood,
+,House Bolton,
+,House Fossoway of Cider Hall,
+,House Varner,
+,House Tarly,
+,Peach,
+,House Lynderly,
+,House Martell,
+,House Clegane,
+,House Costayne,
+,House Heddle,
+,House Ryger,
+,Sea watch,
+,Second Sons,
+,House Baelish,
+,Faceless Men,
+,Brave Companions,
+,House Frey of Riverrun,
+,House Stokeworth,
+,House Hightower,
+,House Oakheart,
+,House Hunt,
+,House Bracken,
+,House Whent,
+,House Charlton,
+,House Butterwell,
+,House Qorgyle,
+,House Ambrose,
+,House Stark,
+,Alchemists' Guild,
+,House Bushy,
+,House Blacktyde,
+,House Beesbury,
+,House Baratheon,
+,House Bulwer,
+,House Cafferen,
+,House Smallwood,
+,House Payne,
+,House Buckler,
+,Black Ears,
+,House Caswell,
+,House Conklyn,
+,House Greenhill,
+,House Redfort,
+,House Drumm,
+,House Baratheon of Dragonstone,
+,House Deddings,
+,House Slynt,
+,House Plumm,
+,House Redwyne,
+,House Manwoody,
+,House Harlaw,
+,House Risley,
+,Faith of the Seven,
+,House Willum,
+,House Tully,
+,House Morrigen,
+,House Corbray,
+,House Gaunt,
+,Kingsguard,
+,House Grafton,
+,House Grandison,
+,House Sawyer,
+,House Uffering,
+,House Ashford,
+,House Bolling,
+,House Clifton,
+,House Blackberry,
+,Chataya's brothel,
+,House Norcross,
+,House Mallister,
+,House Fossoway of New Barrel,
+,House Swann,
+,House Cupps,
+,House Penny,
+,House Penrose,
+,House Vance of Atranta,
+,Brotherhood without banners,
+,House Royce,
+,Windblown,
+,House Serry,
+,House Lorch,
+,House Lefford,
+,House Strong,
+,House Roote,
+,House Hardy,
+,Queensguard,
+,House Meadows,
+,House Dondarrion,
+,House Lothston,
+,House Yew,
+,House Mullendore,
+,House Florent,
+,House Mertyns,
+,House Boggs,
+,House Inchfield,
+,House Pemford,
+,House Velaryon,
+,House Staedmon,
+,House Seaworth,
+,City Watch of King's Landing,
+,House Cockshaw,
+,House Graceford,
+,House Stackspear,
+,House Haigh,
+,House Jast,
+,House Estermont,
+,House Farring,
+,House Celtigar,
+,House Byrch,
+,House Hawick,
+,House Belmore,
+,House Broom,
+,House Brune of Brownhollow,
+,House Rosby,
+,House Cuy,
+,House Caron,
+,House Vance,
+,House Shett of Gull Tower,
+,House Vypren,
+,House Marbrand,
+,House Hardyng,
+,House Dalt,
+,House Locke,
+,House Bar Emmon,
+,House Mooton,
+,House Norridge,
+,House Hunter,
+,House Hayford,
+,House Brune of the Dyre Den,
+,House Prester,
+,House Goodbrook,
+,House Gower,
+,Blacks,
+,House Hewett,
+,House Peake,
+,Citadel,
+,House Sunglass,
+,House Grimm,
+,The Citadel,
+,House Hoare,
+,House Rambton,
+,House Wagstaff,
+,House Vyrwel,
+,House Lydden,
+,House Bettley,
+,House Darry,
+,House Kenning of Kayce,
+,House Turnberry,
+,House Blackbar,
+,House Woolfield,
+,House Fossoway,
+,House Mallery,
+,House Chyttering,
+,House Vikary,
+,House Selmy,
+,House Crane,
+,House Sarsfield,
+,House Chester,
+,House Baratheon of King's Landing,
+,House Yronwood,
+,House Kettleblack,
+,House Wythers,
+,House Foote,
+,House Chelsted,
+,House Banefort,
+,House Ball,
+,House Cox,
+,House Ruttiger,
+,House Estren,
+,House Rykker,
+,House Longwaters,
+,House Thorne,
+,House Flint of Widow's Watch,
+,House Moreland,
+,House Flint,
+,House Hogg,
+,House Longthorpe,
+,House Coldwater,
+,House Leek,
+,House Santagar,
+,House Templeton,
+,House Toyne,
+,House Jordayne,
+,House Mudd,
+,House Sunderland,
+,House Hetherspoon,
+,House Uller,
+,House Wayn,
+,House Poole,
+,Maesters,
+,House Blanetree,
+,House Blount,
+,Company of the Cat,
+,House Suggs,
+,House Condon,
+,House Lannister of Casterly Rock,
+,House Botley,
+,House Trant,
+,House Yarwyck,
+,Undying Ones,
+,House Hasty,
+,House Tyrell of Brightwater Keep,
+,Unsullied,
+,House Strickland,
+,House Bywater,
+,House Massey,
+,Brotherhood without Banners,
+,House Rhysling,
+,House Potter,
+,House Horpe,
+,House Peckledon,
+,House Errol,
+,House Erenford,
+,House Grell,
+,brotherhood without banners,
+,R'hllor,
+,Three-eyed crow,
