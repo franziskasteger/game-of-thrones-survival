@@ -29,7 +29,7 @@ Summer Islander,Golden Company,Foreign Peasant
 Astapori,Good Masters,Foreign Noble
 Astapor,Good Masters,Foreign Noble
 Ghiscari,Graces,Foreign Peasant
-Braavosi,Happy Port,Foreing Peasant
+Braavosi,Happy Port,Foreign Peasant
 ,Happy Port,Peasant
 Dornish,House Allyrion,House Martell
 ,House Ambrose,House Tyrell
@@ -432,7 +432,7 @@ Westeros,Night's Watch,Night's Watch
 Wildling,Night's Watch,Night's Watch
 Wildlings,Night's Watch,Night's Watch
 ,Peach,Peasant
-Qartheen,Pureborn,Forein Peasant
+Qartheen,Pureborn,Foreign Peasant
 ,Queensguard,Soldier
 Asshai,R'hllor,Foreign Noble
 ,R'hllor,Foreign Noble
