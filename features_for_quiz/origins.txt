@@ -38,90 +38,90 @@ Valemen,House Arryn,House Arryn
 Vale,House Arryn,House Arryn
 Reach,House Ashford,House Tyrell
 ,House Ashford,House Tyrell
-,House Baelish,
+,House Baelish,Noble
 Valemen,House Baelish,House Arryn
-,House Ball,
-,House Banefort,
-,House Bar Emmon,
-,House Baratheon,
+,House Ball,House Targaryen
+,House Banefort,House Lannister
+,House Bar Emmon,House Targaryen
+,House Baratheon,House Baratheon
 Stormlands,House Baratheon,House Baratheon
 Lysene,House Baratheon of Dragonstone,House Baratheon
-,House Baratheon of Dragonstone,
-,House Baratheon of King's Landing,
-,House Beesbury,
-,House Belmore,
-,House Bettley,
-,House Blackbar,
-,House Blackberry,
-,House Blackfyre,
-Valyrian,House Blackfyre,Foreign Peasant
+,House Baratheon of Dragonstone,House Baratheon
+,House Baratheon of King's Landing,House Baratheon
+,House Beesbury,House Tyrell
+,House Belmore,House Arryn
+,House Bettley,Noble
+,House Blackbar,House Tyrell
+,House Blackberry,Peasant
+,House Blackfyre,House Targaryen
+Valyrian,House Blackfyre,House Targaryen
 Dornish,House Blackmont,House Martell
-,House Blacktyde,
+,House House Greyjoy,House Greyjoy
 Ironborn,House Blacktyde,House Greyjoy
-,House Blackwood,
-,House Blanetree,
-,House Blount,
-,House Boggs,
-,House Bolling,
-,House Bolton,
+,House Blackwood,House Tully
+,House Blanetree,House Tully
+,House Blount,House Baratheon
+,House Boggs,Noble
+,House Bolling,House Tully
+,House Bolton,House Bolton
 Westeros,House Bolton,House Bolton
 northmen,House Bolton,House Bolton
 Northmen,House Bolton,House Stark
 Northmen,House Bolton of the Dreadfort,House Stark
 Sistermen,House Borrell,House Arryn
-,House Botley,
+,House Botley,House Greyjoy
 Ironborn,House Botley,House Greyjoy
-,House Bracken,
-,House Brax,
-,House Broom,
-,House Brune of Brownhollow,
-,House Brune of the Dyre Den,
-,House Buckler,
-,House Bulwer,
-,House Bushy,
-,House Butterwell,
-,House Byrch,
-,House Bywater,
-,House Cafferen,
-,House Caron,
+,House Bracken,House Tully
+,House Brax,House Lannister
+,House Broom,Noble
+,House Brune of Brownhollow,House Arryn
+,House Brune of the Dyre Den,House Arryn
+,House Buckler,House Baratheon
+,House Bulwer,House Tyrell
+,House Bushy,Noble
+,House Butterwell,House Targaryen
+,House Byrch,Noble
+,House Bywater,House Baratheon
+,House Cafferen,House Baratheon
+,House Caron,House Baratheon
 Northmen,House Cassel,House Stark
-,House Caswell,
-,House Celtigar,
+,House Caswell,House Tyrell
+,House Celtigar,House Baratheon
 Northmen,House Cerwyn,House Stark
-,House Charlton,
-,House Chelsted,
-,House Chester,
-,House Chyttering,
-,House Clegane,
-,House Clifton,
-,House Cockshaw,
+,House Charlton,House Frey
+,House Chelsted,Noble
+,House Chester,Noble
+,House Chyttering,Noble
+,House Clegane,House Lannister
+,House Clifton,Noble
+,House Cockshaw,House Tyrell
 Ironborn,House Codd,House Greyjoy
 ,House Coldwater,
 Stormlands,House Cole,House Baratheon
-,House Condon,
-,House Conklyn,
-,House Connington,
+,House Condon,House Arryn
+,House Conklyn,Noble
+,House Connington,Noble
 Stormlands,House Connington,House Baratheon
-,House Corbray,
-,House Costayne,
-,House Cox,
-,House Crabb,
-,House Crakehall,
-,House Crane,
-,House Cupps,
-,House Cuy,
-,House Dalt,
+,House Corbray,House Baratheon
+,House Costayne,House Tyrell
+,House Cox,Noble
+,House Crabb,Noble
+,House Crakehall,House Lannister
+,House Crane,House Tyrell
+,House Cupps,Noble
+,House Cuy,House Tyrell
+,House Dalt,House Martell
 Dornish,House Dalt,House Martell
 Myrish,House Darklyn,Foreign Noble
-,House Darklyn,
-,House Darry,
+,House Darklyn,House Targaryen
+,House Darry,House Frey
 Westeros,House Darry,House Frey
 Dornish,House Dayne,House Martell
-,House Dayne,
+,House Dayne,House Martell
 Dornishmen,House Dayne,House Martell
 Dorne,House Dayne of High Hermitage,House Martell
-,House Deddings,
-,House Dondarrion,
+,House Deddings,House Frey
+,House Dondarrion,House Baratheon
 Dornish,House Drinkwater,House Martell
 Ironborn,House Drumm,House Greyjoy
 ,House Drumm,
@@ -345,7 +345,7 @@ Naathi,House Targaryen,House Targaryen
 Westeros,House Targaryen,House Targaryen
 Valyrian,House Targaryen,House Targaryen
 Meereenese,House Targaryen,House Targaryen
-Dothraki,House Targaryen,Dothraki
+Dothraki,House Targaryen,House Targaryen
 Lysene,House Targaryen,House Targaryen
 Lhazarene,House Targaryen,Foreign Noble
 Summer Isles,House Targaryen,House Targaryen

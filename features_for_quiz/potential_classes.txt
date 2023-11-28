@@ -3,8 +3,10 @@ Night's Watch
 Dothraki
 Foreign Noble
 Foreign Peasant
+Noble
 Peasant
 Outlaw
+Soldier
 House Bolton
 House Stark
 House Arryn
@@ -16,10 +18,3 @@ House Tyrell
 House Martell
 House Baratheon
 House Targaryen
-Soldier
-Noble
-
-
-
-
-House Baelish
