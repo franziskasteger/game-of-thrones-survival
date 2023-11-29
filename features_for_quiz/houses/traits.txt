@@ -50,7 +50,7 @@ connections
 prepared
   prepared
   survivalist
-stubborn
+unyielding
   strong willed
   warrior
   leadership
