@@ -1,20 +1,102 @@
-Wildling
-Night's Watch
-Dothraki
-Foreign Noble
-Foreign Peasant
-Noble
-Peasant
-Outlaw
-Soldier
-House Bolton
-House Stark
-House Arryn
-House Greyjoy
-House Frey
-House Tully
-House Lannister
-House Tyrell
-House Martell
-House Baratheon
-House Targaryen
+Wildling:
+  free spirited
+  survivalist
+  fierce independence
+  clannish
+  raider mentality
+  cold climate
+  isolationist
+  ruthless
+Outlaw:
+  lawless
+  marginalized
+  survivalist
+  ruthless
+Dothraki:
+  nomadic lifestyle
+  martial prowess
+  cultural codes
+  khal tradition
+  warm climate
+  ruthless
+
+Night's Watch:
+  duty-bound
+  brotherhood
+  stoic
+Soldier:
+  disciplined
+  loyal
+  skillful
+
+
+Foreign Noble:
+  cultural distinctiveness
+  political intrigue
+  initial mistrust
+  warm climate
+Foreign Peasant:
+  cultural struggle
+  economic disparity
+  cultural exchange ?
+  warm climate
+Noble:
+  hereditary status
+  political influence
+  court intrigue
+Peasant:
+  agrarian lifestyle
+  limited social mobility
+  vulnerability to conflict
+
+House Bolton:
+  ruthless
+  strategic
+  dreadful reputation
+House Stark:
+  honorable
+  loyal
+  resilient
+  prepared
+  cold climate
+House Arryn:
+  isolationist
+  honorable
+  military strength
+  connections
+House Greyjoy:
+  independent
+  seafaring
+  ironborn culture
+House Frey:
+  pragmatic
+  political shrewdness
+  large family
+  controversial loyalties
+House Tully:
+  devotion to family
+  strategic
+  participation in wars
+House Lannister:
+  ambitious
+  cunning
+  proud
+  deceptive
+House Tyrell:
+  political acumen
+  cunning
+  cultivation of appearances
+House Martell:
+  liberal
+  resilience
+  hot climate
+  equality of inheritance
+  focus on vengeance
+House Baratheon:
+  strong willed
+  warrior
+  leadership
+House Targaryen:
+  unyielding
+  dragon bond
+  isolationist
