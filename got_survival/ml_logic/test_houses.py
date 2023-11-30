@@ -5,7 +5,6 @@ def run():
     st.title('Check your Game of Thrones House')
 
     # FIRST QUESTION
-    #'What kind of climate do you prefer?'
     warm = st.selectbox('What kind of climate do you prefer?', ['Medium', 'Warm', 'Cold'])
     if warm == 'Warm':
         climate = 2
@@ -17,29 +16,22 @@ def run():
 
     st.write('Rate the following traits on a scale form 1 to 5:\n\n')
     # SECOND QUESTION
-    #st.write('How empathic are you?')
     empathy = st.slider('How empathic are you?', 1, 5, 3, 1, key='emp')
     '\n\n'
 
     # THIRD QUESTION
-    #st.write('How good are you at fighting?')
     fighting = st.slider('How good are you at fighting?', 1, 5, 3, 1, key='fight')
     '\n\n'
 
     # FOURTH QUESTION
-    #st.write('How honorable and loyal are you?')
     honor = st.slider('How honorable and loyal are you?', 1, 5, 3, 1, key='hon')
     '\n\n'
 
     # FIFTH QUESTION
-    #st.write('How good are you at negotiating, networking and building connections?')
     connections = st.slider('How good are you at negotiating, networking and building connections?', 1, 5, 3, 1, key='con')
     '\n\n'
 
     #SIXTH QUESTION
-    # they are not easily influenced and they are unlikely to change their mind
-    #st.write('How likely are you to stand by what you believe regardless of whether\
-    #    someone is trying to influence you in a different direction?')
     unyielding = st.slider('How likely are you to stand by what you believe regardless of whether\
         someone is trying to influence you in a different direction?', 1, 5, 3, 1, key='uny')
     '\n\n'
