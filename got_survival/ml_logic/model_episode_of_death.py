@@ -19,7 +19,7 @@ def episode_read_data():
     return df
 
 def episode_x_and_y():
-    df = death_read_data()
+    df = episode_read_data()
     X = df
     X = X.drop(columns = ["Unnamed: 0","name","episode_global_num"], axis=1)
     y = df["episode_global_num"]
@@ -49,7 +49,7 @@ def episode_split_train(X, y):
 
 #Cross Validate Model
 def episode_cross_validate_result(model, X_train_processed, y_train):
-    cv_results = cross_validate(model, X_train_processed, y_train, cv=5)
+    cv_results = cross_validate(model, X_train_processed, y_train, cv=5, scoring="neg_mean_absolute_error")
     test = cv_results["test_score"].mean()
     return test
 
@@ -57,7 +57,6 @@ def episode_cross_validate_result(model, X_train_processed, y_train):
 def episode_prediction(model , X):
     y_pred = model.predict(X)
     return y_pred
-
 
 #CreateModel
 def episode_train_model(model, X_train, y_train):
