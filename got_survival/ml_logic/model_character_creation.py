@@ -32,27 +32,7 @@ def get_luck(guess):
         return 'normal'
     return 'unlucky'
 
-def get_popularity(followers, invite, attention, outcast, empathy,
-                   fighting, honor, connections, unyielding, social=False):
-    if social:
-        if followers == 'Yes':
-            followers = 1
-        else:
-            followers = 0
-
-        if invite == 'Yes':
-            invite = 1
-        else:
-            invite = 0
-
-        if attention == 'Yes':
-            attention = 1
-        else:
-            attention = 0
-
-        return (followers + invite + attention + empathy / 5 + fighting / 5\
-            + honor / 5 + connections / 5 + unyielding / 5) / 8
-
+def get_popularity(outcast, empathy,fighting, honor, connections, unyielding):
     if outcast:
         outcast = 0
     else:
@@ -75,6 +55,39 @@ def get_married(marriage):
         return 1
     return 0
 
+def get_character(
+    guess,
+    outcast,
+    warm,
+    empathy,
+    fighting,
+    honor,
+    connections,
+    unyielding,
+    gender,
+    marriage
+):
+    luck = get_luck(guess)
+    house = get_house(outcast, warm, empathy, fighting, honor, connections, unyielding)
+    if 'House' in house or house in ['Noble', 'Foreign Noble']:
+        noble = 'noble'
+    else:
+        noble = 'not noble'
+    nobility = get_nobility(noble)
+    popularity = get_popularity(outcast, empathy, fighting, honor, connections, unyielding)
+    male = get_male(gender)
+    married = get_married(marriage)
+
+    character = {
+        'lucky': luck,
+        'house': house,
+        'isNoble': nobility,
+        'isPopular': popularity,
+        'male': male,
+        'isMarried': married
+    }
+
+    return character
 
 ########## TESTS ##########
 
