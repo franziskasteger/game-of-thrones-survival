@@ -3,7 +3,14 @@ from random import randint
 from got_survival.ml_logic.model_houses import houses_model_predict
 
 
-def get_house(outcast, climate, empathy, fighting, honor, connections, unyielding):
+def get_house(outcast, warm, empathy, fighting, honor, connections, unyielding):
+    if warm == 'Warm':
+        climate = 2
+    elif warm == 'Medium':
+        climate = 1
+    else:
+        climate = 0
+
     test = {
         'outcast': [outcast],
         'climate': [climate],
@@ -25,6 +32,33 @@ def get_luck(guess):
         return 'normal'
     return 'unlucky'
 
+def get_popularity(followers, invite, attention, outcast, empathy,
+                   fighting, honor, connections, unyielding, social=False):
+    if social:
+        if followers == 'Yes':
+            followers = 1
+        else:
+            followers = 0
+
+        if invite == 'Yes':
+            invite = 1
+        else:
+            invite = 0
+
+        if attention == 'Yes':
+            attention = 1
+        else:
+            attention = 0
+
+        return (followers + invite + attention + empathy / 5 + fighting / 5\
+            + honor / 5 + connections / 5 + unyielding / 5) / 8
+
+    if outcast:
+        outcast = 0
+    else:
+        outcast = 1
+
+    return (empathy + fighting + honor + connections + unyielding) / 25
 
 
 
