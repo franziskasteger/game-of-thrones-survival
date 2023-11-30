@@ -1,5 +1,6 @@
 import streamlit as st
-from got_survival.ml_logic.model_houses import get_dict, houses_model_predict
+# from got_survival.ml_logic.model_houses import houses_model_predict
+from got_survival.ml_logic.model_character_creation import get_house, get_luck
 
 def run():
     st.title('Check your Game of Thrones House')
@@ -44,10 +45,12 @@ def run():
     else:
         outcast = 0
 
-    traits = get_dict(outcast, climate, empathy, fighting, honor, connections, unyielding)
-    house = houses_model_predict(traits)[0]
+    guess = st.number_input('Test your luck! Choose a number from 1 to 100!', 1, 100, 50, 1, key='luck')
+
+    luck = get_luck(guess)
+    house = get_house(outcast, climate, empathy, fighting, honor, connections, unyielding)
     '\n\n'
-    if st.button('Assign allegiance'):
+    if st.button('Assign allegiance and luck'):
         if house in ['Wildling', 'Dothraki', 'Soldier', 'Foreign Noble', 'Foreign Peasant',
                     'Noble', 'Peasant']:
             st.write(f'In the world of Game of Thrones you would be a {house}!')
@@ -57,6 +60,9 @@ def run():
             st.write(f'In the world of Game of Thrones you would be an {house}!')
         else:
             st.write(f'In the world of Game of Thrones you would be part of the {house}!')
+
+        st.write(f'In terms of luck, you are {luck}!')
+
 
 
 

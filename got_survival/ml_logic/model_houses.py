@@ -33,35 +33,4 @@ def houses_model_predict(X):
         return model_outcasts.predict(X)
 
     model_not_outcasts = pickle.load(open('got_survival/models_pickle/not_outcasts.pkl', 'rb'))
-    return model_not_outcasts.predict(X)
-
-
-def get_dict(outcast, climate, empathy, fighting, honor, connections, unyielding):
-    test = {
-        'outcast': [outcast],
-        'climate': [climate],
-        'empathy': [empathy],
-        'fighting': [fighting],
-        'honor': [honor],
-        'connections': [connections],
-        'unyielding': [unyielding]
-    }
-    return pd.DataFrame.from_dict(test)
-
-############### TESTING ###############
-
-# test = {
-#     'outcast': [0],
-#     'climate': [2],
-#     'empathy': [5],
-#     'fighting': [3],
-#     'honor': [4],
-#     'connections': [5],
-#     'unyielding': [3]
-# }
-# new = pd.DataFrame.from_dict(test)
-
-if __name__ == '__main__':
-    # houses_model_train()
-    # print(houses_model_predict(new))
-    pass
+    return model_not_outcasts.predict(X)[0]
