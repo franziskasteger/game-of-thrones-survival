@@ -1,0 +1,1950 @@
+,name,male,origin,isMarried,isNoble,popularity,isAlive,season,episode,deaths,episode_num
+0,Viserys II Targaryen,1,House Targaryen,0,0,0.605351170568561,0,8,The Bells,Lord Varys - Burned alive by Drogon with his fire breath on the orders of Queen Daenerys I Targaryen.,71
+1,Walder Frey,1,House Frey,1,1,0.896321070234113,0,6,The Winds of Winter,Lord Walder Frey - Throat slit by Arya Stark with a knife.,60
+2,Addison Hill,1,House Lannister,0,1,0.267558528428093,1,0,,,0
+3,Aemma Arryn,0,House Arryn,1,1,0.183946488294314,0,5,The Gift,Maester Aemon Targaryen - Died of natural causes.,47
+4,Sylva Santagar,0,House Martell,1,1,0.0434782608695652,1,0,,,0
+5,Tommen Baratheon,1,House Baratheon,0,0,1.0,0,2,Blackwater,Unnamed Baratheon Soldier - Stabbed in the chest by Lord Tyrion Lannister with an axe.,19
+6,Valarr Targaryen,1,House Targaryen,1,1,0.431438127090301,0,2,Valar Morghulis,Doreah - Died of natural causes after being locked in a vault by Queen Daenerys I Targaryen.,20
+7,Viserys I Targaryen,1,House Targaryen,0,0,0.678929765886287,0,8,The Bells,Lord Varys - Burned alive by Drogon with his fire breath on the orders of Queen Daenerys I Targaryen.,71
+8,Wilbert,1,Outlaw,0,1,0.0066889632107023,0,8,The Iron Throne,Willem (Commoner) - 1 (Deceased),72
+9,Wilbert Osgrey,1,House Tyrell,0,1,0.020066889632107,1,0,,,0
+10,Will,1,Night's Watch,0,0,0.163879598662207,0,1,Winter Is Coming,Will - Decapitated by Lord Eddard Stark with Ice for dissertation.,1
+11,Will (orphan),0,Wildling,0,0,0.0033444816053511,1,0,,,0
+12,Will (squire),1,Outlaw,0,0,0.0033444816053511,1,0,,,0
+13,Will (Standfast),0,House Tyrell,0,0,0.0033444816053511,1,0,,,0
+14,Will (Treb),1,House Tyrell,0,0,0.0033444816053511,1,0,,,0
+15,Will Humble,1,House Greyjoy,0,0,0.0133779264214046,1,0,,,0
+16,Willam,1,Wildling,0,0,0.0133779264214046,1,0,,,0
+17,Willem Wylde,1,House Baratheon,0,1,0.020066889632107,1,0,,,0
+18,Willifer,0,House Frey,0,1,0.0066889632107023,1,0,,,0
+19,Willit,1,House Lannister,0,0,0.0100334448160535,1,0,,,0
+20,Willis Wode,1,Noble,0,1,0.020066889632107,1,0,,,0
+21,Willis Fell,0,Noble,0,1,0.0234113712374581,1,0,,,0
+22,Willow Heddle,0,Outlaw,0,0,0.0334448160535117,1,0,,,0
+23,Willum,1,House Targaryen,0,1,0.0,1,0,,,0
+24,Wolmer,1,House Greyjoy,0,0,0.0033444816053511,1,0,,,0
+25,Willow Witch-eye,0,Wildling,0,0,0.0501672240802675,0,8,The Long Night,Wight - Shot in the head by an unknown soldier with a flaming arrow using a bow.,69
+26,Woth,1,Foreign Peasant,0,0,0.0301003344481605,0,8,The Long Night,Wight - Shot by Theon Greyjoy with a flaming arrow using a bow.,69
+27,Wulfe,1,House Greyjoy,0,0,0.0234113712374581,1,0,,,0
+28,Wyl the Whittler,0,Dothraki,0,0,0.0066889632107023,1,0,,,0
+29,Wyl (guard),0,House Stark,0,0,0.0267558528428093,0,1,The Wolf and the Lion,Wyl - Impaled through the chest by an unknown Lannister soldier with a thrown spear on the orders of Ser Jaime Lannister.,5
+30,Wyl Waynwood,0,House Arryn,0,0,0.0133779264214046,0,8,The Iron Throne,Wylis/Hodor - 3 (Deceased),72
+31,Wun Weg Wun Dar Wun,1,Dothraki,0,0,0.0501672240802675,1,0,,,0
+32,Wylla,1,House Martell,0,0,0.0267558528428093,1,0,,,0
+33,Wynafryd Manderly,0,House Stark,0,0,0.0568561872909698,1,0,,,0
+34,Xhondo,1,Foreign Peasant,0,0,0.020066889632107,1,0,,,0
+35,Ygon Farwynd,1,House Greyjoy,0,0,0.0100334448160535,1,0,,,0
+36,Yna,1,Peasant,0,0,0.020066889632107,1,0,,,0
+37,Yohn Farwynd,1,House Greyjoy,0,0,0.0100334448160535,1,0,,,0
+38,Yorkel,0,House Targaryen,0,0,0.0,1,0,,,0
+39,Yorko Terys,1,Foreign Peasant,0,0,0.0234113712374581,1,0,,,0
+40,Yormwell,0,Dothraki,0,1,0.0033444816053511,1,0,,,0
+41,Young Henly,1,Night's Watch,0,0,0.0133779264214046,0,3,"Dark Wings, Dark Words","Lord Hoster Tully - Died of an unspecified illness off-screen, body shown in ""Walk of Punishment"".",22
+42,Ysilla,0,Foreign Peasant,1,0,0.040133779264214,1,0,,,0
+43,Zarabelo,0,Foreign Peasant,0,1,0.0066889632107023,1,0,,,0
+44,Zei,0,Peasant,0,0,0.0133779264214046,1,0,,,0
+45,Zekko,1,Dothraki,0,0,0.0133779264214046,1,0,,,0
+46,Zharaq zo Loraq,1,Foreign Peasant,0,0,0.0100334448160535,1,0,,,0
+47,Wenda,0,Outlaw,0,0,0.0167224080267558,1,0,,,0
+48,Wex Pyke,1,House Greyjoy,0,0,0.113712374581939,1,0,,,0
+49,Timett,1,Outlaw,0,1,0.0735785953177257,1,0,,,0
+50,Joffrey Baratheon,1,House Baratheon,0,0,1.0,0,8,The Iron Throne,King/Prince Joffrey I Baratheon - 11 (Deceased),72
+51,Laenor Velaryon,1,Foreign Noble,1,1,0.193979933110367,0,3,Valar Dohaeris,Wight - Burned alive by Lord Commander Jeor Mormont with a torch.,21
+52,Leobald Tallhart,1,House Stark,1,1,0.110367892976588,0,8,The Bells,Unnamed Northern Soldier - Stabbed in the stomach by Jon Snow using Longclaw.,71
+53,Maegor I Targaryen,1,House Targaryen,0,0,0.705685618729097,0,1,Baelor,"Prince Aegon Targaryen - Killed by Ser Gregor Clegane/The Mountain on the orders of Lord Tywin Lannister off-screen, mentioned.",9
+54,Margaery Tyrell,0,House Tyrell,1,1,1.0,0,6,The Winds of Winter,Queen Margaery Tyrell - Blown up by Cersei Lannister with wildfire when she caused the destruction of the Great Sept of Baelor.,60
+55,Naerys Targaryen,0,House Targaryen,1,1,0.220735785953177,0,8,The Long Night,Lady Alys Karstark (Wight) - Died when Arya Stark killed the Night King.,69
+56,Quence,0,Foreign Peasant,0,0,0.020066889632107,1,0,,,0
+57,Quellon Botley,1,House Greyjoy,0,0,0.0468227424749163,1,0,,,0
+58,Quellon Greyjoy,1,House Greyjoy,1,1,0.0903010033444816,0,8,The Long Night,Qhono (Wight) - Died when Arya Stark killed the Night King.,69
+59,Quentyn Blackwood,0,House Tully,0,1,0.020066889632107,0,2,Blackwater,Unnamed Baratheon Soldier - Shot in the eye by Bronn with an arrow using a bow.,19
+60,Quenton Greyjoy,1,House Greyjoy,0,0,0.060200668896321,1,0,,,0
+61,Quhuru Mo,1,Foreign Peasant,0,0,0.040133779264214,1,0,,,0
+62,Quickfinger,1,House Targaryen,0,0,0.0100334448160535,1,0,,,0
+63,Quill,1,Foreign Peasant,0,0,0.0167224080267558,1,0,,,0
+64,Quentin Tyrell,0,House Tyrell,0,1,0.127090301003344,1,0,,,0
+65,Quort,1,Wildling,0,0,0.0100334448160535,0,1,Baelor,Qotho - Slashed across the face by Ser Jorah Mormont with a sword.,9
+66,Qyle,1,House Frey,0,0,0.0133779264214046,0,7,The Queen's Justice,Unnamed Lannister Soldier - Fell to his death after being thrown from Casterly Rock by an unknown Unsullied.,63
+67,Rafe,0,Wildling,0,0,0.0066889632107023,1,0,,,0
+68,Racallio Ryndoon,1,Foreign Peasant,0,0,0.0100334448160535,1,0,,,0
+69,Ragnor Pyke,0,House Greyjoy,0,0,0.0100334448160535,1,0,,,0
+70,Rainbow Knight,0,Outlaw,0,0,0.0033444816053511,1,0,,,0
+71,Randa,0,Dothraki,0,0,0.0033444816053511,1,0,,,0
+72,Rast,1,Night's Watch,0,0,0.0668896321070234,0,8,The Iron Throne,Rast (Night's Watch) - 1 (Deceased),72
+73,Rawney,1,Night's Watch,0,1,0.0100334448160535,1,0,,,0
+74,Raymar Royce,1,House Arryn,0,1,0.0133779264214046,1,0,,,0
+75,Raymond Nayland,0,House Frey,0,1,0.0167224080267558,1,0,,,0
+76,Raymund Tyrell,0,House Tyrell,0,0,0.127090301003344,1,0,,,0
+77,Red Oarsman,0,House Greyjoy,0,0,0.0167224080267558,1,0,,,0
+78,Red Lamb,1,Foreign Noble,0,1,0.0,1,0,,,0
+79,Redtusk,1,Dothraki,0,1,0.0167224080267558,1,0,,,0
+80,Red Rolfe,1,House Greyjoy,0,0,0.0133779264214046,0,2,The Night Lands,"Rodrik Greyjoy - Died in an unspecified manner off-screen, mentioned.",12
+81,Redwyn,0,Night's Watch,0,0,0.0066889632107023,1,0,,,0
+82,Reynard Webber,0,House Greyjoy,0,1,0.0066889632107023,1,0,,,0
+83,Reysen,1,House Frey,0,0,0.0234113712374581,1,0,,,0
+84,Rhaegel Targaryen,1,House Targaryen,1,1,0.0969899665551839,0,1,Fire and Blood,"Rhaego - Stillborn after being cursed by Mirri Maz Duur using blood magic off-screen, mentioned.",10
+85,Rhaena Targaryen (daughter of Daemon),0,House Targaryen,1,1,0.1438127090301,0,1,Baelor,"Princess Rhaenys Targaryen - Killed by Ser Gregor Clegane/The Mountain on the orders of Lord Tywin Lannister off-screen, mentioned.",9
+86,Rhaena Targaryen (daughter of Aegon III),0,House Targaryen,0,1,0.0735785953177257,0,3,And Now His Watch Is Ended,"Queen Rhaenyra Targaryen - Burned alive and consumed by dragon on the orders of King Aegon II Targaryen off-screen, mentioned.",24
+87,Rhaenys Targaryen,0,House Targaryen,1,1,0.277591973244147,0,1,Baelor,"Princess Rhaenys Targaryen - Killed by Ser Gregor Clegane/The Mountain on the orders of Lord Tywin Lannister off-screen, mentioned.",9
+88,Rhaenys Targaryen (daughter of Rhaegar),0,House Targaryen,0,1,0.244147157190635,0,1,Baelor,"Princess Rhaenys Targaryen - Killed by Ser Gregor Clegane/The Mountain on the orders of Lord Tywin Lannister off-screen, mentioned.",9
+89,Rhialta Vance,0,House Tully,0,0,0.0167224080267558,1,0,,,0
+90,Rhaenys Targaryen (daughter of Aemon),0,House Targaryen,1,1,0.1438127090301,0,1,Baelor,"Princess Rhaenys Targaryen - Killed by Ser Gregor Clegane/The Mountain on the orders of Lord Tywin Lannister off-screen, mentioned.",9
+91,Rhonda Rowan,0,House Tyrell,1,0,0.0501672240802675,1,0,,,0
+92,Richard Farrow,0,Noble,0,1,0.0167224080267558,0,2,Valar Morghulis,"Farlen - Killed by unknown Bolton soldiers off-screen, body shown.",20
+93,Richard Lonmouth,1,Noble,0,1,0.0234113712374581,1,0,,,0
+94,Rigney,1,House Stark,0,1,0.0033444816053511,1,0,,,0
+95,Rob,1,House Tyrell,0,0,0.0033444816053511,1,0,,,0
+96,Rickard Tyrell,1,House Tyrell,0,0,0.123745819397993,1,0,,,0
+97,Robb Reyne,1,House Lannister,0,1,0.0066889632107023,1,0,,,0
+98,Robert Ashford,1,House Tyrell,0,1,0.0234113712374581,1,0,,,0
+99,Robert Brax (son of Flement),1,House Lannister,0,0,0.120401337792642,1,0,,,0
+100,Robert Paege,0,House Frey,0,1,0.0100334448160535,1,0,,,0
+101,Robb Stark,1,House Stark,0,0,1.0,0,8,The Iron Throne,King/Lord Robb Stark - 8 (Deceased),72
+102,Robin,1,Foreign Noble,0,0,0.0167224080267558,1,0,,,0
+103,Robert Frey (son of Raymund),1,House Frey,0,0,0.147157190635451,1,0,,,0
+104,Robin Greyjoy,1,House Greyjoy,0,0,0.0635451505016722,1,0,,,0
+105,Robin Hollard,1,House Baratheon,0,0,0.0267558528428093,1,0,,,0
+106,Rodrik Freeborn,1,House Greyjoy,0,0,0.0133779264214046,1,0,,,0
+107,Roelle,0,House Baratheon,0,0,0.0,1,0,,,0
+108,Rodrik Stark (son of Beron),1,House Stark,1,0,0.100334448160535,1,0,,,0
+109,Roger of Pennytree,1,Foreign Noble,0,0,0.0301003344481605,0,4,The Lion and the Rose,Two Pigeons - Accidentally decapitated by King Joffrey I Baratheon with Widow's Wail.,32
+110,Roggo,0,Foreign Peasant,0,0,0.0133779264214046,1,0,,,0
+111,Roger Ryswell,1,House Stark,0,0,0.0468227424749163,1,0,,,0
+112,Rolder,1,House Lannister,0,0,0.0,1,0,,,0
+113,Roland Crakehall (Kingsguard),1,House Lannister,0,1,0.020066889632107,1,0,,,0
+114,Rolfe,1,House Bolton,0,0,0.0033444816053511,1,0,,,0
+115,Rolland Darklyn,1,House Targaryen,0,1,0.0100334448160535,1,0,,,0
+116,Rollam Westerling,1,House Lannister,0,0,0.0434782608695652,1,0,,,0
+117,Romny Weaver,1,House Greyjoy,0,0,0.020066889632107,1,0,,,0
+118,Ronald Storm,1,Noble,0,0,0.040133779264214,1,0,,,0
+119,Ronnel Stout,0,House Stark,0,0,0.0334448160535117,1,0,,,0
+120,Ronnel Harclay,0,Noble,0,0,0.0133779264214046,1,0,,,0
+121,Roone,1,House Bolton,0,0,0.040133779264214,1,0,,,0
+122,Roone (maester),1,Peasant,0,1,0.0100334448160535,1,0,,,0
+123,Roryn Drumm,0,House Greyjoy,0,0,0.0033444816053511,1,0,,,0
+124,Roose Ryswell,1,House Stark,0,0,0.0301003344481605,1,0,,,0
+125,Rosamund Lannister,0,House Lannister,0,0,0.0234113712374581,1,0,,,0
+126,Rosey,0,Outlaw,0,0,0.0301003344481605,1,0,,,0
+127,Rowan,1,Wildling,0,0,0.060200668896321,0,7,Dragonstone,Ryger Rivers - Poisoned by Arya Stark.,61
+128,Rudge,0,Night's Watch,0,0,0.0,1,0,,,0
+129,Runciter,1,Wildling,0,1,0.244147157190635,0,5,Hardhome,Lord of Bones/Rattleshirt - Beaten to death by Tormund Giantsbane with a staff.,48
+130,Rupert Crabb,0,Noble,0,1,0.0066889632107023,1,0,,,0
+131,Rus,0,House Greyjoy,0,0,0.0100334448160535,1,0,,,0
+132,Rusty Flowers,1,Night's Watch,0,0,0.0,1,0,,,0
+133,Ryam,1,House Stark,0,1,0.0133779264214046,1,0,,,0
+134,Ryk,1,Wildling,1,0,0.0267558528428093,1,0,,,0
+135,Ryles,0,Night's Watch,0,0,0.0133779264214046,0,7,Dragonstone,Ryger Rivers - Poisoned by Arya Stark.,61
+136,Rymolf,0,House Greyjoy,0,0,0.0,1,0,,,0
+137,S'vrone,0,Foreign Peasant,0,0,0.0133779264214046,1,0,,,0
+138,Saathos,0,House Tully,0,0,0.0033444816053511,1,0,,,0
+139,Sailor's Wife,0,Peasant,0,0,0.0468227424749163,1,0,,,0
+140,Sallor,1,Outlaw,0,0,0.0301003344481605,0,7,Dragonstone,"Sally - Throat slit by an unknown farmer with a knife off-screen, body shown.",61
+141,Salloreon,1,Peasant,0,0,0.0133779264214046,1,0,,,0
+142,Sam Stoops,1,House Tyrell,0,0,0.0033444816053511,1,0,,,0
+143,Samwell Spicer,1,Noble,0,1,0.0133779264214046,1,0,,,0
+144,Sargon Botley,1,House Greyjoy,0,0,0.0535117056856187,1,0,,,0
+145,Scarb,0,Foreign Noble,0,0,0.0066889632107023,1,0,,,0
+146,Sawwood,1,Night's Watch,0,0,0.0100334448160535,1,0,,,0
+147,Sedgekins,0,Dothraki,0,0,0.0,1,0,,,0
+148,Sefton Staunton,1,Noble,0,0,0.0301003344481605,1,0,,,0
+149,Serra,0,Foreign Noble,1,0,0.0167224080267558,1,0,,,0
+150,Sharna,0,Foreign Peasant,1,0,0.0367892976588628,1,0,,,0
+151,Shella,0,House Frey,0,0,0.0033444816053511,1,0,,,0
+152,Sherrit,0,Soldier,0,1,0.0033444816053511,1,0,,,0
+153,Shortear,0,House Lannister,0,0,0.0133779264214046,1,0,,,0
+154,Shyra,0,House Stark,0,0,0.020066889632107,1,0,,,0
+155,Sigfry Stonetree,1,House Greyjoy,0,0,0.0033444816053511,1,0,,,0
+156,Sigrin,1,House Greyjoy,0,0,0.0234113712374581,1,0,,,0
+157,Simon Leygood,0,Noble,0,1,0.0033444816053511,1,0,,,0
+158,Sky Blue Su,0,House Lannister,0,0,0.0,1,0,,,0
+159,Skinner,1,House Bolton,0,0,0.0334448160535117,1,0,,,0
+160,Skittrick,0,House Stark,0,0,0.0066889632107023,1,0,,,0
+161,Skyte,1,House Greyjoy,0,0,0.0234113712374581,1,0,,,0
+162,Sloey,0,Foreign Peasant,0,0,0.0167224080267558,1,0,,,0
+163,Spare Boot,1,Night's Watch,0,0,0.0133779264214046,1,0,,,0
+164,Softfoot,1,Night's Watch,0,0,0.020066889632107,0,5,Hardhome,"40 Oysters - Died in an unspecified manner off-screen, bodies shown.",48
+165,Spotted Pate of Maidenpool,1,Night's Watch,0,0,0.0133779264214046,0,6,The Broken Man,"Lady Maege Mormont - Died of unknown causes during the War of the Five Kings off-screen, mentioned.",57
+166,Squint,0,House Greyjoy,0,0,0.0033444816053511,0,4,Two Swords,"Rabbit - Shot in the eye by Ygritte with an arrow off-screen, mentioned.",31
+167,Squirrel,0,Wildling,0,0,0.0434782608695652,0,2,The North Remembers,The Silver (Horse) - Died of starvation and dehydration.,11
+168,Steffarion Sparr,1,House Greyjoy,0,0,0.020066889632107,1,0,,,0
+169,Stafford Lannister,1,House Lannister,1,1,0.170568561872909,0,7,The Spoils of War,"Unnamed Lannister Soldier - Stabbed in the chest by an unknown Dothraki with a sword off-screen, body shown.",64
+170,Steffon Fossoway,1,House Tyrell,0,1,0.040133779264214,1,0,,,0
+171,Steffon Hollard,0,House Baratheon,0,1,0.0267558528428093,1,0,,,0
+172,Stannis Baratheon,1,House Baratheon,0,0,1.0,0,8,The Iron Throne,King Stannis Baratheon - 11 (Deceased),72
+173,Steffon Varner,1,Noble,0,1,0.0133779264214046,1,0,,,0
+174,Stone Thumbs,0,Wildling,0,0,0.0033444816053511,0,4,The Watchers on the Wall,Styr - Hit in the head by Jon Snow with a hammer.,39
+175,Stonehand,0,House Greyjoy,0,0,0.0100334448160535,1,0,,,0
+176,Sybassion,1,Foreign Peasant,0,0,0.0133779264214046,1,0,,,0
+177,Sylas,0,House Greyjoy,0,0,0.0066889632107023,0,1,The Wolf and the Lion,Wyl - Impaled through the chest by an unknown Lannister soldier with a thrown spear on the orders of Ser Jaime Lannister.,5
+178,Symon Stripeback,1,House Targaryen,0,0,0.0434782608695652,1,0,,,0
+179,Symond Botley,1,House Greyjoy,0,0,0.0468227424749163,1,0,,,0
+180,Tagganaro,1,Foreign Peasant,0,0,0.0301003344481605,1,0,,,0
+181,Tal Toraq,1,House Targaryen,0,0,0.0234113712374581,1,0,,,0
+182,Talea,0,Foreign Peasant,0,0,0.020066889632107,1,0,,,0
+183,Talla Tarly,1,House Tyrell,0,0,0.0702341137123745,1,0,,,0
+184,Tansy,0,Peasant,0,0,0.0234113712374581,0,4,The Lion and the Rose,Tansy - Mauled by the bastard's girls on the orders of Lord Ramsay Snow.,32
+185,Tansy (orphan),0,Noble,0,0,0.0066889632107023,1,0,,,0
+186,Tarber,1,Wildling,0,0,0.0334448160535117,1,0,,,0
+187,Terrance Lynderly,0,House Arryn,0,0,0.0167224080267558,1,0,,,0
+188,Terro,1,Foreign Peasant,0,0,0.0133779264214046,1,0,,,0
+189,Theo Frey,1,House Frey,0,1,0.0133779264214046,1,0,,,0
+190,Theobald,1,Wildling,0,1,0.020066889632107,1,0,,,0
+191,Thistle,0,Wildling,0,0,0.0167224080267558,0,8,The Iron Throne,Ser Alliser Thorne - 3 (Deceased),72
+192,Theon Stark,1,House Stark,0,0,0.0568561872909698,1,0,,,0
+193,Thormor Ironmaker,1,House Greyjoy,0,0,0.0167224080267558,1,0,,,0
+194,Tim Stone,0,Night's Watch,0,0,0.0167224080267558,1,0,,,0
+195,Timon,0,Night's Watch,0,1,0.0066889632107023,1,0,,,0
+196,Timett (father),0,Outlaw,0,0,0.0133779264214046,1,0,,,0
+197,Timoth,1,House Martell,0,0,0.0066889632107023,1,0,,,0
+198,Tobbot,0,House Lannister,0,0,0.0100334448160535,1,0,,,0
+199,Toefinger,1,Wildling,0,0,0.0066889632107023,1,0,,,0
+200,Todric,1,Foreign Noble,0,0,0.0167224080267558,0,3,"Dark Wings, Dark Words","Lord Hoster Tully - Died of an unspecified illness off-screen, body shown in ""Walk of Punishment"".",22
+201,Tom Costayne,0,House Tyrell,0,1,0.0066889632107023,1,0,,,0
+202,TomToo,0,House Stark,0,0,0.0133779264214046,1,0,,,0
+203,Tommard Heddle,1,Noble,0,1,0.0468227424749163,0,5,Hardhome,Lord of Bones/Rattleshirt - Beaten to death by Tormund Giantsbane with a staff.,48
+204,Toregg,1,Wildling,0,0,0.0267558528428093,1,0,,,0
+205,Torrek,0,Outlaw,0,0,0.0,1,0,,,0
+206,Tothmure,1,Noble,0,1,0.0133779264214046,0,7,Beyond the Wall,Thoros of Myr - Froze to death after being injured by a wight snow bear.,66
+207,Torrhen Stark,1,House Stark,0,0,0.0903010033444816,1,0,,,0
+208,Tregar,0,House Lannister,0,0,0.0066889632107023,0,2,The Night Lands,"Eddison Tollett's Mother - Died in an unspecified manner off-screen, mentioned.",12
+209,Tregar Ormollen,1,Foreign Peasant,0,0,0.0234113712374581,1,0,,,0
+210,Tristan Ryger,0,House Frey,0,0,0.0066889632107023,1,0,,,0
+211,Tristifer V Mudd,1,Outlaw,0,0,0.0167224080267558,1,0,,,0
+212,Tristimun,1,Noble,0,1,0.0,1,0,,,0
+213,Tristifer IV Mudd,1,House Arryn,0,0,0.0535117056856187,0,4,The Mountain and the Viper,Mully - Killed by unknown Free Folk off-screen.,38
+214,Tuffleberry,0,Peasant,0,0,0.0033444816053511,1,0,,,0
+215,Tumberjon,0,Night's Watch,0,0,0.0100334448160535,1,0,,,0
+216,Tumco Lho,1,Foreign Peasant,0,1,0.0301003344481605,1,0,,,0
+217,Turnip,0,House Stark,0,0,0.0167224080267558,1,0,,,0
+218,Turquin,1,House Stark,0,1,0.0033444816053511,1,0,,,0
+219,Tybero Istarion,1,Outlaw,0,0,0.0133779264214046,1,0,,,0
+220,Tymor,1,House Greyjoy,0,0,0.0066889632107023,1,0,,,0
+221,Ulf the Ill,0,House Greyjoy,0,0,0.0133779264214046,0,6,Battle of the Bastards,Unnamed Northern Soldier - Slashed by Lord Smalljon Umber with a sword.,59
+222,Tywin Frey (son of Raymund),1,House Frey,0,0,0.133779264214046,1,0,,,0
+223,Uller,1,House Greyjoy,0,0,0.0234113712374581,1,0,,,0
+224,Umar,0,Outlaw,0,0,0.0066889632107023,1,0,,,0
+225,Umfred,0,Noble,0,0,0.0033444816053511,1,0,,,0
+226,Umma,0,Outlaw,0,0,0.0167224080267558,1,0,,,0
+227,Urreg,0,Peasant,0,0,0.0100334448160535,1,0,,,0
+228,Urek Ironmaker,1,House Greyjoy,0,0,0.0167224080267558,1,0,,,0
+229,Urrathon,0,Foreign Peasant,0,0,0.0133779264214046,1,0,,,0
+230,Urzen,1,House Greyjoy,0,0,0.020066889632107,1,0,,,0
+231,Urron Greyiron,1,House Greyjoy,0,0,0.040133779264214,1,0,,,0
+232,Urrigon Greyjoy,1,House Greyjoy,0,0,0.0735785953177257,1,0,,,0
+233,Uthor Underleaf,1,Foreign Peasant,0,1,0.0501672240802675,0,3,Mhysa,"Urzen - Flayed alive by Lord Ramsay Snow off-screen, mentioned.",30
+234,Utt,1,Outlaw,0,0,0.0234113712374581,0,8,The Iron Throne,Othell Yarwyck - 1 (Deceased),72
+235,Vaellyn,1,Night's Watch,0,1,0.0133779264214046,1,0,,,0
+236,Varly,0,House Stark,0,0,0.0167224080267558,0,1,You Win or You Die,Varly - Killed by unknown City Watch knights.,7
+237,Veiled Lady,0,Foreign Peasant,0,0,0.0100334448160535,1,0,,,0
+238,Vickon Botley,1,House Greyjoy,0,0,0.0468227424749163,1,0,,,0
+239,Violet,0,Dothraki,0,0,0.0,1,0,,,0
+240,Victor Tyrell,0,House Tyrell,0,1,0.123745819397993,1,0,,,0
+241,Walda Frey (daughter of Lothar),0,House Frey,0,0,0.0869565217391304,1,0,,,0
+242,Walda Frey (daughter of Edwyn),0,House Frey,0,0,0.103678929765886,1,0,,,0
+243,Walda Frey (daughter of Rhaegar),0,House Frey,0,0,0.0,1,0,,,0
+244,Walda Frey (daughter of Walton),0,House Frey,0,0,0.0,1,0,,,0
+245,Walda Frey (daughter of Merrett),0,House Frey,1,0,0.0,1,0,,,0
+246,Walda Rivers (daughter of Aemon),0,House Frey,0,0,0.0267558528428093,1,0,,,0
+247,Walder Frey (son of Jammos),1,House Frey,0,0,0.0,1,0,,,0
+248,Walder Frey (son of Emmon),0,House Frey,0,0,0.0,1,0,,,0
+249,Walder Frey (son of Ryman),1,House Frey,0,0,0.0,1,0,,,0
+250,Walder Frey (son of Merrett),1,House Frey,0,0,0.0,0,8,The Long Night,Lord Beric Dondarrion (Wight) - Died when Arya Stark killed the Night King.,69
+251,Wallen,0,Night's Watch,0,0,0.020066889632107,0,4,The Watchers on the Wall,"Grenn - Killed by Mag Mar Tun Doh Weg off-screen, body shown.",39
+252,Walton,1,House Bolton,0,0,0.0468227424749163,1,0,,,0
+253,Walys Flowers,1,House Tyrell,0,1,0.0234113712374581,0,6,The Winds of Winter,"Walder Rivers - Killed and carved into a pie by Arya Stark off-screen, body shown.",60
+254,Wat (Barleycorn),1,House Tyrell,0,0,0.0066889632107023,1,0,,,0
+255,Blue Bard,1,House Tyrell,0,0,0.0535117056856187,1,0,,,0
+256,Wat (orphan),0,Dothraki,0,0,0.0033444816053511,1,0,,,0
+257,Wat (sailor),0,Wildling,0,0,0.0066889632107023,1,0,,,0
+258,Wat (Standfast),0,House Tyrell,0,0,0.0033444816053511,1,0,,,0
+259,Wat (Wet),1,House Tyrell,0,0,0.0066889632107023,1,0,,,0
+260,Wate,0,House Targaryen,0,0,0.0,1,0,,,0
+261,Watt,1,Night's Watch,0,0,0.0167224080267558,0,6,The Winds of Winter,"Walder Rivers - Killed and carved into a pie by Arya Stark off-screen, body shown.",60
+262,Wayn (guard),1,House Stark,0,0,0.0100334448160535,1,0,,,0
+263,Weasel,1,Wildling,0,0,0.0167224080267558,1,0,,,0
+264,Wendell Webber,1,House Greyjoy,0,1,0.0133779264214046,1,0,,,0
+265,Wendello Qar Deeth,0,Foreign Peasant,0,0,0.0100334448160535,1,0,,,0
+266,Werlag,0,House Greyjoy,0,0,0.0066889632107023,1,0,,,0
+267,Rafford,1,House Lannister,0,0,0.0969899665551839,0,3,And Now His Watch Is Ended,Lord Commander Jeor Mormont - Died of his injuries after being stabbed in the back by Rast.,24
+268,Jhogo,0,House Targaryen,0,0,0.20066889632107,1,0,,,0
+269,Sour Alyn,1,House Bolton,0,0,0.0434782608695652,1,0,,,0
+270,Tobho Mott,1,Foreign Peasant,0,0,0.0836120401337792,1,0,,,0
+271,Zollo,1,Dothraki,0,0,0.0367892976588628,1,0,,,0
+272,Tanda Stokeworth,0,House Lannister,0,1,0.113712374581939,0,4,The Watchers on the Wall,Unnamed Member of the Night's Watch - Shot in the stomach by Dongo with an arrow using a bow.,39
+273,Samwell Tarly,1,Night's Watch,0,0,0.969899665551839,1,0,,,0
+274,Abelar Hightower,1,House Tyrell,0,1,0.0,1,0,,,0
+275,Addam Frey,1,House Frey,0,1,0.0267558528428093,1,0,,,0
+276,Addam,1,Foreign Noble,0,1,0.0066889632107023,1,0,,,0
+277,Addam Osgrey,1,House Tyrell,0,0,0.0367892976588628,0,7,Stormborn,"Archmaester Pylos - Died after being infected with greyscale off-screen, mentioned.",62
+278,Aegon Frey (son of Aenys),1,House Frey,0,0,0.0,1,0,,,0
+279,Aegon Frey (son of Stevron),1,House Frey,0,0,0.0,0,7,Dragonstone,Ser Stevron Frey - Poisoned by Arya Stark.,61
+280,Aegon I Targaryen,1,House Targaryen,0,0,1.0,0,8,The Iron Throne,King Aegon II Targaryen - 1 (Deceased),72
+281,Aegon II Targaryen,1,House Targaryen,0,0,0.759197324414715,0,8,The Iron Throne,King Aegon II Targaryen - 1 (Deceased),72
+282,Aegon IV Targaryen,1,House Targaryen,0,0,0.675585284280936,0,8,The Iron Throne,King Aegon II Targaryen - 1 (Deceased),72
+283,Aegon Targaryen (son of Baelon),1,House Targaryen,0,1,0.0,1,0,,,0
+284,Aegon III Targaryen,1,Foreign Peasant,0,0,0.625418060200668,0,8,The Iron Throne,King Aegon II Targaryen - 1 (Deceased),72
+285,Aegon Targaryen (son of Jaehaerys I),0,House Targaryen,0,1,0.0,0,1,Baelor,"Prince Aegon Targaryen - Killed by Ser Gregor Clegane/The Mountain on the orders of Lord Tywin Lannister off-screen, mentioned.",9
+286,Aegon Targaryen (son of Aenys I),1,House Targaryen,1,1,0.0,0,8,The Iron Throne,King Aegon II Targaryen - 1 (Deceased),72
+287,Aegon Targaryen (son of Rhaegar),1,House Targaryen,0,0,0.0,0,5,Sons of the Harpy,Unnamed Member of The Sons of the Harpy - Beaten to death by Grey Worm with a shield.,44
+288,Aemon Costayne,1,House Tyrell,0,0,0.0100334448160535,1,0,,,0
+289,Aenys I Targaryen,1,House Targaryen,0,0,0.57190635451505,0,8,The Iron Throne,King Aerys II Targaryen/Mad King - 3 (Deceased),72
+290,Aethan,0,Night's Watch,0,0,0.0100334448160535,1,0,,,0
+291,Aethelmure,0,Wildling,0,1,0.0133779264214046,1,0,,,0
+292,Aggar,1,House Greyjoy,0,0,0.0267558528428093,0,1,You Win or You Die,"Stag - Killed by an unknown person off-screen, body shown.",7
+293,Agrivane,0,Foreign Peasant,0,1,0.0066889632107023,1,0,,,0
+294,Aerys I Targaryen,1,House Targaryen,0,0,0.622073578595317,0,8,The Iron Throne,King Aerys II Targaryen/Mad King - 3 (Deceased),72
+295,Alaric of Eysen,0,House Arryn,0,0,0.0167224080267558,1,0,,,0
+296,Aerys II Targaryen,1,House Targaryen,0,0,1.0,0,8,The Iron Throne,King Aerys II Targaryen/Mad King - 3 (Deceased),72
+297,Alebelly,1,House Stark,0,0,0.0301003344481605,0,8,The Bells,"Alanna - Died during the Battle of King's Landing off-screen, body shown.",71
+298,Alequo Adarys,1,Foreign Peasant,0,0,0.0133779264214046,0,8,The Long Night,Lady Alys Karstark (Wight) - Died when Arya Stark killed the Night King.,69
+299,Alester Oakheart,1,House Tyrell,0,0,0.0167224080267558,1,0,,,0
+300,Alia,0,Dothraki,0,0,0.0,1,0,,,0
+301,All-for-Joffrey,1,Noble,0,0,0.0066889632107023,0,8,The Iron Throne,King/Prince Joffrey I Baratheon - 11 (Deceased),72
+302,Allaquo,1,Foreign Peasant,0,0,0.020066889632107,1,0,,,0
+303,Allyria Dayne,0,House Martell,0,0,0.0234113712374581,1,0,,,0
+304,Alicent Hightower,0,House Tyrell,1,1,0.267558528428093,0,8,The Long Night,Lady Alys Karstark - Killed by wight off-screen. Reanimated as a wight.,69
+305,Alyce,1,House Martell,0,0,0.0066889632107023,1,0,,,0
+306,Alvyn Sharp,1,House Greyjoy,0,0,0.0100334448160535,1,0,,,0
+307,Alyn Hunt,1,Noble,0,1,0.0133779264214046,1,0,,,0
+308,Alys Arryn,0,House Arryn,1,0,0.0802675585284281,1,0,,,0
+309,Alysanne Bracken,0,House Tully,0,0,0.0334448160535117,1,0,,,0
+310,Alyn Velaryon,1,Foreign Noble,1,1,0.160535117056856,0,8,The Long Night,Lady Alys Karstark (Wight) - Died when Arya Stark killed the Night King.,69
+311,Alysanne Osgrey,0,House Tyrell,0,0,0.0267558528428093,0,8,The Long Night,Lady Alys Karstark (Wight) - Died when Arya Stark killed the Night King.,69
+312,Alyssa Arryn,0,House Arryn,0,0,0.0066889632107023,1,0,,,0
+313,Alysanne Hightower,0,House Tyrell,1,0,0.0568561872909698,1,0,,,0
+314,Amabel,0,House Tully,0,0,0.0033444816053511,1,0,,,0
+315,Ambrode,0,House Greyjoy,0,0,0.0033444816053511,1,0,,,0
+316,Andrey Dalt,0,House Martell,0,1,0.0367892976588628,1,0,,,0
+317,Andrey Charlton,1,House Frey,0,1,0.0133779264214046,0,3,And Now His Watch Is Ended,Craster - Stabbed in the throat by Karl Tanner with a knife.,24
+318,Argrave the Defiant,1,House Targaryen,0,1,0.0133779264214046,1,0,,,0
+319,Armen,1,Wildling,0,0,0.0301003344481605,1,0,,,0
+320,Arneld,1,Dothraki,0,1,0.0033444816053511,1,0,,,0
+321,Arnell,1,Night's Watch,0,1,0.0066889632107023,1,0,,,0
+322,Arrec Durrandon,1,House Bolton,0,0,0.0,1,0,,,0
+323,Arron,1,Night's Watch,0,0,0.0434782608695652,1,0,,,0
+324,Arryk (guard),0,House Tyrell,0,0,0.0,1,0,,,0
+325,Arron Qorgyle,1,House Martell,0,1,0.0234113712374581,1,0,,,0
+326,Arson,1,Wildling,0,0,0.0,1,0,,,0
+327,Aubrey Ambrose,1,House Tyrell,0,1,0.0066889632107023,1,0,,,0
+328,Ayrmidon,0,Foreign Peasant,0,0,0.0066889632107023,1,0,,,0
+329,Baelon Targaryen (son of Viserys I),1,House Targaryen,0,1,0.100334448160535,0,8,The Bells,Lord Varys - Burned alive by Drogon with his fire breath on the orders of Queen Daenerys I Targaryen.,71
+330,Baelon Targaryen (son of Aerys),0,House Targaryen,0,1,0.0434782608695652,1,0,,,0
+331,Balon Botley,1,House Greyjoy,0,0,0.0501672240802675,1,0,,,0
+332,Baelor Targaryen (son of Daeron II),1,House Targaryen,1,1,0.474916387959866,0,1,Baelor,"Prince Aegon Targaryen - Killed by Ser Gregor Clegane/The Mountain on the orders of Lord Tywin Lannister off-screen, mentioned.",9
+333,Bandy,0,House Stark,0,0,0.020066889632107,1,0,,,0
+334,Bannen,1,Night's Watch,0,0,0.0334448160535117,0,8,The Iron Throne,Benjen Stark - 17 (Deceased),72
+335,Barre,1,Outlaw,0,0,0.0133779264214046,1,0,,,0
+336,Barbara Bracken,0,House Tully,0,0,0.0301003344481605,1,0,,,0
+337,Barth (brewer),1,House Stark,0,0,0.0033444816053511,1,0,,,0
+338,Bass,0,Night's Watch,0,0,0.0,1,0,,,0
+339,Bearded Ben,1,Night's Watch,0,0,0.0234113712374581,1,0,,,0
+340,Becca,1,House Arryn,0,0,0.0033444816053511,1,0,,,0
+341,Beck,1,Dothraki,0,1,0.0,1,0,,,0
+342,Belandra,0,House Martell,0,0,0.0066889632107023,1,0,,,0
+343,Beldecar,0,Soldier,0,0,0.0066889632107023,1,0,,,0
+344,Belis,1,Noble,0,1,0.020066889632107,1,0,,,0
+345,Bellonara Otherys,0,Foreign Peasant,0,0,0.0133779264214046,1,0,,,0
+346,Bella,0,House Baratheon,0,0,0.0836120401337792,1,0,,,0
+347,Ben,1,Noble,0,0,0.0100334448160535,1,0,,,0
+348,Ben Blackthumb,1,House Tully,0,0,0.0267558528428093,1,0,,,0
+349,Ben Bones,1,House Bolton,0,0,0.0334448160535117,1,0,,,0
+350,Ben Bushy,0,Noble,0,1,0.0234113712374581,0,8,The Bells,Unnamed Lannister Soldier - Chest slashed by Jon Snow using Longclaw.,71
+351,Benedict,0,Outlaw,0,1,0.0133779264214046,1,0,,,0
+352,Benjen Stark (Bitter),1,House Stark,0,0,0.0133779264214046,1,0,,,0
+353,Benjen Stark (Sweet),1,House Stark,0,0,0.0133779264214046,1,0,,,0
+354,Bennet,0,House Frey,0,0,0.0066889632107023,1,0,,,0
+355,Bennis,1,House Tyrell,0,1,0.0367892976588628,1,0,,,0
+356,Beqqo,0,Foreign Peasant,0,0,0.0033444816053511,1,0,,,0
+357,Bennarion Botley,1,House Greyjoy,0,0,0.0468227424749163,1,0,,,0
+358,Beron Blacktyde,0,House Greyjoy,0,0,0.0167224080267558,1,0,,,0
+359,Bertram Beesbury,1,House Tyrell,0,1,0.0033444816053511,1,0,,,0
+360,Bessa,1,Wildling,0,0,0.0066889632107023,1,0,,,0
+361,Bessa (Winterfell),0,House Stark,0,0,0.0033444816053511,1,0,,,0
+362,Bess Bracken,0,House Tully,0,0,0.0301003344481605,1,0,,,0
+363,Bethany (Blushing Bethany),0,Foreign Peasant,0,0,0.0167224080267558,1,0,,,0
+364,Bethany Fair-Fingers,0,Soldier,0,0,0.0066889632107023,1,0,,,0
+365,Bharbo,0,Dothraki,0,0,0.0033444816053511,1,0,,,0
+366,Big Boil,1,Wildling,0,0,0.0066889632107023,1,0,,,0
+367,Blind Doss,0,Wildling,0,0,0.0,1,0,,,0
+368,Blane,1,Night's Watch,0,0,0.020066889632107,1,0,,,0
+369,Bodger,0,Wildling,0,0,0.0066889632107023,1,0,,,0
+370,Borcas,1,Night's Watch,0,0,0.0,1,0,,,0
+371,Bors,1,House Martell,0,0,0.0066889632107023,1,0,,,0
+372,Borroq,1,Wildling,0,0,0.0267558528428093,1,0,,,0
+373,Boy,1,House Bolton,0,0,0.0100334448160535,1,0,,,0
+374,Brandon Stark (Bad),1,House Stark,0,1,0.0167224080267558,1,0,,,0
+375,Brandon Stark (Burner),1,House Stark,0,0,0.0334448160535117,1,0,,,0
+376,Brandon Stark (the daughterless),1,House Stark,0,1,0.0334448160535117,1,0,,,0
+377,Brandon Stark (son of Cregan),1,House Stark,1,1,0.1438127090301,1,0,,,0
+378,Brandon Stark (Shipwright),1,House Stark,0,0,0.0367892976588628,1,0,,,0
+379,Brea,0,Foreign Peasant,0,0,0.0234113712374581,1,0,,,0
+380,Brella,0,House Baratheon,0,0,0.0167224080267558,1,0,,,0
+381,Brenett,1,House Frey,0,1,0.0033444816053511,1,0,,,0
+382,Briar,0,Wildling,0,0,0.0100334448160535,1,0,,,0
+383,Brogg,1,Wildling,0,0,0.0066889632107023,1,0,,,0
+384,Brusco,1,Foreign Peasant,0,0,0.0468227424749163,1,0,,,0
+385,Brown Bernarr,0,Night's Watch,0,0,0.0234113712374581,0,3,The Bear and the Maiden Fair,"Bruni - Died in an unspecified manner off-screen, mentioned. Reanimated as a wight.",27
+386,Bryan of Oldtown,0,House Tyrell,0,0,0.0033444816053511,1,0,,,0
+387,Bryen,1,Noble,0,0,0.0167224080267558,1,0,,,0
+388,Buford Bulwer,1,House Tyrell,0,1,0.0167224080267558,1,0,,,0
+389,Bump,1,Wildling,0,0,0.0234113712374581,1,0,,,0
+390,Buu,0,Foreign Peasant,0,0,0.0,1,0,,,0
+391,Byan Votyris,1,Foreign Peasant,0,0,0.0,1,0,,,0
+392,Byam Flint,1,Night's Watch,0,1,0.020066889632107,0,1,Fire and Blood,"Unnamed Boy - Beaten to death by Hot Pie off-screen, mentioned.",10
+393,Byren Flowers,1,Peasant,0,1,0.0066889632107023,1,0,,,0
+394,Byron,0,Noble,0,1,0.020066889632107,1,0,,,0
+395,Cadwyl,1,House Greyjoy,0,0,0.0100334448160535,1,0,,,0
+396,Lord Cafferen,1,House Baratheon,0,1,0.020066889632107,0,1,Lord Snow,"Bear - Killed, cooked, and consumed by Yoren off-screen, mentioned.",3
+397,Calon,0,House Stark,0,0,0.0133779264214046,1,0,,,0
+398,Cadwyn,0,House Lannister,0,1,0.0,1,0,,,0
+399,Canker Jeyne,0,Foreign Peasant,0,0,0.0100334448160535,1,0,,,0
+400,Carellen Smallwood,0,House Tyrell,0,0,0.0367892976588628,1,0,,,0
+401,Cass,0,House Arryn,0,0,0.0167224080267558,1,0,,,0
+402,Carrot,0,House Arryn,0,0,0.0100334448160535,1,0,,,0
+403,Castos,0,House Stark,0,1,0.0066889632107023,1,0,,,0
+404,Cedra,0,House Martell,0,0,0.0133779264214046,1,0,,,0
+405,Catelyn Bracken,0,House Tully,0,0,0.0301003344481605,1,0,,,0
+406,Cedric Payne,1,House Lannister,0,1,0.0133779264214046,0,8,The Iron Throne,Ser Podrick Payne - 4 (Alive),72
+407,Cedrik Storm,0,House Baratheon,0,0,0.0033444816053511,1,0,,,0
+408,Cerrick,1,House Greyjoy,0,1,0.0066889632107023,1,0,,,0
+409,Cetheres,0,House Arryn,0,1,0.0066889632107023,1,0,,,0
+410,Catelyn Stark,0,House Tully,1,1,0.0,0,8,The Long Night,Lady Lyanna Mormont (Wight) - Died when Arya Stark killed the Night King.,69
+411,Cheyk,0,Peasant,0,0,0.0133779264214046,1,0,,,0
+412,Chiggen,1,Soldier,0,0,0.0167224080267558,0,8,The Iron Throne,Shaggydog (Direwolf) - 1 (Deceased),72
+413,Clarence Crabb,1,Noble,0,1,0.0267558528428093,1,0,,,0
+414,Clarence Charlton,0,House Frey,0,1,0.0133779264214046,1,0,,,0
+415,Clarence Crabb (Short),1,Noble,0,1,0.0066889632107023,1,0,,,0
+416,Clement,1,House Frey,0,1,0.0133779264214046,1,0,,,0
+417,Cleyton Caswell,0,House Tyrell,0,1,0.0033444816053511,1,0,,,0
+418,Clifford Conklyn,1,Noble,0,1,0.0066889632107023,1,0,,,0
+419,Colen of Greenpools,1,House Baratheon,0,1,0.0167224080267558,1,0,,,0
+420,Collio Quaynis,1,Foreign Noble,0,0,0.0167224080267558,1,0,,,0
+421,Conn,1,Outlaw,0,0,0.0133779264214046,0,3,And Now His Watch Is Ended,"Bannen - Starved to death off-screen, body shown.",24
+422,Coratt,1,Outlaw,0,0,0.0033444816053511,1,0,,,0
+423,Cosgrove,0,House Targaryen,0,1,0.0,1,0,,,0
+424,Cossomo,1,Foreign Peasant,0,0,0.0133779264214046,1,0,,,0
+425,Courtenay Greenhill,0,Noble,0,1,0.0,1,0,,,0
+426,Cregan Karstark,1,House Stark,0,0,0.0668896321070234,1,0,,,0
+427,Cutjack,1,Foreign Noble,0,0,0.0334448160535117,1,0,,,0
+428,Dacks,1,House Arryn,0,0,0.0,1,0,,,0
+429,Daella Targaryen (daughter of Jaehaerys I),0,House Targaryen,1,1,0.0869565217391304,0,8,The Long Night,Wight - Stabbed in the chest by Queen Daenerys I Targaryen with a sword.,69
+430,Daella Targaryen (daughter of Maekar I),1,House Targaryen,0,1,0.0802675585284281,0,2,Valar Morghulis,Doreah - Died of natural causes after being locked in a vault by Queen Daenerys I Targaryen.,20
+431,Daenerys Targaryen (daughter of Aegon IV),0,House Targaryen,1,1,0.0936454849498327,0,8,The Iron Throne,"Queen Daenerys I ""Dany"" Targaryen - 753,045 (Deceased)",72
+432,Daeron I Targaryen,1,House Targaryen,0,0,0.518394648829431,0,8,The Iron Throne,"Queen Daenerys I ""Dany"" Targaryen - 753,045 (Deceased)",72
+433,Daena Targaryen,0,House Targaryen,1,1,0.227424749163879,0,2,Valar Morghulis,Doreah - Died of natural causes after being locked in a vault by Queen Daenerys I Targaryen.,20
+434,Daeryssa,0,Wildling,0,1,0.0066889632107023,1,0,,,0
+435,Daeron Targaryen (son of Viserys I),1,House Targaryen,0,1,0.227424749163879,0,1,The Kingsroad,"Cersei Lannister's Son - Died of a fever off-screen, mentioned.",2
+436,Dagon Ironmaker,1,House Greyjoy,0,0,0.0167224080267558,1,0,,,0
+437,Daeron Targaryen (son of Maekar I),1,House Targaryen,1,1,0.130434782608695,0,1,The Kingsroad,"Cersei Lannister's Son - Died of a fever off-screen, mentioned.",2
+438,Daeron II Targaryen,1,House Targaryen,0,0,0.765886287625418,0,8,The Iron Throne,King Aegon II Targaryen - 1 (Deceased),72
+439,Dake,1,House Tyrell,0,0,0.0100334448160535,1,0,,,0
+440,Dale Drumm,0,House Greyjoy,0,0,0.0100334448160535,1,0,,,0
+441,Dalla (Dragonstone),0,House Baratheon,0,0,0.0066889632107023,1,0,,,0
+442,Damon Lannister (lord),1,House Lannister,1,1,0.0,0,3,Kissed by Fire,"Lord Beric Dondarrion - Hung and stabbed in the eye by an unknown Lannister soldier off-screen, mentioned. Resurrected by Thoros via the Lord of Light.",25
+443,Dan,1,Wildling,0,0,0.0033444816053511,1,0,,,0
+444,Damon Lannister (son of Jason),1,House Lannister,1,0,0.060200668896321,1,0,,,0
+445,Darla Deddings,0,House Frey,0,1,0.0100334448160535,1,0,,,0
+446,Danos Slynt,1,House Baratheon,0,0,0.0234113712374581,1,0,,,0
+447,Daughter of the Dusk,0,Foreign Peasant,0,0,0.0133779264214046,1,0,,,0
+448,Del,0,Wildling,0,0,0.0133779264214046,0,8,The Bells,Unella - Died when Drogon destroyed the Red Keep on the orders of Queen Daenerys I Targaryen.,71
+449,Denestan,0,Soldier,0,1,0.0100334448160535,1,0,,,0
+450,Denyo Terys,1,Foreign Peasant,0,0,0.0167224080267558,1,0,,,0
+451,Dennis Plumm,1,House Targaryen,0,1,0.0267558528428093,1,0,,,0
+452,Denys Drumm,1,House Greyjoy,0,0,0.0167224080267558,1,0,,,0
+453,Denys Redwyne,1,House Tyrell,0,0,0.0735785953177257,1,0,,,0
+454,Denyse Hightower,0,House Tyrell,1,0,0.0735785953177257,1,0,,,0
+455,Dhazzar,0,Foreign Peasant,0,1,0.0133779264214046,1,0,,,0
+456,Dick Follard,1,Night's Watch,0,0,0.0301003344481605,0,8,The Bells,Unnamed Northern Soldier - Stabbed in the stomach by Jon Snow using Longclaw.,71
+457,Dickon Manwoody,1,House Martell,0,0,0.0267558528428093,1,0,,,0
+458,Dobber,1,House Tully,0,0,0.0267558528428093,0,8,The Iron Throne,Dongo (Giant) - 2 (Deceased),72
+459,Donnel Drumm,1,House Greyjoy,0,0,0.0167224080267558,1,0,,,0
+460,Donel Greyjoy,1,House Greyjoy,0,0,0.060200668896321,1,0,,,0
+461,Donella Hornwood,0,House Stark,1,1,0.0969899665551839,0,8,The Iron Throne,Donnel Hill - 1 (Deceased),72
+462,Donnel Hill,1,Night's Watch,0,0,0.0434782608695652,1,0,,,0
+463,Donnis,0,House Stark,0,0,0.0066889632107023,1,0,,,0
+464,Donyse,0,Wildling,0,0,0.0,1,0,,,0
+465,Dorcas,0,House Lannister,0,0,0.020066889632107,1,0,,,0
+466,Dornish Dilly,0,Night's Watch,0,0,0.0033444816053511,0,2,Valar Morghulis,Doreah - Died of natural causes after being locked in a vault by Queen Daenerys I Targaryen.,20
+467,Dorren Stark,1,House Stark,0,0,0.0133779264214046,1,0,,,0
+468,Draqaz,0,Foreign Peasant,0,1,0.0167224080267558,1,0,,,0
+469,Drennan,1,House Greyjoy,0,0,0.0133779264214046,0,4,The Watchers on the Wall,Dongo - Shot in the back by an unknown member of the Night's Watch with a ballista.,39
+470,Dudley,1,House Bolton,0,1,0.0,1,0,,,0
+471,Dryn,1,Wildling,0,0,0.0167224080267558,1,0,,,0
+472,Dunaver,0,House Lannister,0,1,0.0066889632107023,1,0,,,0
+473,Durran,1,Foreign Noble,0,0,0.0434782608695652,1,0,,,0
+474,Dyah,0,Wildling,1,0,0.0167224080267558,1,0,,,0
+475,Dykk Harlaw,1,House Greyjoy,0,0,0.0100334448160535,0,3,Mhysa,"Dagmer - Flayed alive by Lord Ramsay Snow off-screen, mentioned.",30
+476,Easy,1,Night's Watch,0,0,0.0033444816053511,0,5,Hardhome,"40 Oysters - Died in an unspecified manner off-screen, bodies shown.",48
+477,Duncan Targaryen,1,House Targaryen,1,1,0.140468227424749,0,7,Eastwatch,Dickon Tarly - Burned alive by Drogon with his fire breath on the orders of Queen Daenerys I Targaryen.,65
+478,Edgerran Oakheart,1,House Tyrell,0,1,0.0066889632107023,1,0,,,0
+479,Eden Risley,1,Noble,0,1,0.0033444816053511,1,0,,,0
+480,Edmund Ambrose,0,House Tyrell,0,1,0.0234113712374581,1,0,,,0
+481,Edwyn Osgrey,1,House Tyrell,0,1,0.020066889632107,0,8,The Long Night,Eddison Tollett (Wight) - Died when Arya Stark killed the Night King.,69
+482,Eggon,1,House Lannister,0,0,0.0133779264214046,1,0,,,0
+483,Eglantine,0,Soldier,0,0,0.0066889632107023,1,0,,,0
+484,Egon Emeros,0,Foreign Peasant,0,0,0.0133779264214046,1,0,,,0
+485,Eldiss,1,House Greyjoy,0,0,0.0133779264214046,1,0,,,0
+486,Eldred Codd,1,House Greyjoy,0,0,0.0167224080267558,1,0,,,0
+487,Elaena Targaryen,0,House Targaryen,1,1,0.137123745819397,0,8,The Bells,Ellaria Sand - Died when Drogon destroyed the Red Keep on the orders of Queen Daenerys I Targaryen.,71
+488,Elys Westerling,0,House Lannister,0,1,0.0133779264214046,1,0,,,0
+489,Elyas Willum,1,House Tyrell,0,0,0.0133779264214046,1,0,,,0
+490,Elza,0,Foreign Peasant,0,0,0.0100334448160535,0,8,The Bells,Unella - Died when Drogon destroyed the Red Keep on the orders of Queen Daenerys I Targaryen.,71
+491,Emma,0,Night's Watch,0,0,0.0167224080267558,1,0,,,0
+492,Elys Waynwood,0,House Arryn,1,1,0.0702341137123745,1,0,,,0
+493,Emrick,1,Night's Watch,0,0,0.0434782608695652,1,0,,,0
+494,Endehar,0,Night's Watch,0,0,0.0,1,0,,,0
+495,Emphyria Vance,0,House Tully,0,0,0.0167224080267558,1,0,,,0
+496,Enger,0,House Tully,0,0,0.0,1,0,,,0
+497,Erik Ironmaker,1,House Greyjoy,1,1,0.0501672240802675,1,0,,,0
+498,Erreck,1,Noble,0,1,0.0033444816053511,1,0,,,0
+499,Erreg,0,Peasant,0,1,0.0167224080267558,1,0,,,0
+500,Errok,1,Wildling,0,0,0.0066889632107023,1,0,,,0
+501,Erryk (guard),0,House Tyrell,0,0,0.0,1,0,,,0
+502,Esgred,1,Foreign Noble,0,0,0.0,1,0,,,0
+503,Eustace (Braavos),0,Soldier,0,0,0.0100334448160535,1,0,,,0
+504,Eustace (Dance of the Dragons),1,Soldier,0,0,0.0367892976588628,1,0,,,0
+505,Ezzara,0,Foreign Peasant,0,1,0.0066889632107023,1,0,,,0
+506,Euron Greyjoy,1,House Greyjoy,0,0,0.739130434782608,0,8,The Iron Throne,King Euron Greyjoy - 10 (Deceased),72
+507,Ezzelyno,0,Foreign Noble,0,1,0.0133779264214046,1,0,,,0
+508,Fern,0,Outlaw,0,0,0.0066889632107023,1,0,,,0
+509,Ferny,0,Wildling,1,0,0.0167224080267558,1,0,,,0
+510,Ferret,0,Outlaw,0,0,0.0033444816053511,1,0,,,0
+511,Fogo,1,Dothraki,0,1,0.020066889632107,0,1,Fire and Blood,"Rhaego - Stillborn after being cursed by Mirri Maz Duur using blood magic off-screen, mentioned.",10
+512,Fornio,1,Night's Watch,0,0,0.0100334448160535,1,0,,,0
+513,Fralegg,1,House Greyjoy,0,0,0.0066889632107023,1,0,,,0
+514,Frenya,1,Wildling,0,0,0.0434782608695652,0,3,Mhysa,Unnamed Frey Soldier - Repeatedly stabbed in the neck by Arya Stark with a knife.,30
+515,Frynne,0,Outlaw,0,0,0.0,1,0,,,0
+516,Gage,0,House Stark,0,0,0.0334448160535117,1,0,,,0
+517,Galladon of Morne,1,Night's Watch,0,1,0.0,1,0,,,0
+518,Gallard,0,Night's Watch,0,1,0.0100334448160535,1,0,,,0
+519,Galt,0,Outlaw,0,0,0.0033444816053511,1,0,,,0
+520,Galtry the Green,1,Foreign Peasant,0,1,0.0133779264214046,1,0,,,0
+521,Galyeon of Cuy,1,Peasant,0,0,0.0066889632107023,1,0,,,0
+522,Gareth the Grey,1,Foreign Noble,0,1,0.0033444816053511,1,0,,,0
+523,Garigus,1,Noble,0,1,0.020066889632107,1,0,,,0
+524,Garizon,0,Wildling,0,1,0.0066889632107023,1,0,,,0
+525,Gariss,1,House Stark,0,0,0.0,1,0,,,0
+526,Garrett Paege,1,House Frey,0,0,0.0133779264214046,1,0,,,0
+527,Garth XII Gardener,0,Wildling,0,0,0.0133779264214046,1,0,,,0
+528,Garth of Oldtown,0,Night's Watch,0,0,0.020066889632107,0,2,The Old Gods and the New,Ser Rodrik Cassel - Decapitated by Prince Theon Greyjoy with a sword.,16
+529,Gascoyne,0,House Martell,0,1,0.0133779264214046,1,0,,,0
+530,Gavin,0,Wildling,0,0,0.0066889632107023,1,0,,,0
+531,Gelmarr,1,House Greyjoy,0,0,0.0267558528428093,0,8,The Bells,Unnamed Lannister Soldier - Stabbed in the stomach by Grey Worm with a spear.,71
+532,Gerren,0,Noble,0,0,0.0167224080267558,1,0,,,0
+533,Gerold Lannister,1,House Lannister,1,1,0.0869565217391304,0,6,The Winds of Winter,Lancel Lannister - Blown up by Cersei Lannister with wildfire when she caused the destruction of the Great Sept of Baelor.,60
+534,Ghael,1,Foreign Peasant,0,1,0.0234113712374581,1,0,,,0
+535,Gillam,1,Outlaw,0,1,0.0100334448160535,1,0,,,0
+536,Gladden Wylde,1,House Baratheon,0,1,0.0167224080267558,0,8,The Long Night,Wight - Slashed by Grey Worm with a spear.,69
+537,Glendon Flowers,1,Outlaw,0,1,0.0802675585284281,0,8,The Bells,Ser Preston Greenfield - Either crushed by rubble caused by Drogon on the orders of Queen Daenerys I Targaryen or slashed by Sandor Clegane/The Hound with a sword.,71
+538,Goady,0,Night's Watch,0,0,0.0167224080267558,1,0,,,0
+539,Godwyn,1,House Lannister,0,0,0.0,1,0,,,0
+540,Gormond Drumm,1,House Greyjoy,0,0,0.0066889632107023,1,0,,,0
+541,Gowen Baratheon,1,House Baratheon,1,0,0.0167224080267558,1,0,,,0
+542,Grance Morrigen,1,House Baratheon,0,1,0.0100334448160535,1,0,,,0
+543,Grazdan,1,Foreign Peasant,0,1,0.0133779264214046,0,3,And Now His Watch Is Ended,Greizhen mo Ullhor - Killed by unknown Unsullied on the orders of Queen Daenerys I Targaryen.,24
+544,Grazdan zo Galare,1,Foreign Peasant,0,0,0.020066889632107,1,0,,,0
+545,Green Gergen,1,Foreign Peasant,0,0,0.0,1,0,,,0
+546,Great Walrus,1,Wildling,0,0,0.0133779264214046,1,0,,,0
+547,Gretchel,1,House Arryn,0,0,0.0167224080267558,1,0,,,0
+548,Grey King,1,House Greyjoy,0,0,0.0769230769230769,1,0,,,0
+549,Griffin King,1,Foreign Noble,0,0,0.020066889632107,1,0,,,0
+550,Grigg,0,Wildling,0,0,0.0066889632107023,1,0,,,0
+551,Grisel,0,Noble,0,0,0.0033444816053511,1,0,,,0
+552,Grisella,0,Wildling,0,0,0.0100334448160535,1,0,,,0
+553,Gulian,0,Dothraki,0,1,0.0033444816053511,1,0,,,0
+554,Gulian Qorgyle,1,House Martell,0,1,0.0133779264214046,1,0,,,0
+555,Gurn,0,Outlaw,0,0,0.0033444816053511,1,0,,,0
+556,Guyne,0,House Arryn,0,1,0.0066889632107023,1,0,,,0
+557,Gwayne Corbray,1,House Baratheon,0,1,0.0434782608695652,1,0,,,0
+558,Gwayne Gaunt,0,Noble,0,1,0.0367892976588628,1,0,,,0
+559,Gwin Goodbrother,0,House Greyjoy,0,0,0.0267558528428093,1,0,,,0
+560,Gyles,0,Soldier,0,1,0.0033444816053511,1,0,,,0
+561,Gyleno Dothare,1,Foreign Peasant,0,0,0.0133779264214046,1,0,,,0
+562,Gyles Farwynd,1,House Greyjoy,0,0,0.0100334448160535,1,0,,,0
+563,Gwynesse Harlaw,0,House Greyjoy,0,0,0.0568561872909698,1,0,,,0
+564,Gyles Grafton,1,House Arryn,0,0,0.0167224080267558,1,0,,,0
+565,Gyloro Dothare,1,Foreign Peasant,0,0,0.0133779264214046,1,0,,,0
+566,Gyles III Gardener,1,House Stark,0,0,0.020066889632107,1,0,,,0
+567,Gynir,1,House Greyjoy,0,0,0.0267558528428093,0,4,Breaker of Chains,Guymon - Shot in the back of the head by Ygritte with an arrow using a bow.,33
+568,Haggon,1,Wildling,0,0,0.020066889632107,1,0,,,0
+569,Gysella Goodbrother,0,House Greyjoy,0,0,0.0267558528428093,1,0,,,0
+570,Hali,0,Wildling,0,0,0.020066889632107,0,2,Valar Morghulis,Doreah - Died of natural causes after being locked in a vault by Queen Daenerys I Targaryen.,20
+571,Haldon,1,House Targaryen,0,0,0.127090301003344,1,0,,,0
+572,Harbert Paege,0,House Frey,0,1,0.0133779264214046,1,0,,,0
+573,Hamish the Harper,0,House Tyrell,0,0,0.020066889632107,0,5,Sons of the Harpy,Unnamed Member of The Sons of the Harpy - Stabbed in the stomach by Ser Barristan Selmy with a sword.,44
+574,Halys Hornwood,1,House Stark,1,1,0.107023411371237,0,3,"Dark Wings, Dark Words","Lord Hoster Tully - Died of an unspecified illness off-screen, body shown in ""Walk of Punishment"".",22
+575,Harghaz,1,Foreign Peasant,0,0,0.0234113712374581,0,3,Mhysa,"Aggar - Flayed alive by Lord Ramsay Snow off-screen, mentioned.",30
+576,Hareth (Mole's Town),1,Night's Watch,0,0,0.0501672240802675,1,0,,,0
+577,Harlan Grandison,1,House Baratheon,0,1,0.0167224080267558,0,2,The Ghost of Harrenhal,Ser Robar Royce - Stabbed in the back by Brienne of Tarth with a sword.,15
+578,Harle the Handsome,1,Wildling,0,0,0.0133779264214046,1,0,,,0
+579,Harle the Huntsman,1,Wildling,0,0,0.0167224080267558,1,0,,,0
+580,Harlon Botley,1,House Greyjoy,0,0,0.0468227424749163,1,0,,,0
+581,Harmund Sharp,1,House Greyjoy,0,0,0.0100334448160535,1,0,,,0
+582,Harlon Greyjoy,1,House Greyjoy,0,0,0.0635451505016722,1,0,,,0
+583,Harodon,0,Foreign Peasant,0,1,0.0066889632107023,1,0,,,0
+584,Harra,0,House Tully,0,0,0.0167224080267558,0,2,The Ghost of Harrenhal,"Xaro Xhoan Daxos' Wife - Died in an unspecified manner off-screen, mentioned.",15
+585,Harrag Sharp,0,House Greyjoy,0,0,0.0167224080267558,0,5,The House of Black and White,"Unnamed Member of The Sons of the Harpy - Stabbed in the head and chest by Mossador with knives off-screen, body shown.",42
+586,Harrag Hoare,1,House Greyjoy,0,0,0.0267558528428093,1,0,,,0
+587,Harren Half-Hoare,1,House Greyjoy,0,0,0.0167224080267558,1,0,,,0
+588,Harren Botley,0,House Greyjoy,0,0,0.060200668896321,0,2,The Ghost of Harrenhal,Ser Robar Royce - Stabbed in the back by Brienne of Tarth with a sword.,15
+589,Harrold Osgrey,1,House Tyrell,0,1,0.0234113712374581,1,0,,,0
+590,Harry Sawyer,0,Noble,0,1,0.0167224080267558,1,0,,,0
+591,Harsley,1,Dothraki,0,0,0.0033444816053511,0,2,The Ghost of Harrenhal,"Xaro Xhoan Daxos' Wife - Died in an unspecified manner off-screen, mentioned.",15
+592,Harwyn Hoare,1,Noble,0,0,0.100334448160535,1,0,,,0
+593,Hayhead,1,House Stark,0,0,0.0167224080267558,1,0,,,0
+594,Hazrak zo Loraq,1,Foreign Peasant,0,0,0.0100334448160535,1,0,,,0
+595,Harwyn Plumm,1,House Targaryen,0,1,0.0468227424749163,1,0,,,0
+596,Helicent Uffering,0,Noble,0,0,0.0234113712374581,0,5,Sons of the Harpy,Two Unnamed Members of The Sons of the Harpy - Stabbed in the stomach by an unknown Unsullied with a spear.,44
+597,Helliweg,0,Wildling,0,1,0.0100334448160535,1,0,,,0
+598,Helly,0,House Tyrell,0,0,0.0133779264214046,1,0,,,0
+599,Helya,0,House Greyjoy,0,0,0.0167224080267558,1,0,,,0
+600,Henk,1,Wildling,0,0,0.0066889632107023,1,0,,,0
+601,Henly (House Ashford),0,House Tyrell,0,0,0.0066889632107023,1,0,,,0
+602,Herbert Bolling,0,House Tully,0,1,0.0100334448160535,1,0,,,0
+603,Hendry Bracken,0,House Tully,0,0,0.040133779264214,0,5,Sons of the Harpy,Unnamed Dornish Guard - Stabbed in the chest by Ser Bronn with a sword.,44
+604,Heward,0,House Stark,0,0,0.020066889632107,0,3,"Dark Wings, Dark Words","Lord Hoster Tully - Died of an unspecified illness off-screen, body shown in ""Walk of Punishment"".",22
+605,Hibald,1,Noble,0,0,0.0133779264214046,1,0,,,0
+606,Hilmar Drumm,1,House Greyjoy,0,0,0.0066889632107023,1,0,,,0
+607,Hod,1,House Bolton,0,0,0.0033444816053511,1,0,,,0
+608,Hoke,0,House Lannister,0,0,0.0100334448160535,1,0,,,0
+609,Holger,0,Outlaw,0,0,0.0033444816053511,1,0,,,0
+610,Hop-Robin,1,Night's Watch,0,0,0.0334448160535117,1,0,,,0
+611,Hugh Beesbury,0,House Tyrell,0,1,0.0133779264214046,1,0,,,0
+612,Humfrey Clifton,1,Noble,0,1,0.0133779264214046,1,0,,,0
+613,Hunnimore,0,Wildling,0,1,0.0,1,0,,,0
+614,Husband,1,Outlaw,1,0,0.0434782608695652,1,0,,,0
+615,Illifer,1,Night's Watch,0,1,0.040133779264214,1,0,,,0
+616,Ironbelly,1,Peasant,0,0,0.0100334448160535,1,0,,,0
+617,Jaehaerys Targaryen (son of Aegon II),1,House Targaryen,0,1,0.187290969899665,0,8,The Iron Throne,King Aegon II Targaryen - 1 (Deceased),72
+618,Jaehaera Targaryen,0,House Targaryen,1,1,0.280936454849498,0,3,And Now His Watch Is Ended,"Queen Rhaenyra Targaryen - Burned alive and consumed by dragon on the orders of King Aegon II Targaryen off-screen, mentioned.",24
+619,Jaggot,0,Outlaw,0,0,0.0,1,0,,,0
+620,Jaehaerys II Targaryen,1,House Targaryen,0,0,0.494983277591973,0,6,Blood of My Blood,"King Aerys II Targaryen/Mad King - Stabbed in the back by Jaime Lannister with a sword, shown in a flashback.",56
+621,Jaime Frey,1,House Frey,0,0,0.127090301003344,1,0,,,0
+622,Jaehaerys I Targaryen,1,House Targaryen,0,0,0.65886287625418,0,6,Blood of My Blood,"King Aerys II Targaryen/Mad King - Stabbed in the back by Jaime Lannister with a sword, shown in a flashback.",56
+623,Jate,0,Night's Watch,0,0,0.0,0,8,The Iron Throne,Jory Cassel - 2 (Deceased),72
+624,Jate Blackberry,1,Peasant,0,0,0.0100334448160535,1,0,,,0
+625,Jasper Waynwood,1,House Arryn,0,0,0.0568561872909698,1,0,,,0
+626,Jayde,0,Peasant,0,0,0.020066889632107,1,0,,,0
+627,Jeffory Norcross,1,Noble,0,1,0.0066889632107023,1,0,,,0
+628,Jeffory Mallister,1,House Tully,0,0,0.020066889632107,1,0,,,0
+629,Jayne Bracken,0,House Tully,0,0,0.0301003344481605,1,0,,,0
+630,Squinty Jeyne,0,House Tyrell,0,0,0.0066889632107023,1,0,,,0
+631,Jeyne Fossoway,0,House Tyrell,1,0,0.0535117056856187,1,0,,,0
+632,Jeyne Heddle,0,Outlaw,0,0,0.0334448160535117,1,0,,,0
+633,Jeyne Swann,0,House Baratheon,0,0,0.0167224080267558,1,0,,,0
+634,Jeyne Westerling (wife of Maegor I),0,House Lannister,1,1,0.110367892976588,0,8,The Long Night,Lady Lyanna Mormont (Wight) - Died when Arya Stark killed the Night King.,69
+635,Jeyne Waters,1,Peasant,0,0,0.0735785953177257,0,6,The Winds of Winter,"Walder Rivers - Killed and carved into a pie by Arya Stark off-screen, body shown.",60
+636,Jeyne Westerling,0,House Lannister,1,1,0.424749163879598,1,0,,,0
+637,Jocelyn Swyft,0,House Lannister,0,0,0.0167224080267558,1,0,,,0
+638,Jodge,1,House Lannister,0,0,0.0033444816053511,1,0,,,0
+639,Joanna Swyft,0,House Lannister,0,0,0.0234113712374581,1,0,,,0
+640,Joanna Lannister,0,House Lannister,1,1,0.23076923076923,0,7,The Queen's Justice,Unnamed Lannister Soldier - Fell to his death after being thrown from Casterly Rock by an unknown Unsullied.,63
+641,Johanna Swann,0,House Baratheon,0,0,0.020066889632107,1,0,,,0
+642,Jommo,1,Dothraki,0,0,0.0100334448160535,1,0,,,0
+643,Jommy,1,House Baratheon,0,0,0.0033444816053511,1,0,,,0
+644,Jon Cupps,1,Noble,1,1,0.0501672240802675,1,0,,,0
+645,Jon Heddle,1,Noble,0,1,0.0066889632107023,1,0,,,0
+646,Jon Hollard,1,House Baratheon,0,1,0.0267558528428093,1,0,,,0
+647,Jon Penny,0,Noble,0,0,0.0066889632107023,1,0,,,0
+648,Jon Penrose,1,House Baratheon,0,1,0.0167224080267558,1,0,,,0
+649,Jon Pox,1,House Frey,0,0,0.0167224080267558,1,0,,,0
+650,Jon Vance,1,Dothraki,0,1,0.0234113712374581,1,0,,,0
+651,Jon Umber (Smalljon),1,House Stark,0,0,0.0702341137123745,0,8,The Iron Throne,Lord Smalljon Umber - 2 (Deceased),72
+652,Jon Umber (Greatjon),1,House Stark,0,1,0.183946488294314,1,0,,,0
+653,Jon Waters,1,House Stark,0,1,0.0769230769230769,0,6,The Winds of Winter,"Walder Rivers - Killed and carved into a pie by Arya Stark off-screen, body shown.",60
+654,Jorquen,1,Night's Watch,0,0,0.0033444816053511,1,0,,,0
+655,Jorgen,1,House Greyjoy,0,0,0.0,1,0,,,0
+656,Joseran,0,Dothraki,0,1,0.0033444816053511,1,0,,,0
+657,Joseth,1,House Stark,0,0,0.0301003344481605,1,0,,,0
+658,Joseth Mallister,0,House Tully,0,1,0.0133779264214046,1,0,,,0
+659,Joss,1,Outlaw,0,0,0.0033444816053511,1,0,,,0
+660,Joss the Gloom,0,Foreign Peasant,0,0,0.0100334448160535,1,0,,,0
+661,Joth Quickbow,0,Dothraki,0,0,0.0,1,0,,,0
+662,Josua Willum,1,House Tyrell,0,0,0.0133779264214046,1,0,,,0
+663,Jurne,0,Wildling,0,1,0.0133779264214046,1,0,,,0
+664,Jothos Slynt,1,House Baratheon,0,0,0.0234113712374581,1,0,,,0
+665,Jyck,1,House Lannister,0,0,0.0301003344481605,0,4,Breaker of Chains,Guymon - Shot in the back of the head by Ygritte with an arrow using a bow.,33
+666,Jyzene,0,Noble,0,0,0.0133779264214046,1,0,,,0
+667,Kegs,1,Night's Watch,0,0,0.0167224080267558,1,0,,,0
+668,Kella,0,Noble,0,0,0.0033444816053511,1,0,,,0
+669,Kemmett Pyke,0,House Greyjoy,0,0,0.0100334448160535,1,0,,,0
+670,Kenned,0,House Greyjoy,0,0,0.0066889632107023,0,3,Kissed by Fire,Lord Rickard Karstark - Decapitated by King Robb Stark with a sword.,25
+671,Ketter,0,Night's Watch,0,0,0.0,1,0,,,0
+672,Kirby Pimm,1,Outlaw,0,1,0.0,1,0,,,0
+673,Kojja Mo,0,Foreign Peasant,0,0,0.0167224080267558,1,0,,,0
+674,Kirth Vance,1,House Tully,0,0,0.0267558528428093,1,0,,,0
+675,Koss,1,Outlaw,0,0,0.0367892976588628,0,3,Kissed by Fire,Unnamed Stark Guard - Stabbed through the back by an unknown Stark soldier with a sword.,25
+676,Kromm,0,House Greyjoy,0,0,0.0066889632107023,0,3,And Now His Watch Is Ended,Craster - Stabbed in the throat by Karl Tanner with a knife.,24
+677,Kurz,1,House Arryn,0,0,0.0367892976588628,0,1,The Wolf and the Lion,Kurleket - Killed by an unknown Hill Tribesman.,5
+678,Kyle,1,Noble,0,1,0.0267558528428093,1,0,,,0
+679,Kyle (brotherhood),0,Outlaw,0,0,0.0,0,8,The Iron Throne,Brother Ray - 1 (Deceased),72
+680,Kyle Royce,1,House Arryn,0,0,0.020066889632107,1,0,,,0
+681,Kyleg,0,Wildling,0,0,0.0100334448160535,1,0,,,0
+682,Kym,0,House Frey,0,1,0.0,1,0,,,0
+683,Lamprey,1,House Baratheon,0,0,0.0100334448160535,1,0,,,0
+684,Lancel V Lannister,0,House Lannister,0,0,0.020066889632107,1,0,,,0
+685,Lanna,0,House Arryn,0,0,0.020066889632107,1,0,,,0
+686,Lanna (Happy Port),0,Foreign Peasant,0,0,0.0267558528428093,1,0,,,0
+687,Larraq,1,Foreign Peasant,0,0,0.020066889632107,1,0,,,0
+688,Layna,0,Dothraki,0,0,0.0234113712374581,1,0,,,0
+689,Lem,1,Outlaw,0,0,0.0836120401337792,1,0,,,0
+690,Leana Frey,0,House Frey,0,0,0.0735785953177257,1,0,,,0
+691,Lennocks,1,Dothraki,0,0,0.0033444816053511,1,0,,,0
+692,Lem (Standfast),0,House Tyrell,0,0,0.0133779264214046,0,2,Valar Morghulis,"Farlen - Killed by unknown Bolton soldiers off-screen, body shown.",20
+693,Lenn,0,Wildling,0,0,0.0066889632107023,1,0,,,0
+694,Lenyl,1,Wildling,0,0,0.0100334448160535,1,0,,,0
+695,Lenwood Tawney,1,House Greyjoy,0,0,0.0100334448160535,1,0,,,0
+696,Leo Tyrell (Longthorn),1,House Tyrell,0,1,0.0535117056856187,1,0,,,0
+697,Leona Tyrell,0,House Tyrell,0,0,0.123745819397993,1,0,,,0
+698,Leo Tyrell (son of Victor),1,House Tyrell,1,1,0.130434782608695,1,0,,,0
+699,Lester,0,House Lannister,0,0,0.0167224080267558,1,0,,,0
+700,Lew (guard),0,House Stark,0,0,0.0,1,0,,,0
+701,Lewis Lanster,1,Outlaw,0,0,0.0066889632107023,1,0,,,0
+702,Lewys Piper,1,House Tully,0,0,0.0334448160535117,1,0,,,0
+703,Leyla Hightower,0,House Tyrell,1,0,0.0501672240802675,1,0,,,0
+704,Lia Serry,0,House Tyrell,1,0,0.137123745819397,1,0,,,0
+705,Liane Vance,0,House Tully,0,0,0.0167224080267558,1,0,,,0
+706,Lister,1,House Stark,0,0,0.0033444816053511,1,0,,,0
+707,Long Lew,1,House Tully,0,0,0.0,1,0,,,0
+708,Lorcas,1,House Arryn,0,0,0.0100334448160535,1,0,,,0
+709,Lorent Lorch,0,House Lannister,0,1,0.0100334448160535,1,0,,,0
+710,Lorimer,1,House Lannister,0,1,0.0133779264214046,0,8,The Long Night,Lord Beric Dondarrion - Stabbed to death by wight. Reanimated as a wight.,69
+711,Lorren,1,Wildling,0,0,0.0234113712374581,0,2,What Is Dead May Never Die,Yoren - Stabbed in the back of the neck by Ser Amory Lorch with a sword.,13
+712,Lothar,1,House Tyrell,0,1,0.0,1,0,,,0
+713,Lorent Tyrell,0,House Tyrell,0,0,0.127090301003344,1,0,,,0
+714,Lotho Lornel,0,Foreign Peasant,0,0,0.0066889632107023,1,0,,,0
+715,Lucan,1,House Tully,0,0,0.0133779264214046,0,1,The Wolf and the Lion,Unnamed Hill Tribesman - Repeatedly stabbed in the head by Lord Tyrion Lannister with a shield.,5
+716,Lucamore Strong,1,Noble,0,1,0.0167224080267558,1,0,,,0
+717,Lucantine Woodwright,0,Soldier,0,1,0.0100334448160535,1,0,,,0
+718,Lucas Nayland,0,House Frey,0,1,0.0033444816053511,1,0,,,0
+719,Lucas Roote,1,House Frey,0,0,0.0133779264214046,0,4,The Lion and the Rose,Lord Axell Florent - Burned alive by unknown Baratheon soldiers on the orders of Melisandre/The Red Woman.,32
+720,Lucifer Hardy,1,Noble,0,1,0.0066889632107023,1,0,,,0
+721,Luco Prestayn,0,Foreign Peasant,0,0,0.0033444816053511,1,0,,,0
+722,Lucimore Botley,0,House Greyjoy,0,0,0.0468227424749163,1,0,,,0
+723,Lucos,1,Outlaw,0,0,0.0066889632107023,1,0,,,0
+724,Luke of Longtown,0,Night's Watch,0,0,0.0133779264214046,1,0,,,0
+725,Lucas Tyrell,1,House Tyrell,0,0,0.123745819397993,1,0,,,0
+726,Lum,1,House Lannister,0,0,0.0133779264214046,1,0,,,0
+727,Luton,1,House Stark,0,0,0.0234113712374581,0,8,The Long Night,Lord Commander Eddison Tollett - Stabbed in the back by a wight. Reanimated as a wight.,69
+728,Luthor Tyrell (son of Moryn),0,House Tyrell,1,1,0.130434782608695,1,0,,,0
+729,Luthor Tyrell (son of Theodore),1,House Tyrell,0,0,0.137123745819397,1,0,,,0
+730,Lymond Mallister,0,House Tully,0,1,0.0133779264214046,1,0,,,0
+731,Lync,0,Night's Watch,0,0,0.0066889632107023,1,0,,,0
+732,Lyonel (knight),1,House Lannister,0,1,0.0133779264214046,1,0,,,0
+733,Lyonel Bentley,0,Soldier,0,1,0.0133779264214046,0,6,The Broken Man,"At Least 27 Unnamed Civilians - Killed by Lem Lemoncloak, Morgan, and Gatins off-screen, bodies shown.",57
+734,Lyonel Tyrell (lord),1,House Tyrell,0,1,0.020066889632107,0,8,The Iron Throne,Lord Tywin Lannister - 3 (Deceased),72
+735,Lysa Meadows,0,House Tyrell,1,0,0.130434782608695,1,0,,,0
+736,Lyonel Tyrell (son of Leo),0,House Tyrell,0,0,0.130434782608695,1,0,,,0
+737,Maddy,0,House Arryn,0,0,0.0133779264214046,1,0,,,0
+738,Maerie (Goodwife),0,Wildling,0,1,0.0033444816053511,1,0,,,0
+739,Maerie (Whore),0,House Tyrell,0,0,0.0033444816053511,0,5,Mother's Mercy,Myranda - Fell to her death after being pushed off a rampart by Prince Theon Greyjoy/Reek.,50
+740,Maggy,1,House Frey,0,0,0.0568561872909698,1,0,,,0
+741,Malcolm,0,Wildling,0,1,0.0066889632107023,1,0,,,0
+742,Malleon,1,House Arryn,0,1,0.0167224080267558,1,0,,,0
+743,Malliard,1,Noble,0,1,0.0066889632107023,1,0,,,0
+744,Mallor (Knight),1,Outlaw,0,1,0.0,1,0,,,0
+745,Mallor,0,House Lannister,0,0,0.0066889632107023,1,0,,,0
+746,Manfred Dondarrion,1,House Baratheon,0,1,0.0100334448160535,1,0,,,0
+747,Manfred Lothston,1,Noble,0,0,0.0100334448160535,1,0,,,0
+748,Manfred Swann,0,House Baratheon,0,1,0.0167224080267558,1,0,,,0
+749,Manfryd Lothston,1,Noble,0,0,0.0066889632107023,1,0,,,0
+750,Manfryd Yew,0,Noble,0,1,0.020066889632107,1,0,,,0
+751,Marei,1,Peasant,0,0,0.0434782608695652,1,0,,,0
+752,Marghaz zo Loraq,1,Foreign Peasant,0,0,0.0334448160535117,1,0,,,0
+753,Maris,0,Wildling,0,0,0.0066889632107023,1,0,,,0
+754,Marq Grafton,1,House Arryn,0,0,0.0301003344481605,0,6,The Broken Man,"Lady Maege Mormont - Died of unknown causes during the War of the Five Kings off-screen, mentioned.",57
+755,Martyn Mullendore,0,House Tyrell,0,1,0.0066889632107023,1,0,,,0
+756,Maslyn,0,Night's Watch,0,0,0.0133779264214046,0,5,The House of Black and White,"Mossador's Father - Died in an unspecified manner off-screen, mentioned.",42
+757,Mathos Mallarawan,0,Foreign Peasant,0,0,0.0167224080267558,1,0,,,0
+758,Matrice,0,House Baratheon,0,0,0.0033444816053511,1,0,,,0
+759,Matt,1,Noble,0,0,0.0033444816053511,1,0,,,0
+760,Maynard,1,House Lannister,0,1,0.0133779264214046,1,0,,,0
+761,Maynard Plumm,1,House Targaryen,0,1,0.0234113712374581,1,0,,,0
+762,Mazdhan zo Loraq,1,Foreign Peasant,0,0,0.0100334448160535,1,0,,,0
+763,Mebble,1,House Stark,0,0,0.0066889632107023,1,0,,,0
+764,Meha,0,Wildling,0,0,0.0066889632107023,1,0,,,0
+765,Mela,0,House Arryn,0,0,0.0100334448160535,1,0,,,0
+766,Meizo Mahr,0,Dothraki,0,0,0.0066889632107023,1,0,,,0
+767,Melaquin,0,Peasant,0,1,0.0,1,0,,,0
+768,Medwick Tyrell,1,House Tyrell,0,1,0.120401337792642,1,0,,,0
+769,Meliana,0,Wildling,0,0,0.0,1,0,,,0
+770,Melicent,0,Foreign Peasant,0,0,0.0033444816053511,1,0,,,0
+771,Mellei,0,House Martell,0,0,0.0100334448160535,1,0,,,0
+772,Melly,0,Outlaw,0,0,0.0033444816053511,1,0,,,0
+773,Mellos,1,House Tully,0,1,0.237458193979933,1,0,,,0
+774,Meralyn,0,Foreign Peasant,0,0,0.0267558528428093,1,0,,,0
+775,Merling Queen,0,Foreign Peasant,0,0,0.020066889632107,1,0,,,0
+776,Mero,1,Outlaw,0,0,0.0468227424749163,0,3,Second Sons,"Mero - Decapitated by Daario Naharis off-screen, head shown.",28
+777,Merrell Florent,1,House Tyrell,0,0,0.0668896321070234,1,0,,,0
+778,Michael Mertyns,1,House Baratheon,0,1,0.0066889632107023,1,0,,,0
+779,Miklaz,0,Foreign Peasant,0,1,0.0167224080267558,1,0,,,0
+780,Mollander,1,Foreign Peasant,0,0,0.0367892976588628,1,0,,,0
+781,Mollos,0,House Frey,0,1,0.0100334448160535,1,0,,,0
+782,Moonshadow,0,Foreign Peasant,0,0,0.0100334448160535,1,0,,,0
+783,Moreo Tumitis,1,House Bolton,0,0,0.0100334448160535,1,0,,,0
+784,Morgarth,1,Noble,0,1,0.0167224080267558,1,0,,,0
+785,Moro,1,Dothraki,0,0,0.0167224080267558,1,0,,,0
+786,Morra,0,House Martell,0,0,0.0100334448160535,1,0,,,0
+787,Morrec,1,House Lannister,0,0,0.0267558528428093,0,2,Valar Morghulis,Doreah - Died of natural causes after being locked in a vault by Queen Daenerys I Targaryen.,20
+788,Mors Manwoody,1,House Martell,0,0,0.0234113712374581,1,0,,,0
+789,Mortimer Boggs,1,Noble,0,1,0.0133779264214046,1,0,,,0
+790,Mors Martell (brother of Doran),1,House Martell,0,0,0.0668896321070234,0,3,Mhysa,"Black Lorren - Flayed alive by Lord Ramsay Snow off-screen, mentioned.",30
+791,Mother Mole,0,Wildling,0,0,0.0434782608695652,1,0,,,0
+792,Mudge (brotherhood),0,Outlaw,0,0,0.0,1,0,,,0
+793,Mudge (miller),1,House Bolton,0,0,0.0033444816053511,1,0,,,0
+794,Mudge (swineherd),1,House Tyrell,0,0,0.0,1,0,,,0
+795,Munciter,1,Noble,0,1,0.0066889632107023,1,0,,,0
+796,Mully,1,Night's Watch,0,0,0.0501672240802675,1,0,,,0
+797,Murch,1,House Greyjoy,0,0,0.0100334448160535,1,0,,,0
+798,Murch (Winterfell),1,House Stark,0,0,0.0033444816053511,1,0,,,0
+799,Myles (squire),1,House Tully,0,0,0.0133779264214046,0,3,Mhysa,Unnamed Frey Soldier - Slashed across the chest by Sandor Clegane/The Hound with a sword.,30
+800,Myrtle,0,Wildling,0,0,0.0468227424749163,0,5,Mother's Mercy,Myranda - Fell to her death after being pushed off a rampart by Prince Theon Greyjoy/Reek.,50
+801,Nage,1,House Bolton,0,0,0.0033444816053511,1,0,,,0
+802,Nail,0,Outlaw,0,0,0.0133779264214046,1,0,,,0
+803,Narbert,0,Foreign Peasant,0,1,0.0267558528428093,1,0,,,0
+804,Narbo,0,Foreign Peasant,0,0,0.0100334448160535,1,0,,,0
+805,Nan,0,House Stark,0,0,0.0969899665551839,1,0,,,0
+806,Ned (ferryman),1,Outlaw,0,0,0.0033444816053511,1,0,,,0
+807,Nella,0,Wildling,1,0,0.020066889632107,1,0,,,0
+808,Ned Woods,1,House Stark,0,0,0.0167224080267558,1,0,,,0
+809,Nissa Nissa,1,Night's Watch,1,0,0.020066889632107,1,0,,,0
+810,Nightingale,0,House Tully,0,0,0.0167224080267558,1,0,,,0
+811,Nolla,0,House Bolton,0,1,0.0,1,0,,,0
+812,Norjen,0,House Greyjoy,0,0,0.0066889632107023,1,0,,,0
+813,Norren,1,Noble,0,1,0.0167224080267558,1,0,,,0
+814,Nymos,0,House Stark,0,1,0.0066889632107023,1,0,,,0
+815,Normund Tyrell,0,House Tyrell,0,1,0.127090301003344,1,0,,,0
+816,Ocley,0,House Tyrell,0,1,0.0066889632107023,1,0,,,0
+817,Ogo,1,Dothraki,0,0,0.0367892976588628,0,6,Book of the Stranger,Aggo - Stabbed in the back by Daario Naharis with a knife.,54
+818,Old Crackbones,1,House Greyjoy,0,0,0.0,1,0,,,0
+819,Old Grey Gull,1,House Greyjoy,0,0,0.0100334448160535,1,0,,,0
+820,Old Tattersalt,1,Night's Watch,0,0,0.0133779264214046,1,0,,,0
+821,Old Henly,1,Night's Watch,0,0,0.0133779264214046,0,3,"Dark Wings, Dark Words","Lord Hoster Tully - Died of an unspecified illness off-screen, body shown in ""Walk of Punishment"".",22
+822,Olyvar Oakheart,1,House Tyrell,0,1,0.0234113712374581,0,8,The Iron Throne,Othell Yarwyck - 1 (Deceased),72
+823,Olene Tyrell,0,House Tyrell,1,0,0.127090301003344,1,0,,,0
+824,Orbelo,1,Foreign Peasant,0,0,0.0133779264214046,1,0,,,0
+825,Orivel,1,Soldier,0,1,0.0033444816053511,1,0,,,0
+826,Orell,1,Wildling,0,0,0.0802675585284281,0,3,The Rains of Castamere,Orell - Stabbed in the stomach by Jon Snow using Longclaw.,29
+827,Ormond (knight),0,Wildling,0,1,0.0,0,8,The Long Night,Lord Beric Dondarrion - Stabbed to death by wight. Reanimated as a wight.,69
+828,Ormond Osgrey,0,House Tyrell,0,1,0.0100334448160535,1,0,,,0
+829,Ormond Westerling,0,House Lannister,0,1,0.0,1,0,,,0
+830,Oro Tendyris,1,Foreign Peasant,0,0,0.0133779264214046,1,0,,,0
+831,Ormund Wylde,1,House Baratheon,0,1,0.0133779264214046,1,0,,,0
+832,Osmynd,0,Soldier,0,0,0.0033444816053511,1,0,,,0
+833,Ossy,0,House Arryn,0,0,0.0100334448160535,1,0,,,0
+834,Oswyn,0,Outlaw,0,0,0.0033444816053511,1,0,,,0
+835,Othor,1,Night's Watch,0,0,0.0568561872909698,0,8,The Iron Throne,Othell Yarwyck - 1 (Deceased),72
+836,Otter Gimpknee,0,Noble,0,0,0.0066889632107023,1,0,,,0
+837,Ottomore,1,House Arryn,0,0,0.0066889632107023,1,0,,,0
+838,Owen (brother of Meribald),1,Wildling,0,0,0.0133779264214046,1,0,,,0
+839,Owen,1,Night's Watch,0,0,0.0367892976588628,1,0,,,0
+840,Owen Inchfield,0,Noble,0,1,0.0133779264214046,1,0,,,0
+841,Palla,0,House Stark,0,0,0.020066889632107,1,0,,,0
+842,Pate (Old),1,Foreign Noble,0,0,0.0066889632107023,1,0,,,0
+843,Pate (Mory),1,House Arryn,0,0,0.0033444816053511,1,0,,,0
+844,Pate (Lancewood),1,Dothraki,0,0,0.0033444816053511,1,0,,,0
+845,Pate (Pinchbottom),0,Outlaw,0,0,0.0033444816053511,0,1,The Pointy End,Vayon Poole - Stabbed in the stomach by an unknown Lannister soldier with a spear.,8
+846,Pate (Night's Watch),0,Night's Watch,0,0,0.0066889632107023,1,0,,,0
+847,Pate (Shermer's Grove),1,Foreign Peasant,0,0,0.0033444816053511,1,0,,,0
+848,Pate (Standfast),1,House Tyrell,0,0,0.0133779264214046,0,1,The Pointy End,Vayon Poole - Stabbed in the stomach by an unknown Lannister soldier with a spear.,8
+849,Penny Jenny,0,House Lannister,0,0,0.0033444816053511,1,0,,,0
+850,Penny,0,Outlaw,0,0,0.187290969899665,1,0,,,0
+851,Perros Blackmont,1,House Martell,0,0,0.020066889632107,1,0,,,0
+852,Perwyn Osgrey,0,House Tyrell,0,1,0.0066889632107023,1,0,,,0
+853,Peter Plumm,1,House Targaryen,0,1,0.0267558528428093,1,0,,,0
+854,Plummer,0,House Tyrell,0,1,0.0,1,0,,,0
+855,Poetess,0,Foreign Peasant,0,0,0.0100334448160535,1,0,,,0
+856,Pollitor,1,Noble,0,1,0.0100334448160535,1,0,,,0
+857,Porridge,1,House Baratheon,0,0,0.0066889632107023,1,0,,,0
+858,Porther,1,House Stark,0,0,0.0100334448160535,1,0,,,0
+859,Portifer Woodwright,0,Peasant,0,1,0.0100334448160535,1,0,,,0
+860,Poul Pemford,1,Noble,0,0,0.0066889632107023,0,8,The Long Night,Fergus - Killed by wight off-screen. Reanimated as a wight.,69
+861,Poxy Tym,1,House Stark,0,0,0.0100334448160535,0,7,The Queen's Justice,Tyene Sand - Poisoned by Queen Cersei I Lannister with the long farewell.,63
+862,Praed,1,House Tyrell,0,0,0.0167224080267558,0,3,Second Sons,"Prendahl na Ghezn - Decapitated by Daario Naharis off-screen, head shown.",28
+863,Puckens,0,House Lannister,0,0,0.0133779264214046,1,0,,,0
+864,Pudding,0,Soldier,0,0,0.0033444816053511,1,0,,,0
+865,Puddingfoot,0,Outlaw,0,0,0.0033444816053511,1,0,,,0
+866,Qalen,1,House Greyjoy,0,1,0.0100334448160535,1,0,,,0
+867,Qarl the Thrall,0,House Greyjoy,0,0,0.0167224080267558,1,0,,,0
+868,Qarl Kenning,0,House Greyjoy,0,0,0.0066889632107023,1,0,,,0
+869,Qarl Correy,1,House Targaryen,0,1,0.0267558528428093,1,0,,,0
+870,Qarl Shepherd,0,House Greyjoy,0,0,0.0066889632107023,1,0,,,0
+871,Qarl Quickaxe,1,House Greyjoy,0,0,0.0033444816053511,1,0,,,0
+872,Qos,1,House Arryn,0,1,0.0033444816053511,1,0,,,0
+873,Quellon Humble,1,House Greyjoy,0,0,0.020066889632107,1,0,,,0
+874,Quaro,0,Dothraki,0,0,0.0301003344481605,0,1,Baelor,Qotho - Slashed across the face by Ser Jorah Mormont with a sword.,9
+875,Aelinor Penrose,0,House Baratheon,1,1,0.163879598662207,1,0,,,0
+876,Aemon Estermont,1,House Baratheon,0,1,0.0301003344481605,1,0,,,0
+877,Aemon Rivers,1,House Frey,0,1,0.0334448160535117,1,0,,,0
+878,Aglantine,0,Soldier,0,0,0.0133779264214046,1,0,,,0
+879,Aladale Wynch,1,House Greyjoy,0,1,0.020066889632107,0,8,The Long Night,Lady Alys Karstark - Killed by wight off-screen. Reanimated as a wight.,69
+880,Albett,1,Night's Watch,0,0,0.0334448160535117,1,0,,,0
+881,Albar Royce,1,House Arryn,0,1,0.0334448160535117,1,0,,,0
+882,Alesander Staedmon,0,House Baratheon,0,1,0.0133779264214046,1,0,,,0
+883,Alekyne Florent,1,House Tyrell,0,1,0.0668896321070234,1,0,,,0
+884,Alesander Frey,0,House Frey,0,0,0.1438127090301,1,0,,,0
+885,Alester Norcross,1,Noble,0,0,0.0802675585284281,1,0,,,0
+886,Allard Seaworth,1,House Baratheon,0,1,0.0635451505016722,0,6,Oathbreaker,Ser Arthur Dayne - Slashed by Lord Eddard Stark with Dawn after being stabbed in the neck by Lord Howland Reed.,53
+887,Allar Deem,1,Soldier,0,0,0.0434782608695652,0,8,The Iron Throne,Ser Alliser Thorne - 3 (Deceased),72
+888,Alla Tyrell,0,House Tyrell,0,0,0.150501672240802,1,0,,,0
+889,Alyn Cockshaw,1,House Tyrell,0,1,0.040133779264214,0,1,Baelor,Crow - Shot by Lord Robb Stark with an arrow using a bow.,9
+890,Alyce Graceford,0,House Tyrell,0,1,0.0234113712374581,1,0,,,0
+891,Alyn Connington,0,Noble,0,1,0.060200668896321,1,0,,,0
+892,Alyn Ambrose,1,House Tyrell,0,0,0.0334448160535117,1,0,,,0
+893,Alyn Estermont,1,House Baratheon,0,1,0.0267558528428093,1,0,,,0
+894,Alyn Stackspear,0,House Lannister,0,1,0.0267558528428093,1,0,,,0
+895,Alyn Frey,1,House Frey,0,0,0.137123745819397,1,0,,,0
+896,Alyn Haigh,0,House Frey,0,0,0.0735785953177257,1,0,,,0
+897,Alysanne Bulwer,0,House Tyrell,0,1,0.153846153846153,1,0,,,0
+898,Alysanne Lefford,0,House Lannister,0,1,0.0133779264214046,1,0,,,0
+899,Alys Frey,0,House Frey,1,0,0.0668896321070234,1,0,,,0
+900,Alyssa Blackwood,0,House Tully,1,1,0.0969899665551839,0,5,The House of Black and White,"Two of Gilly's Sisters - Died after being infected with Greyscale off-screen, mentioned.",42
+901,Alyx Frey,0,House Frey,0,0,0.1438127090301,1,0,,,0
+902,Amarei Crakehall,0,House Lannister,1,0,0.153846153846153,0,1,"Cripples, Bastards, and Broken Things","Harkon Umber - Died during a bear hunt off-screen, mentioned.",4
+903,Ambrose Butterwell,1,House Targaryen,1,1,0.414715719063545,0,5,Mother's Mercy,Unnamed Baratheon Soldier - Stabbed in the back by Lord Ramsay Bolton with a sword.,50
+904,Andar Royce,1,House Arryn,0,1,0.040133779264214,1,0,,,0
+905,Andros Brax,1,House Lannister,0,1,0.0535117056856187,0,5,Sons of the Harpy,"Unnamed Dornish Guard - Killed by Ser Bronn off-screen, body shown.",44
+906,Antario Jast,1,House Lannister,1,1,0.0802675585284281,1,0,,,0
+907,Andrew Estermont,1,House Baratheon,0,1,0.0367892976588628,1,0,,,0
+908,Annara Farring,0,House Lannister,1,1,0.0635451505016722,1,0,,,0
+909,Ardrian Celtigar,1,House Baratheon,0,1,0.0434782608695652,1,0,,,0
+910,Anya Waynwood,0,House Arryn,0,1,0.0869565217391304,1,0,,,0
+911,Androw Frey,1,House Frey,0,0,0.133779264214046,1,0,,,0
+912,Armond Caswell,1,House Tyrell,0,1,0.0066889632107023,1,0,,,0
+913,Arthur Ambrose,1,House Tyrell,1,1,0.060200668896321,1,0,,,0
+914,Arthor Karstark,1,House Stark,0,0,0.0434782608695652,1,0,,,0
+915,Arwyn Frey,0,House Frey,0,0,0.0468227424749163,1,0,,,0
+916,Artos Stark,1,House Stark,1,0,0.103678929765886,1,0,,,0
+917,Arwood Frey,1,House Frey,1,1,0.163879598662207,1,0,,,0
+918,Lord Ashford,1,House Tyrell,0,1,0.0100334448160535,1,0,,,0
+919,Azzak,0,Foreign Noble,0,1,0.0167224080267558,1,0,,,0
+920,Baelor Hightower,1,House Tyrell,1,1,0.0668896321070234,1,0,,,0
+921,Balman Byrch,1,Noble,1,1,0.0735785953177257,0,3,Mhysa,"Gelmarr - Flayed alive by Lord Ramsay Snow off-screen, mentioned.",30
+922,Barth,1,Soldier,0,0,0.354515050167224,0,6,Battle of the Bastards,Belicho Paenymion - Throat slashed by Grey Worm with a knife.,59
+923,Bayard Norcross,0,Noble,0,1,0.020066889632107,1,0,,,0
+924,Bedwyck,1,Night's Watch,0,0,0.0501672240802675,1,0,,,0
+925,Barthogan Stark,1,House Stark,0,1,0.127090301003344,1,0,,,0
+926,Bellena Hawick,0,House Tully,1,0,0.133779264214046,1,0,,,0
+927,Benedar Belmore,1,House Arryn,0,1,0.0267558528428093,1,0,,,0
+928,Benedict Broom,0,Noble,0,1,0.020066889632107,1,0,,,0
+929,Bennard Brune,1,House Arryn,0,1,0.0100334448160535,1,0,,,0
+930,Benfrey Frey,1,House Frey,1,1,0.0735785953177257,0,6,The Winds of Winter,"Lothar Frey - Killed and carved into a pie by Arya Stark off-screen, body shown.",60
+931,Beren Tallhart,1,House Stark,0,0,0.0702341137123745,1,0,,,0
+932,Berena Hornwood,0,House Stark,1,0,0.0635451505016722,1,0,,,0
+933,Beth Cassel,0,House Stark,0,0,0.0702341137123745,1,0,,,0
+934,Beron Stark,1,House Stark,1,1,0.234113712374581,1,0,,,0
+935,Bhakaz zo Loraq,1,Foreign Peasant,0,1,0.0033444816053511,1,0,,,0
+936,Bethany Redwyne,0,House Tyrell,1,1,0.060200668896321,1,0,,,0
+937,Bethany Rosby,0,House Baratheon,1,1,0.0668896321070234,0,4,The Lion and the Rose,Tansy - Mauled by the bastard's girls on the orders of Lord Ramsay Snow.,32
+938,Black Bernarr,1,Night's Watch,0,0,0.020066889632107,1,0,,,0
+939,Betharios of Braavos,0,House Frey,1,0,0.140468227424749,1,0,,,0
+940,Boremund Harlaw,1,House Greyjoy,0,1,0.0635451505016722,1,0,,,0
+941,Bradamar Frey,1,House Frey,0,0,0.140468227424749,1,0,,,0
+942,Branston Cuy,0,House Tyrell,0,1,0.0066889632107023,1,0,,,0
+943,Brandon Tallhart,1,House Stark,0,0,0.060200668896321,1,0,,,0
+944,Bryan Fossoway,1,House Tyrell,0,1,0.0267558528428093,0,5,"Unbowed, Unbent, Unbroken","At Least 850 Unnamed People - Committed suicide by consuming poison off-screen, faces shown.",46
+945,Bryan Frey,1,House Frey,0,0,0.100334448160535,1,0,,,0
+946,Bryen Farring,1,House Lannister,0,0,0.0334448160535117,0,7,Dragonstone,38 Unnamed Frey Knights - Poisoned by Arya Stark.,61
+947,Bryen Caron,1,House Baratheon,0,1,0.0267558528428093,0,2,The Prince of Winterfell,"Harrion Karstark - Killed by an unknown Lannister soldier off-screen, mentioned.",18
+948,Burton Crakehall,1,House Lannister,0,1,0.0367892976588628,0,8,The Bells,Ser Osmund Kettleblack - Either crushed by rubble caused by Drogon on the orders of Queen Daenerys I Targaryen or slashed by Sandor Clegane/The Hound with a sword.,71
+949,Craghas Drahar,1,Foreign Peasant,0,0,0.0167224080267558,0,5,The Dance of Dragons,Hizdahr zo Loraq - Stabbed to death by unknown members of the Sons of the Harpy with knifes.,49
+950,Carolei Waynwood,0,House Arryn,1,0,0.140468227424749,1,0,,,0
+951,Lord Caswell,1,House Tyrell,0,1,0.0133779264214046,1,0,,,0
+952,Cayn,1,House Stark,0,0,0.0301003344481605,0,7,Dragonstone,"Maester Weyland - Died of liver failure off-screen, body shown.",61
+953,Cerenna Lannister,0,House Lannister,0,0,0.0702341137123745,1,0,,,0
+954,Cersei Frey,0,House Frey,0,0,0.133779264214046,1,0,,,0
+955,Chayle,1,Soldier,0,0,0.0635451505016722,0,1,Baelor,"Three Chickens - Killed and cooked by an unknown person off-screen, mentioned.",9
+956,Clarent Crakehall,0,House Lannister,0,1,0.0100334448160535,0,8,The Bells,Ser Preston Greenfield - Either crushed by rubble caused by Drogon on the orders of Queen Daenerys I Targaryen or slashed by Sandor Clegane/The Hound with a sword.,71
+957,Clement Crabb,1,Noble,0,1,0.0133779264214046,1,0,,,0
+958,Clement Piper,1,House Tully,0,1,0.0702341137123745,1,0,,,0
+959,Cley Cerwyn,1,House Stark,0,1,0.0735785953177257,0,5,High Sparrow,"Medger Cerwyn's Wife - Flayed alive by Lord Ramsay Snow off-screen, body shown.",43
+960,Clubfoot Karl,1,Night's Watch,0,0,0.0267558528428093,0,8,The Iron Throne,Karl Tanner - 2 (Deceased),72
+961,Conwy,0,Night's Watch,0,0,0.0267558528428093,1,0,,,0
+962,Colin Florent,0,House Tyrell,0,1,0.0836120401337792,1,0,,,0
+963,Colmar Frey,1,House Frey,0,0,0.0468227424749163,1,0,,,0
+964,Corliss Penny,0,Noble,0,1,0.0234113712374581,1,0,,,0
+965,Creighton Redfort,0,House Arryn,0,1,0.0234113712374581,1,0,,,0
+966,Cuger,1,Night's Watch,0,0,0.0066889632107023,1,0,,,0
+967,Cregan Stark,1,House Stark,1,1,0.484949832775919,0,8,The Iron Throne,Grenn (Night's Watch) - 2 (Deceased),72
+968,Cyrenna Swann,0,House Baratheon,1,0,0.0769230769230769,0,5,The Dance of Dragons,"Ser Byron Swann - Burned alive by Vhagar with his fire breath off-screen, mentioned.",49
+969,Cynthea Frey,0,House Frey,0,0,0.1438127090301,1,0,,,0
+970,Daegon Shepherd,0,House Greyjoy,0,0,0.0167224080267558,1,0,,,0
+971,Daeron Vaith,0,House Martell,0,1,0.0100334448160535,1,0,,,0
+972,Dafyn Vance,0,House Tully,1,1,0.103678929765886,1,0,,,0
+973,Dagon Greyjoy,1,House Greyjoy,0,1,0.0735785953177257,1,0,,,0
+974,Dalbridge,1,Night's Watch,0,0,0.0501672240802675,0,8,The Iron Throne,Lord Beric Dondarrion - 22 (Deceased),72
+975,Damon Paege,1,House Frey,0,1,0.020066889632107,1,0,,,0
+976,Damon Shett,0,House Arryn,0,1,0.0100334448160535,1,0,,,0
+977,Damon Vypren,0,Noble,0,1,0.157190635451505,1,0,,,0
+978,Dancy,0,Peasant,0,0,0.040133779264214,1,0,,,0
+979,Dareon,1,Night's Watch,0,0,0.167224080267558,0,8,The Iron Throne,Daario Naharis - 25 (Alive),72
+980,Darlessa Marbrand,0,House Lannister,1,0,0.0836120401337792,1,0,,,0
+981,Daryn Hornwood,1,House Stark,0,0,0.0869565217391304,0,3,"Dark Wings, Dark Words","Lord Hoster Tully - Died of an unspecified illness off-screen, body shown in ""Walk of Punishment"".",22
+982,Danwell Frey,1,House Frey,1,1,0.180602006688963,1,0,,,0
+983,Deana Hardyng,0,House Arryn,1,0,0.0969899665551839,1,0,,,0
+984,Delena Florent,0,House Tyrell,1,0,0.11705685618729,1,0,,,0
+985,Della Frey,0,House Frey,0,0,0.0501672240802675,1,0,,,0
+986,Delp,0,House Tully,0,0,0.0133779264214046,0,8,The Bells,Unella - Died when Drogon destroyed the Red Keep on the orders of Queen Daenerys I Targaryen.,71
+987,Delonne Allyrion,0,House Martell,0,1,0.0267558528428093,1,0,,,0
+988,Denys Darklyn,1,House Targaryen,1,1,0.0568561872909698,1,0,,,0
+989,Denys Arryn,0,House Arryn,0,1,0.0836120401337792,0,8,The Iron Throne,Lady Lysa Arryn - 1 (Deceased),72
+990,Dermot,0,House Baratheon,0,1,0.0234113712374581,1,0,,,0
+991,Desmond,0,House Stark,0,0,0.0434782608695652,0,8,The Bells,Ser Osmund Kettleblack - Either crushed by rubble caused by Drogon on the orders of Queen Daenerys I Targaryen or slashed by Sandor Clegane/The Hound with a sword.,71
+992,Desmond Redwyne,1,House Tyrell,1,1,0.0769230769230769,1,0,,,0
+993,Deziel Dalt,1,House Martell,0,1,0.0267558528428093,1,0,,,0
+994,Dickon Tarly,1,House Tyrell,1,0,0.103678929765886,0,8,The Iron Throne,Dickon Tarly - 2 (Deceased),72
+995,Dickon Frey,1,House Frey,0,0,0.0869565217391304,1,0,,,0
+996,Dirk,1,Night's Watch,0,0,0.0434782608695652,0,4,Two Swords,"Rabbit - Shot in the eye by Ygritte with an arrow off-screen, mentioned.",31
+997,Dolf,0,Outlaw,0,0,0.0167224080267558,1,0,,,0
+998,Donnel Haigh,1,House Frey,0,1,0.0869565217391304,1,0,,,0
+999,Donnel of Duskendale,1,Soldier,0,1,0.0367892976588628,1,0,,,0
+1000,Donnel Locke,0,House Stark,0,1,0.0367892976588628,0,8,The Bells,"17 Unnamed Lannister Soldiers - Burned alive by Drogon with his fire breath on the orders of Queen Daenerys I Targaryen off-screen, bodies shown.",71
+1001,Donnel Waynwood,0,House Arryn,0,1,0.060200668896321,1,0,,,0
+1002,Donnor Stark,1,House Stark,0,1,0.0802675585284281,1,0,,,0
+1003,Dormund,1,Wildling,0,0,0.0267558528428093,0,2,Valar Morghulis,Doreah - Died of natural causes after being locked in a vault by Queen Daenerys I Targaryen.,20
+1004,Duram Bar Emmon,0,House Targaryen,0,1,0.0267558528428093,1,0,,,0
+1005,Ebben,1,Night's Watch,0,0,0.0434782608695652,0,4,First of His Name,Unnamed Mutineer - Stabbed in the stomach by Eddison Tollett with a sword.,35
+1006,Edderion Stark,1,House Stark,0,1,0.0100334448160535,1,0,,,0
+1007,Edmyn Tully,1,House Tully,0,1,0.357859531772575,1,0,,,0
+1008,Eddara Tallhart,0,House Stark,0,1,0.040133779264214,1,0,,,0
+1009,Edrick Stark,1,House Stark,0,1,0.0267558528428093,1,0,,,0
+1010,Edwyd Fossoway,1,House Tyrell,0,1,0.0234113712374581,0,8,The Long Night,Eddison Tollett (Wight) - Died when Arya Stark killed the Night King.,69
+1011,Edwyn Stark,0,House Stark,0,1,0.0100334448160535,1,0,,,0
+1012,Edwyle Stark,1,House Stark,1,1,0.107023411371237,1,0,,,0
+1013,Elder Brother,1,Soldier,0,1,0.0769230769230769,1,0,,,0
+1014,Elbert Arryn,1,House Arryn,0,1,0.0468227424749163,0,2,The Ghost of Harrenhal,Ser Robar Royce - Stabbed in the back by Brienne of Tarth with a sword.,15
+1015,Eleanor Mooton,0,House Tully,1,0,0.0301003344481605,1,0,,,0
+1016,Ellery Vance,1,House Tully,0,1,0.0267558528428093,1,0,,,0
+1017,Elron,0,Night's Watch,0,0,0.0133779264214046,1,0,,,0
+1018,Elinor Tyrell,0,House Tyrell,0,0,0.163879598662207,1,0,,,0
+1019,Elmar Frey,1,House Frey,0,0,0.0668896321070234,1,0,,,0
+1020,Elwood,0,House Tully,0,0,0.0167224080267558,0,2,The Night Lands,"Eddison Tollett's Mother - Died in an unspecified manner off-screen, mentioned.",12
+1021,Elwood Meadows,1,House Tyrell,0,1,0.0501672240802675,1,0,,,0
+1022,Elyana Vypren,0,Noble,1,0,0.160535117056856,1,0,,,0
+1023,Elyn Norridge,0,Noble,1,0,0.127090301003344,1,0,,,0
+1024,Emberlei Frey,0,House Frey,0,0,0.0802675585284281,1,0,,,0
+1025,Endrew Tarth,1,House Baratheon,0,1,0.0668896321070234,0,8,The Long Night,Lord Commander Eddison Tollett - Stabbed in the back by a wight. Reanimated as a wight.,69
+1026,Eroeh,0,Foreign Peasant,0,0,0.0334448160535117,0,2,What Is Dead May Never Die,Yoren - Stabbed in the back of the neck by Ser Amory Lorch with a sword.,13
+1027,Eon Hunter,1,House Arryn,0,1,0.0468227424749163,0,4,The Watchers on the Wall,Dongo - Shot in the back by an unknown member of the Night's Watch with a ballista.,39
+1028,Ermesande Hayford,0,House Baratheon,1,1,0.113712374581939,1,0,,,0
+1029,Erena Glover,0,House Stark,0,0,0.0535117056856187,1,0,,,0
+1030,Erren Florent,1,House Tyrell,0,1,0.0869565217391304,1,0,,,0
+1031,Eustace Brune,1,House Arryn,0,1,0.0167224080267558,1,0,,,0
+1032,Eustace Hunter,0,House Arryn,0,1,0.0234113712374581,1,0,,,0
+1033,Eyron Stark,1,House Stark,0,1,0.0100334448160535,1,0,,,0
+1034,Ferrego Antaryon,1,Foreign Peasant,0,1,0.0167224080267558,1,0,,,0
+1035,Forley Prester,1,House Lannister,0,1,0.0635451505016722,1,0,,,0
+1036,Franklyn Fowler,1,House Martell,0,1,0.020066889632107,1,0,,,0
+1037,Flement Brax,1,House Lannister,1,1,0.140468227424749,1,0,,,0
+1038,Frenken,0,Outlaw,0,1,0.0434782608695652,1,0,,,0
+1039,Franklyn Frey,1,House Frey,0,1,0.0367892976588628,1,0,,,0
+1040,Gareth Clifton,1,Noble,1,1,0.0133779264214046,1,0,,,0
+1041,Garrison Prester,1,House Lannister,0,1,0.0133779264214046,1,0,,,0
+1042,Garth of Greenaway,1,Night's Watch,0,0,0.0301003344481605,0,2,The Ghost of Harrenhal,Ser Robar Royce - Stabbed in the back by Brienne of Tarth with a sword.,15
+1043,Garrett Flowers,0,House Tyrell,0,0,0.130434782608695,1,0,,,0
+1044,Garse Goodbrook,1,House Frey,1,1,0.0668896321070234,1,0,,,0
+1045,Garse Flowers,1,House Tyrell,0,0,0.130434782608695,1,0,,,0
+1046,Garth Greenfield,0,House Lannister,0,1,0.0301003344481605,1,0,,,0
+1047,Garth Greyfeather,1,Night's Watch,0,0,0.0501672240802675,0,7,Stormborn,"Archmaester Pylos - Died after being infected with greyscale off-screen, mentioned.",62
+1048,Gawen Swann,1,House Baratheon,0,1,0.0167224080267558,0,5,The Dance of Dragons,"Ser Byron Swann - Burned alive by Vhagar with his fire breath off-screen, mentioned.",49
+1049,Gawen Glover,1,House Stark,0,0,0.0468227424749163,1,0,,,0
+1050,Gawen Wylde,1,House Baratheon,0,1,0.0133779264214046,0,6,The Winds of Winter,"Walder Rivers - Killed and carved into a pie by Arya Stark off-screen, body shown.",60
+1051,Garth Tyrell,1,House Tyrell,0,1,0.163879598662207,1,0,,,0
+1052,Gendel,1,Wildling,0,1,0.0568561872909698,1,0,,,0
+1053,Gawen Westerling,1,House Lannister,1,1,0.0836120401337792,1,0,,,0
+1054,Gerald Gower,0,Noble,0,1,0.0234113712374581,1,0,,,0
+1055,Gerold Grafton,1,House Arryn,0,1,0.0234113712374581,1,0,,,0
+1056,Gerardys,1,House Targaryen,0,1,0.0234113712374581,0,5,Mother's Mercy,Gordy - Stabbed in the throat by King Stannis Baratheon with a knife.,50
+1057,Gilbert Farring,1,House Lannister,0,1,0.0468227424749163,1,0,,,0
+1058,Glendon Hewett,1,House Tyrell,0,1,0.0267558528428093,1,0,,,0
+1059,Gilwood Hunter,1,House Arryn,0,1,0.040133779264214,1,0,,,0
+1060,Godric Borrell,1,House Arryn,0,1,0.0869565217391304,1,0,,,0
+1061,Goodwin,1,House Baratheon,0,1,0.0066889632107023,1,0,,,0
+1062,Gormon Peake,1,House Tyrell,0,1,0.060200668896321,0,4,The Mountain and the Viper,Kegs - Killed by unknown Free Folk off-screen.,38
+1063,Gorne,1,Wildling,0,1,0.0535117056856187,1,0,,,0
+1064,Gormon Tyrell,1,Noble,0,1,0.153846153846153,1,0,,,0
+1065,Grazdan mo Eraz,0,Foreign Noble,0,0,0.0234113712374581,1,0,,,0
+1066,Grazdan mo Ullhor,1,Foreign Noble,0,1,0.0301003344481605,0,3,And Now His Watch Is Ended,Greizhen mo Ullhor - Killed by unknown Unsullied on the orders of Queen Daenerys I Targaryen.,24
+1067,Grazdar zo Galare,1,Foreign Noble,0,1,0.0100334448160535,1,0,,,0
+1068,Grubbs,0,Night's Watch,0,0,0.020066889632107,0,4,Mockingbird,Unnamed Prisoner - Stomach cut open by Ser Gregor Clegane/The Mountain with a sword.,37
+1069,Gueren,1,Night's Watch,0,0,0.0133779264214046,1,0,,,0
+1070,Guncer Sunglass,1,House Baratheon,0,1,0.040133779264214,0,4,The Watchers on the Wall,"Grenn - Killed by Mag Mar Tun Doh Weg off-screen, body shown.",39
+1071,Gulian Swann,1,House Baratheon,0,1,0.0334448160535117,1,0,,,0
+1072,Guthor Grimm,1,Noble,0,1,0.0167224080267558,1,0,,,0
+1073,Gunthor Hightower,0,House Tyrell,1,1,0.0535117056856187,1,0,,,0
+1074,Gyldayn,1,Noble,0,1,0.157190635451505,1,0,,,0
+1075,Gwayne Hightower,1,House Tyrell,0,1,0.0501672240802675,0,8,The Long Night,Wight - Hit by Gendry Baratheon with a war hammer.,69
+1076,Hairy Hal,0,Night's Watch,0,0,0.0334448160535117,0,3,Mhysa,"Gelmarr - Flayed alive by Lord Ramsay Snow off-screen, mentioned.",30
+1077,Hake,1,Night's Watch,0,0,0.0267558528428093,0,3,Mhysa,Unnamed Stark Soldier - Decapitated by an unknown Frey soldier with an axe.,30
+1078,Halder,1,Night's Watch,0,0,0.060200668896321,1,0,,,0
+1079,Hallis Mollen,1,House Stark,0,1,0.0702341137123745,1,0,,,0
+1080,Halmon Paege,1,House Frey,0,1,0.0167224080267558,1,0,,,0
+1081,Harbert,1,House Baratheon,0,1,0.0234113712374581,1,0,,,0
+1082,Harlan Hunter,1,House Arryn,0,1,0.0267558528428093,1,0,,,0
+1083,Harlen Tyrell,1,House Tyrell,0,1,0.0635451505016722,0,8,The Iron Throne,Dickon Tarly - 2 (Deceased),72
+1084,Harmond Umber,0,House Stark,0,1,0.0167224080267558,1,0,,,0
+1085,Harmune,1,Night's Watch,0,1,0.0434782608695652,1,0,,,0
+1086,Harrold Westerling,1,House Lannister,0,1,0.270903010033444,0,6,Battle of the Bastards,Lord Harald Karstark - Killed by an unknown Bolton soldier.,59
+1087,Harwood Fell,1,Noble,0,1,0.0301003344481605,0,6,Battle of the Bastards,Lord Harald Karstark - Killed by an unknown Bolton soldier.,59
+1088,Harwin Strong,1,Noble,0,1,0.0869565217391304,0,2,The Prince of Winterfell,"Harrion Karstark - Killed by an unknown Lannister soldier off-screen, mentioned.",18
+1089,Harwood Stout,1,House Stark,0,1,0.0535117056856187,1,0,,,0
+1090,Harys Haigh,1,House Frey,0,1,0.0903010033444816,1,0,,,0
+1091,Helman Tallhart,1,House Stark,0,1,0.130434782608695,0,8,The Bells,Captain Harry Strickland - Stabbed in the back by Grey Worm with a thrown spear.,71
+1092,Lord Commander Hoare,1,Noble,0,1,0.060200668896321,1,0,,,0
+1093,Hobber Redwyne,1,House Tyrell,0,1,0.214046822742474,1,0,,,0
+1094,Hoarfrost Umber,1,House Stark,0,1,0.020066889632107,1,0,,,0
+1095,Hosman Norcross,1,Noble,1,1,0.0769230769230769,1,0,,,0
+1096,Hoster Frey,1,House Frey,0,0,0.0903010033444816,1,0,,,0
+1097,Horas Redwyne,1,House Tyrell,0,1,0.217391304347826,1,0,,,0
+1098,Hubard Rambton,1,Noble,0,1,0.020066889632107,0,8,The Long Night,Lord Beric Dondarrion - Stabbed to death by wight. Reanimated as a wight.,69
+1099,Horton Redfort,1,House Arryn,0,1,0.0468227424749163,1,0,,,0
+1100,Hotho Harlaw,1,House Greyjoy,0,1,0.0769230769230769,1,0,,,0
+1101,Hugo Wull,1,Outlaw,0,1,0.0367892976588628,1,0,,,0
+1102,Hugor of the Hill,1,Peasant,0,1,0.0501672240802675,1,0,,,0
+1103,Hugo Vance,1,House Tully,0,1,0.0267558528428093,1,0,,,0
+1104,Hullen,1,House Stark,0,1,0.060200668896321,0,3,"Dark Wings, Dark Words","Lord Hoster Tully - Died of an unspecified illness off-screen, body shown in ""Walk of Punishment"".",22
+1105,Humfrey Beesbury,1,House Tyrell,0,1,0.0267558528428093,0,5,Sons of the Harpy,Unnamed Member of The Sons of the Harpy - Beaten to death by Grey Worm with a shield.,44
+1106,Humfrey Hardyng,1,House Arryn,0,1,0.0535117056856187,0,3,"Dark Wings, Dark Words","Lord Hoster Tully - Died of an unspecified illness off-screen, body shown in ""Walk of Punishment"".",22
+1107,Humfrey Swyft,0,House Lannister,0,1,0.0100334448160535,1,0,,,0
+1108,Humfrey Wagstaff,0,Noble,0,1,0.0167224080267558,1,0,,,0
+1109,Igon Vyrwel,0,House Tyrell,0,0,0.0267558528428093,1,0,,,0
+1110,Jacks,0,House Stark,0,0,0.0334448160535117,1,0,,,0
+1111,Janei Lannister,0,House Lannister,0,0,0.100334448160535,1,0,,,0
+1112,Jammos Frey,1,House Frey,1,1,0.0903010033444816,1,0,,,0
+1113,Janna Tyrell,0,House Tyrell,1,0,0.177257525083612,1,0,,,0
+1114,Jaremy Rykker,1,Night's Watch,0,1,0.060200668896321,0,3,Valar Dohaeris,"Ser Jaremy Mallister - Stabbed in the chest by an unknown Lannister soldier off-screen, body shown.",21
+1115,Jarl,1,Wildling,0,0,0.0501672240802675,0,6,Battle of the Bastards,Lord Harald Karstark - Killed by an unknown Bolton soldier.,59
+1116,Jason Lannister,1,House Lannister,1,1,0.0468227424749163,0,7,The Queen's Justice,Unnamed Lannister Soldier - Fell to his death after being thrown from Casterly Rock by an unknown Unsullied.,63
+1117,Jasper Arryn,1,House Arryn,0,1,0.0434782608695652,1,0,,,0
+1118,Jasper Redfort,0,House Arryn,0,1,0.0234113712374581,1,0,,,0
+1119,Jeren,1,Night's Watch,0,0,0.020066889632107,1,0,,,0
+1120,Jeyne Arryn,0,House Arryn,0,1,0.0334448160535117,0,8,The Iron Throne,Lady Lysa Arryn - 1 (Deceased),72
+1121,Jeyne Beesbury,0,House Tyrell,1,0,0.060200668896321,1,0,,,0
+1122,Jeyne Darry,1,House Frey,1,0,0.0769230769230769,1,0,,,0
+1123,Jeyne Goodbrook,0,House Frey,0,0,0.0635451505016722,1,0,,,0
+1124,Jeyne Rivers,0,House Frey,0,0,0.020066889632107,1,0,,,0
+1125,Jeyne Lydden,0,House Lannister,1,0,0.100334448160535,1,0,,,0
+1126,Joffrey Lonmouth,1,Noble,0,1,0.0234113712374581,0,8,The Long Night,Ser Jorah Mormont - Died of his injuries after being stabbed by wight.,69
+1127,Joffrey Caswell,1,House Tyrell,0,1,0.0234113712374581,0,1,The Wolf and the Lion,Jory Cassel - Stabbed through the eye by Ser Jaime Lannister with a dirk.,5
+1128,Jon Bettley,0,Noble,0,1,0.0167224080267558,1,0,,,0
+1129,Jon Brax,0,House Lannister,0,0,0.113712374581939,1,0,,,0
+1130,Jon Lynderly,0,House Arryn,0,1,0.0234113712374581,1,0,,,0
+1131,Jon Myre,0,House Greyjoy,0,0,0.0234113712374581,1,0,,,0
+1132,Jon Redfort,0,House Arryn,0,1,0.0234113712374581,1,0,,,0
+1133,Jon Wylde,1,House Baratheon,1,1,0.160535117056856,1,0,,,0
+1134,Jonos Stark,1,House Stark,0,1,0.0100334448160535,1,0,,,0
+1135,Jonos Frey,0,House Frey,0,0,0.0535117056856187,1,0,,,0
+1136,Jonnel Stark,1,House Stark,1,1,0.127090301003344,1,0,,,0
+1137,Joramun,1,Wildling,0,1,0.0635451505016722,1,0,,,0
+1138,Jorah Stark,1,House Stark,0,1,0.0100334448160535,1,0,,,0
+1139,Jonothor Darry,1,House Frey,0,1,0.0468227424749163,0,8,The Long Night,Lord Beric Dondarrion (Wight) - Died when Arya Stark killed the Night King.,69
+1140,Jorelle Mormont,0,House Stark,0,0,0.040133779264214,1,0,,,0
+1141,Jyana,0,House Stark,1,0,0.020066889632107,1,0,,,0
+1142,Joy Hill,0,House Lannister,0,0,0.103678929765886,1,0,,,0
+1143,Jyanna Frey,0,House Frey,1,0,0.0501672240802675,1,0,,,0
+1144,Kaeth,1,House Tully,0,1,0.260869565217391,0,3,Mhysa,"Unnamed Prince - Killed and cooked by Rat Cook off-screen, mentioned.",30
+1145,Jynessa Blackmont,0,House Martell,0,0,0.020066889632107,1,0,,,0
+1146,Karlon Stark,1,House Stark,0,1,0.0167224080267558,1,0,,,0
+1147,Kedge Whiteye,1,Night's Watch,0,0,0.0367892976588628,1,0,,,0
+1148,Kennos of Kayce,1,House Lannister,0,1,0.0334448160535117,1,0,,,0
+1149,Kezmya,0,Foreign Noble,0,1,0.0167224080267558,1,0,,,0
+1150,Kyra,1,House Stark,0,0,0.0535117056856187,0,8,The Long Night,Karsi (Wight) - Died when Arya Stark killed the Night King.,69
+1151,Kyra Frey,0,House Frey,1,0,0.0668896321070234,1,0,,,0
+1152,Lambert Turnberry,1,Noble,0,1,0.0167224080267558,1,0,,,0
+1153,Lark,1,Night's Watch,0,0,0.040133779264214,0,3,"Dark Wings, Dark Words","Lord Luthor Tyrell - Accidentally rode off a cliff off-screen, mentioned.",22
+1154,Larence Snow,1,House Stark,0,0,0.060200668896321,1,0,,,0
+1155,Larra Blackmont,0,House Martell,0,1,0.0267558528428093,1,0,,,0
+1156,Lanna Lannister,0,House Lannister,1,0,0.0735785953177257,1,0,,,0
+1157,Leathers,1,Night's Watch,0,1,0.0501672240802675,1,0,,,0
+1158,Left Hand Lew,1,Night's Watch,0,0,0.0167224080267558,1,0,,,0
+1159,Leo Lefford,1,House Lannister,0,1,0.0568561872909698,0,1,The Wolf and the Lion,Heward - Impaled through the chest by an unknown Lannister soldier with a thrown spear on the orders of Ser Jaime Lannister.,5
+1160,Leo Blackbar,1,House Tyrell,1,1,0.127090301003344,1,0,,,0
+1161,Leona Woolfield,0,House Stark,1,0,0.0468227424749163,1,0,,,0
+1162,Leonette Fossoway,0,House Tyrell,1,1,0.17391304347826,1,0,,,0
+1163,Leonella Lefford,0,House Lannister,1,0,0.0802675585284281,1,0,,,0
+1164,Lester Morrigen,0,House Baratheon,0,1,0.0234113712374581,1,0,,,0
+1165,Lewys the Fishwife,0,House Baratheon,0,0,0.0,1,0,,,0
+1166,Lewys Lydden,0,House Lannister,0,1,0.0367892976588628,1,0,,,0
+1167,Leslyn Haigh,0,House Frey,1,1,0.0869565217391304,1,0,,,0
+1168,Lomas Estermont,0,House Baratheon,0,1,0.0334448160535117,1,0,,,0
+1169,Lorent Marbrand,1,House Lannister,0,1,0.0735785953177257,0,2,What Is Dead May Never Die,Yoren - Stabbed in the back of the neck by Ser Amory Lorch with a sword.,13
+1170,Loreza Sand,0,House Martell,0,0,0.107023411371237,1,0,,,0
+1171,Lothar Mallery,0,House Tyrell,0,1,0.0167224080267558,0,8,The Iron Throne,Lothar Frey - 2 (Deceased),72
+1172,Lucas Corbray,0,House Baratheon,0,1,0.0133779264214046,1,0,,,0
+1173,Lucas Codd,0,House Greyjoy,0,0,0.0234113712374581,1,0,,,0
+1174,Luceon Frey,1,Soldier,0,0,0.0769230769230769,1,0,,,0
+1175,Lucias Vypren,1,Noble,1,1,0.163879598662207,1,0,,,0
+1176,Lucos Chyttering,1,Noble,0,1,0.020066889632107,1,0,,,0
+1177,Lucion Lannister,0,House Lannister,0,1,0.0668896321070234,1,0,,,0
+1178,Luthor Tyrell,1,House Tyrell,1,1,0.170568561872909,1,0,,,0
+1179,Lyanna Mormont,1,House Stark,0,0,0.0568561872909698,0,8,The Long Night,Lady Lyanna Mormont - Died of her injuries after being crushed by a giant wight. Reanimated as a wight.,69
+1180,Lyessa Flint,0,House Stark,0,1,0.0367892976588628,1,0,,,0
+1181,Lyman Beesbury,1,House Tyrell,0,1,0.260869565217391,0,8,The Long Night,Lord Beric Dondarrion - Stabbed to death by wight. Reanimated as a wight.,69
+1182,Lymond Goodbrook,1,House Frey,0,1,0.0267558528428093,1,0,,,0
+1183,Lyman Darry,0,House Frey,0,1,0.0568561872909698,0,3,"Dark Wings, Dark Words","Lord Hoster Tully - Died of an unspecified illness off-screen, body shown in ""Walk of Punishment"".",22
+1184,Lymond Lychester,1,House Tully,0,1,0.0234113712374581,1,0,,,0
+1185,Lymond Vikary,1,Noble,0,1,0.0267558528428093,1,0,,,0
+1186,Lyonel Selmy,1,House Baratheon,0,1,0.0167224080267558,1,0,,,0
+1187,Aggo,0,House Targaryen,0,0,0.133779264214046,1,0,,,0
+1188,Alys Karstark,0,House Stark,1,0,0.157190635451505,1,0,,,0
+1189,Cleos Frey,1,House Frey,1,1,0.247491638795986,0,3,Mhysa,Unnamed Frey Soldier - Repeatedly stabbed in the neck by Arya Stark with a knife.,30
+1190,Dontos Hollard,1,House Baratheon,0,1,0.23076923076923,0,8,The Iron Throne,Donnel Hill - 1 (Deceased),72
+1191,Craster,1,Wildling,0,0,0.170568561872909,0,1,"Cripples, Bastards, and Broken Things","Balerion/Black Dread (Dragon) - Died in an unspecified manner off-screen, mentioned.",4
+1192,Dale Seaworth,1,House Baratheon,0,1,0.0702341137123745,0,6,Oathbreaker,Ser Arthur Dayne - Slashed by Lord Eddard Stark with Dawn after being stabbed in the neck by Lord Howland Reed.,53
+1193,Denys Mallister,1,House Tully,0,1,0.130434782608695,1,0,,,0
+1194,Edric Storm,1,House Baratheon,0,0,0.284280936454849,1,0,,,0
+1195,Hosteen Frey,1,House Frey,1,1,0.274247491638795,1,0,,,0
+1196,Lyonel Corbray,1,House Baratheon,0,1,0.0802675585284281,1,0,,,0
+1197,Lyonel Frey,0,House Frey,1,1,0.0635451505016722,1,0,,,0
+1198,Lyonel Strong,1,Noble,1,1,0.334448160535117,0,4,The Lion and the Rose,Lord Axell Florent - Burned alive by unknown Baratheon soldiers on the orders of Melisandre/The Red Woman.,32
+1199,Lythene Frey,0,House Frey,1,0,0.160535117056856,1,0,,,0
+1200,Lyra Mormont,0,House Stark,0,0,0.040133779264214,1,0,,,0
+1201,Maegelle Frey,0,House Frey,1,0,0.107023411371237,1,0,,,0
+1202,Mallador Locke,1,Night's Watch,0,1,0.0267558528428093,0,3,Mhysa,"Black Lorren - Flayed alive by Lord Ramsay Snow off-screen, mentioned.",30
+1203,Malwyn Frey,1,House Frey,0,0,0.137123745819397,1,0,,,0
+1204,Manfrey Martell,0,House Martell,0,1,0.0234113712374581,1,0,,,0
+1205,Margot Lannister,0,House Lannister,1,1,0.020066889632107,1,0,,,0
+1206,Maric Seaworth,1,House Baratheon,0,1,0.0635451505016722,0,7,Stormborn,Nymeria Sand - Strangled by Euron Greyjoy with a whip.,62
+1207,Marianne Vance,0,House Tully,0,0,0.103678929765886,1,0,,,0
+1208,Mariya Darry,0,House Frey,1,0,0.190635451505016,1,0,,,0
+1209,Marissa Frey,0,House Frey,0,0,0.160535117056856,1,0,,,0
+1210,Maron Martell,1,House Martell,1,1,0.0367892976588628,1,0,,,0
+1211,Maron Volmark,1,House Greyjoy,0,1,0.0434782608695652,1,0,,,0
+1212,Marq Rankenfell,1,Night's Watch,0,1,0.0501672240802675,1,0,,,0
+1213,Marsella Waynwood,0,House Arryn,1,0,0.0969899665551839,1,0,,,0
+1214,Matarys Targaryen,1,House Targaryen,0,1,0.100334448160535,0,2,Valar Morghulis,Doreah - Died of natural causes after being locked in a vault by Queen Daenerys I Targaryen.,20
+1215,Martyn Rivers,0,House Frey,0,0,0.0301003344481605,1,0,,,0
+1216,Martyn Lannister,1,House Lannister,0,0,0.137123745819397,0,3,Kissed by Fire,Martyn Lannister - Stabbed by Lord Rickard Karstark with a dagger.,25
+1217,Marwyn Belmore,1,House Arryn,0,1,0.0234113712374581,1,0,,,0
+1218,Mathis Frey,0,House Frey,0,0,0.0836120401337792,1,0,,,0
+1219,Matthar,1,Night's Watch,0,0,0.0234113712374581,1,0,,,0
+1220,Mawney,1,Night's Watch,0,0,0.0234113712374581,0,5,Mother's Mercy,Myranda - Fell to her death after being pushed off a rampart by Prince Theon Greyjoy/Reek.,50
+1221,Medgar Tully,1,House Tully,0,1,0.0167224080267558,0,5,The House of Black and White,"Two of Gilly's Sisters - Died after being infected with Greyscale off-screen, mentioned.",42
+1222,Medger Cerwyn,1,House Stark,0,1,0.0635451505016722,0,5,High Sparrow,"Medger Cerwyn's Wife - Flayed alive by Lord Ramsay Snow off-screen, body shown.",43
+1223,Megga Tyrell,0,House Tyrell,0,0,0.153846153846153,1,0,,,0
+1224,Meldred Merlyn,0,House Greyjoy,0,1,0.0234113712374581,1,0,,,0
+1225,Melesa Crakehall,0,House Lannister,1,0,0.0501672240802675,1,0,,,0
+1226,Melara Crane,0,House Tyrell,1,0,0.0668896321070234,1,0,,,0
+1227,Melessa Florent,0,House Tyrell,1,0,0.0869565217391304,1,0,,,0
+1228,Mellara Rivers,0,House Frey,0,0,0.0167224080267558,1,0,,,0
+1229,Melwyn Sarsfield,1,House Lannister,1,1,0.0301003344481605,1,0,,,0
+1230,Melwys Rivers,0,Outlaw,0,1,0.0234113712374581,1,0,,,0
+1231,Meredyth Crane,0,House Tyrell,0,0,0.0301003344481605,1,0,,,0
+1232,Merianne Frey,0,House Frey,0,0,0.0836120401337792,1,0,,,0
+1233,Merlon Crakehall,1,House Lannister,0,1,0.0267558528428093,1,0,,,0
+1234,Mezzara,1,Foreign Noble,0,1,0.0167224080267558,1,0,,,0
+1235,Mina Tyrell,0,House Tyrell,1,0,0.163879598662207,1,0,,,0
+1236,Moelle,0,Soldier,0,0,0.0301003344481605,1,0,,,0
+1237,Monterys Velaryon,1,House Targaryen,0,1,0.020066889632107,1,0,,,0
+1238,Moredo Prestayn,1,Foreign Peasant,0,1,0.0100334448160535,1,0,,,0
+1239,Monford Velaryon,1,Foreign Noble,0,1,0.0234113712374581,0,7,Dragonstone,38 Unnamed Frey Knights - Poisoned by Arya Stark.,61
+1240,Moribald Chester,0,Noble,0,1,0.020066889632107,1,0,,,0
+1241,Morton Waynwood,1,House Arryn,0,1,0.0367892976588628,1,0,,,0
+1242,Morya Frey,0,House Frey,1,1,0.120401337792642,1,0,,,0
+1243,Mullin,0,Night's Watch,0,1,0.0234113712374581,1,0,,,0
+1244,Moryn Tyrell,1,House Tyrell,0,0,0.140468227424749,1,0,,,0
+1245,Munda,1,Wildling,1,0,0.0267558528428093,1,0,,,0
+1246,Muttering Bill,1,Night's Watch,0,0,0.020066889632107,0,4,The Mountain and the Viper,Mully - Killed by unknown Free Folk off-screen.,38
+1247,Mushroom,1,House Targaryen,0,0,0.0468227424749163,1,0,,,0
+1248,Murmison,1,Soldier,0,0,0.31438127090301,0,4,The Mountain and the Viper,Mully - Killed by unknown Free Folk off-screen.,38
+1249,Mylenda Caron,1,House Baratheon,1,0,0.107023411371237,1,0,,,0
+1250,Myles Smallwood,1,House Tyrell,0,1,0.167224080267558,1,0,,,0
+1251,Myles Mooton,1,House Tully,0,1,0.0267558528428093,0,3,Mhysa,"Wex Pyke - Flayed alive by Lord Ramsay Snow off-screen, mentioned.",30
+1252,Myria Jordayne,1,House Martell,0,0,0.0133779264214046,1,0,,,0
+1253,Myles Manwoody,1,House Martell,0,1,0.0267558528428093,1,0,,,0
+1254,Mysaria,0,Foreign Noble,0,1,0.0133779264214046,1,0,,,0
+1255,Myrielle Lannister,0,House Lannister,0,0,0.0702341137123745,1,0,,,0
+1256,Noho Dimittis,1,Foreign Noble,0,0,0.0133779264214046,1,0,,,0
+1257,Norne Goodbrother,0,House Greyjoy,0,1,0.020066889632107,1,0,,,0
+1258,Norbert Vance,1,House Tully,0,1,0.0367892976588628,1,0,,,0
+1259,Nymella Toland,0,House Martell,0,1,0.0434782608695652,1,0,,,0
+1260,Nysterica,0,Foreign Peasant,0,0,0.0267558528428093,1,0,,,0
+1261,Ollidor,1,Soldier,0,0,0.0167224080267558,1,0,,,0
+1262,Ollo Lophand,1,Night's Watch,0,0,0.0367892976588628,0,8,The Iron Throne,Loboda (Free Folk) - 1 (Deceased),72
+1263,Olyvar Frey,1,House Frey,0,0,0.0836120401337792,1,0,,,0
+1264,Omer Blackberry,0,Peasant,0,0,0.0234113712374581,1,0,,,0
+1265,Olymer Tyrell,1,House Tyrell,1,1,0.130434782608695,1,0,,,0
+1266,Ondrew Locke,1,House Stark,0,1,0.0367892976588628,1,0,,,0
+1267,Orbert Caswell,1,House Tyrell,0,1,0.0568561872909698,0,8,The Iron Throne,Jory Cassel - 2 (Deceased),72
+1268,Ordello,0,Foreign Noble,0,1,0.0133779264214046,0,8,The Bells,Unella - Died when Drogon destroyed the Red Keep on the orders of Queen Daenerys I Targaryen.,71
+1269,Omer Florent,0,Foreign Noble,0,1,0.0702341137123745,1,0,,,0
+1270,Orland of Oldtown,1,House Baratheon,0,0,0.0066889632107023,1,0,,,0
+1271,Ormond Yronwood,0,House Martell,0,1,0.0,1,0,,,0
+1272,Orphan Oss,0,Night's Watch,0,0,0.0234113712374581,0,8,The Iron Throne,Osha (Free Folk) - 3 (Deceased),72
+1273,Osbert Serry,0,House Tyrell,0,1,0.0267558528428093,1,0,,,0
+1274,Osmund Frey,0,House Frey,0,0,0.0501672240802675,1,0,,,0
+1275,Oswell Kettleblack,1,Outlaw,0,0,0.0568561872909698,1,0,,,0
+1276,Ossifer Plumm,1,House Targaryen,1,1,0.0869565217391304,0,4,The Mountain and the Viper,Jack Bulwer - Killed by unknown Free Folk off-screen.,38
+1277,Otho Bracken,1,House Tully,0,1,0.0267558528428093,1,0,,,0
+1278,Ottyn Wythers,0,Noble,0,1,0.0434782608695652,0,8,The Iron Throne,Othell Yarwyck - 1 (Deceased),72
+1279,Owen Norrey,0,Outlaw,0,0,0.0301003344481605,0,2,What Is Dead May Never Die,Yoren - Stabbed in the back of the neck by Ser Amory Lorch with a sword.,13
+1280,Pate of the Blue Fork,1,House Frey,1,1,0.170568561872909,0,2,A Man Without Honor,The Copper King - Throat slit by a duplicate of Pyat Pree.,17
+1281,Patrek Mallister,1,House Tully,0,0,0.0769230769230769,1,0,,,0
+1282,Patrek Vance,0,House Tully,0,0,0.103678929765886,1,0,,,0
+1283,Perriane Frey,0,House Frey,1,0,0.0735785953177257,1,0,,,0
+1284,Perra Frey,0,House Frey,0,0,0.100334448160535,1,0,,,0
+1285,Perwyn Frey,1,House Frey,0,1,0.0836120401337792,1,0,,,0
+1286,Philip Foote,1,Noble,0,1,0.0501672240802675,1,0,,,0
+1287,Philip Plumm,1,House Targaryen,0,1,0.0301003344481605,1,0,,,0
+1288,Pono,0,Dothraki,0,1,0.060200668896321,1,0,,,0
+1289,Qarro Volentin,0,Foreign Peasant,0,1,0.0133779264214046,1,0,,,0
+1290,Qarlton Chelsted,1,Noble,0,1,0.357859531772575,0,6,Battle of the Bastards,Lord Harald Karstark - Killed by an unknown Bolton soldier.,59
+1291,Lord Commander Qorgyle,1,House Martell,0,1,0.0668896321070234,0,8,The Iron Throne,Lord Commander Jeor Mormont - 1 (Deceased),72
+1292,Quent,1,House Stark,0,0,0.0234113712374581,1,0,,,0
+1293,Quenten Banefort,1,House Lannister,0,1,0.0234113712374581,1,0,,,0
+1294,Quenton Hightower,1,House Tyrell,0,1,0.0066889632107023,1,0,,,0
+1295,Quentyn Ball,1,House Targaryen,0,1,0.0668896321070234,0,6,Battle of the Bastards,19 Unnamed Bolton Soldiers - Shot by unknown Northern soldiers with arrows using bows.,59
+1296,Quentyn Qorgyle,0,House Martell,0,1,0.0234113712374581,1,0,,,0
+1297,Quincy Cox,1,Noble,0,1,0.0334448160535117,1,0,,,0
+1298,Ragwyle,0,Wildling,0,0,0.0100334448160535,1,0,,,0
+1299,Ralf Kenning,1,House Greyjoy,0,1,0.0468227424749163,0,2,Garden of Bones,Rennick - Mauled by Grey Wind.,14
+1300,Raymun Redbeard,1,Wildling,0,1,0.0,0,1,Baelor,The Red (Horse) - Throat slit by Mirri Maz Duur with a knife.,9
+1301,Raynard,1,Soldier,0,0,0.020066889632107,1,0,,,0
+1302,Raynald Westerling,1,House Lannister,0,1,0.0702341137123745,0,3,The Rains of Castamere,Ser Wendel Manderly - Shot in the back of the head by an unknown Frey solider with a bolt using a crossbow.,29
+1303,Red Alyn of the Rosewood,1,Night's Watch,0,0,0.0133779264214046,0,4,The Lion and the Rose,Lord Axell Florent - Burned alive by unknown Baratheon soldiers on the orders of Melisandre/The Red Woman.,32
+1304,Raynard Ruttiger,0,Noble,0,1,0.020066889632107,1,0,,,0
+1305,Raymund Frey,1,House Frey,1,1,0.177257525083612,1,0,,,0
+1306,Regenard Estren,0,Noble,0,1,0.020066889632107,1,0,,,0
+1307,Renly Norcross,1,Noble,0,0,0.0836120401337792,1,0,,,0
+1308,Renfred Rykker,1,Noble,0,1,0.0234113712374581,1,0,,,0
+1309,Rhea Royce,0,House Arryn,1,1,0.0936454849498327,0,5,Mother's Mercy,Myranda - Fell to her death after being pushed off a rampart by Prince Theon Greyjoy/Reek.,50
+1310,Rennifer Longwaters,1,House Targaryen,0,1,0.0167224080267558,1,0,,,0
+1311,Rhea Florent,0,House Tyrell,1,0,0.107023411371237,1,0,,,0
+1312,Rhogoro,1,Dothraki,0,1,0.0100334448160535,1,0,,,0
+1313,Rickard Ryswell,1,House Stark,0,0,0.040133779264214,1,0,,,0
+1314,Rickard Thorne,1,House Baratheon,0,1,0.0267558528428093,0,8,The Iron Throne,Ser Alliser Thorne - 3 (Deceased),72
+1315,Rickard Wylde,0,House Baratheon,0,0,0.160535117056856,1,0,,,0
+1316,Robert Frey,0,House Frey,0,0,0.060200668896321,1,0,,,0
+1317,Robert Flowers,1,Soldier,0,1,0.060200668896321,1,0,,,0
+1318,Robert Brax,0,House Lannister,0,1,0.0468227424749163,0,8,The Iron Throne,King/Lord Robert I Baratheon - 5 (Deceased),72
+1319,Robin Hill,1,Night's Watch,0,1,0.0568561872909698,1,0,,,0
+1320,Robin Flint,0,House Stark,0,1,0.0501672240802675,0,8,The Iron Throne,Ygritte (Free Folk) - 19 (Deceased),72
+1321,Robin Moreland,1,Noble,0,1,0.0133779264214046,1,0,,,0
+1322,Robin Ryger,1,House Frey,0,1,0.0735785953177257,1,0,,,0
+1323,Rodrik Flint,1,House Stark,0,1,0.0635451505016722,1,0,,,0
+1324,Rodrik Stark,1,House Stark,0,1,0.040133779264214,1,0,,,0
+1325,Rodrik Ryswell,1,House Stark,0,1,0.040133779264214,1,0,,,0
+1326,Roger Hogg,1,Noble,0,1,0.0267558528428093,1,0,,,0
+1327,Rodwell Stark,1,House Stark,1,1,0.130434782608695,1,0,,,0
+1328,Rolland Longthorpe,0,House Arryn,0,1,0.0167224080267558,1,0,,,0
+1329,Rolland Uffering,1,Noble,1,1,0.0234113712374581,1,0,,,0
+1330,Ronel Rivers,0,House Frey,0,0,0.0234113712374581,1,0,,,0
+1331,Ronald Connington,1,Noble,0,1,0.0334448160535117,1,0,,,0
+1332,Ronald Vance,1,House Tully,0,1,0.0267558528428093,1,0,,,0
+1333,Roro Uhoris,1,Foreign Noble,0,1,0.020066889632107,1,0,,,0
+1334,Royce Coldwater,0,House Arryn,0,1,0.0066889632107023,1,0,,,0
+1335,Rufus Leek,0,Noble,0,1,0.0267558528428093,1,0,,,0
+1336,Rugen,1,Soldier,0,1,0.0234113712374581,1,0,,,0
+1337,Runcel Hightower,1,House Tyrell,0,1,0.0535117056856187,1,0,,,0
+1338,Rupert Brax,1,House Lannister,0,1,0.040133779264214,0,4,The Mountain and the Viper,Ralf Kenning - Stabbed in the head by Adrack Humble with an axe.,38
+1339,Rycherd Crane,0,House Tyrell,1,1,0.0702341137123745,1,0,,,0
+1340,Ryam Redwyne,1,House Tyrell,0,1,0.364548494983277,0,6,The Red Woman,Maester Caleotte - Stabbed in the back of the beck by Tyene Sand with a thrown dagger.,51
+1341,Ryam Florent,1,House Tyrell,0,1,0.0635451505016722,1,0,,,0
+1342,Ryger Rivers,1,House Frey,0,0,0.0234113712374581,1,0,,,0
+1343,Ryella Frey,0,House Frey,0,0,0.137123745819397,1,0,,,0
+1344,Ryella Royce,0,House Arryn,1,0,0.140468227424749,1,0,,,0
+1345,Rylene Florent,0,House Tyrell,1,0,0.0702341137123745,1,0,,,0
+1346,Ryon Allyrion,1,House Martell,1,1,0.0535117056856187,1,0,,,0
+1347,Saera Targaryen,1,House Targaryen,0,1,0.0702341137123745,0,1,Baelor,"Princess Rhaenys Targaryen - Killed by Ser Gregor Clegane/The Mountain on the orders of Lord Tywin Lannister off-screen, mentioned.",9
+1348,Sallei Paege,0,House Frey,1,0,0.0802675585284281,1,0,,,0
+1349,Sandor Frey,0,House Frey,0,0,0.147157190635451,1,0,,,0
+1350,Sarya Whent,0,House Tully,1,1,0.0301003344481605,1,0,,,0
+1351,Sarra Frey,0,House Frey,0,0,0.137123745819397,1,0,,,0
+1352,Sawane Botley,1,House Greyjoy,0,1,0.0903010033444816,0,2,The Ghost of Harrenhal,Ser Robar Royce - Stabbed in the back by Brienne of Tarth with a sword.,15
+1353,Scolera,0,Soldier,0,0,0.0167224080267558,1,0,,,0
+1354,Sebaston Farman,1,House Lannister,0,1,0.020066889632107,1,0,,,0
+1355,Selwyn Tarth,1,House Baratheon,0,0,0.0635451505016722,1,0,,,0
+1356,Selmond Stackspear,0,House Lannister,0,1,0.020066889632107,1,0,,,0
+1357,Serala,0,Foreign Noble,1,1,0.0434782608695652,1,0,,,0
+1358,Serwyn of the Mirror Shield,1,Soldier,0,1,0.0,1,0,,,0
+1359,Serra Frey,0,House Frey,0,0,0.137123745819397,1,0,,,0
+1360,Shella Whent,0,House Tully,1,1,0.0802675585284281,0,8,The Bells,Unella - Died when Drogon destroyed the Red Keep on the orders of Queen Daenerys I Targaryen.,71
+1361,Shierle Swyft,0,House Lannister,1,0,0.0267558528428093,1,0,,,0
+1362,Shiera Crakehall,0,House Lannister,1,0,0.0668896321070234,1,0,,,0
+1363,Shirei Frey,0,House Frey,0,0,0.0434782608695652,1,0,,,0
+1364,Simon Staunton,1,Noble,1,1,0.0167224080267558,1,0,,,0
+1365,Sigfryd Harlaw,1,House Greyjoy,0,1,0.0635451505016722,1,0,,,0
+1366,Lord Staunton,1,Noble,0,1,0.0167224080267558,0,1,Lord Snow,"Simon Toyne - Killed by Barristan Selmy with a counter riposte off-screen, mentioned.",3
+1367,Stannis Seaworth,1,House Baratheon,0,0,0.0568561872909698,1,0,,,0
+1368,Steffon Seaworth,1,House Baratheon,0,0,0.0635451505016722,1,0,,,0
+1369,Steffon Frey,0,House Frey,0,0,0.100334448160535,1,0,,,0
+1370,Steffon Swyft,1,House Lannister,0,1,0.0301003344481605,1,0,,,0
+1371,Steffon Darklyn,0,House Targaryen,0,1,0.0936454849498327,0,1,A Golden Crown,Stiv - Shot in the back by Theon Greyjoy with an arrow using a bow.,6
+1372,Steffon Stackspear,0,House Lannister,0,1,0.020066889632107,1,0,,,0
+1373,Sumner Crakehall,1,House Lannister,0,1,0.0267558528428093,1,0,,,0
+1374,Sylas Flatnose,1,House Greyjoy,0,1,0.0100334448160535,1,0,,,0
+1375,Sybell Spicer,0,Noble,1,1,0.0869565217391304,1,0,,,0
+1376,Symon Santagar,1,House Martell,0,1,0.0167224080267558,1,0,,,0
+1377,Sybelle Glover,0,House Stark,1,1,0.0702341137123745,1,0,,,0
+1378,Sylwa Paege,0,House Frey,1,0,0.0802675585284281,1,0,,,0
+1379,Symon Hollard,1,House Baratheon,0,1,0.0434782608695652,1,0,,,0
+1380,Symond Templeton,0,House Arryn,0,1,0.0301003344481605,1,0,,,0
+1381,Symond Frey,1,House Frey,1,0,0.20066889632107,0,6,The Winds of Winter,"Lothar Frey - Killed and carved into a pie by Arya Stark off-screen, body shown.",60
+1382,Tallad,1,House Baratheon,0,1,0.0468227424749163,1,0,,,0
+1383,Tanton Fossoway,0,House Tyrell,0,1,0.0234113712374581,1,0,,,0
+1384,Ternesio Terys,1,Foreign Peasant,0,1,0.0234113712374581,1,0,,,0
+1385,Terrence Kenning,0,House Lannister,0,1,0.0167224080267558,1,0,,,0
+1386,Theodan Wells,0,House Stark,0,1,0.0167224080267558,1,0,,,0
+1387,Terrence Toyne,1,Noble,0,1,0.040133779264214,0,8,The Iron Throne,Tyene Sand - 6 (Deceased),72
+1388,Theodore Tyrell,1,House Tyrell,1,1,0.137123745819397,1,0,,,0
+1389,Theomar Smallwood,1,House Tyrell,1,1,0.0434782608695652,1,0,,,0
+1390,Theomore Harlaw,1,House Greyjoy,0,1,0.0535117056856187,1,0,,,0
+1391,Tim Tangletongue,0,Night's Watch,0,0,0.0133779264214046,1,0,,,0
+1392,Three-Tooth,0,House Greyjoy,0,1,0.0100334448160535,1,0,,,0
+1393,Titus Peake,1,House Tyrell,1,1,0.020066889632107,1,0,,,0
+1394,Tion Frey,1,House Frey,0,0,0.120401337792642,0,8,The Iron Throne,Lothar Frey - 2 (Deceased),72
+1395,Todder,1,Night's Watch,0,0,0.0367892976588628,1,0,,,0
+1396,Tomard,1,House Stark,0,0,0.0635451505016722,0,2,Valar Morghulis,Tom - Stabbed in the stomach by Lady Brienne of Tarth with a sword.,20
+1397,Tommen Costayne,0,House Tyrell,0,1,0.0066889632107023,1,0,,,0
+1398,Torbert,1,Soldier,0,0,0.0167224080267558,1,0,,,0
+1399,Torren Liddle,0,Outlaw,0,1,0.020066889632107,1,0,,,0
+1400,Torwynd,1,Wildling,0,0,0.0267558528428093,0,3,"Dark Wings, Dark Words","Lord Hoster Tully - Died of an unspecified illness off-screen, body shown in ""Walk of Punishment"".",22
+1401,Trebor Jordayne,0,House Martell,0,1,0.0167224080267558,1,0,,,0
+1402,Tremond Gargalen,0,House Martell,0,1,0.0234113712374581,1,0,,,0
+1403,Tristan Mudd,1,Noble,0,1,0.0535117056856187,1,0,,,0
+1404,Triston of Tally Hill,0,House Baratheon,0,1,0.0301003344481605,1,0,,,0
+1405,Triston Farwynd,0,House Greyjoy,0,1,0.0133779264214046,1,0,,,0
+1406,Triston Sunderland,1,House Stark,0,1,0.0301003344481605,1,0,,,0
+1407,Tybolt Hetherspoon,1,Noble,0,1,0.0100334448160535,1,0,,,0
+1408,Tybolt Crakehall,1,House Lannister,0,1,0.0234113712374581,1,0,,,0
+1409,Tybolt Lannister,1,House Lannister,1,1,0.0769230769230769,0,1,Lord Snow,"Unnamed Tyroshi Soldier - Stabbed through the heart by Barristan Selmy with a lance off-screen, mentioned.",3
+1410,Tyana Wylde,0,House Baratheon,1,0,0.0501672240802675,1,0,,,0
+1411,Tyta Frey,0,House Frey,0,0,0.0869565217391304,1,0,,,0
+1412,Tyrek Lannister,1,House Lannister,1,0,0.133779264214046,0,8,The Iron Throne,Lord Tywin Lannister - 3 (Deceased),72
+1413,Tysane Frey,0,House Frey,0,0,0.0836120401337792,1,0,,,0
+1414,Tytos Brax,1,House Lannister,0,1,0.0434782608695652,1,0,,,0
+1415,Tytos Frey,1,House Frey,1,1,0.0635451505016722,0,6,The Winds of Winter,"Lothar Frey - Killed and carved into a pie by Arya Stark off-screen, body shown.",60
+1416,Tywin Frey,1,House Frey,0,1,0.0802675585284281,1,0,,,0
+1417,Ulrick Dayne,1,House Martell,0,1,0.0066889632107023,1,0,,,0
+1418,Ulwyck Uller,1,House Martell,0,1,0.020066889632107,1,0,,,0
+1419,Unella,0,Soldier,0,0,0.020066889632107,1,0,,,0
+1420,Utherydes Wayn,0,Noble,0,1,0.0334448160535117,1,0,,,0
+1421,Uthor Tollett,0,House Arryn,0,1,0.0100334448160535,1,0,,,0
+1422,Vaemond Velaryon,1,Foreign Noble,0,1,0.0301003344481605,0,8,The Bells,Lord Varys - Burned alive by Drogon with his fire breath on the orders of Queen Daenerys I Targaryen.,71
+1423,Valaena Velaryon,0,Foreign Noble,1,1,0.0802675585284281,1,0,,,0
+1424,Vayon Poole,1,Noble,0,1,0.0535117056856187,0,5,The Dance of Dragons,"Ser Byron Swann - Burned alive by Vhagar with his fire breath off-screen, mentioned.",49
+1425,Vickon Greyjoy,0,House Greyjoy,0,1,0.0367892976588628,0,2,The Night Lands,"Rodrik Greyjoy - Died in an unspecified manner off-screen, mentioned.",12
+1426,Viserys Plumm,0,House Targaryen,0,1,0.0936454849498327,0,2,Valar Morghulis,"Pyat Pree - Burned alive by Drogon, Rhaegal, and Viserion with their fire breath on the orders of Queen Daenerys I Targaryen.",20
+1427,Vylarr,1,House Lannister,0,1,0.040133779264214,1,0,,,0
+1428,Vortimer Crane,0,House Tyrell,0,1,0.0267558528428093,1,0,,,0
+1429,Walda Rivers,0,House Frey,0,0,0.0334448160535117,1,0,,,0
+1430,Walder Haigh,0,House Frey,0,0,0.0769230769230769,1,0,,,0
+1431,Walder Brax,0,House Lannister,0,0,0.11705685618729,1,0,,,0
+1432,Walder Goodbrook,1,House Frey,0,0,0.0668896321070234,1,0,,,0
+1433,Waldon Wynch,1,House Greyjoy,0,1,0.0234113712374581,1,0,,,0
+1434,Wallace Waynwood,1,House Arryn,0,1,0.0267558528428093,1,0,,,0
+1435,Walgrave,1,Noble,0,1,0.0434782608695652,1,0,,,0
+1436,Walder Vance,1,House Tully,0,0,0.110367892976588,1,0,,,0
+1437,Walton Stark,1,House Stark,0,1,0.0100334448160535,1,0,,,0
+1438,Walton Frey,1,House Frey,1,0,0.107023411371237,1,0,,,0
+1439,Warryn Beesbury,0,House Tyrell,0,1,0.0066889632107023,1,0,,,0
+1440,Waltyr Frey,1,House Frey,0,0,0.0501672240802675,1,0,,,0
+1441,Wendel Frey,1,House Frey,0,0,0.0501672240802675,1,0,,,0
+1442,Whalen Frey,1,House Frey,1,1,0.100334448160535,1,0,,,0
+1443,Willamen Frey,1,House Frey,0,1,0.0635451505016722,1,0,,,0
+1444,Willam Wells,1,House Martell,0,1,0.040133779264214,0,2,What Is Dead May Never Die,"Willem - Hit in the head by Yoren with an axe off-screen, mentioned.",13
+1445,Willem Darry,1,House Frey,0,1,0.120401337792642,0,2,What Is Dead May Never Die,"Willem - Hit in the head by Yoren with an axe off-screen, mentioned.",13
+1446,Willam Wythers,1,Noble,0,1,0.0100334448160535,1,0,,,0
+1447,Willem Lannister,1,House Lannister,0,0,0.167224080267558,0,8,The Iron Throne,Willem (Commoner) - 1 (Deceased),72
+1448,Willem Frey,1,House Frey,0,0,0.0802675585284281,1,0,,,0
+1449,Willam Stark,1,House Stark,1,1,0.11705685618729,0,1,Winter Is Coming,Will - Decapitated by Lord Eddard Stark with Ice for dissertation.,1
+1450,William Mooton,1,House Tully,0,1,0.0434782608695652,1,0,,,0
+1451,Wynton Stout,1,House Stark,0,1,0.0334448160535117,1,0,,,0
+1452,Wynafrei Whent,0,House Tully,1,0,0.133779264214046,1,0,,,0
+1453,Ysilla Royce,1,House Arryn,1,0,0.0434782608695652,1,0,,,0
+1454,Zachery Frey,1,House Frey,0,0,0.0468227424749163,1,0,,,0
+1455,Zhoe Blanetree,0,House Tully,1,0,0.0501672240802675,1,0,,,0
+1456,Zia Frey,0,House Frey,0,0,0.0468227424749163,1,0,,,0
+1457,Addam Marbrand,1,House Lannister,0,1,0.130434782608695,1,0,,,0
+1458,Aegor Rivers,1,House Tully,1,1,0.210702341137123,0,7,Dragonstone,Ryger Rivers - Poisoned by Arya Stark.,61
+1459,Aenys Frey,1,House Frey,1,1,0.147157190635451,0,7,Dragonstone,38 Unnamed Frey Knights - Poisoned by Arya Stark.,61
+1460,Aerion Targaryen,1,House Targaryen,1,1,0.207357859531772,0,3,And Now His Watch Is Ended,"Aerion ""Brightflame"" Targaryen - Burned alive when he drank wildfire off-screen, mentioned.",24
+1461,Aemond Targaryen,1,House Targaryen,0,1,0.311036789297658,0,7,Eastwatch,Lord Randyll Tarly - Burned alive by Drogon with his fire breath on the orders of Queen Daenerys I Targaryen.,65
+1462,Amerei Frey,0,House Frey,1,1,0.237458193979933,1,0,,,0
+1463,Androw Ashford,1,House Tyrell,0,1,0.0167224080267558,1,0,,,0
+1464,Anders Yronwood,1,House Martell,0,1,0.060200668896321,1,0,,,0
+1465,Arnolf Karstark,1,House Stark,0,1,0.137123745819397,1,0,,,0
+1466,Arya Stark,0,House Stark,0,1,1.0,1,0,,,0
+1467,Axell Florent,1,House Tyrell,0,1,0.307692307692307,0,8,The Bells,Unnamed Lannister Soldier - Stabbed in the stomach by Grey Worm with a spear.,71
+1468,Aurane Waters,1,Foreign Noble,0,1,0.377926421404682,1,0,,,0
+1469,Ben Plumm,1,Outlaw,0,1,0.140468227424749,1,0,,,0
+1470,Benfred Tallhart,1,House Stark,0,0,0.0702341137123745,0,4,First of His Name,Unnamed Mutineer - Stabbed in the stomach by Eddison Tollett with a sword.,35
+1471,Boros Blount,1,House Baratheon,0,1,0.217391304347826,1,0,,,0
+1472,Black Balaq,1,Foreign Peasant,0,0,0.0,1,0,,,0
+1473,Bloodbeard,0,Outlaw,0,0,0.0903010033444816,1,0,,,0
+1474,Bran Stark,1,House Stark,0,1,1.0,1,0,,,0
+1475,Bronn,1,House Lannister,1,1,0.471571906354515,1,0,,,0
+1476,Bryce Caron,1,House Baratheon,0,1,0.0668896321070234,0,8,The Iron Throne,Brother Ray - 1 (Deceased),72
+1477,Butterbumps,1,House Tyrell,0,0,0.0367892976588628,1,0,,,0
+1478,Cassana Estermont,1,House Baratheon,1,0,0.103678929765886,0,3,The Rains of Castamere,Talisa Stark's Unborn Child - Stabbed to death by Lothar Frey with a knife.,29
+1479,Chett,1,Night's Watch,0,0,0.197324414715719,0,4,The Watchers on the Wall,Unnamed Free Folk - Chest slashed by Ser Alliser Thorne with a sword.,39
+1480,Clayton Suggs,1,Noble,0,1,0.0434782608695652,1,0,,,0
+1481,Cersei Lannister,0,House Lannister,1,1,1.0,0,8,The Iron Throne,Queen Cersei I Lannister - 189 (Deceased),72
+1482,Chiswyck,0,House Lannister,0,0,0.0635451505016722,0,8,The Iron Throne,Othell Yarwyck - 1 (Deceased),72
+1483,Cleon,1,Foreign Peasant,0,1,0.103678929765886,0,1,A Golden Crown,"Ser Vardis Egen - Stabbed in the neck by Bronn with a sword, then thrown through the Moon Door.",6
+1484,Cohollo,1,Dothraki,0,0,0.0334448160535117,0,4,The Watchers on the Wall,"Cooper - Killed by Mag Mar Tun Doh Weg off-screen, body shown.",39
+1485,Cortnay Penrose,1,House Baratheon,0,1,0.160535117056856,0,2,The Ghost of Harrenhal,Ser Robar Royce - Stabbed in the back by Brienne of Tarth with a sword.,15
+1486,Cotter Pyke,1,Night's Watch,0,1,0.150501672240802,1,0,,,0
+1487,Cragorn,1,House Greyjoy,0,0,0.0234113712374581,0,8,The Iron Throne,Ser Gregor Clegane/The Mountain - 17 (Deceased),72
+1488,Crawn,1,Outlaw,0,0,0.0167224080267558,1,0,,,0
+1489,Creighton Longbough,1,House Martell,0,1,0.0468227424749163,1,0,,,0
+1490,Cressen,1,Soldier,0,1,0.183946488294314,0,2,The Old Gods and the New,Drennan - Throat slit by Osha with a knife.,16
+1491,Daario Naharis,1,Outlaw,0,0,0.220735785953177,1,0,,,0
+1492,Dagmer,1,House Greyjoy,0,1,0.120401337792642,1,0,,,0
+1493,Dagos Manwoody,1,House Martell,0,1,0.0334448160535117,1,0,,,0
+1494,Danelle Lothston,0,Noble,0,1,0.0167224080267558,1,0,,,0
+1495,Dalla,0,Wildling,0,0,0.0869565217391304,0,8,The Bells,Unella - Died when Drogon destroyed the Red Keep on the orders of Queen Daenerys I Targaryen.,71
+1496,Doran Martell,1,House Martell,1,1,0.498327759197324,0,6,The Red Woman,Prince Doran Martell - Stabbed in the chest by Ellaria Sand with a knife.,51
+1497,Ebrose,1,Noble,0,1,0.0167224080267558,1,0,,,0
+1498,Eddison Tollett,1,House Arryn,0,0,0.100334448160535,0,2,The Night Lands,"Eddison Tollett's Mother - Died in an unspecified manner off-screen, mentioned.",12
+1499,Edric Dayne,1,House Martell,0,1,0.0836120401337792,1,0,,,0
+1500,Edwyn Frey,1,House Frey,1,0,0.147157190635451,1,0,,,0
+1501,Eldon Estermont,1,House Baratheon,1,1,0.060200668896321,1,0,,,0
+1502,Ellaria Sand,0,House Martell,1,0,0.160535117056856,0,8,The Iron Throne,Ellaria Sand - 2 (Deceased),72
+1503,Ethan Glover,1,House Stark,0,0,0.0334448160535117,0,4,The Mountain and the Viper,Jack Bulwer - Killed by unknown Free Folk off-screen.,38
+1504,Emmon Frey,1,House Frey,1,1,0.23076923076923,1,0,,,0
+1505,Galbart Glover,1,House Stark,0,1,0.120401337792642,1,0,,,0
+1506,Gerold Hightower,1,House Tyrell,0,1,0.414715719063545,0,8,The Long Night,Wight - Hit by Gendry Baratheon with a war hammer.,69
+1507,Ghost of High Heart,0,House Bolton,0,0,0.0869565217391304,1,0,,,0
+1508,Gerris Drinkwater,1,House Martell,0,1,0.157190635451505,1,0,,,0
+1509,Gilly,0,Wildling,1,0,0.2876254180602,1,0,,,0
+1510,Greydon Goodbrother,1,House Greyjoy,0,0,0.0468227424749163,1,0,,,0
+1511,Harmen Uller,1,House Martell,0,1,0.0434782608695652,1,0,,,0
+1512,Gyles Rosby,1,House Baratheon,0,1,0.364548494983277,0,4,The Lion and the Rose,Tansy - Mauled by the bastard's girls on the orders of Lord Ramsay Snow.,32
+1513,Harren Hoare,1,House Greyjoy,0,0,0.204013377926421,0,2,A Man Without Honor,"King Harren Hoare - Burned alive by a dragon with its fire breath on the orders of King Aerys II Targaryen off-screen, mentioned.",17
+1514,Harras Harlaw,1,House Greyjoy,0,1,0.107023411371237,1,0,,,0
+1515,Harrold Hardyng,1,House Arryn,0,1,0.120401337792642,1,0,,,0
+1516,Helaena Targaryen,0,House Targaryen,1,1,0.270903010033444,0,8,The Bells,Ellaria Sand - Died when Drogon destroyed the Red Keep on the orders of Queen Daenerys I Targaryen.,71
+1517,Hodor,1,House Stark,0,0,0.244147157190635,0,8,The Iron Throne,Wylis/Hodor - 3 (Deceased),72
+1518,Harrion Karstark,1,House Stark,0,1,0.0969899665551839,1,0,,,0
+1519,Iggo,1,Dothraki,0,0,0.0167224080267558,0,4,Two Swords,"Rabbit - Shot in the eye by Ygritte with an arrow off-screen, mentioned.",31
+1520,Hother Umber,1,House Stark,0,1,0.1438127090301,1,0,,,0
+1521,Jalabhar Xho,1,Foreign Noble,0,1,0.0735785953177257,1,0,,,0
+1522,Janos Slynt,1,Night's Watch,0,1,0.561872909698996,0,8,The Long Night,Ser Jorah Mormont - Died of his injuries after being stabbed by wight.,69
+1523,Jared Frey,1,House Frey,1,1,0.147157190635451,0,8,The Iron Throne,Lothar Frey - 2 (Deceased),72
+1524,Jasper Wylde,1,House Baratheon,0,1,0.250836120401337,0,1,The Wolf and the Lion,Wyl - Impaled through the chest by an unknown Lannister soldier with a thrown spear on the orders of Ser Jaime Lannister.,5
+1525,Jhaqo,0,Dothraki,0,1,0.0668896321070234,1,0,,,0
+1526,Jeyne Lothston,0,Noble,0,0,0.0234113712374581,0,8,The Long Night,Lady Lyanna Mormont - Died of her injuries after being crushed by a giant wight. Reanimated as a wight.,69
+1527,Jhiqui,0,House Targaryen,0,0,0.1438127090301,1,0,,,0
+1528,Jon Bulwer,1,House Tyrell,1,1,0.137123745819397,1,0,,,0
+1529,Jory Cassel,1,House Stark,0,1,0.170568561872909,0,8,The Iron Throne,Jory Cassel - 2 (Deceased),72
+1530,Jorah Mormont,1,House Stark,1,1,0.722408026755852,0,8,The Iron Throne,Ser Jorah Mormont - 47 (Deceased),72
+1531,Karyl Vance,1,House Tully,0,1,0.11705685618729,1,0,,,0
+1532,Khrazz,1,Foreign Peasant,0,0,0.0769230769230769,0,3,And Now His Watch Is Ended,Kraznys mo Nakloz - Burned alive by Drogon with his fire breath on the orders of Queen Daenerys I Targaryen.,24
+1533,Kurleket,1,House Tully,0,0,0.0100334448160535,0,1,The Wolf and the Lion,Kurleket - Killed by an unknown Hill Tribesman.,5
+1534,Lann the Clever,1,House Lannister,0,0,0.060200668896321,1,0,,,0
+1535,Kyle Condon,1,House Arryn,0,1,0.040133779264214,1,0,,,0
+1536,Lancel Lannister,1,House Lannister,1,1,0.478260869565217,0,7,The Queen's Justice,Unnamed Lannister Soldier - Fell to his death after being thrown from Casterly Rock by an unknown Unsullied.,63
+1537,Likely Luke,0,Outlaw,0,0,0.0133779264214046,1,0,,,0
+1538,Lucas Inchfield,1,Noble,0,1,0.0535117056856187,0,7,The Queen's Justice,Unnamed Lannister Soldier - Fell to his death after being thrown from Casterly Rock by an unknown Unsullied.,63
+1539,Lollys Stokeworth,0,House Lannister,1,1,0.127090301003344,1,0,,,0
+1540,Lyanna Stark,1,House Stark,0,0,0.354515050167224,0,8,The Long Night,Lady Lyanna Mormont (Wight) - Died when Arya Stark killed the Night King.,69
+1541,Lyle Crakehall,1,House Lannister,0,1,0.107023411371237,1,0,,,0
+1542,Lucas Blackwood,1,House Tully,0,0,0.0735785953177257,0,2,Blackwater,Matthos Seaworth - Blown up by Bronn when he blew up his ship by igniting wildfire with a flaming arrow using a bow.,19
+1543,Lyn Corbray,1,House Baratheon,0,1,0.0903010033444816,1,0,,,0
+1544,Lynesse Hightower,1,House Tyrell,1,0,0.11705685618729,1,0,,,0
+1545,Mace Tyrell,1,House Tyrell,1,1,0.856187290969899,0,6,The Winds of Winter,Lord Mace Tyrell - Blown up by Cersei Lannister with wildfire when she caused the destruction of the Great Sept of Baelor.,60
+1546,Mag Mar Tun Doh Weg,1,Foreign Peasant,0,0,0.040133779264214,0,8,The Iron Throne,Mag Mar Tun Doh Weg - 6 (Deceased),72
+1547,Mandon Moore,1,House Arryn,0,1,0.120401337792642,0,6,The Broken Man,"Lady Maege Mormont - Died of unknown causes during the War of the Five Kings off-screen, mentioned.",57
+1548,Mago,0,Dothraki,0,0,0.0334448160535117,0,3,Mhysa,"Dagmer - Flayed alive by Lord Ramsay Snow off-screen, mentioned.",30
+1549,Maron Botley,1,House Greyjoy,0,0,0.020066889632107,1,0,,,0
+1550,Marillion,1,Outlaw,0,0,0.1438127090301,0,8,The Iron Throne,Mag Mar Tun Doh Weg - 6 (Deceased),72
+1551,Marya Seaworth,0,House Baratheon,1,1,0.0635451505016722,1,0,,,0
+1552,Marwyn,1,Foreign Peasant,0,1,0.160535117056856,1,0,,,0
+1553,Masha Heddle,0,Foreign Peasant,0,0,0.040133779264214,0,3,Mhysa,"Dagmer - Flayed alive by Lord Ramsay Snow off-screen, mentioned.",30
+1554,Matthos Seaworth,1,House Baratheon,0,0,0.0769230769230769,0,2,Blackwater,Matthos Seaworth - Blown up by Bronn when he blew up his ship by igniting wildfire with a flaming arrow using a bow.,19
+1555,Meera Reed,0,House Stark,0,0,0.270903010033444,1,0,,,0
+1556,Melara Hetherspoon,0,Noble,0,0,0.0468227424749163,0,5,High Sparrow,"Medger Cerwyn's Wife - Flayed alive by Lord Ramsay Snow off-screen, body shown.",43
+1557,Melissa Blackwood,0,House Tully,0,0,0.0501672240802675,0,8,The Iron Throne,Melisandre/The Red Woman - 43 (Deceased),72
+1558,Melisandre,0,Foreign Noble,0,0,0.745819397993311,1,0,,,0
+1559,Merrit,0,Outlaw,0,0,0.0100334448160535,1,0,,,0
+1560,Meryn Trant,1,House Baratheon,0,1,0.220735785953177,0,3,Mhysa,"Black Lorren - Flayed alive by Lord Ramsay Snow off-screen, mentioned.",30
+1561,Merrett Frey,1,House Frey,1,0,0.434782608695652,0,3,Mhysa,Unnamed Frey Soldier - Repeatedly stabbed in the neck by Arya Stark with a knife.,30
+1562,Mohor,1,House Tully,0,0,0.0100334448160535,0,3,Mhysa,"Unnamed Prince - Killed and cooked by Rat Cook off-screen, mentioned.",30
+1563,Missandei,0,House Targaryen,0,0,0.17391304347826,0,3,Walk of Punishment,"Both of Missandei's Parents - Died in an unspecified manner off-screen, mentioned.",23
+1564,Moon Boy,1,House Baratheon,0,0,0.0769230769230769,1,0,,,0
+1565,Monster,0,Wildling,0,0,0.0769230769230769,1,0,,,0
+1566,Mord,1,House Arryn,0,0,0.0468227424749163,1,0,,,0
+1567,Minisa Whent,0,House Tully,1,1,0.0434782608695652,1,0,,,0
+1568,Mordane,0,House Stark,0,0,0.103678929765886,0,3,Mhysa,"Black Lorren - Flayed alive by Lord Ramsay Snow off-screen, mentioned.",30
+1569,Murenmure,1,Outlaw,0,1,0.0100334448160535,1,0,,,0
+1570,Myles,1,House Martell,0,1,0.0234113712374581,1,0,,,0
+1571,Mors Martell,0,House Martell,1,1,0.0535117056856187,1,0,,,0
+1572,Mya Stone,0,House Arryn,0,0,0.120401337792642,1,0,,,0
+1573,Myrcella Baratheon,0,House Baratheon,0,1,0.561872909698996,1,0,,,0
+1574,Nestor Royce,1,House Arryn,0,1,0.0869565217391304,1,0,,,0
+1575,Nute,1,House Greyjoy,0,1,0.0501672240802675,1,0,,,0
+1576,Nymeria Sand,0,House Martell,0,0,0.377926421404682,0,8,The Iron Throne,Nymeria Sand - 1 (Deceased),72
+1577,Nymeria,0,House Martell,1,1,0.197324414715719,1,0,,,0
+1578,Oberyn Martell,1,House Martell,0,1,0.77257525083612,0,2,The Ghost of Harrenhal,King Renly Baratheon - Stabbed in the back by a shadow while under the control of Melisandre.,15
+1579,Obella Sand,0,House Martell,0,0,0.103678929765886,1,0,,,0
+1580,Olenna Redwyne,0,House Tyrell,1,1,0.2876254180602,1,0,,,0
+1581,Mychel Redfort,1,House Arryn,1,1,0.0702341137123745,1,0,,,0
+1582,Orwyle,1,Soldier,0,1,0.254180602006688,1,0,,,0
+1583,Osha,1,Wildling,0,0,0.250836120401337,0,8,The Iron Throne,Osha (Free Folk) - 3 (Deceased),72
+1584,Osfryd Kettleblack,1,Outlaw,0,1,0.0869565217391304,1,0,,,0
+1585,Osney Kettleblack,1,Outlaw,0,1,0.123745819397993,1,0,,,0
+1586,Orys Baratheon,1,House Baratheon,1,1,0.48829431438127,0,4,Breaker of Chains,"King Orys I - Killed by his unknown brother off-screen, mentioned.",33
+1587,Osmund Kettleblack,1,Outlaw,0,1,0.170568561872909,1,0,,,0
+1588,Othell Yarwyck,1,Noble,0,1,0.0635451505016722,0,8,The Iron Throne,Othell Yarwyck - 1 (Deceased),72
+1589,Oswell Whent,1,House Tully,0,1,0.0802675585284281,0,8,The Iron Throne,Othell Yarwyck - 1 (Deceased),72
+1590,Otto Hightower,1,House Tyrell,0,1,0.371237458193979,0,6,Oathbreaker,"Ser Gerold Hightower - Stabbed in the neck by Lord Eddard Stark with Dawn, shown in a flashback.",53
+1591,Patchface,1,House Baratheon,0,0,0.107023411371237,1,0,,,0
+1592,Paxter Redwyne,1,House Tyrell,1,1,0.511705685618729,1,0,,,0
+1593,Pearse Caron,1,House Baratheon,0,1,0.0133779264214046,1,0,,,0
+1594,Petyr Frey,1,House Frey,1,0,0.177257525083612,0,6,The Winds of Winter,"Lothar Frey - Killed and carved into a pie by Arya Stark off-screen, body shown.",60
+1595,Pia,0,House Tully,0,0,0.0468227424749163,1,0,,,0
+1596,Podrick Payne,1,House Lannister,0,0,0.290969899665551,1,0,,,0
+1597,Preston Greenfield,1,House Lannister,0,1,0.0936454849498327,0,7,Stormborn,"Archmaester Pylos - Died after being infected with greyscale off-screen, mentioned.",62
+1598,Polliver,1,House Lannister,0,1,0.0769230769230769,0,8,The Iron Throne,Polliver (House Lannister) - 1 (Deceased),72
+1599,Pyat Pree,0,Foreign Noble,0,1,0.0969899665551839,0,3,Mhysa,"Wex Pyke - Flayed alive by Lord Ramsay Snow off-screen, mentioned.",30
+1600,Pylos,1,House Greyjoy,0,1,0.0568561872909698,1,0,,,0
+1601,Pycelle,1,House Lannister,0,1,0.638795986622073,0,6,The Winds of Winter,Grand Maester Pycelle - Stabbed to death by unknown children with knives on the orders of Qyburn.,60
+1602,Qhorin Halfhand,1,Night's Watch,0,0,0.210702341137123,0,2,Valar Morghulis,Qhorin Halfhand - Stabbed through the stomach by Jon Snow using Longclaw.,20
+1603,Qotho,1,Dothraki,0,0,0.0635451505016722,0,1,Baelor,Qotho - Slashed across the face by Ser Jorah Mormont with a sword.,9
+1604,Quentyn Martell,1,House Martell,0,1,0.551839464882943,0,8,The Long Night,Qhono (Wight) - Died when Arya Stark killed the Night King.,69
+1605,Ralf Stonehouse,1,House Greyjoy,0,1,0.0334448160535117,1,0,,,0
+1606,Ramsay Snow,1,House Stark,1,1,0.461538461538461,1,0,,,0
+1607,Randyll Tarly,1,House Tyrell,1,1,0.618729096989966,0,8,The Iron Throne,Dickon Tarly - 2 (Deceased),72
+1608,Raymun Fossoway,1,House Tyrell,0,1,0.040133779264214,1,0,,,0
+1609,Raymun Darry,1,House Frey,0,1,0.0769230769230769,0,3,The Rains of Castamere,"Pig - Killed by an unknown man off-screen, body shown.",29
+1610,Ravella Swann,0,House Baratheon,1,1,0.060200668896321,1,0,,,0
+1611,Small Paul,1,Night's Watch,0,0,0.0267558528428093,0,8,The Iron Throne,Lord Smalljon Umber - 2 (Deceased),72
+1612,Tristifer Botley,1,House Greyjoy,0,1,0.120401337792642,1,0,,,0
+1613,Styr,1,Wildling,0,1,0.140468227424749,0,8,The Iron Throne,Styr (Wildling) - 6 (Deceased),72
+1614,Rat Cook,1,Night's Watch,0,0,0.0568561872909698,1,0,,,0
+1615,Prendahl na Ghezn,1,Outlaw,0,0,0.040133779264214,0,3,Second Sons,"Prendahl na Ghezn - Decapitated by Daario Naharis off-screen, head shown.",28
+1616,Ulmer,1,Outlaw,0,0,0.0535117056856187,1,0,,,0
+1617,Oznak zo Pahl,1,Foreign Peasant,0,0,0.0568561872909698,0,2,What Is Dead May Never Die,"Willem - Hit in the head by Yoren with an axe off-screen, mentioned.",13
+1618,Aegon Blackfyre,1,House Targaryen,0,0,0.0836120401337792,0,1,Baelor,"Prince Aegon Targaryen - Killed by Ser Gregor Clegane/The Mountain on the orders of Lord Tywin Lannister off-screen, mentioned.",9
+1619,Addam Velaryon,1,Foreign Noble,0,1,0.107023411371237,0,4,Two Swords,"Prince Aemon Targaryen - Killed by unknown members of House Toyne off-screen, mentioned.",31
+1620,Aegon V Targaryen,1,House Targaryen,0,0,0.695652173913043,0,8,The Iron Throne,King Aegon II Targaryen - 1 (Deceased),72
+1621,Aemon Blackfyre,1,House Targaryen,0,0,0.0869565217391304,0,1,Fire and Blood,"Rhaego - Stillborn after being cursed by Mirri Maz Duur using blood magic off-screen, mentioned.",10
+1622,Aeron Greyjoy,1,House Greyjoy,0,1,0.45819397993311,1,0,,,0
+1623,Alfyn,1,Wildling,0,0,0.0,0,8,The Long Night,Lady Alys Karstark - Killed by wight off-screen. Reanimated as a wight.,69
+1624,Alannys Harlaw,0,House Greyjoy,1,1,0.237458193979933,1,0,,,0
+1625,Alayaya,0,Peasant,0,0,0.0769230769230769,1,0,,,0
+1626,Alyn,1,House Stark,0,0,0.0735785953177257,0,8,The Long Night,Lady Alys Karstark (Wight) - Died when Arya Stark killed the Night King.,69
+1627,Alliser Thorne,1,House Baratheon,0,1,0.23076923076923,0,8,The Iron Throne,Ser Alliser Thorne - 3 (Deceased),72
+1628,Alester Florent,1,House Tyrell,1,1,0.327759197324414,0,4,The Lion and the Rose,Lord Axell Florent - Burned alive by unknown Baratheon soldiers on the orders of Melisandre/The Red Woman.,32
+1629,Alysane Mormont,0,House Stark,0,0,0.0702341137123745,1,0,,,0
+1630,Alerie Hightower,0,House Tyrell,1,1,0.227424749163879,1,0,,,0
+1631,Anguy,1,Outlaw,0,0,0.130434782608695,1,0,,,0
+1632,Andrik,1,House Greyjoy,0,1,0.0434782608695652,1,0,,,0
+1633,Amory Lorch,1,House Lannister,0,1,0.277591973244147,0,8,The Iron Throne,Ser Amory Lorch - 1 (Deceased),72
+1634,Archibald Yronwood,1,House Martell,0,1,0.140468227424749,1,0,,,0
+1635,Arlan of Pennytree,1,Foreign Noble,0,1,0.103678929765886,0,8,The Bells,Ser Arys Oakheart - Either crushed by rubble caused by Drogon on the orders of Queen Daenerys I Targaryen or slashed by Sandor Clegane/The Hound with a sword.,71
+1636,Areo Hotah,1,House Martell,0,1,0.25752508361204,0,8,The Iron Throne,"""Hot Pie"" - 1 (Alive)",72
+1637,Arwyn Oakheart,1,House Tyrell,0,1,0.0367892976588628,1,0,,,0
+1638,Arthur Dayne,1,House Martell,0,1,0.153846153846153,0,8,The Long Night,Lord Beric Dondarrion (Wight) - Died when Arya Stark killed the Night King.,69
+1639,Arys Oakheart,1,House Tyrell,0,1,0.34448160535117,0,8,The Bells,Ser Arys Oakheart - Either crushed by rubble caused by Drogon on the orders of Queen Daenerys I Targaryen or slashed by Sandor Clegane/The Hound with a sword.,71
+1640,Ashara Dayne,0,House Martell,0,0,0.0936454849498327,0,8,The Long Night,Lady Alys Karstark (Wight) - Died when Arya Stark killed the Night King.,69
+1641,Aron Santagar,1,House Martell,0,1,0.0668896321070234,0,6,Battle of the Bastards,Rickon Stark - Shot in the back by Lord Ramsay Bolton with an arrow using a bow.,59
+1642,Asha Greyjoy,0,House Greyjoy,1,1,0.709030100334448,1,0,,,0
+1643,Azor Ahai,0,Foreign Peasant,1,0,0.11705685618729,1,0,,,0
+1644,Bael the Bard,1,Wildling,0,1,0.0,1,0,,,0
+1645,Baelor Blacktyde,1,House Greyjoy,0,1,0.060200668896321,0,1,Baelor,The Red (Horse) - Throat slit by Mirri Maz Duur with a knife.,9
+1646,Balon Greyjoy,1,House Greyjoy,0,0,0.739130434782608,0,8,The Bells,King Euron Greyjoy - Died of his injuries after being stabbed in the stomach by Ser Jaime Lannister.,71
+1647,Ballabar,1,House Tyrell,0,1,0.0301003344481605,1,0,,,0
+1648,Baelor I Targaryen,1,House Targaryen,0,0,0.501672240802675,0,1,Baelor,"Princess Rhaenys Targaryen - Killed by Ser Gregor Clegane/The Mountain on the orders of Lord Tywin Lannister off-screen, mentioned.",9
+1649,Balon Swann,1,House Baratheon,0,1,0.311036789297658,1,0,,,0
+1650,Barba Bracken,0,House Tully,0,0,0.0501672240802675,0,6,The Broken Man,"Lady Maege Mormont - Died of unknown causes during the War of the Five Kings off-screen, mentioned.",57
+1651,Barristan Selmy,1,House Baratheon,0,1,1.0,0,8,The Iron Throne,Ser Barristan Selmy/Barristan the Bold - 11 (Deceased),72
+1652,Barbrey Dustin,0,House Stark,1,1,0.163879598662207,1,0,,,0
+1653,Bellegere Otherys,0,Foreign Peasant,0,0,0.040133779264214,1,0,,,0
+1654,Beardless Dick,0,Outlaw,0,0,0.020066889632107,1,0,,,0
+1655,Belwas,1,House Targaryen,0,0,0.1438127090301,1,0,,,0
+1656,Benjen Stark,1,House Stark,0,1,0.40133779264214,0,6,Blood of My Blood,Two Wight - Hit in the chest by Benjen Stark with a burning flail.,56
+1657,Bethany Bracken,0,House Tully,0,0,0.0301003344481605,0,6,The Red Woman,Unnamed Bolton Soldier - Slashed by Lady Brienne of Tarth with Oathkeeper.,51
+1658,Beric Dondarrion,1,Soldier,0,1,0.434782608695652,0,8,The Iron Throne,Lord Beric Dondarrion - 22 (Deceased),72
+1659,Beric Dondarrion,1,Wildling,0,1,0.434782608695652,0,8,The Iron Throne,Lord Beric Dondarrion - 22 (Deceased),72
+1660,Beric Dondarrion,1,House Bolton,0,1,0.434782608695652,0,8,The Iron Throne,Lord Beric Dondarrion - 22 (Deceased),72
+1661,Beric Dondarrion,1,Foreign Noble,0,1,0.434782608695652,0,8,The Iron Throne,Lord Beric Dondarrion - 22 (Deceased),72
+1662,Biter,1,Outlaw,0,0,0.127090301003344,0,4,Mockingbird,Biter - Neck broken by Sandor Clegane/The Hound.,37
+1663,Bluetooth,1,House Greyjoy,0,0,0.0133779264214046,1,0,,,0
+1664,Brandon Norrey,1,Outlaw,0,1,0.0301003344481605,1,0,,,0
+1665,Bowen Marsh,1,Night's Watch,0,1,0.254180602006688,0,6,Oathbreaker,Bowen Marsh - Hung by Lord Commander Jon Snow.,53
+1666,Bonifer Hasty,1,Noble,0,1,0.0535117056856187,1,0,,,0
+1667,Bran the Builder,0,House Stark,0,1,0.0903010033444816,1,0,,,0
+1668,Brynden Rivers,1,House Targaryen,0,1,0.605351170568561,0,7,Dragonstone,Ryger Rivers - Poisoned by Arya Stark.,61
+1669,Brynden Tully,1,House Tully,0,1,0.341137123745819,1,0,,,0
+1670,Caleotte,1,House Martell,0,1,0.040133779264214,1,0,,,0
+1671,Cassella Vaith,0,House Martell,0,1,0.0100334448160535,1,0,,,0
+1672,Cellador,1,Night's Watch,0,0,0.0334448160535117,1,0,,,0
+1673,Chella,0,Outlaw,0,0,0.0367892976588628,1,0,,,0
+1674,Cletus Yronwood,1,House Martell,0,1,0.0702341137123745,0,8,The Iron Throne,Othell Yarwyck - 1 (Deceased),72
+1675,Colemon,1,House Arryn,0,1,0.0668896321070234,1,0,,,0
+1676,Corlys Velaryon,1,Foreign Noble,1,1,0.525083612040133,0,8,The Bells,Lord Varys - Burned alive by Drogon with his fire breath on the orders of Queen Daenerys I Targaryen.,71
+1677,Criston Cole,1,House Baratheon,0,1,0.505016722408026,0,4,Breaker of Chains,"King Orys I - Killed by his unknown brother off-screen, mentioned.",33
+1678,Daemon I Blackfyre,1,House Targaryen,1,1,0.0,0,1,Fire and Blood,"Rhaego - Stillborn after being cursed by Mirri Maz Duur using blood magic off-screen, mentioned.",10
+1679,Daemon Targaryen,1,House Targaryen,1,1,0.668896321070234,0,7,The Spoils of War,William - Burned alive by Drogon with his fire breath on the orders of Queen Daenerys I Targaryen.,64
+1680,Daenerys Targaryen,0,House Targaryen,1,1,1.0,0,8,The Iron Throne,"Queen Daenerys I ""Dany"" Targaryen - 753,045 (Deceased)",72
+1681,Danny Flint,0,House Stark,0,0,0.0234113712374581,1,0,,,0
+1682,Daven Lannister,1,House Lannister,0,1,0.207357859531772,1,0,,,0
+1683,Dick Crabb,1,Noble,0,0,0.0702341137123745,0,1,"Cripples, Bastards, and Broken Things","Ghiscar (Dragon) - Died in an unspecified manner off-screen, mentioned.",4
+1684,Donal Noye,1,House Baratheon,0,0,0.140468227424749,0,3,Valar Dohaeris,"199 Unnamed Northmen - Killed by unknown Lannister soldiers off-screen, bodies shown.",21
+1685,Domeric Bolton,1,House Stark,0,0,0.0903010033444816,0,6,Battle of the Bastards,Unnamed Bolton Soldier - Stabbed in the head by an unknown Northern soldier.,59
+1686,Davos Seaworth,1,House Lannister,1,1,0.969899665551839,1,0,,,0
+1687,Doreah,0,House Targaryen,0,0,0.110367892976588,0,8,The Iron Throne,Doreah (Handmaider) - 1 (Deceased),72
+1688,Dorea Sand,0,House Martell,0,0,0.103678929765886,1,0,,,0
+1689,Dywen,1,Night's Watch,0,0,0.0936454849498327,1,0,,,0
+1690,Eddard Karstark,1,House Stark,0,0,0.0735785953177257,0,6,Battle of the Bastards,Lord Harald Karstark - Killed by an unknown Bolton soldier.,59
+1691,Eddard Stark,1,House Stark,1,1,1.0,0,8,The Iron Throne,"Lord Eddard ""Ned"" Stark - 8 (Deceased)",72
+1692,Elia Sand,0,House Martell,0,0,0.11705685618729,1,0,,,0
+1693,Edmure Tully,1,House Tully,1,1,0.655518394648829,1,0,,,0
+1694,Elia Martell,0,House Martell,1,1,0.441471571906354,0,4,Two Swords,"Princess Elia Martell - Cut in half by Ser Gregor Clegane/The Mountain with a sword on the orders of Lord Tywin Lannister off-screen, mentioned.",31
+1695,Emmon Cuy,1,House Tyrell,0,1,0.0367892976588628,0,4,First of His Name,Unnamed Mutineer - Stabbed in the stomach by Eddison Tollett with a sword.,35
+1696,Eleyna Westerling,0,House Lannister,0,0,0.0468227424749163,1,0,,,0
+1697,Falena Stokeworth,1,House Lannister,1,1,0.0234113712374581,0,1,A Golden Crown,Stiv - Shot in the back by Theon Greyjoy with an arrow using a bow.,6
+1698,Falia Flowers,0,House Tyrell,0,0,0.0267558528428093,1,0,,,0
+1699,Eustace Osgrey,1,House Tyrell,1,1,0.147157190635451,1,0,,,0
+1700,Farlen,1,House Stark,0,0,0.0568561872909698,0,2,Valar Morghulis,"Farlen - Killed by unknown Bolton soldiers off-screen, body shown.",20
+1701,Falyse Stokeworth,0,House Lannister,1,0,0.100334448160535,0,4,The Watchers on the Wall,Styr - Hit in the head by Jon Snow with a hammer.,39
+1702,Galazza Galare,0,Foreign Peasant,0,1,0.0903010033444816,1,0,,,0
+1703,Emmond,1,House Greyjoy,0,0,0.0100334448160535,1,0,,,0
+1704,Garth Hightower,0,House Tyrell,0,1,0.0501672240802675,1,0,,,0
+1705,Gared,1,Night's Watch,0,0,0.0936454849498327,0,5,Mother's Mercy,Gordy - Stabbed in the throat by King Stannis Baratheon with a knife.,50
+1706,Genna Lannister,0,House Lannister,1,1,0.217391304347826,1,0,,,0
+1707,Garlan Tyrell,1,House Tyrell,1,1,0.327759197324414,1,0,,,0
+1708,Gerion Lannister,1,House Lannister,0,0,0.140468227424749,0,2,The Prince of Winterfell,"Harrion Karstark - Killed by an unknown Lannister soldier off-screen, mentioned.",18
+1709,Gevin Harlaw,0,House Greyjoy,0,0,0.0167224080267558,0,2,The Ghost of Harrenhal,"Xaro Xhoan Daxos' Wife - Died in an unspecified manner off-screen, mentioned.",15
+1710,Gerold Dayne,1,House Martell,0,1,0.107023411371237,1,0,,,0
+1711,Godry Farring,1,House Lannister,0,1,0.0635451505016722,1,0,,,0
+1712,Gorold Goodbrother,1,House Greyjoy,0,1,0.0802675585284281,1,0,,,0
+1713,Grenn,1,Night's Watch,0,0,0.204013377926421,0,8,The Iron Throne,Grenn (Night's Watch) - 2 (Deceased),72
+1714,Grey Worm,1,Soldier,0,0,0.140468227424749,1,0,,,0
+1715,Greenbeard,1,Outlaw,0,0,0.0367892976588628,1,0,,,0
+1716,Groleo,0,House Targaryen,0,1,0.110367892976588,0,3,And Now His Watch Is Ended,Greizhen mo Ullhor - Killed by unknown Unsullied on the orders of Queen Daenerys I Targaryen.,24
+1717,Grunt,1,House Stark,0,0,0.0267558528428093,1,0,,,0
+1718,Gregor Clegane,1,House Lannister,0,1,0.836120401337792,0,8,The Iron Throne,Ser Gregor Clegane/The Mountain - 17 (Deceased),72
+1719,Gylbert Farwynd,1,House Greyjoy,0,1,0.040133779264214,1,0,,,0
+1720,Guyard Morrigen,1,House Baratheon,0,1,0.0635451505016722,0,6,The Broken Man,"Lady Maege Mormont - Died of unknown causes during the War of the Five Kings off-screen, mentioned.",57
+1721,Hallyne,1,Noble,0,1,0.0869565217391304,1,0,,,0
+1722,Haggo,1,Dothraki,0,0,0.0334448160535117,0,3,Mhysa,"Aggar - Flayed alive by Lord Ramsay Snow off-screen, mentioned.",30
+1723,Hazzea,0,Foreign Peasant,0,0,0.0434782608695652,0,3,Mhysa,"Urzen - Flayed alive by Lord Ramsay Snow off-screen, mentioned.",30
+1724,Hizdahr zo Loraq,1,Foreign Peasant,0,0,0.444816053511705,0,5,The Dance of Dragons,Hizdahr zo Loraq - Stabbed to death by unknown members of the Sons of the Harpy with knifes.,49
+1725,Harma,0,Wildling,0,0,0.0535117056856187,0,3,Mhysa,"Gelmarr - Flayed alive by Lord Ramsay Snow off-screen, mentioned.",30
+1726,Harry Strickland,1,Outlaw,0,1,0.0769230769230769,0,8,The Bells,Captain Harry Strickland - Stabbed in the back by Grey Worm with a thrown spear.,71
+1727,Harys Swyft,1,House Lannister,0,1,0.451505016722408,1,0,,,0
+1728,Harwin,0,House Stark,0,0,0.130434782608695,1,0,,,0
+1729,Hobb,1,Night's Watch,0,0,0.0434782608695652,1,0,,,0
+1730,High Sparrow,1,Soldier,0,1,0.167224080267558,0,5,High Sparrow,Lord Janos Slynt - Decapitated by Lord Commander Jon Snow using Longclaw.,43
+1731,Hot Pie,0,Dothraki,0,0,0.183946488294314,1,0,,,0
+1732,Howland Reed,1,House Stark,1,1,0.177257525083612,1,0,,,0
+1733,Holly,1,Wildling,0,0,0.0568561872909698,0,3,"Dark Wings, Dark Words","Lord Hoster Tully - Died of an unspecified illness off-screen, body shown in ""Walk of Punishment"".",22
+1734,Hugh,1,House Arryn,0,1,0.0635451505016722,0,3,"Dark Wings, Dark Words","Lord Hoster Tully - Died of an unspecified illness off-screen, body shown in ""Walk of Punishment"".",22
+1735,Hyle Hunt,0,Noble,0,1,0.103678929765886,1,0,,,0
+1736,Hoster Tully,1,House Tully,1,1,0.331103678929765,0,3,"Dark Wings, Dark Words","Lord Hoster Tully - Died of an unspecified illness off-screen, body shown in ""Walk of Punishment"".",22
+1737,Humfrey Hewett,1,House Tyrell,0,1,0.0301003344481605,1,0,,,0
+1738,Ilyn Payne,1,House Lannister,0,1,0.224080267558528,1,0,,,0
+1739,Illyrio Mopatis,1,House Targaryen,1,1,0.394648829431438,1,0,,,0
+1740,Irri,0,House Targaryen,0,0,0.193979933110367,0,8,The Iron Throne,Mirri Maz Duur - 2 (Deceased),72
+1741,Imry Florent,1,House Tyrell,0,1,0.183946488294314,0,3,Mhysa,"Urzen - Flayed alive by Lord Ramsay Snow off-screen, mentioned.",30
+1742,Jack-Be-Lucky,1,Outlaw,0,0,0.0267558528428093,1,0,,,0
+1743,Jacelyn Bywater,1,House Baratheon,0,1,0.130434782608695,0,2,Blackwater,Unnamed City Watch Soldier - Stabbed in the back by an unknown Baratheon soldier with an axe.,19
+1744,Jaime Lannister,1,House Lannister,0,1,1.0,0,8,The Iron Throne,Ser Jaime Lannister/Kingslayer - 36 (Deceased),72
+1745,Jason Mallister,1,House Tully,0,1,0.127090301003344,1,0,,,0
+1746,Jeyne Poole,0,House Stark,1,0,0.384615384615384,1,0,,,0
+1747,Jon Arryn,1,House Arryn,1,1,0.836120401337792,0,1,Winter Is Coming,"Lord Jon Arryn - Poisoned by Lady Lysa Arryn with tears of Lys on the orders of Lord Petyr Baelish off-screen, body shown.",1
+1748,Jon Fossoway,1,House Tyrell,1,1,0.187290969899665,1,0,,,0
+1749,Jonos Bracken,1,House Tully,0,1,0.190635451505016,1,0,,,0
+1750,Justin Massey,1,House Baratheon,0,1,0.0802675585284281,1,0,,,0
+1751,Kedry,1,Foreign Peasant,0,1,0.0301003344481605,0,3,Kissed by Fire,"Edric Baratheon - Died during childbirth off-screen, body shown.",25
+1752,Jon Snow,1,House Stark,0,1,1.0,0,8,The Long Night,At Least 114 Wight - Burned alive by Rhaegal with his fire breath on the orders of Jon Snow.,69
+1753,Joss Stilwood,1,House Lannister,0,0,0.0167224080267558,1,0,,,0
+1754,Kevan Lannister,1,House Lannister,1,1,0.869565217391304,0,7,The Queen's Justice,Unnamed Lannister Soldier - Fell to his death after being thrown from Casterly Rock by an unknown Unsullied.,63
+1755,Lady of the Leaves,0,House Greyjoy,0,1,0.020066889632107,1,0,,,0
+1756,Lharys,1,House Tully,0,0,0.0167224080267558,0,8,The Iron Throne,Lady Lysa Arryn - 1 (Deceased),72
+1757,Leyton Hightower,1,House Tyrell,1,1,0.150501672240802,1,0,,,0
+1758,Larys Strong,1,Noble,0,1,0.297658862876254,0,8,The Iron Throne,Lady Lysa Arryn - 1 (Deceased),72
+1759,Lomys,1,Dothraki,0,1,0.0234113712374581,1,0,,,0
+1760,Lewyn Martell,1,House Martell,0,1,0.147157190635451,0,8,The Long Night,Lady Lyanna Mormont (Wight) - Died when Arya Stark killed the Night King.,69
+1761,Lothar Frey,1,House Frey,1,1,0.17391304347826,0,8,The Iron Throne,Lothar Frey - 2 (Deceased),72
+1762,Lothor Brune,1,House Arryn,0,1,0.137123745819397,1,0,,,0
+1763,Lysa Arryn,0,House Tully,1,1,0.0,0,8,The Iron Throne,Lady Lysa Arryn - 1 (Deceased),72
+1764,Maege Mormont,0,House Stark,0,1,0.137123745819397,1,0,,,0
+1765,Mad Huntsman,1,Outlaw,0,0,0.0367892976588628,1,0,,,0
+1766,Mance Rayder,1,Wildling,0,0,0.709030100334448,0,3,Mhysa,"Dagmer - Flayed alive by Lord Ramsay Snow off-screen, mentioned.",30
+1767,Mark Mullendore,1,House Tyrell,0,1,0.0501672240802675,1,0,,,0
+1768,Mark Ryswell,0,House Stark,0,1,0.020066889632107,0,3,Mhysa,"Wex Pyke - Flayed alive by Lord Ramsay Snow off-screen, mentioned.",30
+1769,Marlon Manderly,1,House Stark,0,1,0.0434782608695652,1,0,,,0
+1770,Maron Greyjoy,1,House Greyjoy,0,0,0.140468227424749,0,7,Stormborn,Obara Sand - Impaled in the stomach by Euron Greyjoy with a spear.,62
+1771,Martyn Cassel,0,House Stark,0,0,0.0334448160535117,0,8,The Iron Throne,Ser Rodrik Cassel - 3 (Deceased),72
+1772,Marq Piper,1,House Tully,0,1,0.140468227424749,1,0,,,0
+1773,Mathis Rowan,1,House Tyrell,1,1,0.364548494983277,1,0,,,0
+1774,Meribald,1,Soldier,0,0,0.103678929765886,1,0,,,0
+1775,Mirri Maz Duur,0,Foreign Peasant,0,1,0.1438127090301,0,8,The Iron Throne,Mirri Maz Duur - 2 (Deceased),72
+1776,Mikken,1,House Stark,0,0,0.0969899665551839,0,3,Mhysa,"Unnamed Prince - Killed and cooked by Rat Cook off-screen, mentioned.",30
+1777,Morros Slynt,1,House Baratheon,0,1,0.0434782608695652,1,0,,,0
+1778,Myranda Royce,0,House Arryn,0,0,0.0434782608695652,0,5,Mother's Mercy,Myranda - Fell to her death after being pushed off a rampart by Prince Theon Greyjoy/Reek.,50
+1779,Nettles,0,House Targaryen,0,0,0.0635451505016722,0,2,The Night Lands,"Eddison Tollett's Mother - Died in an unspecified manner off-screen, mentioned.",12
+1780,Notch,0,Outlaw,0,0,0.0133779264214046,1,0,,,0
+1781,Obara Sand,0,House Martell,0,0,0.140468227424749,0,8,The Iron Throne,Obara Sand - 2 (Deceased),72
+1782,Ulf the White,1,House Targaryen,0,1,0.060200668896321,0,8,The Long Night,Wight - Slashed by Tormund Giantsbane with a sword.,69
+1783,Pypar,1,Night's Watch,0,0,0.113712374581939,0,8,The Iron Throne,Pypar/Pyp - 1 (Deceased),72
+1784,Roose Bolton,1,House Stark,1,1,0.979933110367893,0,6,Battle of the Bastards,Unnamed Bolton Soldier - Stabbed to death by Jon Snow using Longclaw after being charged by a horse.,59
+1785,Shireen Baratheon,0,House Baratheon,0,1,0.23076923076923,0,5,The Dance of Dragons,Princess Shireen Baratheon - Burned alive by Melisandre.,49
+1786,Smiling Knight,1,Outlaw,0,0,0.040133779264214,1,0,,,0
+1787,Renly Baratheon,1,House Baratheon,1,1,1.0,0,2,The Ghost of Harrenhal,King Renly Baratheon - Stabbed in the back by a shadow while under the control of Melisandre.,15
+1788,Theon Greyjoy,1,House Greyjoy,0,1,1.0,1,0,,,0
+1789,Robyn Rhysling,1,House Tyrell,0,1,0.0234113712374581,1,0,,,0
+1790,Rodrik Harlaw,1,House Greyjoy,0,1,0.160535117056856,1,0,,,0
+1791,Wendamyr,1,House Greyjoy,0,1,0.020066889632107,1,0,,,0
+1792,Varamyr,1,Wildling,0,0,0.227424749163879,0,2,Valar Morghulis,Doreah - Died of natural causes after being locked in a vault by Queen Daenerys I Targaryen.,20
+1793,Robin Potter,1,Noble,0,1,0.020066889632107,1,0,,,0
+1794,Richard Horpe,1,House Baratheon,0,1,0.0635451505016722,1,0,,,0
+1795,Sansa Stark,0,House Stark,1,1,1.0,1,0,,,0
+1796,Vargo Hoat,1,Outlaw,0,1,0.210702341137123,0,3,Valar Dohaeris,"Unnamed Man - Slammed into the ground by Dongo off-screen, mentioned.",21
+1797,Jaqen H'ghar,1,Outlaw,0,0,0.20066889632107,0,8,The Iron Throne,"""Jaqen H'ghar"" - 6 (Alive)",72
+1798,Robert Arryn,1,House Arryn,0,1,0.321070234113712,1,0,,,0
+1799,Rakharo,1,House Targaryen,0,0,0.183946488294314,0,2,The Night Lands,"Rakharo - Decapitated by an unknown khalasar off-screen, head shown.",12
+1800,Rhaella Targaryen,1,House Targaryen,1,1,0.321070234113712,0,1,Fire and Blood,"Rhaego - Stillborn after being cursed by Mirri Maz Duur using blood magic off-screen, mentioned.",10
+1801,Tywin Lannister,1,House Lannister,1,1,1.0,0,8,The Iron Throne,Lord Tywin Lannister - 3 (Deceased),72
+1802,Shagga,1,Outlaw,0,0,0.0735785953177257,1,0,,,0
+1803,Wyman Manderly,1,House Stark,0,1,0.354515050167224,1,0,,,0
+1804,Yellow Dick,1,House Bolton,0,0,0.0434782608695652,0,5,The House of Black and White,"Unnamed Dwarf - Decapitated by unknown men off-screen, head shown.",42
+1805,Yoren,0,Night's Watch,0,0,0.267558528428093,0,2,What Is Dead May Never Die,Yoren - Stabbed in the back of the neck by Ser Amory Lorch with a sword.,13
+1806,Watty,0,Outlaw,0,0,0.0133779264214046,1,0,,,0
+1807,Skahaz mo Kandaq,0,Foreign Noble,0,0,0.197324414715719,1,0,,,0
+1808,Wylis Manderly,1,House Stark,0,1,0.157190635451505,1,0,,,0
+1809,Theo Wull,1,Outlaw,0,0,0.020066889632107,0,8,The Iron Throne,Wun Weg Wun Dar Wun - 32 (Deceased),72
+1810,Wylla Manderly,0,House Stark,0,0,0.0702341137123745,1,0,,,0
+1811,Willas Tyrell,1,House Tyrell,0,0,0.290969899665551,1,0,,,0
+1812,Wendel Manderly,1,House Stark,0,1,0.133779264214046,0,3,The Rains of Castamere,Ser Wendel Manderly - Shot in the back of the head by an unknown Frey solider with a bolt using a crossbow.,29
+1813,Simon Toyne,0,Noble,0,0,0.0367892976588628,0,1,Lord Snow,"Simon Toyne - Killed by Barristan Selmy with a counter riposte off-screen, mentioned.",3
+1814,Steffon Baratheon,1,House Baratheon,1,1,0.371237458193979,0,7,Dragonstone,Ser Stevron Frey - Poisoned by Arya Stark.,61
+1815,Shagwell,1,Outlaw,0,0,0.0836120401337792,0,6,Oathbreaker,"Shaggydog (Direwolf) - Decapitated by Lord Smalljon Umber off-screen, head shown.",53
+1816,Rickard Karstark,1,House Stark,0,1,0.23076923076923,0,8,The Iron Throne,Lord Rickard Karstark - 2 (Deceased),72
+1817,Senelle,1,House Lannister,0,0,0.0334448160535117,0,8,The Bells,Unella - Died when Drogon destroyed the Red Keep on the orders of Queen Daenerys I Targaryen.,71
+1818,Shiera Seastar,0,House Targaryen,0,0,0.0434782608695652,0,5,Mother's Mercy,Myranda - Fell to her death after being pushed off a rampart by Prince Theon Greyjoy/Reek.,50
+1819,Reznak mo Reznak,1,Foreign Noble,0,1,0.0802675585284281,1,0,,,0
+1820,Ronnet Connington,1,Noble,0,1,0.113712374581939,1,0,,,0
+1821,Tytos Blackwood,1,House Tully,0,1,0.220735785953177,1,0,,,0
+1822,Syrio Forel,0,Foreign Noble,0,0,0.120401337792642,0,1,The Pointy End,Syrio Forel - Killed by Ser Meryn Trant off-screen.,8
+1823,Rodrik Cassel,1,House Stark,0,1,0.397993311036789,0,8,The Iron Throne,Ser Rodrik Cassel - 3 (Deceased),72
+1824,Stevron Frey,1,House Frey,1,1,0.17391304347826,0,7,Dragonstone,Ser Stevron Frey - Poisoned by Arya Stark.,61
+1825,Steely Pate,1,Dothraki,0,0,0.0133779264214046,1,0,,,0
+1826,Victaria Tyrell,0,House Tyrell,1,0,0.133779264214046,1,0,,,0
+1827,Jon Connington,1,House Baratheon,0,1,0.719063545150501,1,0,,,0
+1828,Rorge,1,Outlaw,0,0,0.167224080267558,0,4,Mockingbird,Rorge - Stabbed in the heart by Arya Stark with Needle.,37
+1829,Rickard Stark,1,House Stark,1,1,0.270903010033444,0,8,The Iron Throne,Lord Rickard Karstark - 2 (Deceased),72
+1830,Visenya Targaryen,0,House Targaryen,1,1,0.277591973244147,0,8,The Long Night,Viserion (Wight) - Died when Arya Stark killed the Night King.,69
+1831,Petyr Baelish,1,House Arryn,1,1,1.0,0,8,The Iron Throne,Lord Petyr Baelish/Littlefinger - 3 (Deceased),72
+1832,Viserys Targaryen,1,House Targaryen,0,1,0.622073578595317,0,8,The Long Night,Viserion (Wight) - Died when Arya Stark killed the Night King.,69
+1833,Varys,1,House Frey,0,1,0.899665551839464,0,8,The Bells,Lord Varys - Burned alive by Drogon with his fire breath on the orders of Queen Daenerys I Targaryen.,71
+1834,Stygg,0,House Greyjoy,0,0,0.0367892976588628,1,0,,,0
+1835,Salladhor Saan,1,House Baratheon,0,1,0.187290969899665,1,0,,,0
+1836,Victarion Greyjoy,1,House Greyjoy,0,1,0.705685618729097,1,0,,,0
+1837,Timeon,1,House Martell,0,0,0.0568561872909698,0,3,And Now His Watch Is Ended,"Bannen - Starved to death off-screen, body shown.",24
+1838,Tysha,1,Peasant,1,0,0.130434782608695,1,0,,,0
+1839,Shae,0,Wildling,0,0,0.290969899665551,0,4,The Children,Shae - Strangled by Lord Tyrion Lannister with her neckless.,40
+1840,Spotted Cat,1,Foreign Peasant,0,0,0.0501672240802675,1,0,,,0
+1841,Tormund,1,Wildling,0,1,0.214046822742474,1,0,,,0
+1842,Rodrik Greyjoy,1,House Greyjoy,0,0,0.153846153846153,0,2,The Night Lands,"Rodrik Greyjoy - Died in an unspecified manner off-screen, mentioned.",12
+1843,Tyrion Lannister,1,House Lannister,1,1,1.0,1,0,,,0
+1844,Josmyn Peckledon,1,Noble,0,0,0.0501672240802675,1,0,,,0
+1845,Trystane Martell,1,House Martell,0,1,0.150501672240802,0,6,The Red Woman,Prince Doran Martell - Stabbed in the chest by Ellaria Sand with a knife.,51
+1846,Rolland Storm,1,House Baratheon,0,1,0.0702341137123745,1,0,,,0
+1847,Willam Dustin,1,House Stark,1,1,0.0635451505016722,0,2,What Is Dead May Never Die,"Willem - Hit in the head by Yoren with an axe off-screen, mentioned.",13
+1848,Torrhen Karstark,1,House Stark,0,0,0.0769230769230769,0,8,The Iron Throne,Lord Rickard Karstark - 2 (Deceased),72
+1849,Three Toes,1,Outlaw,0,0,0.0133779264214046,1,0,,,0
+1850,Ygritte,1,Wildling,0,0,0.244147157190635,0,4,The Watchers on the Wall,Ygritte - Shot in the heart by Olly with an arrow using a bow.,39
+1851,Tyland Lannister,1,House Lannister,0,1,0.354515050167224,0,8,The Iron Throne,Lord Tywin Lannister - 3 (Deceased),72
+1852,Thoren Smallwood,1,Night's Watch,0,1,0.0869565217391304,0,7,Beyond the Wall,Thoros of Myr - Froze to death after being injured by a wight snow bear.,66
+1853,Rolph Spicer,0,Noble,0,1,0.060200668896321,1,0,,,0
+1854,Selyse Florent,0,House Tyrell,1,1,0.397993311036789,0,4,The Lion and the Rose,Lord Axell Florent - Burned alive by unknown Baratheon soldiers on the orders of Melisandre/The Red Woman.,32
+1855,Tyrion Tanner,1,House Lannister,0,0,0.0501672240802675,1,0,,,0
+1856,Sandor Clegane,1,House Lannister,0,0,0.695652173913043,0,8,The Iron Throne,Sandor Clegane/The Hound - 57 (Deceased),72
+1857,Ulf son of Umar,1,Outlaw,0,0,0.0234113712374581,0,5,Sons of the Harpy,Two Unnamed Unsullied - Stabbed to death by unknown members of the Sons of the Harpy with knives.,44
+1858,Urswyck,1,Outlaw,0,0,0.0301003344481605,1,0,,,0
+1859,Clydas,1,Night's Watch,0,0,0.0635451505016722,1,0,,,0
+1860,Damion Lannister,1,House Lannister,1,1,0.0836120401337792,1,0,,,0
+1861,Kraznys mo Nakloz,1,Foreign Noble,0,0,0.0769230769230769,0,3,And Now His Watch Is Ended,Kraznys mo Nakloz - Burned alive by Drogon with his fire breath on the orders of Queen Daenerys I Targaryen.,24
+1862,Dacey Mormont,0,House Stark,0,0,0.0869565217391304,0,6,The Broken Man,"Lady Maege Mormont - Died of unknown causes during the War of the Five Kings off-screen, mentioned.",57
+1863,Jojen Reed,1,House Stark,0,0,0.290969899665551,0,4,The Children,Jojen Reed - Stabbed by Meera Reed after being stabbed by Wight with a knife.,40
+1864,Lyonel Baratheon,1,House Baratheon,0,1,0.0568561872909698,0,4,The Lion and the Rose,Lord Axell Florent - Burned alive by unknown Baratheon soldiers on the orders of Melisandre/The Red Woman.,32
+1865,Khorane Sathmantes,0,Foreign Peasant,0,0,0.0100334448160535,1,0,,,0
+1866,Vardis Egen,1,House Arryn,0,1,0.0903010033444816,0,1,A Golden Crown,"Ser Vardis Egen - Stabbed in the neck by Bronn with a sword, then thrown through the Moon Door.",6
+1867,Tya Lannister,1,House Baratheon,1,0,0.0167224080267558,1,0,,,0
+1868,Vyman,0,Soldier,0,1,0.040133779264214,1,0,,,0
+1869,Orton Merryweather,1,House Tyrell,1,1,0.374581939799331,1,0,,,0
+1870,Jeor Mormont,1,House Stark,0,1,0.618729096989966,0,8,The Iron Throne,Lord Commander Jeor Mormont - 1 (Deceased),72
+1871,Rhaego,0,House Targaryen,0,0,0.167224080267558,0,1,Fire and Blood,"Rhaego - Stillborn after being cursed by Mirri Maz Duur using blood magic off-screen, mentioned.",10
+1872,Samwell Stone,1,House Arryn,0,1,0.0133779264214046,1,0,,,0
+1873,Mors Umber,1,House Stark,0,1,0.147157190635451,1,0,,,0
+1874,Rhaegar Frey,1,House Frey,1,0,0.133779264214046,0,1,Fire and Blood,"Rhaego - Stillborn after being cursed by Mirri Maz Duur using blood magic off-screen, mentioned.",10
+1875,Parmen Crane,1,House Tyrell,0,1,0.040133779264214,1,0,,,0
+1876,Qyburn,1,House Lannister,0,1,0.535117056856187,0,8,The Iron Throne,Qyburn (Order of Maesters) - 2 (Deceased),72
+1877,Weese,1,House Tully,0,0,0.040133779264214,0,5,The Wars To Come,White Rat - Throat slit by an unknown member of the Sons of the Harpy with a knife.,41
+1878,Qarl the Maid,1,House Greyjoy,0,0,0.0668896321070234,1,0,,,0
+1879,Rickon Stark,1,House Stark,0,1,0.551839464882943,0,6,Battle of the Bastards,Rickon Stark - Shot in the back by Lord Ramsay Bolton with an arrow using a bow.,59
+1880,Roslin Frey,1,House Frey,1,0,0.217391304347826,1,0,,,0
+1881,Robar Royce,1,House Arryn,0,1,0.0969899665551839,0,2,The Ghost of Harrenhal,Ser Robar Royce - Stabbed in the back by Brienne of Tarth with a sword.,15
+1882,Robett Glover,1,House Stark,1,0,0.167224080267558,1,0,,,0
+1883,Rhae Targaryen,0,House Targaryen,0,1,0.0802675585284281,0,1,Fire and Blood,"Rhaego - Stillborn after being cursed by Mirri Maz Duur using blood magic off-screen, mentioned.",10
+1884,Ryman Frey,1,House Frey,0,1,0.217391304347826,0,7,Dragonstone,Ryger Rivers - Poisoned by Arya Stark.,61
+1885,Quaithe,0,Foreign Peasant,0,0,0.127090301003344,1,0,,,0
+1886,Rolly Duckfield,1,House Targaryen,0,1,0.0869565217391304,1,0,,,0
+1887,Togg Joth,1,Foreign Peasant,0,0,0.0167224080267558,1,0,,,0
+1888,Taena of Myr,0,Foreign Peasant,1,0,0.113712374581939,1,0,,,0
+1889,Pyg,0,Outlaw,0,0,0.0468227424749163,0,8,The Iron Throne,Pypar/Pyp - 1 (Deceased),72
+1890,Stonesnake,1,Night's Watch,0,0,0.0568561872909698,1,0,,,0
+1891,Tycho Nestoris,1,Foreign Noble,0,0,0.0869565217391304,1,0,,,0
+1892,Tanselle,0,House Martell,0,0,0.020066889632107,1,0,,,0
+1893,Rhaelle Targaryen,0,House Targaryen,1,1,0.137123745819397,1,0,,,0
+1894,Tom of Sevenstreams,1,Outlaw,0,0,0.153846153846153,1,0,,,0
+1895,Shyra Errol,0,House Baratheon,0,1,0.0133779264214046,1,0,,,0
+1896,Steelskin,1,Foreign Peasant,0,0,0.0167224080267558,1,0,,,0
+1897,Val,0,Wildling,0,0,0.140468227424749,1,0,,,0
+1898,Satin,1,Night's Watch,0,0,0.103678929765886,1,0,,,0
+1899,Xaro Xhoan Daxos,1,Foreign Noble,0,0,0.244147157190635,0,8,The Iron Throne,King Xaro Xhoan Daxos - 6 (Deceased),72
+1900,Maelor Targaryen,1,House Targaryen,0,1,0.180602006688963,0,1,Baelor,"Princess Rhaenys Targaryen - Killed by Ser Gregor Clegane/The Mountain on the orders of Lord Tywin Lannister off-screen, mentioned.",9
+1901,Arianne Martell,0,House Martell,0,1,0.57190635451505,1,0,,,0
+1902,Damon Dance-for-Me,1,House Bolton,0,0,0.0334448160535117,1,0,,,0
+1903,Alysanne Targaryen,0,House Targaryen,0,0,0.277591973244147,0,8,The Long Night,Lady Alys Karstark (Wight) - Died when Arya Stark killed the Night King.,69
+1904,Baela Targaryen,0,House Targaryen,1,1,0.127090301003344,0,1,Baelor,"Princess Rhaenys Targaryen - Killed by Ser Gregor Clegane/The Mountain on the orders of Lord Tywin Lannister off-screen, mentioned.",9
+1905,Brandon Stark,1,House Stark,0,0,0.347826086956521,0,8,The Iron Throne,King/Lord Brandon I Stark - 6 (Alive),72
+1906,Dunstan Drumm,1,House Greyjoy,0,1,0.0769230769230769,1,0,,,0
+1907,Daemon Sand,1,House Martell,0,1,0.0735785953177257,1,0,,,0
+1908,Jafer Flowers,1,Night's Watch,0,0,0.0434782608695652,0,3,Valar Dohaeris,"Ser Jaremy Mallister - Stabbed in the chest by an unknown Lannister soldier off-screen, body shown.",21
+1909,Lysono Maar,1,Foreign Peasant,0,0,0.020066889632107,1,0,,,0
+1910,Mycah,1,Peasant,0,0,0.103678929765886,0,1,The Kingsroad,Mycah - Trampled to death by Sandor Clegane/The Hound with his horse on the orders of Prince Joffrey Baratheon.,2
+1911,Joyeuse Erenford,1,House Frey,1,1,0.0434782608695652,1,0,,,0
+1912,Rossart,1,Noble,0,1,0.367892976588628,0,2,What Is Dead May Never Die,Yoren - Stabbed in the back of the neck by Ser Amory Lorch with a sword.,13
+1913,Tyene Sand,0,House Martell,0,0,0.137123745819397,1,0,,,0
+1914,Waymar Royce,1,House Arryn,0,1,0.123745819397993,0,8,The Long Night,Wight - Shot by Theon Greyjoy with a flaming arrow using a bow.,69
+1915,Stiv,0,Night's Watch,0,0,0.0334448160535117,0,1,A Golden Crown,Stiv - Shot in the back by Theon Greyjoy with an arrow using a bow.,6
+1916,Daemon II Blackfyre,1,House Targaryen,0,1,0.227424749163879,0,1,Fire and Blood,"Rhaego - Stillborn after being cursed by Mirri Maz Duur using blood magic off-screen, mentioned.",10
+1917,Chataya,0,Foreign Peasant,0,0,0.0735785953177257,1,0,,,0
+1918,Hugh Hammer,1,House Targaryen,0,1,0.0769230769230769,0,8,The Iron Throne,Adrack Humble - 1 (Deceased),72
+1919,Tygett Lannister,1,House Lannister,1,1,0.110367892976588,1,0,,,0
+1920,Sarella Sand,0,House Martell,0,0,0.103678929765886,1,0,,,0
+1921,Rhaegar Targaryen,1,House Targaryen,1,1,0.799331103678929,0,1,Fire and Blood,"Rhaego - Stillborn after being cursed by Mirri Maz Duur using blood magic off-screen, mentioned.",10
+1922,Drogo,0,Dothraki,1,0,0.558528428093645,0,1,Fire and Blood,Khal Drogo - Suffocated by Daenerys Targaryen with a pillow after he was made comatose by Mirri Maz Duur using blood magic.,10
+1923,Dunsen,1,House Lannister,0,0,0.040133779264214,1,0,,,0
+1924,Barra,1,House Baratheon,0,0,0.107023411371237,0,2,The North Remembers,Barra - Sliced by Lord Janos Slynt with a knife on the orders of King Joffrey I Baratheon.,11
+1925,Bethany Bolton,1,House Stark,1,1,0.0434782608695652,1,0,,,0
+1926,Desmond Grell,0,Noble,0,1,0.0769230769230769,1,0,,,0
+1927,Devan Seaworth,1,House Baratheon,0,0,0.0936454849498327,1,0,,,0
+1928,Gendry,1,Outlaw,0,1,0.438127090301003,1,0,,,0
+1929,Gran Goodbrother,1,House Greyjoy,0,0,0.0267558528428093,1,0,,,0
+1930,Loras Tyrell,1,House Tyrell,0,1,0.665551839464882,0,3,Valar Dohaeris,Wight - Burned alive by Lord Commander Jeor Mormont with a torch.,21
+1931,Ricasso,0,House Martell,0,1,0.0702341137123745,1,0,,,0
+1932,Stalwart Shield,0,Soldier,0,0,0.0434782608695652,0,1,The Wolf and the Lion,Unnamed Stark Soldier - Hit in the head by an unknown Hill Tribesman with a spiked club.,5
+1933,Yohn Royce,1,House Arryn,0,1,0.170568561872909,1,0,,,0
+1934,Yandry,1,House Targaryen,1,0,0.0501672240802675,1,0,,,0
+1935,Tarle,1,House Greyjoy,0,0,0.0267558528428093,1,0,,,0
+1936,Temmo,1,Dothraki,0,0,0.020066889632107,1,0,,,0
+1937,Rohanne Webber,0,House Greyjoy,1,1,0.170568561872909,0,6,The Winds of Winter,"Walder Rivers - Killed and carved into a pie by Arya Stark off-screen, body shown.",60
+1938,Gormond Goodbrother,1,House Greyjoy,0,0,0.040133779264214,1,0,,,0
+1939,Walder Rivers,1,House Frey,1,1,0.0802675585284281,0,8,The Iron Throne,Walder Rivers - 1 (Deceased),72
+1940,Symon Silver Tongue,1,Dothraki,0,0,0.0468227424749163,0,4,Two Swords,Ser Duncan the Tall - Burned alive by unknown people during the Tragedy at Summerhall.,31
+1941,Moqorro,1,Foreign Noble,0,1,0.123745819397993,1,0,,,0
+1942,Meg,0,Outlaw,0,0,0.0100334448160535,1,0,,,0
+1943,Laena Velaryon,0,Foreign Noble,1,0,0.140468227424749,0,8,The Iron Throne,Lady Lysa Arryn - 1 (Deceased),72
+1944,Luwin,1,House Stark,0,0,0.351170568561872,0,2,Valar Morghulis,Maester Luwin - Stabbed by Osha after being stabbed in the stomach by Dagmer with a spear.,20
+1945,Reek,1,House Bolton,0,0,0.0969899665551839,0,3,The Rains of Castamere,Orell - Stabbed in the stomach by Jon Snow using Longclaw.,29
+1946,Symeon Star-Eyes,1,Foreign Peasant,0,0,0.0301003344481605,1,0,,,0
+1947,Coldhands,1,Peasant,0,0,0.130434782608695,1,0,,,0
+1948,Tytos Lannister,1,House Lannister,1,1,0.210702341137123,0,8,The Iron Throne,Lord Tywin Lannister - 3 (Deceased),72
