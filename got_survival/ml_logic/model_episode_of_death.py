@@ -15,33 +15,31 @@ from sklearn.compose import ColumnTransformer
 
 #Reading CSV file
 def episode_read_data():
-    df = pd.read_csv("raw_data/20231128_only_deaths_ep_weights.csv")
+    df = pd.read_csv("processed_data/cleaned_data_final.csv", index_col=0)
     return df
 
 def episode_x_and_y():
     df = episode_read_data()
-    X = df
-    X = X.drop(columns = ["Unnamed: 0","name","episode_global_num"], axis=1)
-    y = df["episode_global_num"]
-    y = y.to_frame(name="episode_global_num")
+    df = df.drop(columns=['name', 'episode', 'deaths'], axis=1)
+    df = df[df['isAlive'] == 0].drop(columns="isAlive")
+
+    X = df.drop(columns = ["episode_num", "season"], axis=1)
+    y = df[["episode_num"]]
     return X, y
 
 #Preprocessing
 def episode_create_pipeline():
-    num_transformer = Pipeline([('standard_scaler', StandardScaler())])
-
     cat_transformer = OneHotEncoder(handle_unknown='ignore', sparse_output=False)
 
     preprocessor = ColumnTransformer([
-        ('num_transformer', num_transformer, ['weights_simple']),
-        ('cat_transformer', cat_transformer, ['allegiance','killer','killers_house','location','method'])
-    ])
-
+        ('cat_transformer', cat_transformer, ['origin'])],
+        remainder='passthrough'
+    )
     return make_pipeline(preprocessor, LinearRegression())
 
 #Splitting Data
 def episode_split_train(X, y):
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=3, stratify=y)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=3)
     # transformer = death_create_pipeline()
     # X_train_processed = pd.DataFrame(transformer.fit_transform(X_train),columns=transformer.get_feature_names_out())
     # X_test_processed = pd.DataFrame(transformer.transform(X_test),columns=transformer.get_feature_names_out())
