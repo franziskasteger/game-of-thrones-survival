@@ -17,7 +17,7 @@ from sklearn.compose import ColumnTransformer
 
 #Reading CSV file
 def death_read_data():
-    df = pd.read_csv("processed_data/data_cleaned_Carmen/20231129_char_pred_isAlive_updated.csv")
+    df = pd.read_csv("processed_data/data_cleaned_Carmen/20231129_char_preds_origin_episode_isAlive.csv")
     return df
 
 def death_x_and_y():
