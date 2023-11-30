@@ -1,9 +1,17 @@
 import streamlit as st
 # from got_survival.ml_logic.model_houses import houses_model_predict
-from got_survival.ml_logic.model_character_creation import get_house, get_luck, get_popularity
+from got_survival.ml_logic.model_character_creation import get_house, get_luck, \
+    get_popularity, get_nobility, get_male
 
-def run():
-    st.title('Check your Game of Thrones House')
+
+def run(social=False):
+    st.title('Create your Game of Thrones character')
+
+    if 'clicked' not in st.session_state:
+        st.session_state.clicked = False
+
+    def click_button():
+        st.session_state.clicked = True
 
     # FIRST QUESTION
     warm = st.selectbox('What kind of climate do you prefer?',\
@@ -49,27 +57,39 @@ def run():
 
     guess = st.number_input('Test your luck! Choose a number from 1 to 100!',
                             1, 100, 50, 1, key='luck')
+    luck = get_luck(guess)
 
     age = st.number_input('How old are you?', 1, 60, 30, 1, key='age')
 
-    # large number of followers on social media, frequent invitations to events
-    # and social gatherings, being recognized in public, and receiving positive
-    # feedback and praise from others
+    if social:
+        followers = st.selectbox('Do you have a lot of followers on socal media?',
+                                ['Yes', 'No'])
+        invite = st.selectbox('Do you frequently get invited to events and social\
+            gatherings?', ['Yes', 'No'])
+        attention = st.selectbox('Do people listen when you talk?', ['Yes', 'No'])
+    else:
+        followers = 0
+        invite = 0
+        attention = 0
 
-    followers = st.selectbox('Do you have a lot of followers on socal media?',
-                             ['Yes', 'No'])
-    invite = st.selectbox('Do you frequently get invited to events and social\
-        gatherings?', ['Yes', 'No'])
-    attention = st.selectbox('Do people listen when you talk?', ['Yes', 'No'])
-
+    gender = st.selectbox('Choose the gender for your character:', ['Female', 'Male'])
 
     house = get_house(outcast, warm, empathy, fighting, honor, connections, unyielding)
-    luck = get_luck(guess)
+    if 'House' in house or house in ['Noble', 'Foreign Noble']:
+        noble = 'noble'
+    else:
+        noble = 'not noble'
+
+    nobility = get_nobility(noble)
     popularity = get_popularity(followers, invite, attention, outcast, empathy,
-                                fighting, honor, connections, unyielding, social=True)
+                                fighting, honor, connections, unyielding, social=social)
+    male = get_male(gender)
 
     '\n\n'
-    if st.button('Calculate'):
+    st.button('Create character', on_click=click_button)
+
+    '\n\n'
+    if st.session_state.clicked:
         if house in ['Wildling', 'Dothraki', 'Soldier', 'Foreign Noble',
                      'Foreign Peasant', 'Noble', 'Peasant']:
             st.write(f'In the world of Game of Thrones you would be a {house}!')
@@ -80,14 +100,14 @@ def run():
         else:
             st.write(f'In the world of Game of Thrones you would be part of the {house}!')
 
-        st.write(f'In terms of luck, you are {luck}!')
-
-        st.write(f'You are {age} years old.')
-
-        st.write(f'You are {round(popularity * 100)}% popular.')
+        st.write(f'In terms of luck you are {luck}, you are {age} years old, \
+            {round(popularity * 100)}% popular, {gender} and {noble}!')
 
 
+        '\n\n'
+        if st.button('Will you survive?'):
+            'INSERT PREDICTION HERE'
 
 
 
-run()
+run(social = False)

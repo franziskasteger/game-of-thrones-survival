@@ -33,4 +33,4 @@ def houses_model_predict(X):
         return model_outcasts.predict(X)
 
     model_not_outcasts = pickle.load(open('got_survival/models_pickle/not_outcasts.pkl', 'rb'))
-    return model_not_outcasts.predict(X)[0]
+    return model_not_outcasts.predict(X)

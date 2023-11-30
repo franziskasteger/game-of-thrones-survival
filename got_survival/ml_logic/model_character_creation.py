@@ -22,7 +22,7 @@ def get_house(outcast, warm, empathy, fighting, honor, connections, unyielding):
     }
     X =  pd.DataFrame.from_dict(test)
 
-    return houses_model_predict(X)
+    return houses_model_predict(X)[0]
 
 def get_luck(guess):
     truth = randint(1, 100)
@@ -60,8 +60,15 @@ def get_popularity(followers, invite, attention, outcast, empathy,
 
     return (empathy + fighting + honor + connections + unyielding) / 25
 
+def get_nobility(nobility):
+    if nobility == 'noble':
+        return 1
+    return 0
 
-
+def get_male(gender):
+    if gender == 'Male':
+        return 1
+    return 0
 
 ########## TESTS ##########
 
