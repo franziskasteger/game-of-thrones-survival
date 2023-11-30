@@ -79,15 +79,15 @@ def get_character(
     married = get_married(marriage)
 
     character = {
-        'lucky': luck,
-        'house': house,
-        'isNoble': nobility,
-        'isPopular': popularity,
-        'male': male,
-        'isMarried': married
+        'lucky': [luck],
+        'origin': [house],
+        'isNoble': [nobility],
+        'popularity': [popularity],
+        'male': [male],
+        'isMarried': [married]
     }
 
-    return character
+    return pd.DataFrame.from_dict(character)
 
 ########## TESTS ##########
 

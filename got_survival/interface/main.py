@@ -60,7 +60,6 @@ test = {
     'isNoble': [1],
     'popularity': [0.753]
 }
-new_X = pd.DataFrame.from_dict(test)
 
 
 ########## TESTS ##########
@@ -71,5 +70,5 @@ if __name__ == '__main__':
 
     # episode_train()
     # print(episode_evaluate())
-    print(episode_pred(new_X))
+    # print(episode_pred(test))
     pass

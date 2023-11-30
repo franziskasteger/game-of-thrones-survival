@@ -1,5 +1,6 @@
 import streamlit as st
 from got_survival.ml_logic.model_character_creation import get_character
+from got_survival.interface.main import death_pred, episode_pred
 
 def run():
     st.title('Create your Game of Thrones character')
@@ -51,31 +52,35 @@ def run():
     st.button('Create character', on_click=click_button)
     character = get_character(guess, outcast, warm, empathy, fighting, honor, connections,
                               unyielding, gender, marriage)
-    if character["isNoble"]:
+    if character["isNoble"][0]:
         nobility = 'noble'
     else:
         nobility = 'not noble'
 
     '\n\n'
     if st.session_state.clicked:
-        if character['house'] in ['Wildling', 'Dothraki', 'Soldier', 'Foreign Noble',
+        if character['origin'][0] in ['Wildling', 'Dothraki', 'Soldier', 'Foreign Noble',
                      'Foreign Peasant', 'Noble', 'Peasant']:
-            st.write(f'In the world of Game of Thrones you would be a {character["house"]}!')
-        elif 'House' in character['house']:
-            st.write(f'In the world of Game of Thrones you would be part of {character["house"]}!')
-        elif character['house'] == 'Outlaw':
-            st.write(f'In the world of Game of Thrones you would be an {character["house"]}!')
+            st.write(f'In the world of Game of Thrones you would be a {character["origin"][0]}!')
+        elif 'House' in character['origin'][0]:
+            st.write(f'In the world of Game of Thrones you would be part of {character["origin"][0]}!')
+        elif character['origin'][0] == 'Outlaw':
+            st.write(f'In the world of Game of Thrones you would be an {character["origin"][0]}!')
         else:
-            st.write(f'In the world of Game of Thrones you would be part of the {character["house"]}!')
+            st.write(f'In the world of Game of Thrones you would be part of the {character["origin"][0]}!')
 
-        st.write(f'In terms of luck you are {character["lucky"]}, you are {age} years old, \
-            {round(character["isPopular"] * 100)}% popular, {gender.lower()} and {nobility}!')
-        if character["isMarried"]:
+        st.write(f'In terms of luck you are {character["lucky"][0]}, you are {age} years old, \
+            {round(character["popularity"][0] * 100)}% popular, {gender.lower()} and {nobility}!')
+        if character["isMarried"][0]:
             st.write('You are also married!')
 
         '\n\n'
         if st.button('Will you survive?'):
-            'INSERT PREDICTION HERE'
+            if death_pred(character.drop(columns='lucky')):
+                st.write('YES! YOU MADE IT')
+            else:
+                st.write('Nooooo......')
+                st.write(f'You die in episode {episode_pred(character.drop(columns="lucky"))} 😢')
 
 
 
