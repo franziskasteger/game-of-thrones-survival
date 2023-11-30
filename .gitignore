@@ -4,3 +4,5 @@
 .env
 .ipynb_checkpoints
 __pycache__
+got_survival/.DS_Store
+got_survival/ml_logic/.DS_Store
