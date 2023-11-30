@@ -14,11 +14,10 @@ from sklearn.model_selection import RandomizedSearchCV
 from scipy import stats
 from sklearn.pipeline import Pipeline, make_pipeline
 from sklearn.compose import ColumnTransformer
-import warnings
 
 #Reading CSV file
 def death_read_data():
-    df = pd.read_csv("processed_data/data_cleaned_Carmen/20231128_char_pred_isAlive_updated.csv")
+    df = pd.read_csv("processed_data/data_cleaned_Carmen/20231129_char_pred_isAlive_updated.csv")
     return df
 
 def death_x_and_y():
@@ -37,7 +36,7 @@ def death_create_pipeline():
 
     preprocessor = ColumnTransformer([
         ('num_transformer', num_transformer, ["numDeadRelations","popularity"]),
-        ('cat_transformer', cat_transformer, ['house'])
+        ('cat_transformer', cat_transformer, ['origin'])
     ])
 
     return make_pipeline(preprocessor, LogisticRegression())
@@ -52,7 +51,7 @@ def death_split_train(X, y):
 
 #Cross Validate Model
 def death_cross_validate_result(model, X_train_processed, y_train):
-    cv_results = cross_validate(model, X_train_processed, y_train, cv=5)
+    cv_results = cross_validate(model, X_train_processed, y_train, cv=5, scoring="f1")
     test = cv_results["test_score"].mean()
     return test
 
