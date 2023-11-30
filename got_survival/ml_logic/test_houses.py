@@ -1,10 +1,11 @@
 import streamlit as st
 # from got_survival.ml_logic.model_houses import houses_model_predict
 from got_survival.ml_logic.model_character_creation import get_house, get_luck, \
-    get_popularity, get_nobility, get_male
+    get_popularity, get_nobility, get_male, get_married
 
 
-def run(social=False):
+def run():
+    social = False
     st.title('Create your Game of Thrones character')
 
     if 'clicked' not in st.session_state:
@@ -73,6 +74,8 @@ def run(social=False):
         attention = 0
 
     gender = st.selectbox('Choose the gender for your character:', ['Female', 'Male'])
+    marriage = st.selectbox('Are you married', ['Yes', 'No'])
+
 
     house = get_house(outcast, warm, empathy, fighting, honor, connections, unyielding)
     if 'House' in house or house in ['Noble', 'Foreign Noble']:
@@ -84,6 +87,7 @@ def run(social=False):
     popularity = get_popularity(followers, invite, attention, outcast, empathy,
                                 fighting, honor, connections, unyielding, social=social)
     male = get_male(gender)
+    married = get_married(marriage)
 
     '\n\n'
     st.button('Create character', on_click=click_button)
@@ -102,7 +106,8 @@ def run(social=False):
 
         st.write(f'In terms of luck you are {luck}, you are {age} years old, \
             {round(popularity * 100)}% popular, {gender} and {noble}!')
-
+        if married:
+            st.write('You are also married!')
 
         '\n\n'
         if st.button('Will you survive?'):
@@ -110,4 +115,4 @@ def run(social=False):
 
 
 
-run(social = False)
+run()

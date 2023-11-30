@@ -70,12 +70,17 @@ def get_male(gender):
         return 1
     return 0
 
+def get_married(marriage):
+    if marriage == 'Yes':
+        return 1
+    return 0
+
+
 ########## TESTS ##########
 
 if __name__ == '__main__':
 
     # print(get_house(0, 2, 4, 3, 4, 2, 5))
     # print(get_luck(59))
-
 
     pass
