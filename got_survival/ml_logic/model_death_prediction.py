@@ -14,16 +14,17 @@ from sklearn.model_selection import RandomizedSearchCV
 from scipy import stats
 from sklearn.pipeline import Pipeline, make_pipeline
 from sklearn.compose import ColumnTransformer
+from sklearn.metrics import f1_score
 
 #Reading CSV file
 def death_read_data():
-    df = pd.read_csv("processed_data/data_cleaned_Carmen/20231129_char_preds_origin_episode_isAlive.csv")
+    df = pd.read_csv("processed_data/cleaned_data_final.csv")
     return df
 
 def death_x_and_y():
     df = death_read_data()
     X = df
-    X = X.drop(columns = ["Unnamed: 0","name",'isAlive'], axis=1)
+    X = X.drop(columns = ["Unnamed: 0","name",'isAlive','episode','deaths',"season","episode_num"], axis=1)
     y = df["isAlive"]
     y = y.to_frame(name="isAlive")
     return X, y
@@ -35,7 +36,7 @@ def death_create_pipeline():
     cat_transformer = OneHotEncoder(handle_unknown='ignore', sparse_output=False)
 
     preprocessor = ColumnTransformer([
-        ('num_transformer', num_transformer, ["numDeadRelations","popularity"]),
+        ('num_transformer', num_transformer, ["isMarried","isNoble","male","popularity"]),
         ('cat_transformer', cat_transformer, ['origin'])
     ])
 
@@ -54,6 +55,10 @@ def death_cross_validate_result(model, X_train_processed, y_train):
     cv_results = cross_validate(model, X_train_processed, y_train, cv=5, scoring="f1")
     test = cv_results["test_score"].mean()
     return test
+
+def death_f1_score(y_true, y_pred):
+    return f1_score(y_true, y_pred)
+
 
 #Predict Y
 def death_prediction(model , X):
