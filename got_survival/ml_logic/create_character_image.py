@@ -1,6 +1,6 @@
 from got_survival.params import *
 from openai import OpenAI
-from IPython.display import Image
+# from IPython.display import Image
 from PIL import Image
 from io import BytesIO
 import requests
