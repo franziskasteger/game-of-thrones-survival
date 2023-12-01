@@ -278,7 +278,7 @@ pandas==1.4.4
 # starlette==0.27.0
 # statsmodels==0.13.2
 # stopit==1.1.2
-# streamlit==1.11.1
+streamlit==1.11.1
 # sympy==1.12
 # tangled-up-in-unicode==0.2.0
 # tenacity==8.2.3
