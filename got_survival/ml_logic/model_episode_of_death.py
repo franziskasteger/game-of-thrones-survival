@@ -1,16 +1,9 @@
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import tensorflow as tf
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OneHotEncoder
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import learning_curve
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import cross_validate
-from scipy import stats
-from sklearn.pipeline import Pipeline, make_pipeline
+from sklearn.pipeline import make_pipeline
 from sklearn.compose import ColumnTransformer
 
 #Reading CSV file
