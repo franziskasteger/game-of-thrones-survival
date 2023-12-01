@@ -1,3 +1,0 @@
-
-streamlit
-./got_survival
