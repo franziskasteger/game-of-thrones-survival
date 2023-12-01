@@ -1,6 +1,8 @@
 import streamlit as st
 from got_survival.ml_logic.model_character_creation import get_character
 from got_survival.interface.main import death_pred, episode_pred
+from got_survival.ml_logic.create_story import create_story
+from got_survival.ml_logic.create_character_image import create_image
 
 def run():
     st.title('Create your Game of Thrones character')
@@ -77,9 +79,15 @@ def run():
         if st.button('Will you survive?'):
             if death_pred(character.drop(columns='lucky')):
                 st.write('YES! YOU MADE IT')
+                st.image(create_image(character, age))
             else:
                 st.write('Nooooo......')
                 st.write(f'You die in episode {episode_pred(character.drop(columns="lucky"))} 😢')
+
+                st.image(create_image(character, age))
+
+                st.write(f'Here is how you die:')
+                st.write(create_story(character, age))
 
 
 
