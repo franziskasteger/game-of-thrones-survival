@@ -11,7 +11,6 @@ def run():
     def click_button():
         st.session_state.clicked = True
 
-    # QUESTIONS
     warm = st.selectbox('What kind of climate do you prefer?',\
         ['Medium', 'Warm', 'Cold'])
     '\n\n'
