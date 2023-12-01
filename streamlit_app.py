@@ -7,87 +7,132 @@ from got_survival.ml_logic.create_character_image import create_image
 def run():
     st.title('Create your Game of Thrones character')
 
-    if 'clicked' not in st.session_state:
-        st.session_state.clicked = False
+    if 'character' not in st.session_state:
+        st.session_state.character = False
 
-    def click_button():
-        st.session_state.clicked = True
+    if 'prediction' not in st.session_state:
+        st.session_state.prediction = False
 
-    warm = st.selectbox('What kind of climate do you prefer?',\
-        ['Medium', 'Warm', 'Cold'])
-    '\n\n'
+    if 'cache' not in st.session_state:
+        st.session_state.cache = {
+            'character': '',
+            'nobility': '',
+            'outcast': '',
+        }
 
-    st.write('Rate the following traits on a scale form 1 to 5:\n\n')
+    def click_button_character():
+        st.session_state.character = True
 
-    empathy = st.slider('How empathic are you?', 1, 5, 3, 1, key='emp')
-    '\n\n'
+    def click_button_prediction():
+        st.session_state.prediction = True
+        st.session_state.character = False
 
-    fighting = st.slider('How good are you at fighting?', 1, 5, 3, 1, key='fight')
-    '\n\n'
 
-    honor = st.slider('How honorable and loyal are you?', 1, 5, 3, 1, key='hon')
-    '\n\n'
+    if (not st.session_state.character) and (not st.session_state.prediction):
+        st.selectbox('What kind of climate do you prefer?',
+                       ['Cold', 'Medium', 'Warm'], key='warm')
+        '\n\n'
 
-    connections = st.slider('How good are you at negotiating, networking and\
-        building connections?', 1, 5, 3, 1, key='con')
-    '\n\n'
+        st.write('Rate the following traits on a scale form 1 to 5:\n\n')
 
-    unyielding = st.slider('How likely are you to stand by what you believe\
-        regardless of whether someone is trying to influence you in a different\
-            direction?', 1, 5, 3, 1, key='uny')
-    '\n\n'
+        st.slider('How empathic are you?', 1, 5, 3, 1, key='empathy')
+        '\n\n'
 
-    yes = st.selectbox('Are you an outcast?', ['No', 'Yes'])
-    if yes == 'Yes':
-        outcast = 1
-    else:
-        outcast = 0
+        st.slider('How good are you at fighting?', 1, 5, 3, 1, key='fighting')
+        '\n\n'
 
-    guess = st.number_input('Test your luck! Choose a number from 1 to 100!',
-                            1, 100, 50, 1, key='luck')
-    age = st.number_input('How old are you?', 1, 60, 30, 1, key='age')
-    gender = st.selectbox('Choose the gender for your character:', ['Female', 'Male'])
-    marriage = st.selectbox('Are you married', ['Yes', 'No'])
+        st.slider('How honorable and loyal are you?', 1, 5, 3, 1, key='honor')
+        '\n\n'
 
-    '\n\n'
-    st.button('Create character', on_click=click_button)
-    character = get_character(guess, outcast, warm, empathy, fighting, honor, connections,
-                              unyielding, gender, marriage)
-    if character["isNoble"][0]:
-        nobility = 'noble'
-    else:
-        nobility = 'not noble'
+        st.slider('How good are you at negotiating, networking and building connections?',
+                  1, 5, 3, 1, key='connections')
+        '\n\n'
 
-    '\n\n'
-    if st.session_state.clicked:
-        if character['origin'][0] in ['Wildling', 'Dothraki', 'Soldier', 'Foreign Noble',
-                     'Foreign Peasant', 'Noble', 'Peasant']:
-            st.write(f'In the world of Game of Thrones you would be a {character["origin"][0]}!')
-        elif 'House' in character['origin'][0]:
-            st.write(f'In the world of Game of Thrones you would be part of {character["origin"][0]}!')
-        elif character['origin'][0] == 'Outlaw':
-            st.write(f'In the world of Game of Thrones you would be an {character["origin"][0]}!')
+        st.slider('How likely are you to stand by what you believe regardless of \
+            whether someone is trying to influence you in a different\
+                direction?', 1, 5, 3, 1, key='unyielding')
+        '\n\n'
+
+        st.selectbox('Are you an outcast?', ['No', 'Yes'], key='outcast')
+        if st.session_state['outcast'] == 'Yes':
+            st.session_state.cache['outcast'] = 1
         else:
-            st.write(f'In the world of Game of Thrones you would be part of the {character["origin"][0]}!')
+            st.session_state.cache['outcast'] = 0
 
-        st.write(f'In terms of luck you are {character["lucky"][0]}, you are {age} years old, \
-            {round(character["popularity"][0] * 100)}% popular, {gender.lower()} and {nobility}!')
+        st.number_input('Test your luck! Choose a number from 1 to 100!',
+                                1, 100, 50, 1, key='guess')
+        st.number_input('How old are you?', 1, 60, 30, 1, key='age')
+        st.selectbox('Choose the gender for your character:', ['Female', 'Male'],
+                     key='gender')
+        st.selectbox('Are you married', ['Yes', 'No'], key='marriage')
+
+        '\n\n'
+        st.button('Create character', on_click=click_button_character)
+
+    '\n\n'
+    if st.session_state.character and (not st.session_state.prediction):
+        st.session_state.cache['character'] = get_character(
+            st.session_state['guess'],
+            st.session_state.cache['outcast'],
+            st.session_state['warm'],
+            st.session_state['empathy'],
+            st.session_state['fighting'],
+            st.session_state['honor'],
+            st.session_state['connections'],
+            st.session_state['unyielding'],
+            st.session_state['gender'],
+            st.session_state['marriage']
+        )
+
+        character = st.session_state.cache['character']
+
+        if character['isNoble'][0]:
+            nobility = 'noble'
+        else:
+            nobility = 'not noble'
+
+        if character['origin'][0] in ['Wildling', 'Dothraki', 'Soldier',
+                        'Foreign Noble', 'Foreign Peasant', 'Noble', 'Peasant']:
+            st.write(f'In the world of Game of Thrones you would be a \
+                {character["origin"][0]}!')
+        elif 'House' in character['origin'][0]:
+            st.write(f'In the world of Game of Thrones you would be part of \
+                {character["origin"][0]}!')
+        elif character['origin'][0] == 'Outlaw':
+            st.write(f'In the world of Game of Thrones you would be an \
+                {character["origin"][0]}!')
+        else:
+            st.write(f'In the world of Game of Thrones you would be part of the \
+                {character["origin"][0]}!')
+
+        st.write(f'In terms of luck you are {character["lucky"][0]}, you are \
+            {st.session_state["age"]} years old, \
+            {round(character["popularity"][0] * 100)}% popular, \
+                {st.session_state["gender"].lower()} and {nobility}!')
         if character["isMarried"][0]:
             st.write('You are also married!')
 
         '\n\n'
-        if st.button('Will you survive?'):
-            if death_pred(character.drop(columns='lucky')):
-                st.write('YES! YOU MADE IT')
-                st.image(create_image(character, age))
-            else:
-                st.write('Nooooo......')
-                st.write(f'You die in episode {episode_pred(character.drop(columns="lucky"))} 😢')
+        st.button('Will you survive?', on_click=click_button_prediction)
 
-                st.image(create_image(character, age))
 
-                st.write(f'Here is how you die:')
-                st.write(create_story(character, age))
+    if st.session_state.prediction:
+        character = st.session_state.cache['character']
+        if death_pred(character.drop(columns='lucky')):
+            st.write('YES! YOU MADE IT')
+            #st.image(create_image(character, st.session_state.cache["age"]))
+            st.image("processed_data/images/3186f9f7-9b16-467c-a913-7d3e79050863.png")
+        else:
+            st.write('Nooooo......')
+            st.write(f'You die in episode {episode_pred(character.drop(columns="lucky"))} 😢')
+
+            # st.image(create_image(character, st.session_state.cache["age"]))
+            st.image("processed_data/images/3186f9f7-9b16-467c-a913-7d3e79050863.png")
+
+            st.write(f'Here is how you die:')
+            # st.write(create_story(character, st.session_state.cache["age"]))
+            st.write('You pass away tragically.')
+
 
 
 
