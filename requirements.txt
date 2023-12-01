@@ -191,7 +191,7 @@
 # outcome==1.2.0
 # overrides==7.4.0
 # packaging==21.3
-pandas==1.4.4
+# pandas==1.4.4
 # pandas-gbq==0.17.9
 # pandas-profiling==3.6.6
 # pandocfilters==1.5.0
