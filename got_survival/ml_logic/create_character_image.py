@@ -1,6 +1,6 @@
 from got_survival.params import *
 from openai import OpenAI
-# from IPython.display import Image
+# from IPython import display
 from PIL import Image
 from io import BytesIO
 import requests
@@ -70,7 +70,7 @@ def create_image(new_character, age):
     # print(f"Initial size: {img.size}")
 
     #resize image to 256x256
-    img = img.resize((512, 512), Image.Resampling.LANCZOS)
+    # img = img.resize((512, 512), display.Image.Resampling.LANCZOS)
     # print(f"Final size: {img.size}")
 
     # save image in processed_data/images
