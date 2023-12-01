@@ -6,32 +6,28 @@ from io import BytesIO
 import requests
 import os
 import uuid
-import os
 from pathlib import Path
 
-def create_image(new_character):
+def create_image(new_character, age):
 
     client = OpenAI(
         api_key=OPENAI_API_KEY
     )
 
-    #generate image
-    response = client.images.generate(
-        model="dall-e-3",
-        prompt=f"""
+    sentence = f"""
         Character Overview:
 
-        House: {new_character.get('house')}
-        Age: {new_character.get('age')}
-        Popularity Index: {new_character.get('popularity')}
-        Gender: {'male' if new_character.get('male') else 'female'}
-        Nobility Status: {'Noble' if new_character.get('nobility') else 'Commoner'}
-        Marital Status: {'married' if new_character.get('married') else 'unmarried'}
+        House: {new_character['origin'][0]}
+        Age: {age}
+        Popularity Index: {new_character['popularity'][0]}
+        Gender: {'male' if new_character['male'][0] else 'female'}
+        Nobility Status: {'Noble' if new_character['isNoble'][0] else 'Commoner'}
+        Marital Status: {'married' if new_character['isMarried'][0] else 'unmarried'}
 
         Description:
 
         Create a portrait of a Game of Thrones character from
-        {new_character.get('house')}.
+        {new_character['origin'][0]}.
         The character's age, popularity, gender, nobility status, and marital
         status should all be reflected in the image. The portrait should be
         evocative of the rich and complex world of Westeros.
@@ -49,6 +45,21 @@ def create_image(new_character):
                 size="1024x1024",
                 n=1
         """
+
+    # sentence = f"""I'm gonna give you a made up character in the world of game of
+    #     thrones, please create a picture. You are not allowed to include any text in the image!
+    #         age: {age},
+    #         house: {new_character['origin'][0]},
+    #         luck: {new_character['lucky'][0]},
+    #         'popularity': {new_character['popularity'][0]},
+    #         'male': {'male' if new_character['male'][0] else 'female'},
+    #         'nobility': {'noble' if new_character['isNoble'][0] else 'not noble'},
+    #         'married': {'married' if new_character['isMarried'][0] else 'unmarried'}. """
+
+    #generate image
+    response = client.images.generate(
+        model="dall-e-3",
+        prompt=sentence
     )
 
     #extract image url
@@ -56,11 +67,11 @@ def create_image(new_character):
 
     response = requests.get(image_url)
     img = Image.open(BytesIO(response.content))
-    print(f"Initial size: {img.size}")
+    # print(f"Initial size: {img.size}")
 
     #resize image to 256x256
     img = img.resize((512, 512), Image.Resampling.LANCZOS)
-    print(f"Final size: {img.size}")
+    # print(f"Final size: {img.size}")
 
     # save image in processed_data/images
     # Generate a unique filename
@@ -73,7 +84,7 @@ def create_image(new_character):
     filename = os.path.join(folder_path, unique_filename)
     img.save(filename)
 
-    img.show()
+    # img.show()
     #show image
     return img
 
