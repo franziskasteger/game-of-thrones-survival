@@ -61,7 +61,7 @@ def run():
         st.number_input('How old are you?', 1, 60, 30, 1, key='age')
         st.selectbox('Choose the gender for your character:', ['Female', 'Male'],
                      key='gender')
-        st.selectbox('Are you married', ['Yes', 'No'], key='marriage')
+        st.selectbox('Are you married?', ['Yes', 'No'], key='marriage')
 
         '\n\n'
         st.button('Create character', on_click=click_button_character)
