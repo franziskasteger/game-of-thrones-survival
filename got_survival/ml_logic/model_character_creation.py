@@ -3,15 +3,17 @@ from random import randint
 from got_survival.ml_logic.model_houses import houses_model_predict
 
 
-def get_house(outcast, warm, empathy, fighting, honor, connections, unyielding):
-    if warm == 'Warm':
-        climate = 2
-    elif warm == 'Medium':
-        climate = 1
-    else:
-        climate = 0
+def get_house(
+        outcast:int,
+        climate:int,
+        empathy:int,
+        fighting:int,
+        honor:int,
+        connections:int,
+        unyielding:int
+    ) -> str:
 
-    test = {
+    new_character = {
         'outcast': [outcast],
         'climate': [climate],
         'empathy': [empathy],
@@ -20,11 +22,16 @@ def get_house(outcast, warm, empathy, fighting, honor, connections, unyielding):
         'connections': [connections],
         'unyielding': [unyielding]
     }
-    X =  pd.DataFrame.from_dict(test)
+    X =  pd.DataFrame.from_dict(new_character)
 
     return houses_model_predict(X)[0]
 
-def get_luck(guess):
+def get_outcast(out:str) -> int:
+    if out == 'Yes':
+        return 1
+    return 0
+
+def get_luck(guess:int) -> str:
     truth = randint(1, 100)
     if abs(truth - guess) > 95 or abs(truth - guess) < 5:
         return 'lucky'
@@ -32,7 +39,14 @@ def get_luck(guess):
         return 'normal'
     return 'unlucky'
 
-def get_popularity(outcast, empathy,fighting, honor, connections, unyielding):
+def get_popularity(
+        outcast:int,
+        empathy:int,
+        fighting:int,
+        honor:int,
+        connections:int,
+        unyielding:int
+    ) -> float:
     if outcast:
         outcast = 0
     else:
@@ -40,40 +54,45 @@ def get_popularity(outcast, empathy,fighting, honor, connections, unyielding):
 
     return (empathy + fighting + honor + connections + unyielding) / 25
 
-def get_nobility(nobility):
-    if nobility == 'noble':
+def get_nobility(house:str) -> int:
+    if 'House' in house or house in ['Noble', 'Foreign Noble']:
         return 1
     return 0
 
-def get_male(gender):
+def get_climate(warm:str) -> int:
+    if warm == 'Warm':
+        return 2
+    elif warm == 'Medium':
+        return 1
+    return 0
+
+def get_male(gender: str) -> int:
     if gender == 'Male':
         return 1
     return 0
 
-def get_married(marriage):
+def get_married(marriage:str) -> int:
     if marriage == 'Yes':
         return 1
     return 0
 
 def get_character(
-    guess,
-    outcast,
-    warm,
-    empathy,
-    fighting,
-    honor,
-    connections,
-    unyielding,
-    gender,
-    marriage
-):
+        guess:int,
+        out:str,
+        warm:str,
+        empathy:int,
+        fighting:int,
+        honor:int,
+        connections:int,
+        unyielding:int,
+        gender:str,
+        marriage:str
+    ) -> pd.DataFrame:
+    outcast = get_outcast(out)
+    climate = get_climate(warm)
     luck = get_luck(guess)
-    house = get_house(outcast, warm, empathy, fighting, honor, connections, unyielding)
-    if 'House' in house or house in ['Noble', 'Foreign Noble']:
-        noble = 'noble'
-    else:
-        noble = 'not noble'
-    nobility = get_nobility(noble)
+    house = get_house(outcast, climate, empathy, fighting, honor, connections, unyielding)
+    nobility = get_nobility(house)
     popularity = get_popularity(outcast, empathy, fighting, honor, connections, unyielding)
     male = get_male(gender)
     married = get_married(marriage)
@@ -89,7 +108,10 @@ def get_character(
 
     return pd.DataFrame.from_dict(character)
 
+
+###########################
 ########## TESTS ##########
+###########################
 
 if __name__ == '__main__':
 
