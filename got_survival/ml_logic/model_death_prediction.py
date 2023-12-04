@@ -8,14 +8,6 @@ from sklearn.pipeline import Pipeline, make_pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.metrics import f1_score
 
-
-# def death_read_data():
-#     '''
-#     Returns the csv file
-#     '''
-#     df =
-#     return df
-
 def death_x_and_y() -> tuple[pd.DataFrame, pd.DataFrame]:
     '''
     Reads the data and splits it into X and y
