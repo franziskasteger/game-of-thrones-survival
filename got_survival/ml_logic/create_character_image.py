@@ -79,7 +79,7 @@ def create_image(
     filename = os.path.join(folder_path, unique_filename)
     img.save(filename)
 
-    return img
+    return img, filename
 
 
 ###########################

@@ -64,7 +64,7 @@ def run_character_creation():
     if character["isMarried"][0]:
         st.write('You are also married!')
 
-
+    # elements to pass to create_image_character
     character = {
         'origin': character['origin'],
         'popularity': character['popularity'],
@@ -73,20 +73,50 @@ def run_character_creation():
         'isMarried': character['isMarried'],
     }
 
-    # TODO: "call generate image for character" - create_image_character module - create_image(character,age) function
-    st.image("processed_data/images/test_image.png",use_column_width="auto") #temporary image
+    age = st.session_state['age']
 
-    st.button('Will you survive?', on_click=display_survival_prediction)
+    # work and gets the image
+    #image, filename = create_image(character,age)
+
+    # TODO: "call generate image for character" - create_image_character module - create_image(character,age) function
+    #st.image(image=filename,use_column_width="auto") #this works
+
+    #temporary solution
+    filename = "processed_data/images/test_image.png"
+    st.image(image="processed_data/images/test_image.png",use_column_width="auto")
+
+    # Add a spacer between the image and buttons
+    st.write("")
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        try:
+            # TODO: if i click the button it leaves the page, need to understand why
+            with open(filename, "rb") as file: #filename
+                st.download_button(
+                    label="Download image",
+                    data=file.read(),
+                    file_name=filename,
+                    key="download_button",
+                    help="Click to download the image",
+                )
+        except FileNotFoundError:
+            st.error("File not found. Please check the file path.")
+
+    with col2:
+        st.button('Will you survive?', on_click=display_survival_prediction)
 
 def display_survival_prediction():
     character = st.session_state.cache['character']
     if death_pred(character.drop(columns='lucky')):
         st.title('You are alive 🎉')
         st.write('YES! YOU MADE IT')
+
         # TODO: "create story fo alive character"
         st.image("processed_data/images/test_image_alive.png")
     else:
-        st.title('You wen to Hell 😢')
+        st.title('You went to Hell 😢')
         st.write('Nooooo......')
 
         # TODO: "call prediction for episode of death" - create_story module - create_story(character,age) function
