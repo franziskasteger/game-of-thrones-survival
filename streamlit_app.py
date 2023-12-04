@@ -21,7 +21,7 @@ def run():
             'outcast': '',
         }
 
-    # Define functions to be called when buttins are clicked
+    # Define functions to be called when buttons are clicked
     def click_button_character():
         st.session_state.character = True
 
