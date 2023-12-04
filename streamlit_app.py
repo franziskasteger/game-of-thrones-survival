@@ -56,11 +56,6 @@ def run():
         '\n\n'
 
         st.selectbox('Are you an outcast?', ['No', 'Yes'], key='outcast')
-        if st.session_state['outcast'] == 'Yes':
-            st.session_state.cache['outcast'] = 1
-        else:
-            st.session_state.cache['outcast'] = 0
-
         st.number_input('Test your luck! Choose a number from 1 to 100!',
                                 1, 100, 50, 1, key='guess')
         st.number_input('How old are you?', 1, 60, 30, 1, key='age')
@@ -76,7 +71,7 @@ def run():
     if st.session_state.character and (not st.session_state.prediction):
         st.session_state.cache['character'] = get_character(
             st.session_state['guess'],
-            st.session_state.cache['outcast'],
+            st.session_state['outcast'],
             st.session_state['warm'],
             st.session_state['empathy'],
             st.session_state['fighting'],

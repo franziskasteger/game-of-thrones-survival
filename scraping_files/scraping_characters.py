@@ -56,6 +56,15 @@ def get_characters(url):
     else:
         print("Failed to retrieve data. Status code:", response.status_code)
 
+
+###########################
+########## TESTS ##########
+###########################
+
+base_url = "https://www.anapioficeandfire.com/api/characters"
+
 if __name__ == "__main__":
-    base_url = "https://www.anapioficeandfire.com/api/characters"
-    get_characters(base_url)
+
+    # get_characters(base_url)
+
+    pass

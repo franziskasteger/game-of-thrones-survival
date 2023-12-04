@@ -75,7 +75,7 @@ def episode_pred(new_character):
     '''
     # Load model
     episode_pipe = pickle.load(open("got_survival/models_pickle/episode_model.pkl", "rb"))
-    return round(episode_pipe.predict(new_character)[0]) # Return prediction
+    return round(episode_pipe.predict(new_character)[0][0]) # Return prediction
 
 test = {
     'male': [0],
