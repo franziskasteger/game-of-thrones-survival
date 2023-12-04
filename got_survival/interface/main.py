@@ -1,57 +1,82 @@
 from got_survival.ml_logic.model_death_prediction import death_x_and_y, death_create_pipeline, \
     death_split_train, death_f1_score
 from got_survival.ml_logic.model_episode_of_death import episode_x_and_y, \
-    episode_create_pipeline, episode_split_train, episode_prediction
+    episode_create_pipeline, episode_split_train
 import pickle
 import pandas as pd
-from math import ceil
 
 def death_train():
-    X, y = death_x_and_y()
+    '''
+    Will train a logistic regression pipeline to predict whether a character
+    survives or not.
+    '''
+    X, y = death_x_and_y() # Import data and split it into features and target
+    # Train-test-split with random state so that it is the same split for evaluating
     X_train, X_test, y_train, y_test = death_split_train(X, y)
-    pipe = death_create_pipeline()
-    pipe.fit(X_train, y_train.values.ravel())
+    pipe = death_create_pipeline() # Create pipeline with preprocessor and model
+    pipe.fit(X_train, y_train.values.ravel()) # Fit pipeline
 
-    # we should save the model somewhere instead of returning it
     with open("got_survival/models_pickle/death_model.pkl", "wb") as file:
-        pickle.dump(pipe, file)
+        pickle.dump(pipe, file) # Save trained model for evaluation and prediction
 
 def death_evaluate():
+    '''
+    Evaluate the trained logistic regression pipeline.
+    '''
+    # Load trained model
     death_pipe = pickle.load(open("got_survival/models_pickle/death_model.pkl", "rb"))
-    X, y = death_x_and_y()
+    X, y = death_x_and_y() # Import data
+    # Train-test-split with random state so that it is the same split as training
     X_train, X_test, y_train, y_test = death_split_train(X, y)
-    y_pred = death_pipe.predict(X_test)
-    score = death_f1_score(y_test, y_pred)
+    y_pred = death_pipe.predict(X_test) # predict X_test with pipeline
+    score = death_f1_score(y_test, y_pred) # calculate score
     # maybe save the score somewhere?
     return score
 
 def death_pred(new_character):
+    '''
+    Use the fitted logistic regression pipeline to predict whether a new
+    character survives or not.
+    '''
+    # Load model
     death_pipe = pickle.load(open("got_survival/models_pickle/death_model.pkl", "rb"))
-    return int(death_pipe.predict(new_character)[0])
+    return int(death_pipe.predict(new_character)[0]) # Return prediction
 
 
 def episode_train():
-    X, y = episode_x_and_y()
+    '''
+    Will train a linear regression pipeline to predict when a character dies.
+    '''
+    X, y = episode_x_and_y() # Import data and split it into features and target
+    # Train-test-split with random state so that it is the same split for evaluating
     X_train, X_test, y_train, y_test = episode_split_train(X, y)
-    episode_pipe = episode_create_pipeline()
-    episode_pipe.fit(X_train, y_train) #.values.ravel()
+    episode_pipe = episode_create_pipeline() # Create pipeline with preprocessor and model
+    episode_pipe.fit(X_train, y_train) #.values.ravel()  # Fit pipeline
 
-    # we should save the model somewhere instead of returning it
     with open("got_survival/models_pickle/episode_model.pkl", "wb") as file:
-        pickle.dump(episode_pipe, file)
+        pickle.dump(episode_pipe, file) # Save trained model for evaluation and prediction
 
 def episode_evaluate():
-    # if we save the model somewhere, we should load it instead of passing it to the function
+    '''
+    Evaluate the trained linear regression pipeline.
+    '''
+    # Load trained model
     episode_pipe = pickle.load(open("got_survival/models_pickle/episode_model.pkl", "rb"))
-    X, y = episode_x_and_y()
+    X, y = episode_x_and_y() # Import data
+    # Train-test-split with random state so that it is the same split as training
     X_train, X_test, y_train, y_test = episode_split_train(X, y)
-    score = episode_pipe.score(X_test, y_test)
+    score = episode_pipe.score(X_test, y_test) # calculate score
     # maybe save the score somewhere?
     return score
 
 def episode_pred(new_character):
+    '''
+    Use the fitted logistic regression pipeline to predict when a new character
+    dies.
+    '''
+    # Load model
     episode_pipe = pickle.load(open("got_survival/models_pickle/episode_model.pkl", "rb"))
-    return ceil(episode_pipe.predict(new_character)[0])
+    return round(episode_pipe.predict(new_character)[0]) # Return prediction
 
 test = {
     'male': [0],
@@ -61,8 +86,10 @@ test = {
     'popularity': [0.753]
 }
 
-
+###########################
 ########## TESTS ##########
+###########################
+
 if __name__ == '__main__':
     # death_train()
     # print(death_evaluate())
