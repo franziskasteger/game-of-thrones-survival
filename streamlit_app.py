@@ -7,12 +7,13 @@ from got_survival.ml_logic.create_character_image import create_image
 def run():
     st.title('Create your Game of Thrones character')
 
+    # Initiate button states
     if 'character' not in st.session_state:
         st.session_state.character = False
-
     if 'prediction' not in st.session_state:
         st.session_state.prediction = False
 
+    # Create empty variables
     if 'cache' not in st.session_state:
         st.session_state.cache = {
             'character': '',
@@ -20,6 +21,7 @@ def run():
             'outcast': '',
         }
 
+    # Define functions to be called when buttins are clicked
     def click_button_character():
         st.session_state.character = True
 
@@ -28,13 +30,13 @@ def run():
         st.session_state.character = False
 
 
+    # Display the questions for the character creation
     if (not st.session_state.character) and (not st.session_state.prediction):
+        # Climate
         st.selectbox('What kind of climate do you prefer?',
                        ['Cold', 'Medium', 'Warm'], key='warm')
         '\n\n'
-
         st.write('Rate the following traits on a scale form 1 to 5:\n\n')
-
         st.slider('How empathic are you?', 1, 5, 3, 1, key='empathy')
         '\n\n'
 
@@ -70,6 +72,7 @@ def run():
         st.button('Create character', on_click=click_button_character)
 
     '\n\n'
+    # Create character and display information
     if st.session_state.character and (not st.session_state.prediction):
         st.session_state.cache['character'] = get_character(
             st.session_state['guess'],
@@ -118,14 +121,18 @@ def run():
 
     if st.session_state.prediction:
         character = st.session_state.cache['character']
+        st.write('Will you survive?')
         if death_pred(character.drop(columns='lucky')):
             st.write('YES! YOU MADE IT')
+
+            # Change comments from the default image to have one created:
             #st.image(create_image(character, st.session_state.cache["age"]))
             st.image("processed_data/images/3186f9f7-9b16-467c-a913-7d3e79050863.png")
         else:
             st.write('Nooooo......')
             st.write(f'You die in episode {episode_pred(character.drop(columns="lucky"))} 😢')
 
+            # Change comments from the default image and story to have them created:
             # st.image(create_image(character, st.session_state.cache["age"]))
             st.image("processed_data/images/3186f9f7-9b16-467c-a913-7d3e79050863.png")
 
