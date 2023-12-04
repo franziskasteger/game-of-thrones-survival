@@ -3,8 +3,9 @@ from got_survival.ml_logic.model_death_prediction import death_x_and_y, death_cr
 from got_survival.ml_logic.model_episode_of_death import episode_x_and_y, \
     episode_create_pipeline, episode_split_train
 import pickle
+import pandas as pd
 
-def death_train():
+def death_train() -> None:
     '''
     Will train a logistic regression pipeline to predict whether a character
     survives or not.
@@ -18,7 +19,7 @@ def death_train():
     with open("got_survival/models_pickle/death_model.pkl", "wb") as file:
         pickle.dump(pipe, file) # Save trained model for evaluation and prediction
 
-def death_evaluate():
+def death_evaluate() -> float:
     '''
     Evaluate the trained logistic regression pipeline.
     '''
@@ -32,17 +33,17 @@ def death_evaluate():
     # maybe save the score somewhere?
     return score
 
-def death_pred(new_character):
+def death_pred(new_character:pd.DataFrame) -> int:
     '''
     Use the fitted logistic regression pipeline to predict whether a new
     character survives or not.
     '''
     # Load model
     death_pipe = pickle.load(open("got_survival/models_pickle/death_model.pkl", "rb"))
-    return int(death_pipe.predict(new_character)[0]) # Return prediction
+    return death_pipe.predict(new_character)[0] # Return prediction
 
 
-def episode_train():
+def episode_train() -> None:
     '''
     Will train a linear regression pipeline to predict when a character dies.
     '''
@@ -55,7 +56,7 @@ def episode_train():
     with open("got_survival/models_pickle/episode_model.pkl", "wb") as file:
         pickle.dump(episode_pipe, file) # Save trained model for evaluation and prediction
 
-def episode_evaluate():
+def episode_evaluate() -> float:
     '''
     Evaluate the trained linear regression pipeline.
     '''
@@ -68,7 +69,7 @@ def episode_evaluate():
     # maybe save the score somewhere?
     return score
 
-def episode_pred(new_character):
+def episode_pred(new_character:pd.DataFrame) -> int:
     '''
     Use the fitted logistic regression pipeline to predict when a new character
     dies.
@@ -77,6 +78,11 @@ def episode_pred(new_character):
     episode_pipe = pickle.load(open("got_survival/models_pickle/episode_model.pkl", "rb"))
     return round(episode_pipe.predict(new_character)[0][0]) # Return prediction
 
+
+###########################
+########## TESTS ##########
+###########################
+
 test = {
     'male': [0],
     'origin': ["House Stark"],
@@ -84,10 +90,7 @@ test = {
     'isNoble': [1],
     'popularity': [0.753]
 }
-
-###########################
-########## TESTS ##########
-###########################
+new_X = pd.DataFrame.from_dict(test)
 
 if __name__ == '__main__':
     # death_train()
@@ -96,5 +99,5 @@ if __name__ == '__main__':
 
     # episode_train()
     # print(episode_evaluate())
-    # print(episode_pred(test))
+    # print(episode_pred(new_X))
     pass
