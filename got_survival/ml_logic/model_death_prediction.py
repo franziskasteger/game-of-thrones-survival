@@ -49,11 +49,10 @@ def death_cross_validate_result(
         y_train:pd.DataFrame
     ) -> float:
     '''
-    Cross validates a given logistic pipeline
+    Cross validates a given logistic regression pipeline
     '''
     cv_results = cross_validate(pipe, X_train, y_train, cv=5, scoring="f1")
-    score = cv_results["test_score"].mean()
-    return score
+    return cv_results["test_score"].mean()
 
 def death_f1_score(
         y_true:pd.DataFrame,
