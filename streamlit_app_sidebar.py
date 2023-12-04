@@ -29,7 +29,7 @@ def display_character_questions():
     st.sidebar.button('Create character', on_click=run_character_creation)
 
 def run_character_creation():
-    st.title('Your character')
+    st.title('Your Amazing Game of Thrones Character')
 
     st.session_state.cache['character'] = get_character(
         st.session_state['guess'],
@@ -46,24 +46,6 @@ def run_character_creation():
 
     character = st.session_state.cache['character']
 
-    if character['isNoble'][0]:
-        nobility = 'noble'
-    else:
-        nobility = 'not noble'
-
-    if character['origin'][0] in ['Wildling', 'Dothraki', 'Soldier', 'Foreign Noble', 'Foreign Peasant', 'Noble', 'Peasant']:
-        st.write(f'In the world of Game of Thrones you would be a {character["origin"][0]}!')
-    elif 'House' in character['origin'][0]:
-        st.write(f'In the world of Game of Thrones you would be part of {character["origin"][0]}!')
-    elif character['origin'][0] == 'Outlaw':
-        st.write(f'In the world of Game of Thrones you would be an {character["origin"][0]}!')
-    else:
-        st.write(f'In the world of Game of Thrones you would be part of the {character["origin"][0]}!')
-
-    st.write(f'In terms of luck you are {character["lucky"][0]}, you are {st.session_state["age"]} years old, {round(character["popularity"][0] * 100)}% popular, {st.session_state["gender"].lower()} and {nobility}!')
-    if character["isMarried"][0]:
-        st.write('You are also married!')
-
     # elements to pass to create_image_character
     character = {
         'origin': character['origin'],
@@ -75,15 +57,20 @@ def run_character_creation():
 
     age = st.session_state['age']
 
-    # work and gets the image
-    #image, filename = create_image(character,age)
+    # Add a spacer between the image and buttons
+    st.write("")
 
-    # TODO: "call generate image for character" - create_image_character module - create_image(character,age) function
-    #st.image(image=filename,use_column_width="auto") #this works
+    # store with chatAPI
+    story = create_story(character,age)
+    st.write(story)
+
+    # work and gets the image
+    filename = create_image(character,age)
+    st.image(image=filename,use_column_width="auto") #this works
 
     #temporary solution
-    filename = "processed_data/images/test_image.png"
-    st.image(image="processed_data/images/test_image.png",use_column_width="auto")
+    #filename = "processed_data/images/test_image.png"
+    #st.image(image="processed_data/images/test_image.png",use_column_width="auto")
 
     # Add a spacer between the image and buttons
     st.write("")

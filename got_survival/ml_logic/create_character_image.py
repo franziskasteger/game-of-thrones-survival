@@ -79,24 +79,4 @@ def create_image(
     filename = os.path.join(folder_path, unique_filename)
     img.save(filename)
 
-    return img, filename
-
-
-###########################
-########## TESTS ##########
-###########################
-
-character = {
-        'origin': ['House Stark'],
-        'popularity': [0.78],
-        'male': [0],
-        'isNoble': [1],
-        'isMarried': [1]
-    }
-new_character = pd.DataFrame.from_dict(character)
-age = 28
-
-if __name__ == '__main__':
-
-    # print(create_image(new_character, age))
-    pass
+    return filename
