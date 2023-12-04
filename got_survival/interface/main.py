@@ -3,7 +3,6 @@ from got_survival.ml_logic.model_death_prediction import death_x_and_y, death_cr
 from got_survival.ml_logic.model_episode_of_death import episode_x_and_y, \
     episode_create_pipeline, episode_split_train
 import pickle
-import pandas as pd
 
 def death_train():
     '''
