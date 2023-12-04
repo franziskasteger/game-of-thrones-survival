@@ -22,9 +22,9 @@ def get_house(
         'connections': [connections],
         'unyielding': [unyielding]
     }
-    X =  pd.DataFrame.from_dict(new_character)
+    X = pd.DataFrame.from_dict(new_character)
 
-    return houses_model_predict(X)[0]
+    return houses_model_predict(X)
 
 def get_outcast(out:str) -> int:
     if out == 'Yes':
