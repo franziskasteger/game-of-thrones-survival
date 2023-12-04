@@ -1,11 +1,20 @@
 from got_survival.params import *
 from openai import OpenAI
+import pandas as pd
 
-
-def create_story(character, age):
+def create_story(
+        character: pd.DataFrame,
+        age: int
+    ) -> str:
+    '''
+    Given information about a character will create a story about their death
+    using the OpenAI api.
+    '''
+    # Instantiate OpenAI with the key
     client = OpenAI(
         api_key=OPENAI_API_KEY
     )
+    # Translate character information into words
     if character['male'][0] == 1:
         gender = 'male'
     else:
@@ -47,15 +56,22 @@ def create_story(character, age):
     return response.choices[0].message.content
 
 
-if __name__ == '__main__':
-    new_character = {
-        'house': 'House Stark',
-        'luck': 'unlucky',
-        'age': 28,
-        'popularity': 0.78,
-        'male': 0,
-        'nobility': 1,
-        'married': 1
-    }
+###########################
+########## TESTS ##########
+###########################
 
-    print(create_story(new_character))
+character = {
+    'origin': ['House Stark'],
+    'popularity': [0.78],
+    'lucky': ['lucky'],
+    'male': [0],
+    'isNoble': [1],
+    'isMarried': [1]
+}
+age = 28
+new_character = pd.DataFrame.from_dict(character)
+
+if __name__ == '__main__':
+
+    # print(create_story(new_character, age))
+    pass
