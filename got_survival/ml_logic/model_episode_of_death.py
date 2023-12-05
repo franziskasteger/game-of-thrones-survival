@@ -1,27 +1,28 @@
 import pandas as pd
+import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OneHotEncoder
-from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import cross_validate
 from sklearn.pipeline import make_pipeline, Pipeline
 from sklearn.compose import ColumnTransformer
-
+from xgboost import XGBClassifier
 
 def episode_x_and_y() -> tuple[pd.DataFrame, pd.DataFrame]:
     '''
     Reads the data, filters it to only be the people who die and splits it into X and y
     '''
-    df = pd.read_csv("processed_data/cleaned_data_final.csv", index_col=0)
+    df = pd.read_csv("processed_data/cleaned_data_final.csv")
     df.drop(columns=['name', 'episode', 'deaths'], axis=1, inplace=True)
     df = df[df['isAlive'] == 0].drop(columns="isAlive")
 
-    X = df.drop(columns = ["episode_num", "season"], axis=1)
-    y = df[["episode_num"]]
+    df['season_half'] = np.where((df['season'] >= 0) & (df['season'] <= 4), 1, 0)
+    X = df.drop(columns = ["episode_num", "season", "season_half"], axis=1)
+    y = df[["season_half"]]
     return X, y
 
 def episode_create_pipeline() -> Pipeline:
     '''
-    Creates linear regression pipeline
+    Creates XGBClassifier pipeline
     '''
     cat_transformer = OneHotEncoder(handle_unknown='ignore', sparse_output=False)
 
@@ -29,7 +30,8 @@ def episode_create_pipeline() -> Pipeline:
         ('cat_transformer', cat_transformer, ['origin'])],
         remainder='passthrough'
     )
-    return make_pipeline(preprocessor, LinearRegression())
+    return make_pipeline(preprocessor, XGBClassifier(max_depth = 3, n_estimators = 385,
+                                                     learning_rate = 0.9733781714200092))
 
 def episode_split_train(
         X: pd.DataFrame,
@@ -47,7 +49,7 @@ def episode_cross_validate_result(
         y_train:pd.DataFrame
     ) -> float:
     '''
-    Cross validates a given linear regression pipeline
+    Cross validates a given XGBClassifier regression pipeline
     '''
-    cv_results = cross_validate(pipe, X_train, y_train, cv=5, scoring="neg_mean_absolute_error")
+    cv_results = cross_validate(pipe, X_train, y_train, cv=5, scoring="macro_f1")
     return cv_results["test_score"].mean()

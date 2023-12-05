@@ -4,8 +4,9 @@ from got_survival.ml_logic.model_episode_of_death import episode_x_and_y, \
     episode_create_pipeline, episode_split_train
 import pickle
 import pandas as pd
+from sklearn.metrics import f1_score
 
-#For Random Forest
+# Random Forest
 def death_train_RF() -> None:
     '''
     Will train a logistic regression pipeline to predict whether a character
@@ -44,7 +45,7 @@ def death_pred_RF(new_character:pd.DataFrame) -> int:
     return death_pipe.predict(new_character)[0] # Return prediction
 
 
-#For logistic regression
+# Logistic regression
 def death_train() -> None:
     '''
     Will train a logistic regression pipeline to predict whether a character
@@ -83,9 +84,10 @@ def death_pred(new_character:pd.DataFrame) -> int:
     return death_pipe.predict(new_character)[0] # Return prediction
 
 
+# Time of death
 def episode_train() -> None:
     '''
-    Will train a linear regression pipeline to predict when a character dies.
+    Will train a XGBClassifier  pipeline to predict when a character dies.
     '''
     X, y = episode_x_and_y() # Import data and split it into features and target
     # Train-test-split with random state so that it is the same split for evaluating
@@ -98,14 +100,16 @@ def episode_train() -> None:
 
 def episode_evaluate() -> float:
     '''
-    Evaluate the trained linear regression pipeline.
+    Evaluate the trained XGBClassifier pipeline.
     '''
     # Load trained model
     episode_pipe = pickle.load(open("got_survival/models_pickle/episode_model.pkl", "rb"))
     X, y = episode_x_and_y() # Import data
     # Train-test-split with random state so that it is the same split as training
     X_train, X_test, y_train, y_test = episode_split_train(X, y)
-    score = episode_pipe.score(X_test, y_test) # calculate score
+    # score = episode_pipe.score(X_test, y_test) # calculate score
+    y_pred = episode_pipe.predict(X_test)
+    score = f1_score(y_test, y_pred, average="macro")
     # maybe save the score somewhere?
     return score
 
@@ -116,7 +120,7 @@ def episode_pred(new_character:pd.DataFrame) -> int:
     '''
     # Load model
     episode_pipe = pickle.load(open("got_survival/models_pickle/episode_model.pkl", "rb"))
-    return round(episode_pipe.predict(new_character)[0][0]) # Return prediction
+    return round(episode_pipe.predict(new_character)[0]) # Return prediction
 
 
 ###########################
@@ -133,16 +137,18 @@ test = {
 new_X = pd.DataFrame.from_dict(test)
 
 if __name__ == '__main__':
-    #print(f'-----------------Logistic Regression-------------------------')
-    #death_train()
-    #print(death_evaluate())
-    #print(death_pred(new_X))
 
-    #print(f'------------------------------------------')
-    #print(f'-----------------Random Forest-------------------------')
-    #death_train_RF()
-    #print(death_evaluate_RF())
-    #print(death_pred_RF(new_X))
+    # print(f'------------------------------------------------------')
+    # print(f'-----------------Random Forest-------------------------')
+    # death_train_RF()
+    # print(death_evaluate_RF())
+    # print(death_pred_RF(new_X))
+    # print(f'------------------------------------------------------')
+
+    # print(f'-----------------Logistic Regression-------------------------')
+    # death_train()
+    # print(death_evaluate())
+    # print(death_pred(new_X))
 
     # episode_train()
     # print(episode_evaluate())
