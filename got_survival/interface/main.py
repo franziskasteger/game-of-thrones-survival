@@ -138,11 +138,12 @@ new_X = pd.DataFrame.from_dict(test)
 
 if __name__ == '__main__':
 
-    # print(f'------------------------------------------')
+    # print(f'------------------------------------------------------')
     # print(f'-----------------Random Forest-------------------------')
     # death_train_RF()
     # print(death_evaluate_RF())
     # print(death_pred_RF(new_X))
+    # print(f'------------------------------------------------------')
 
     # print(f'-----------------Logistic Regression-------------------------')
     # death_train()
