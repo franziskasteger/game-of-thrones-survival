@@ -7,13 +7,20 @@ import requests
 import os
 import uuid
 from pathlib import Path
+import pandas as pd
 
-def create_image(new_character, age):
-
+def create_image(
+        new_character:pd.DataFrame,
+        age:int
+    ) -> Image:
+    '''
+    Given information about a character will create an image using the OpenAI api.
+    '''
+    # Instantiate OpenAI with the key
     client = OpenAI(
         api_key=OPENAI_API_KEY
     )
-
+    # Define prompt
     sentence = f"""
         Character Overview:
 
@@ -46,58 +53,50 @@ def create_image(new_character, age):
                 n=1
         """
 
-    # sentence = f"""I'm gonna give you a made up character in the world of game of
-    #     thrones, please create a picture. You are not allowed to include any text in the image!
-    #         age: {age},
-    #         house: {new_character['origin'][0]},
-    #         luck: {new_character['lucky'][0]},
-    #         'popularity': {new_character['popularity'][0]},
-    #         'male': {'male' if new_character['male'][0] else 'female'},
-    #         'nobility': {'noble' if new_character['isNoble'][0] else 'not noble'},
-    #         'married': {'married' if new_character['isMarried'][0] else 'unmarried'}. """
-
-    #generate image
+    # Generate image
     response = client.images.generate(
         model="dall-e-3",
         prompt=sentence
     )
 
-    #extract image url
+    # Extract image url
     image_url = response.data[0].url
 
     response = requests.get(image_url)
     img = Image.open(BytesIO(response.content))
-    # print(f"Initial size: {img.size}")
 
-    #resize image to 256x256
+    # Resize image to 256x256
     # img = img.resize((512, 512), display.Image.Resampling.LANCZOS)
-    # print(f"Final size: {img.size}")
 
-    # save image in processed_data/images
+    # Save image in processed_data/images
     # Generate a unique filename
     unique_filename = str(uuid.uuid4()) + ".png"
     folder_path = "./processed_data/images/"
 
-    # Create the images folder if it doesn't exist
+    # Create the image folder if it doesn't exist
     Path(folder_path).mkdir(parents=True, exist_ok=True)
 
     filename = os.path.join(folder_path, unique_filename)
     img.save(filename)
 
-    # img.show()
-    #show image
     return img
 
 
-if __name__ == '__main__':
-    new_character = {
-        'house': 'House Stark',
-        'luck': 'unlucky',
-        'age': 28,
-        'popularity': 0.78,
-        'male': 0,
-        'nobility': 1,
-        'married': 1
-    }
+###########################
+########## TESTS ##########
+###########################
 
-    print(create_image(new_character))
+character = {
+        'origin': ['House Stark'],
+        'popularity': [0.78],
+        'male': [0],
+        'isNoble': [1],
+        'isMarried': [1]
+    }
+new_character = pd.DataFrame.from_dict(character)
+age = 28
+
+if __name__ == '__main__':
+
+    # print(create_image(new_character, age))
+    pass
