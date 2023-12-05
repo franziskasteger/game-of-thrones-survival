@@ -41,11 +41,11 @@ def houses_model_train():
     with open('got_survival/models_pickle/houses.pkl', 'wb') as file:
         pickle.dump(model, file)
 
-def houses_model_predict(X:pd.DataFrame, based_on_outcasts:bool=True) -> str:
+def houses_model_predict(X:pd.DataFrame, based_on_outcast:bool=True) -> str:
     '''
     Predicts the house for a given character
     '''
-    if based_on_outcasts:
+    if based_on_outcast:
         # Checks for 'outcast' and uses correct model, returns prediction
         if X['outcast'][0]:
             model_outcasts = pickle.load(open('got_survival/models_pickle/outcasts.pkl', 'rb'))
