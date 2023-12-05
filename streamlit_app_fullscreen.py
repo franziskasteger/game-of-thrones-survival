@@ -1,8 +1,6 @@
 import streamlit as st
 from got_survival.ml_logic.model_character_creation import get_character
 from got_survival.interface.main import death_pred, episode_pred
-from got_survival.ml_logic.create_story import create_story
-from got_survival.ml_logic.create_story_char import create_character_story
 from got_survival.ml_logic.create_story_dead import create_character_dead
 from got_survival.ml_logic.create_story_alive import create_character_alive
 from got_survival.ml_logic.create_character_image import create_image
@@ -12,9 +10,8 @@ CLIMATE_OPTIONS = ['Cold', 'Medium', 'Warm']
 st.set_page_config(
     page_title="Create your Game of Thrones character",
     page_icon=":chart_with_upwards_trend:",
-    layout="wide",
+    layout="centered",
 )
-
 
 def run():
     # Initiate button states
@@ -104,41 +101,17 @@ def run():
         # Add a spacer between the image and buttons
         st.write("")
 
-        # store with chatAPI
-        #story = create_character_story(character,age)
-        story = "This is a story"
-        st.write(story)
-
         # work and gets the image
-        #filename = create_image(character,age)
+        #img, filename = create_image(character,age)
         #st.image(image=filename,use_column_width="auto") #this works
 
         #temporary solution
-        filename = "processed_data/images/test_image.png"
+        #filename = "processed_data/images/test_image.png"
         st.image(image="processed_data/images/test_image.png",use_column_width="auto")
 
         # Add a spacer between the image and buttons
         st.write("")
-
-        col1, col2 = st.columns(2)
-
-        with col1:
-            try:
-                # TODO: if i click the button it leaves the page, need to understand why
-                with open(filename, "rb") as file: #filename
-                    st.download_button(
-                        label="Download image",
-                        data=file.read(),
-                        file_name=filename,
-                        key="download_button",
-                        help="Click to download the image",
-                    )
-            except FileNotFoundError:
-                st.error("File not found. Please check the file path.")
-
-        with col2:
-            st.button('Will you survive?', on_click=click_button_prediction)
-
+        st.button('Will you survive?', on_click=click_button_prediction)
 
     if st.session_state.prediction:
         character = st.session_state.cache['character']
@@ -149,25 +122,52 @@ def run():
             st.write('YES! YOU MADE IT')
 
             # Change comments from the default image to have one created:
-            #st.image(create_image(character, st.session_state.cache["age"]))
+            # st.image(create_image(character, st.session_state.cache["age"]))
             # st.image("processed_data/images/3186f9f7-9b16-467c-a913-7d3e79050863.png")
-            st.write(create_character_alive(character, age))
+
+            # create story of alive
+            story_alive = create_character_alive(character, age)
+            st.write(story_alive)
+
+            # image alive
+            img_dead, filename_dead = create_image(character, age, story_alive)
+            st.image(img_dead)
+
+            if st.button("Download image"):
+                with open(filename_dead, "rb") as file:
+                    st.download_button(
+                        label="Download image",
+                        data=file.read(),
+                        file_name=filename_dead,
+                        key="download_button",
+                        help="Click to download the image",
+                    )
 
         else:
             st.write('Nooooo......')
             episode_number = episode_pred(character.drop(columns="lucky"))
+            st.write(f'You die in episode {episode_number} 😢')
 
-            #st.write(f'You die in episode {episode_number} 😢')
-            story_death = create_character_dead(character, age, episode_number)
+            story_death = create_character_dead(character, age)
             st.write(story_death)
 
-            # Change comments from the default image and story to have them created:
-            st.image(create_image(character, age, story_death))
+            img_alive, filename_alive = create_image(character, age, story_death)
+            st.image(img_alive)
+
+            if st.button("Download image"):
+                with open(filename_alive, "rb") as file:
+                    st.download_button(
+                        label="Download image",
+                        data=file.read(),
+                        file_name=filename_alive,
+                        key="download_button",
+                        help="Click to download the image",
+                    )
+
             #st.image("processed_data/images/3186f9f7-9b16-467c-a913-7d3e79050863.png")
 
             #st.write(f'Here is how you die:')
             #st.write(create_story(character, age))
-            st.write('You pass away tragically.')
 
 
 run()
