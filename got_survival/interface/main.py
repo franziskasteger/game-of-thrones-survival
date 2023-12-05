@@ -6,7 +6,7 @@ import pickle
 import pandas as pd
 from sklearn.metrics import f1_score
 
-#For Random Forest
+# Random Forest
 def death_train_RF() -> None:
     '''
     Will train a logistic regression pipeline to predict whether a character
@@ -45,7 +45,7 @@ def death_pred_RF(new_character:pd.DataFrame) -> int:
     return death_pipe.predict(new_character)[0] # Return prediction
 
 
-#For logistic regression
+# Logistic regression
 def death_train() -> None:
     '''
     Will train a logistic regression pipeline to predict whether a character
@@ -84,6 +84,7 @@ def death_pred(new_character:pd.DataFrame) -> int:
     return death_pipe.predict(new_character)[0] # Return prediction
 
 
+# Time of death
 def episode_train() -> None:
     '''
     Will train a XGBClassifier  pipeline to predict when a character dies.
@@ -136,18 +137,19 @@ test = {
 new_X = pd.DataFrame.from_dict(test)
 
 if __name__ == '__main__':
-    print(f'-----------------Logistic Regression-------------------------')
-    death_train()
-    print(death_evaluate())
-    print(death_pred(new_X))
 
-    print(f'------------------------------------------')
-    print(f'-----------------Random Forest-------------------------')
-    death_train_RF()
-    print(death_evaluate_RF())
-    print(death_pred_RF(new_X))
+    # print(f'------------------------------------------')
+    # print(f'-----------------Random Forest-------------------------')
+    # death_train_RF()
+    # print(death_evaluate_RF())
+    # print(death_pred_RF(new_X))
+
+    # print(f'-----------------Logistic Regression-------------------------')
+    # death_train()
+    # print(death_evaluate())
+    # print(death_pred(new_X))
 
     # episode_train()
     # print(episode_evaluate())
     # print(episode_pred(new_X))
-    #pass
+    pass
