@@ -17,8 +17,8 @@ def create_character_dead(
     # Craft the text prompt based on character details
     sentence = f"""
         I'm gonna give you a made up character in the world of game of
-        thrones, please create a very short funny story of the character's death. Don't make it
-            longer than 2 paragraphs!
+        thrones, please create a very short funny story of the character's death
+        inspired by the events in game of thrones. Make it shorter than 2 paragraphs!
             age: {age},
             house: {character['origin'][0]},
             luck: {character['lucky'][0]},

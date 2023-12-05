@@ -1,6 +1,6 @@
 import streamlit as st
 from got_survival.ml_logic.model_character_creation import get_character
-from got_survival.interface.main import death_pred, episode_pred
+from got_survival.interface.main import episode_pred, death_pred_RF
 from got_survival.ml_logic.create_story_dead import create_character_dead
 from got_survival.ml_logic.create_story_alive import create_character_alive
 from got_survival.ml_logic.create_character_image import create_image
@@ -118,7 +118,7 @@ def run():
         age = st.session_state.cache['age']
         st.write('Will you survive?')
 
-        if death_pred(character.drop(columns='lucky')):
+        if death_pred_RF(character.drop(columns='lucky')):
             st.write('YES! YOU MADE IT')
 
             # Change comments from the default image to have one created:
