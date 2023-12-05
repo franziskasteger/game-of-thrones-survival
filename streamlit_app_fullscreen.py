@@ -4,6 +4,7 @@ from got_survival.interface.main import episode_pred, death_pred_RF
 from got_survival.ml_logic.create_story_dead import create_character_dead
 from got_survival.ml_logic.create_story_alive import create_character_alive
 from got_survival.ml_logic.create_character_image import create_image
+from got_survival.ml_logic.create_story_house import get_house_text
 
 CLIMATE_OPTIONS = ['Cold', 'Medium', 'Warm']
 
@@ -44,7 +45,7 @@ def run():
 
         st.selectbox('What kind of climate do you prefer?', CLIMATE_OPTIONS, key='warm')
 
-        col1, col2 = st.columns(2,gap='medium')
+        col1, col2 = st.columns(2,gap='large')
 
         with col1:
             st.write('Rate the following traits on a scale form 1 to 5:\n\n')
@@ -101,71 +102,76 @@ def run():
         # Add a spacer between the image and buttons
         st.write("")
 
-        # work and gets the image
-        #img, filename = create_image(character,age)
-        #st.image(image=filename,use_column_width="auto") #this works
+        col1, col2 = st.columns(2,gap='large')
+        with col1:
+            st.image(image="processed_data/images/test_image.png",use_column_width="auto")
 
-        #temporary solution
-        #filename = "processed_data/images/test_image.png"
-        st.image(image="processed_data/images/test_image.png",use_column_width="auto")
+        with col2:
+            house_description = get_house_text().keys()
+            st.write(house_description)
 
-        # Add a spacer between the image and buttons
-        st.write("")
+
         st.button('Will you survive?', on_click=click_button_prediction)
 
     if st.session_state.prediction:
         character = st.session_state.cache['character']
         age = st.session_state.cache['age']
-        st.write('Will you survive?')
+        st.markdown("<h1 style='text-align: center; color: grey;'>Will you survive ?</h1>", unsafe_allow_html=True)
 
         if death_pred_RF(character.drop(columns='lucky')):
-            st.write('YES! YOU MADE IT')
+            st.markdown("<h2 style='text-align: center; color: grey;'>You made it </h2>", unsafe_allow_html=True)
 
             # Change comments from the default image to have one created:
             # st.image(create_image(character, st.session_state.cache["age"]))
             # st.image("processed_data/images/3186f9f7-9b16-467c-a913-7d3e79050863.png")
 
-            # create story of alive
-            story_alive = create_character_alive(character, age)
-            st.write(story_alive)
+            if "image" not in st.session_state:
+                st.session_state["story"] = create_character_alive(character, age)
+                img_alive, filename_alive = create_image(character, age, st.session_state["story"])
+                st.session_state["image"] = img_alive
+                st.session_state["image_path"] = filename_alive
 
-            # image alive
-            img_dead, filename_dead = create_image(character, age, story_alive)
-            st.image(img_dead)
+            st.write(st.session_state["story"])
+            st.image(st.session_state["image"])
 
-            if st.button("Download image"):
-                with open(filename_dead, "rb") as file:
-                    st.download_button(
-                        label="Download image",
-                        data=file.read(),
-                        file_name=filename_dead,
-                        key="download_button",
-                        help="Click to download the image",
-                    )
+            #if st.button("Download image"):
+            with open(st.session_state["image_path"], "rb") as file:
+                st.download_button(
+                    label="Download image",
+                    data=file.read(),
+                    file_name=st.session_state["image_path"],
+                    key="download_button",
+                    help="Click to download the image",
+                )
 
         else:
-            st.write('Nooooo......')
+            st.markdown("<h1 style='text-align: center; color: grey;'>Nooooo .... you are dead </h1>", unsafe_allow_html=True)
             episode_number = episode_pred(character.drop(columns="lucky"))
             if episode_number == 0:
-                st.write(f'You die in episode in early episodes 😢')
+                st.markdown("<h2 style='text-align: center; color: grey;'>You die in EARLY episodes 😢</h2>", unsafe_allow_html=True)
             else:
-                st.write(f'You die in episode in later episodes 😢😢')
+                st.markdown("<h2 style='text-align: center; color: grey;'>You die in LATER episodes 😢😢</h2>", unsafe_allow_html=True)
 
-            story_death = create_character_dead(character, age)
-            st.write(story_death)
+            if "image" not in st.session_state:
 
-            img_alive, filename_alive = create_image(character, age, story_death)
-            st.image(img_alive)
+                st.session_state["story"] = create_character_dead(character, age)
 
-            if st.button("Download image"):
-                with open(filename_alive, "rb") as file:
-                    st.download_button(
-                        label="Download image",
-                        data=file.read(),
-                        file_name=filename_alive,
-                        key="download_button",
-                        help="Click to download the image",
-                    )
+                img_alive, filename_alive = create_image(character, age, st.session_state["story"])
+                st.session_state["image"] = img_alive
+                st.session_state["image_path"] = filename_alive
+
+            st.write(st.session_state["story"])
+            st.image(st.session_state["image"])
+
+            #if st.button("Download image"):
+            with open(st.session_state["image_path"], "rb") as file:
+                st.download_button(
+                    label="Download image",
+                    data=file.read(),
+                    file_name=st.session_state["image_path"],
+                    key="download_button",
+                    help="Click to download the image",
+                )
 
             #st.image("processed_data/images/3186f9f7-9b16-467c-a913-7d3e79050863.png")
 
