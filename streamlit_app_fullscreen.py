@@ -70,7 +70,7 @@ def run():
     '\n\n'
     # Create character and display information
     if st.session_state.character and (not st.session_state.prediction):
-        st.title('Your Amazing Game of Thrones Character')
+        st.markdown("<h1 style='text-align: center; color: grey;'>Your Amazing Game of Thrones Character</h1>", unsafe_allow_html=True)
 
         st.session_state.cache['character'] = get_character(
             st.session_state['guess'],
@@ -146,7 +146,10 @@ def run():
         else:
             st.write('Nooooo......')
             episode_number = episode_pred(character.drop(columns="lucky"))
-            st.write(f'You die in episode {episode_number} 😢')
+            if episode_number == 0:
+                st.write(f'You die in episode in early episodes 😢')
+            else:
+                st.write(f'You die in episode in later episodes 😢😢')
 
             story_death = create_character_dead(character, age)
             st.write(story_death)
