@@ -4,6 +4,7 @@ from got_survival.ml_logic.model_episode_of_death import episode_x_and_y, \
     episode_create_pipeline, episode_split_train
 import pickle
 import pandas as pd
+from sklearn.metrics import f1_score
 
 #For Random Forest
 def death_train_RF() -> None:
@@ -85,7 +86,7 @@ def death_pred(new_character:pd.DataFrame) -> int:
 
 def episode_train() -> None:
     '''
-    Will train a linear regression pipeline to predict when a character dies.
+    Will train a XGBClassifier  pipeline to predict when a character dies.
     '''
     X, y = episode_x_and_y() # Import data and split it into features and target
     # Train-test-split with random state so that it is the same split for evaluating
@@ -98,14 +99,16 @@ def episode_train() -> None:
 
 def episode_evaluate() -> float:
     '''
-    Evaluate the trained linear regression pipeline.
+    Evaluate the trained XGBClassifier pipeline.
     '''
     # Load trained model
     episode_pipe = pickle.load(open("got_survival/models_pickle/episode_model.pkl", "rb"))
     X, y = episode_x_and_y() # Import data
     # Train-test-split with random state so that it is the same split as training
     X_train, X_test, y_train, y_test = episode_split_train(X, y)
-    score = episode_pipe.score(X_test, y_test) # calculate score
+    # score = episode_pipe.score(X_test, y_test) # calculate score
+    y_pred = episode_pipe.predict(X_test)
+    score = f1_score(y_test, y_pred, average="macro")
     # maybe save the score somewhere?
     return score
 
