@@ -1,4 +1,5 @@
 import streamlit as st
+import base64
 from got_survival.ml_logic.model_character_creation import get_character
 from got_survival.interface.main import episode_pred, death_pred_RF
 from got_survival.ml_logic.create_story_dead import create_character_dead
@@ -13,6 +14,32 @@ st.set_page_config(
     page_icon=":chart_with_upwards_trend:",
     layout="centered",
 )
+
+@st.cache_data
+def get_img_as_base64(file):
+    try:
+        with open(file, "rb") as f:
+            data = f.read()
+            return base64.b64encode(data).decode()
+    except Exception as e:
+        print(f"Error reading image file: {e}")
+        return None
+
+img = get_img_as_base64("processed_data/images/awesome_picture.png")
+
+page_element = f"""
+    <style>
+    [data-testid="stAppViewContainer"] {{
+        background-image: url("data:image/png;base64,{img}");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }}
+    </style>
+"""
+
+st.markdown(page_element, unsafe_allow_html=True)
+
 
 def run():
     # Initiate button states
@@ -45,7 +72,7 @@ def run():
 
         st.selectbox('What kind of climate do you prefer?', CLIMATE_OPTIONS, key='warm')
 
-        col1, col2 = st.columns(2,gap='large')
+        col1, col2 = st.columns(2,gap='medium')
 
         with col1:
             st.write('Rate the following traits on a scale form 1 to 5:\n\n')
@@ -173,10 +200,5 @@ def run():
                     help="Click to download the image",
                 )
 
-            #st.image("processed_data/images/3186f9f7-9b16-467c-a913-7d3e79050863.png")
-
-            #st.write(f'Here is how you die:')
-            #st.write(create_story(character, age))
-
-
-run()
+if __name__ == "__main__":
+    run()
