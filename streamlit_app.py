@@ -125,23 +125,24 @@ def run():
             # st.image(create_image(character, st.session_state.cache["age"]))
             # st.image("processed_data/images/3186f9f7-9b16-467c-a913-7d3e79050863.png")
 
-            # create story of alive
-            story_alive = create_character_alive(character, age)
-            st.write(story_alive)
+            if "image" not in st.session_state:
+                st.session_state["story"] = create_character_alive(character, age)
+                img_alive, filename_alive = create_image(character, age, st.session_state["story"])
+                st.session_state["image"] = img_alive
+                st.session_state["image_path"] = filename_alive
 
-            # image alive
-            img_dead, filename_dead = create_image(character, age, story_alive)
-            st.image(img_dead)
+            st.write(st.session_state["story"])
+            st.image(st.session_state["image"])
 
-            if st.button("Download image"):
-                with open(filename_dead, "rb") as file:
-                    st.download_button(
-                        label="Download image",
-                        data=file.read(),
-                        file_name=filename_dead,
-                        key="download_button",
-                        help="Click to download the image",
-                    )
+            #if st.button("Download image"):
+            with open(st.session_state["image_path"], "rb") as file:
+                st.download_button(
+                    label="Download image",
+                    data=file.read(),
+                    file_name=st.session_state["image_path"],
+                    key="download_button",
+                    help="Click to download the image",
+                )
 
         else:
             st.write('Nooooo......')
@@ -150,22 +151,26 @@ def run():
                 st.write(f'You die in episode in early episodes 😢')
             else:
                 st.write(f'You die in episode in later episodes 😢😢')
+            if "image" not in st.session_state:
 
-            story_death = create_character_dead(character, age)
-            st.write(story_death)
+                st.session_state["story"] = create_character_dead(character, age)
 
-            img_alive, filename_alive = create_image(character, age, story_death)
-            st.image(img_alive)
+                img_alive, filename_alive = create_image(character, age, st.session_state["story"])
+                st.session_state["image"] = img_alive
+                st.session_state["image_path"] = filename_alive
 
-            if st.button("Download image"):
-                with open(filename_alive, "rb") as file:
-                    st.download_button(
-                        label="Download image",
-                        data=file.read(),
-                        file_name=filename_alive,
-                        key="download_button",
-                        help="Click to download the image",
-                    )
+            st.write(st.session_state["story"])
+            st.image(st.session_state["image"])
+
+            #if st.button("Download image"):
+            with open(st.session_state["image_path"], "rb") as file:
+                st.download_button(
+                    label="Download image",
+                    data=file.read(),
+                    file_name=st.session_state["image_path"],
+                    key="download_button",
+                    help="Click to download the image",
+                )
 
             #st.image("processed_data/images/3186f9f7-9b16-467c-a913-7d3e79050863.png")
 
