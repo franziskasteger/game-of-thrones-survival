@@ -146,7 +146,10 @@ def run():
         else:
             st.write('Nooooo......')
             episode_number = episode_pred(character.drop(columns="lucky"))
-            st.write(f'You die in episode {episode_number} 😢')
+            if episode_number == 0:
+                st.write(f'You die in episode in early episodes 😢')
+            else:
+                st.write(f'You die in episode in later episodes 😢')
 
             story_death = create_character_dead(character, age)
             st.write(story_death)
