@@ -121,18 +121,18 @@ def run():
             st.write('YES! YOU MADE IT')
 
             # Change comments from the default image to have one created:
-            #st.image(create_image(character, st.session_state.cache["age"]))
+            #st.image(create_image(character, st.session_state["age"]))
             st.image("processed_data/images/3186f9f7-9b16-467c-a913-7d3e79050863.png")
         else:
             st.write('Nooooo......')
             st.write(f'You die in episode {episode_pred(character.drop(columns="lucky"))} 😢')
 
             # Change comments from the default image and story to have them created:
-            # st.image(create_image(character, st.session_state.cache["age"]))
+            # st.image(create_image(character, st.session_state["age"]))
             st.image("processed_data/images/3186f9f7-9b16-467c-a913-7d3e79050863.png")
 
             st.write(f'Here is how you die:')
-            # st.write(create_story(character, st.session_state.cache["age"]))
+            # st.write(create_story(character, st.session_state["age"]))
             st.write('You pass away tragically.')
 
 
