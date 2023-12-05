@@ -14,64 +14,55 @@ def create_story(
     client = OpenAI(
         api_key=OPENAI_API_KEY
     )
-    # Translate character information into words
-    if character['male'][0] == 1:
-        gender = 'male'
-    else:
-        gender = 'female'
 
-    if character['popularity'][0] > 0.75:
-        pop = 'popular'
-    elif character['popularity'][0] < 0.25:
-        pop = 'unpopular'
-    else:
-        pop = 'normal'
+    # Define the prompt
+    text_prompt = f"""Character Overview:
 
-    if character['isMarried'][0] == 1:
-        mar = 'married'
-    else:
-        mar = 'unmarried'
+    A charismatic and cunning member of House {character['origin'][0]},
+    {'he' if character['male'][0] else 'she'} often uses their wit and charm
+    to manipulate others. Despite their noble status,
+    {'he' if character['male'][0] else 'she'} is not afraid
+    often using their wit and charm to manipulate others. Despite their
+    noble status, {'he' if character['male'][0] else 'she'} is not afraid
+    to get their hands dirty, making them a formidable adversary.
 
-    # Prompt for the AI model
-    text_prompt = f"I'm gonna give you a made up character in the world of game of \
-        thrones, please create a very short funny story of how they die. Don't make it \
-            longer than two paragraphs!\
-            age: {age}, \
-            house: {character['origin'][0]}, \
-            luck: {character['lucky'][0]}, \
-            'popularity': {pop}, \
-            'male': {gender},\
-            'nobility': {character['isNoble'][0]},\
-            'married': {mar}. "
+    Age: {age}
+    Popularity Index: {'popular' if character['popularity'][0] > 0.5 else 'not popular'}
+    Nobility Status: {'Noble' if character['isNoble'][0] else 'Commoner'}
+    Marital Status: {'married' if character['isMarried'][0] else 'unmarried'}
 
-    # Make a request to the API to generate text
-    response = client.chat.completions.create(
-        model="gpt-3.5-turbo-0613",  # Use the engine of your choice
-        messages = [{"role": "system", "content": "You are a historian and you \
-            are writing a book about game of thrones"},
-                    {"role": "user", "content": text_prompt}],
-        max_tokens = 300,
-    )
+    Description:
 
-    return response.choices[0].message.content
+    Weave a captivating tale of this Game of Thrones character, incorporating
+    their intricate personality and the treacherous world of Westeros.
 
+    Instructions:
 
-###########################
-########## TESTS ##########
-###########################
+    Craft a short story that delves into the character's cunning nature and
+    their ability to navigate the political landscape of Westeros.
+    Infuse the narrative with humor and intrigue, showcasing the character's
+    resourcefulness and ability to turn even the most perilous situations
+    to their advantage.
+    """
 
-character = {
-    'origin': ['House Stark'],
-    'popularity': [0.78],
-    'lucky': ['lucky'],
-    'male': [0],
-    'isNoble': [1],
-    'isMarried': [1]
-}
-age = 28
-new_character = pd.DataFrame.from_dict(character)
+    # Set the max_tokens parameter to a lower value
+    max_tokens = 50
 
-if __name__ == '__main__':
+    # Divide the story into smaller chunks
+    chunks = text_prompt.split('.')
 
-    # print(create_story(new_character, age))
-    pass
+    # Generate each chunk independently
+    generated_story = ''
+    for chunk in chunks:
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo-0613",
+            messages = [{"role": "system", "content": "You are a historian and you \
+                know everything about game of thrones"},
+                        {"role": "user", "content": chunk}],
+            max_tokens=max_tokens,
+        )
+
+        generated_story += response.choices[0].message.content + '. '
+
+    # Return the generated story
+    return generated_story
