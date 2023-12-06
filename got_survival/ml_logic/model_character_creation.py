@@ -91,7 +91,7 @@ def get_character(
     outcast = get_outcast(out)
     climate = get_climate(warm)
     luck = get_luck(guess)
-    house = get_house(outcast, climate, empathy, fighting, honor, connections, unyielding)
+    house, ex_house = get_house(outcast, climate, empathy, fighting, honor, connections, unyielding)
     nobility = get_nobility(house)
     popularity = get_popularity(outcast, empathy, fighting, honor, connections, unyielding)
     male = get_male(gender)
@@ -103,7 +103,8 @@ def get_character(
         'isNoble': [nobility],
         'popularity': [popularity],
         'male': [male],
-        'isMarried': [married]
+        'isMarried': [married],
+        'ex_house': [ex_house]
     }
 
     return pd.DataFrame.from_dict(character)

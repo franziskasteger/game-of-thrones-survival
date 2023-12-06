@@ -41,8 +41,10 @@ def get_tsne(
     X_with_new = pd.concat((X, new_X)).reset_index(drop=True)
     y_with_new = pd.concat((y, pd.Series('You'))).reset_index(drop=True)
 
-    tsne_new = TSNE(n_components=2, perplexity=3, init='random', n_iter=1_000_000, random_state=4)
-    X_with_new_emb = pd.DataFrame(tsne_new.fit_transform(X_with_new), columns=tsne_new.get_feature_names_out())
+    tsne_new = TSNE(n_components=2, perplexity=3, init='random',
+                    n_iter=1_000_000, random_state=4)
+    X_with_new_emb = pd.DataFrame(tsne_new.fit_transform(X_with_new),
+                                  columns=tsne_new.get_feature_names_out())
 
 
     fig = px.scatter(x=X_with_new_emb.iloc[:20, 0], y=X_with_new_emb.iloc[:20, 1],
@@ -53,8 +55,10 @@ def get_tsne(
     fig.add_scatter(x=X_with_new_emb.iloc[-1:, 0], y=X_with_new_emb.iloc[-1:, 1],
                     hovertemplate='You', name='You', showlegend=False,
                     marker=dict(size=25, color="Red", symbol='x'))
-    fig.update_layout(dict1={'plot_bgcolor': 'rgba(0, 0, 0, 0.2)','paper_bgcolor': 'rgba(0, 0, 0, 0.2)'})
-    fig.update_layout(legend=dict(orientation="h", y=-0.2, x=0.5, xanchor='center'))
+    fig.update_layout(dict1={'plot_bgcolor': 'rgba(0, 0, 0, 0.2)',
+                             'paper_bgcolor': 'rgba(0, 0, 0, 0.2)'})
+    #fig.update_layout(legend=dict(orientation="h", y=-0.2, x=0.5, xanchor='center'))
+    fig.update_layout(showlegend=False)
 
     return fig
 

@@ -30,7 +30,7 @@ def create_character_dead(
     """
 
     # Set the maximum number of tokens for each prompt chunk
-    max_tokens = 300
+    max_tokens = 400
 
     # Generate the story one chunk at a time
     # Send each chunk to the OpenAI API and capture the response

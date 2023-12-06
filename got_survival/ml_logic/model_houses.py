@@ -10,7 +10,7 @@ def houses_model_train():
     house = pd.read_csv('features_for_quiz/houses/classes.csv')
 
     # Split the data based on 'outcast'
-    outcasts = house[house['outcast'] == 1]
+    outcasts = pd.concat((house[house['outcast'] == 1], house[house['class']=="Night's Watch"]))
     not_outcasts = house[house['outcast'] == 0]
 
     # Create X and y
@@ -41,18 +41,23 @@ def houses_model_train():
     with open('got_survival/models_pickle/houses.pkl', 'wb') as file:
         pickle.dump(model, file)
 
-def houses_model_predict(X:pd.DataFrame, based_on_outcast:bool=True) -> str:
+def houses_model_predict(X:pd.DataFrame, based_on_outcast:bool=True) -> tuple[str, str]:
     '''
     Predicts the house for a given character
     '''
+    #if based_on_outcast:
     # Checks for 'outcast' and uses correct model, returns prediction
+    model = pickle.load(open('got_survival/models_pickle/houses.pkl', 'rb'))
+
     if X['outcast'][0]:
         model_outcasts = pickle.load(open('got_survival/models_pickle/outcasts.pkl', 'rb'))
-        return model_outcasts.predict(X)[0]
+        return model_outcasts.predict(X)[0], model.predict(X)[0]
 
     model_not_outcasts = pickle.load(open('got_survival/models_pickle/not_outcasts.pkl', 'rb'))
-    return model_not_outcasts.predict(X)[0]
+    return model_not_outcasts.predict(X)[0], model.predict(X)[0]
 
+    # model = pickle.load(open('got_survival/models_pickle/houses.pkl', 'rb'))
+    # return model.predict(X)[0]
 
 
 
@@ -63,12 +68,12 @@ def houses_model_predict(X:pd.DataFrame, based_on_outcast:bool=True) -> str:
 
 new_character = {
     'outcast': [1],
-    'climate': [2],
+    'climate': [0],
     'empathy': [3],
-    'fighting': [3],
-    'honor': [3],
-    'connections': [3],
-    'unyielding': [3]
+    'fighting': [4],
+    'honor': [5],
+    'connections': [2],
+    'unyielding': [4]
 }
 X = pd.DataFrame.from_dict(new_character)
 
