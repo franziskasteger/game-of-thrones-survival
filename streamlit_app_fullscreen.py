@@ -1,5 +1,6 @@
 import streamlit as st
 import base64
+import os
 from got_survival.ml_logic.model_character_creation import get_character
 from got_survival.interface.main import episode_pred, death_pred_RF
 from got_survival.ml_logic.create_story_dead import create_character_dead
@@ -220,12 +221,20 @@ def run():
         # Add a spacer between the image and buttons
         st.write("")
 
-        col1, col2 = st.columns(2,gap='large')
+        house_description = character['origin'][0]
+        print(f"house_description: {house_description}")
+
+        col1, col2 = st.columns(2, gap='large')
         with col1:
-            st.image(image="processed_data/images/test_image.png",use_column_width="auto")
+            path_to_house = f"processed_data/images/houses_images/{house_description}.png"
+            full_path = os.path.join(os.getcwd(), path_to_house)
+            if os.path.exists(full_path):
+                st.image(image=full_path, use_column_width="auto")
+            else:
+                st.write("Image not found!")
 
         with col2:
-            house_description = get_house_text().keys()
+            house_description = get_house_text()[house_description]
             st.write(house_description)
 
 
