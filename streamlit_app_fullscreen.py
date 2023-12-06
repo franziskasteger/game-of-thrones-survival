@@ -32,7 +32,7 @@ img = get_img_as_base64("processed_data/images/awesome_picture.png")
 
 # Function to change the style of the labels
 def change_label_style(label,
-                       font_size='16px',
+                       font_size='18px',
                        font_color='white',
                        font_family='sans-serif',
                        text_align='justify'):
@@ -44,12 +44,14 @@ def change_label_style(label,
         elem.style.color = '{font_color}';
         elem.style.fontFamily = '{font_family}';
         elem.style.textAlign = '{text_align}';
+        elem.style.fontWeight = 'bold';
+        elem.style.textShadow = '2px 2px 4px #000000';
     </script>
     """
     st.components.v1.html(html,height=0)
 
-        #elem.style.webkitTextStroke = '1px black'; /* Webkit browsers like Chrome and Safari */
-        #elem.style.textStroke = '1px black'; /* Standard syntax */
+    #elem.style.webkitTextStroke = '1px black'; /* Webkit browsers like Chrome and Safari */
+    #elem.style.textStroke = '1px black'; /* Standard syntax */
 
 # Custom CSS for background image
 page_element = f"""
@@ -67,13 +69,15 @@ page_element = f"""
 custom_styles = """
 <style>
     .stSlider div {
-        border-color: #000000;  /* Color of the slider line */
-        color: #000000;  /* Font color of the slider */
-        font-size: 16px;  /* Font size of the slider */
+        border-color: #ffffff;  /* Color of the slider line */
+        color: #ffffff;  /* Font color of the slider */
+        font-size: 18px;  /* Font size of the slider */
+        text.shadow: 2px 2px 4px #ffffff;  /* Shadow of the slider font */
     }
 
     .stSlider .slider-value {
-        color: #ff0000;  /* Font color of the slider number */
+        font-weight: bold;  /* Font weight of the slider number */
+        color: #ffffff;  /* Font color of the slider number */
     }
 </style>
 """
@@ -230,10 +234,10 @@ def run():
     if st.session_state.prediction:
         character = st.session_state.cache['character']
         age = st.session_state.cache['age']
-        st.markdown("<h1 style='text-align: center; color: grey;'>Will you survive ?</h1>", unsafe_allow_html=True)
+        st.markdown("<h1 style='text-align: center; color: white;'>Will you survive ?</h1>", unsafe_allow_html=True)
 
         if death_pred_RF(character.drop(columns='lucky')):
-            st.markdown("<h2 style='text-align: center; color: grey;'>You made it </h2>", unsafe_allow_html=True)
+            st.markdown("<h2 style='text-align: center; color: white;'>You made it </h2>", unsafe_allow_html=True)
 
             if "image" not in st.session_state:
                 st.session_state["story"] = create_character_alive(character, age)
@@ -255,10 +259,10 @@ def run():
                 )
 
         else:
-            st.markdown("<h1 style='text-align: center; color: grey;'>Nooooo .... you are dead </h1>", unsafe_allow_html=True)
+            st.markdown("<h1 style='text-align: center; color: white;'>Nooooo .... you are dead </h1>", unsafe_allow_html=True)
             episode_number = episode_pred(character.drop(columns="lucky"))
 
-            st.markdown(f"<h2 style='text-align: center; color: grey;'>You die in season {episode_number} 😢</h2>", unsafe_allow_html=True)
+            st.markdown(f"<h2 style='text-align: center; color: white;'>You die in season {episode_number} 😢</h2>", unsafe_allow_html=True)
 
             if "image" not in st.session_state:
 
