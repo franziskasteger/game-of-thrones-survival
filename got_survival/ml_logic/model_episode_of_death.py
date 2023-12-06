@@ -6,18 +6,19 @@ from sklearn.model_selection import cross_validate
 from sklearn.pipeline import make_pipeline, Pipeline
 from sklearn.compose import ColumnTransformer
 from xgboost import XGBClassifier
+from sklearn.utils.class_weight import compute_sample_weight
 
 def episode_x_and_y() -> tuple[pd.DataFrame, pd.DataFrame]:
     '''
     Reads the data, filters it to only be the people who die and splits it into X and y
     '''
     df = pd.read_csv("processed_data/cleaned_data_final.csv")
-    df.drop(columns=['name', 'episode', 'deaths'], axis=1, inplace=True)
-    df = df[df['isAlive'] == 0].drop(columns="isAlive")
+    df.drop(columns=['name', 'episode', 'deaths', 'episode_num'], inplace=True)
+    dead = df[df['isAlive'] == 0].drop(columns='isAlive').reset_index(drop=True)
 
-    df['season_half'] = np.where((df['season'] >= 0) & (df['season'] <= 4), 1, 0)
-    X = df.drop(columns = ["episode_num", "season", "season_half"], axis=1)
-    y = df[["season_half"]]
+    X = dead.drop(columns='season')
+    y = dead[['season']]-1
+
     return X, y
 
 def episode_create_pipeline() -> Pipeline:
@@ -30,8 +31,8 @@ def episode_create_pipeline() -> Pipeline:
         ('cat_transformer', cat_transformer, ['origin'])],
         remainder='passthrough'
     )
-    return make_pipeline(preprocessor, XGBClassifier(max_depth = 3, n_estimators = 385,
-                                                     learning_rate = 0.9733781714200092))
+    return make_pipeline(preprocessor, XGBClassifier(max_depth = 3, n_estimators = 580,
+                                                     learning_rate = 0.064))
 
 def episode_split_train(
         X: pd.DataFrame,
@@ -53,3 +54,6 @@ def episode_cross_validate_result(
     '''
     cv_results = cross_validate(pipe, X_train, y_train, cv=5, scoring="macro_f1")
     return cv_results["test_score"].mean()
+
+def episode_get_weights(y_train:pd.DataFrame) -> np.ndarray:
+    return compute_sample_weight(class_weight='balanced', y=y_train)
