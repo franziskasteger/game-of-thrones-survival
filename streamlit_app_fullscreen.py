@@ -8,6 +8,7 @@ from got_survival.ml_logic.create_character_image import create_image
 from got_survival.ml_logic.create_story_house import get_house_text
 
 CLIMATE_OPTIONS = ['Cold', 'Medium', 'Warm']
+SLIDER_OPTIONS = 1, 5, 3, 1
 
 st.set_page_config(
     page_title="Create your Game of Thrones character",
@@ -26,6 +27,26 @@ def get_img_as_base64(file):
         return None
 
 img = get_img_as_base64("processed_data/images/awesome_picture.png")
+
+def change_label_style(label,
+                       font_size='20px',
+                       font_color='white',
+                       font_family='sans-serif',
+                       text_align='center'):
+    html = f"""
+    <script>
+        var elems = window.parent.document.querySelectorAll('p');
+        var elem = Array.from(elems).find(x => x.innerText == '{label}');
+        elem.style.fontSize = '{font_size}';
+        elem.style.color = '{font_color}';
+        elem.style.fontFamily = '{font_family}';
+        elem.style.textAlign = '{text_align}';
+    </script>
+    """
+    st.components.v1.html(html,height=0)
+
+        #elem.style.webkitTextStroke = '1px black'; /* Webkit browsers like Chrome and Safari */
+        #elem.style.textStroke = '1px black'; /* Standard syntax */
 
 page_element = f"""
     <style>
@@ -68,30 +89,67 @@ def run():
 
     # Display the questions for the character creation
     if (not st.session_state.character) and (not st.session_state.prediction):
-        st.markdown("<h1 style='text-align: center; color: grey;'>Create your Game of Thrones character</h1>", unsafe_allow_html=True)
+        st.markdown("<h1 style='text-align: center; color: white;'>Create your Game of Thrones character</h1>", unsafe_allow_html=True)
 
-        st.selectbox('What kind of climate do you prefer?', CLIMATE_OPTIONS, key='warm')
+        label_1_header = 'What kind of climate do you prefer?'
+        change_label_style(label_1_header)
+        st.selectbox(label_1_header, CLIMATE_OPTIONS, key='warm')
 
         col1, col2 = st.columns(2,gap='medium')
 
+        #labels col1
+        #label_1_questions = 'Rate the following traits on a scale form 1 to 5:'
+        label_1_empathy = 'How empathic are you?'
+        label_1_fighting = 'How good are you at fighting?'
+        label_1_honor = 'How honorable and loyal are you?'
+        label_1_negotiation = 'How good are you at negotiating, networking and building connections?'
+        label_1_belief = 'How likely are you to stand by what you believe regardless of whether someone is trying to influence you in a different direction?'
+
+
+        #labels col1 transformations
+        #change_label_style(label_1_questions)
+        change_label_style(label_1_empathy)
+        change_label_style(label_1_fighting)
+        change_label_style(label_1_honor)
+        change_label_style(label_1_negotiation)
+        change_label_style(label_1_belief)
+
+
         with col1:
-            st.write('Rate the following traits on a scale form 1 to 5:\n\n')
-            st.slider('How empathic are you?', 1, 5, 3, 1, key='empathy')
-            st.slider('How good are you at fighting?', 1, 5, 3, 1, key='fighting')
-            st.slider('How honorable and loyal are you?', 1, 5, 3, 1, key='honor')
-            st.slider('How good are you at negotiating, networking and building connections?', 1, 5, 3, 1, key='connections')
-            st.slider('How likely are you to stand by what you believe regardless of whether someone is trying to influence you in a different direction?', 1, 5, 3, 1, key='unyielding')
+            #labels col1
+            #label_rate = 'Rate the following traits on a scale form 1 to 5:'
+            #change_label_style(label_rate)
+            #st.write(label_1_questions)
+            st.slider(label_1_empathy, 1, 5, 3, 1, key='empathy')
+            st.slider(label_1_fighting, 1, 5, 3, 1, key='fighting')
+            st.slider(label_1_honor, 1, 5, 3, 1, key='honor')
+            st.slider(label_1_negotiation, 1, 5, 3, 1, key='connections')
+            st.slider(label_1_belief, 1, 5, 3, 1, key='unyielding')
+
+        #labels col2
+        label_2_outcast = 'Are you an outcast?'
+        label_2_luck = 'Test your luck! Choose a number from 1 to 100!'
+        label_2_age = 'How old are you?'
+        label_2_gender = 'Choose the gender for your character:'
+        label_2_marriage = 'Are you married?'
+
+        #labels col2 transformations
+        change_label_style(label_2_outcast)
+        change_label_style(label_2_luck)
+        change_label_style(label_2_age)
+        change_label_style(label_2_gender)
+        change_label_style(label_2_marriage)
 
         with col2:
-            st.selectbox('Are you an outcast?', ['No', 'Yes'], key='outcast')
+            st.selectbox(label_2_outcast, ['No', 'Yes'], key='outcast')
             if st.session_state['outcast'] == 'Yes':
                 st.session_state.cache['outcast'] = 1
             else:
                 st.session_state.cache['outcast'] = 0
-            st.number_input('Test your luck! Choose a number from 1 to 100!', 1, 100, 50, 1, key='guess')
-            st.number_input('How old are you?', 1, 60, 30, 1, key='age')
-            st.selectbox('Choose the gender for your character:', ['Female', 'Male'], key='gender')
-            st.selectbox('Are you married', ['Yes', 'No'], key='marriage')
+            st.number_input(label_2_luck, 1, 100, 50, 1, key='guess')
+            st.number_input(label_2_age, 1, 60, 30, 1, key='age')
+            st.selectbox(label_2_gender, ['Female', 'Male'], key='gender')
+            st.selectbox(label_2_marriage, ['Yes', 'No'], key='marriage')
 
         st.button('Create character', on_click=click_button_character)
 
