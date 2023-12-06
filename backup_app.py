@@ -3,6 +3,7 @@ from got_survival.ml_logic.model_character_creation import get_character
 from got_survival.interface.main import death_pred, episode_pred
 from got_survival.ml_logic.create_story import create_story
 from got_survival.ml_logic.create_character_image import create_image
+from got_survival.ml_logic.t_sne import get_tsne
 
 def run():
     st.title('Create your Game of Thrones character')
@@ -20,6 +21,24 @@ def run():
             'nobility': '',
             'outcast': '',
         }
+    if 'outcast' not in st.session_state:
+        st.session_state['outcast'] = 'No'
+    if 'warm' not in st.session_state:
+        st.session_state['warm'] = 'Warm'
+    if 'empathy' not in st.session_state:
+        st.session_state['empathy'] = 3
+    if 'fighting' not in st.session_state:
+        st.session_state['fighting'] = 3
+    if 'honor' not in st.session_state:
+        st.session_state['honor'] = 3
+    if 'connections' not in st.session_state:
+        st.session_state['connections'] = 3
+    if 'unyielding' not in st.session_state:
+        st.session_state['unyielding'] = 3
+    if 'marriage' not in st.session_state:
+        st.session_state['marriage'] = 'No'
+    if 'gender' not in st.session_state:
+        st.session_state['gender'] = 'Female'
 
     # Define functions to be called when buttons are clicked
     def click_button_character():
@@ -114,6 +133,7 @@ def run():
         st.button('Will you survive?', on_click=click_button_prediction)
 
 
+
     if st.session_state.prediction:
         character = st.session_state.cache['character']
         st.write('Will you survive?')
@@ -134,6 +154,20 @@ def run():
             st.write(f'Here is how you die:')
             # st.write(create_story(character, st.session_state.cache["age"]))
             st.write('You pass away tragically.')
+
+        #st.write(st.session_state)
+
+        fig = get_tsne(
+                st.session_state['outcast'],
+                st.session_state['warm'],
+                st.session_state['empathy'],
+                st.session_state['fighting'],
+                st.session_state['honor'],
+                st.session_state['connections'],
+                st.session_state['unyielding'],
+            )
+        st.plotly_chart(fig)
+
 
 
 
