@@ -98,24 +98,6 @@ def run():
             'outcast': '',
             'age': '',
         }
-    if 'outcast' not in st.session_state:
-        st.session_state['outcast'] = 'No'
-    if 'warm' not in st.session_state:
-        st.session_state['warm'] = 'Warm'
-    if 'empathy' not in st.session_state:
-        st.session_state['empathy'] = 3
-    if 'fighting' not in st.session_state:
-        st.session_state['fighting'] = 3
-    if 'honor' not in st.session_state:
-        st.session_state['honor'] = 3
-    if 'connections' not in st.session_state:
-        st.session_state['connections'] = 3
-    if 'unyielding' not in st.session_state:
-        st.session_state['unyielding'] = 3
-    if 'marriage' not in st.session_state:
-        st.session_state['marriage'] = 'No'
-    if 'gender' not in st.session_state:
-        st.session_state['gender'] = 'Female'
 
     # Define functions to be called when buttons are clicked
     def click_button_character():
@@ -132,7 +114,6 @@ def run():
 
         label_1_header = 'What kind of climate do you prefer?'
         change_label_style(label_1_header)
-        st.selectbox(label_1_header, CLIMATE_OPTIONS, key='warm')
 
         col1, col2 = st.columns(2,gap='medium')
 
@@ -176,6 +157,7 @@ def run():
         change_label_style(label_2_marriage)
 
         with col2:
+            st.selectbox(label_1_header, CLIMATE_OPTIONS, key='warm')
             st.selectbox(label_2_outcast, ['No', 'Yes'], key='outcast')
             if st.session_state['outcast'] == 'Yes':
                 st.session_state.cache['outcast'] = 1
@@ -185,7 +167,7 @@ def run():
             st.number_input(label_2_age, 1, 60, 30, 1, key='age')
             st.selectbox(label_2_gender, ['Female', 'Male'], key='gender')
             st.selectbox(label_2_marriage, ['Yes', 'No'], key='marriage')
-
+            st.write('')
             st.button('Create character', on_click=click_button_character)
 
     '\n\n'
@@ -275,10 +257,8 @@ def run():
         else:
             st.markdown("<h1 style='text-align: center; color: grey;'>Nooooo .... you are dead </h1>", unsafe_allow_html=True)
             episode_number = episode_pred(character.drop(columns="lucky"))
-            if episode_number == 0:
-                st.markdown("<h2 style='text-align: center; color: grey;'>You die in EARLY episodes 😢</h2>", unsafe_allow_html=True)
-            else:
-                st.markdown("<h2 style='text-align: center; color: grey;'>You die in LATER episodes 😢😢</h2>", unsafe_allow_html=True)
+
+            st.markdown(f"<h2 style='text-align: center; color: grey;'>You die in season {episode_number} 😢</h2>", unsafe_allow_html=True)
 
             if "image" not in st.session_state:
 
