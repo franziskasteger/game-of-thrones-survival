@@ -6,6 +6,7 @@ from got_survival.ml_logic.create_story_dead import create_character_dead
 from got_survival.ml_logic.create_story_alive import create_character_alive
 from got_survival.ml_logic.create_character_image import create_image
 from got_survival.ml_logic.create_story_house import get_house_text
+from got_survival.ml_logic.t_sne import get_tsne
 
 CLIMATE_OPTIONS = ['Cold', 'Medium', 'Warm']
 SLIDER_OPTIONS = 1, 5, 3, 1
@@ -16,7 +17,7 @@ st.set_page_config(
     layout="centered",
 )
 
-@st.cache_data
+#@st.cache_data
 def get_img_as_base64(file):
     try:
         with open(file, "rb") as f:
@@ -77,6 +78,24 @@ def run():
             'outcast': '',
             'age': '',
         }
+    if 'outcast' not in st.session_state:
+        st.session_state['outcast'] = 'No'
+    if 'warm' not in st.session_state:
+        st.session_state['warm'] = 'Warm'
+    if 'empathy' not in st.session_state:
+        st.session_state['empathy'] = 3
+    if 'fighting' not in st.session_state:
+        st.session_state['fighting'] = 3
+    if 'honor' not in st.session_state:
+        st.session_state['honor'] = 3
+    if 'connections' not in st.session_state:
+        st.session_state['connections'] = 3
+    if 'unyielding' not in st.session_state:
+        st.session_state['unyielding'] = 3
+    if 'marriage' not in st.session_state:
+        st.session_state['marriage'] = 'No'
+    if 'gender' not in st.session_state:
+        st.session_state['gender'] = 'Female'
 
     # Define functions to be called when buttons are clicked
     def click_button_character():
@@ -170,6 +189,18 @@ def run():
             st.session_state['gender'],
             st.session_state['marriage']
         )
+
+        # Display the 'house space'
+        fig = get_tsne(
+            st.session_state['outcast'],
+            st.session_state['warm'],
+            st.session_state['empathy'],
+            st.session_state['fighting'],
+            st.session_state['honor'],
+            st.session_state['connections'],
+            st.session_state['unyielding'],
+        )
+        st.plotly_chart(fig)
 
         character = st.session_state.cache['character']
 
