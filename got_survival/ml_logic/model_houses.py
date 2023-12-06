@@ -45,17 +45,14 @@ def houses_model_predict(X:pd.DataFrame, based_on_outcast:bool=True) -> str:
     '''
     Predicts the house for a given character
     '''
-    if based_on_outcast:
-        # Checks for 'outcast' and uses correct model, returns prediction
-        if X['outcast'][0]:
-            model_outcasts = pickle.load(open('got_survival/models_pickle/outcasts.pkl', 'rb'))
-            return model_outcasts.predict(X)
+    # Checks for 'outcast' and uses correct model, returns prediction
+    if X['outcast'][0]:
+        model_outcasts = pickle.load(open('got_survival/models_pickle/outcasts.pkl', 'rb'))
+        return model_outcasts.predict(X)[0]
 
-        model_not_outcasts = pickle.load(open('got_survival/models_pickle/not_outcasts.pkl', 'rb'))
-        return model_not_outcasts.predict(X)[0]
+    model_not_outcasts = pickle.load(open('got_survival/models_pickle/not_outcasts.pkl', 'rb'))
+    return model_not_outcasts.predict(X)[0]
 
-    model = pickle.load(open('got_survival/models_pickle/houses.pkl', 'rb'))
-    return model.predict(X)[0]
 
 
 
@@ -65,18 +62,18 @@ def houses_model_predict(X:pd.DataFrame, based_on_outcast:bool=True) -> str:
 ###########################
 
 new_character = {
-    'outcast': [0],
+    'outcast': [1],
     'climate': [2],
-    'empathy': [4],
+    'empathy': [3],
     'fighting': [3],
-    'honor': [4],
-    'connections': [2],
-    'unyielding': [5]
+    'honor': [3],
+    'connections': [3],
+    'unyielding': [3]
 }
 X = pd.DataFrame.from_dict(new_character)
 
 if __name__ == '__main__':
 
-    houses_model_train()
-    # print(houses_model_predict(X))
+    # houses_model_train()
+    print(houses_model_predict(X))
     pass

@@ -1,4 +1,4 @@
-Wildling| also known as the Free Folk, are a group of people who inhabit the lands beyond the Wall in the "Game of Thrones" series and the "A Song of Ice and Fire" book series by George R.R. Martin. Here are some key characteristics and aspects associated with the Wildlings:
+Wildling|Wildlings, also known as the Free Folk, are a group of people who inhabit the lands beyond the Wall in the "Game of Thrones" series and the "A Song of Ice and Fire" book series by George R.R. Martin. Here are some key characteristics and aspects associated with the Wildlings:
 1. **Beyond the Wall:** The Wildlings reside north of the Wall, a massive ice structure that separates the Seven Kingdoms from the lands beyond. They live in the harsh and unforgiving terrain of the far north.
 2. **Independent and Free:** The Wildlings pride themselves on their freedom and independence. They reject the authority of the rulers in the Seven Kingdoms and follow a more egalitarian social structure. Mance Rayder, the King-Beyond-the-Wall, is a prominent figure who attempts to unite the various Wildling clans.
 3. **Clans and Tribes:** The Wildlings are not a homogeneous group; instead, they consist of various clans and tribes, each with its own customs and leaders. Some well-known tribes include the Thenns, the Hornfoots, and the Cave Dwellers.
@@ -150,7 +150,7 @@ House Frey| is known for several key aspects in the world of A Song of Ice and F
 7. **Ambitious Alliances:** House Frey is known for its ambitious pursuit of advantageous alliances through marriages. The willingness to betray the Starks at the Red Wedding is partly driven by a desire for greater political influence and recognition.
 8. **Conflict with House Tully:** House Frey's alliance with House Lannister puts them in conflict with House Tully during the War of the Five Kings.
 
-House Tully| is known for several key aspects in the world of A Song of Ice and Fire and Game of Thrones:
+House Tully|House Tully is known for several key aspects in the world of A Song of Ice and Fire and Game of Thrones:
 1. **Seat:** House Tully's seat is Riverrun, a formidable castle located in the Riverlands of Westeros. Riverrun is strategically positioned at the junction of the Tumblestone and the Red Fork of the Trident.
 2. **Sigil and Motto:** The house's sigil is a silver trout leaping on a blue and red striped field. Their motto is "Family, Duty, Honor," reflecting the values they hold dear.
 3. **Riverlands Lords:** As the ruling house of the Riverlands, House Tully holds the allegiance of numerous vassal houses in the region.

@@ -39,7 +39,7 @@ def change_label_style(label,
                        text_align='justify'):
     html = f"""
     <script>
-        var elems = window.parent.document.querySelectorAll('p');
+        var elems = window.parent.document.querySelectorAll('label');
         var elem = Array.from(elems).find(x => x.innerText == '{label}');
         elem.style.fontSize = '{font_size}';
         elem.style.color = '{font_color}';
@@ -62,6 +62,13 @@ page_element = f"""
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+    }}
+    [data-testid="stMarkdownContainer"] > p{{
+        border-color: #ffffff;  /* Color of the slider line */
+        color: #ffffff;  /* Font color of the slider */
+        font-size: 18px;  /* Font size of the slider */
+        font-weight: bold;  /* Font weight of the slider number */
+        text.shadow: 2px 2px 4px #ffffff;  /* Shadow of the slider font */
     }}
 </style>
 """
@@ -100,7 +107,7 @@ def run():
         st.session_state.cache = {
             'character': '',
             'nobility': '',
-            'outcast': '',
+            #'outcast': '',
             'age': '',
         }
 
@@ -164,10 +171,6 @@ def run():
         with col2:
             st.selectbox(label_1_header, CLIMATE_OPTIONS, key='warm')
             st.selectbox(label_2_outcast, ['No', 'Yes'], key='outcast')
-            if st.session_state['outcast'] == 'Yes':
-                st.session_state.cache['outcast'] = 1
-            else:
-                st.session_state.cache['outcast'] = 0
             st.number_input(label_2_luck, 1, 100, 50, 1, key='guess')
             st.number_input(label_2_age, 1, 60, 30, 1, key='age')
             st.selectbox(label_2_gender, ['Female', 'Male'], key='gender')
@@ -182,7 +185,7 @@ def run():
 
         st.session_state.cache['character'] = get_character(
             st.session_state['guess'],
-            st.session_state.cache['outcast'],
+            st.session_state['outcast'],
             st.session_state['warm'],
             st.session_state['empathy'],
             st.session_state['fighting'],
@@ -222,7 +225,7 @@ def run():
         st.write("")
 
         house_description = character['origin'][0]
-        print(f"house_description: {house_description}")
+        st.write(f"house_description: {house_description}")
 
         col1, col2 = st.columns(2, gap='large')
         with col1:
