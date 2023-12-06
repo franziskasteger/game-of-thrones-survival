@@ -2,7 +2,7 @@ import streamlit as st
 import base64
 import os
 from got_survival.ml_logic.model_character_creation import get_character
-from got_survival.interface.main import episode_pred, death_pred_RF
+from got_survival.interface.main import episode_pred, death_pred
 from got_survival.ml_logic.create_story_dead import create_character_dead
 from got_survival.ml_logic.create_story_alive import create_character_alive
 from got_survival.ml_logic.create_character_image import create_image
@@ -245,7 +245,7 @@ def run():
         age = st.session_state.cache['age']
         st.markdown("<h1 style='text-align: center; color: white;'>Will you survive ?</h1>", unsafe_allow_html=True)
 
-        if death_pred_RF(character.drop(columns='lucky')):
+        if death_pred(character.drop(columns='lucky')):
             st.markdown("<h2 style='text-align: center; color: white;'>You made it </h2>", unsafe_allow_html=True)
 
             if "image" not in st.session_state:

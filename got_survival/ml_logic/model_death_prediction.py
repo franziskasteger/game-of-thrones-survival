@@ -1,11 +1,12 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split, cross_validate
-from sklearn.preprocessing import OneHotEncoder, RobustScaler
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.pipeline import Pipeline, make_pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.metrics import f1_score, classification_report
+from xgboost import XGBClassifier
 
 def death_x_and_y() -> tuple[pd.DataFrame, pd.DataFrame]:
     '''
@@ -17,20 +18,33 @@ def death_x_and_y() -> tuple[pd.DataFrame, pd.DataFrame]:
     return X, y
 
 ## LOGISTIC REGRESSION PIPELINE
-def death_create_pipeline() -> Pipeline:
+def death_create_pipeline(y:pd.DataFrame) -> Pipeline:
     '''
     Creates logistic regression pipeline
     '''
-    num_transformer = Pipeline([('robust_scaler', RobustScaler())])
+    num_transformer = Pipeline([('standar_scaler', StandardScaler())])
 
     cat_transformer = OneHotEncoder(handle_unknown='ignore', sparse_output=False)
 
     preprocessor = ColumnTransformer([
-        ('num_transformer', num_transformer, ["isMarried","isNoble","male","popularity"]),
-        ('cat_transformer', cat_transformer, ['origin'])
+        ('num_transformer', num_transformer, ["popularity"]),
+        ('cat_transformer', cat_transformer, ['origin']),
+        ('passthrough', 'passthrough', ["isMarried","isNoble","male",])
     ])
 
-    return make_pipeline(preprocessor, LogisticRegression())
+    scale_pos_weights = len(y[y == 0]) / len(y[y == 1])
+    xgb_model = XGBClassifier(
+        scale_pos_weights=scale_pos_weights,
+        learning_rate=0.024,
+        n_estimators=200,
+        max_depth=4,
+        use_label_encode=False,
+        eval_metric='logloss',
+        min_child_weight=6,
+        gamma=0.558
+    )
+
+    return make_pipeline(preprocessor, xgb_model)
 
 ## RANDOM FOREST PIPELINE
 def death_create_pipeline_rf() -> Pipeline:
