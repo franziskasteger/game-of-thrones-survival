@@ -130,6 +130,7 @@ def run():
 
     # Display the questions for the character creation
     if (not st.session_state.character) and (not st.session_state.prediction):
+        st.snow()
         st.markdown("<h1 style='text-align: center; \
                     color: white; text-shadow: 2px 2px 4px #000000;\
                         '>Create your Game of Thrones character</h1>",
@@ -313,6 +314,7 @@ def run():
                 img_alive, filename_alive = create_image(character, age, st.session_state["story"])
             except:
                 img_alive, filename_alive = (None,None)
+                st.write('error')
 
             st.session_state["image"] = img_alive
             st.session_state["image_path"] = filename_alive
