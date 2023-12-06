@@ -4,13 +4,6 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# st.session_state['outcast'],
-# st.session_state['warm'],
-# st.session_state['empathy'],
-# st.session_state['fighting'],
-# st.session_state['honor'],
-# st.session_state['connections'],
-# st.session_state['unyielding'],
 def get_tsne(
         outcast:str,
         warm:str,
@@ -51,25 +44,7 @@ def get_tsne(
 
     tsne_new = TSNE(n_components=2, perplexity=3, init='random', n_iter=1_000_000, random_state=4)
     X_with_new_emb = pd.DataFrame(tsne_new.fit_transform(X_with_new), columns=tsne_new.get_feature_names_out())
-    # colors = ['red', 'blue', 'green', 'orange', 'purple']
-    # markers = ['o', 'x', '*', '2']
 
-    # f, ax = plt.subplots()
-    # c = 0
-    # s = 0
-    # n = 0
-    # for i in range(len(X_with_new_emb)-1):
-    #     ax.scatter(X_with_new_emb.loc[i][0], X_with_new_emb.loc[i][1], c=colors[c%5],
-    #                 marker=markers[s%4], label=y_with_new[i])
-    #     c += 1
-    #     s += 1
-    #     n += 1
-    # ax.scatter(X_with_new_emb.iloc[-1][0], X_with_new_emb.iloc[-1][1], c='black',
-    #             marker='X', label=y_with_new.iloc[-1])
-    # ax.legend(bbox_to_anchor=(1, 1.1))
-
-    # ax.set_xticks([])
-    # ax.set_yticks([])
 
     fig = px.scatter(x=X_with_new_emb.iloc[:20, 0], y=X_with_new_emb.iloc[:20, 1],
                     text=y_with_new[:20], color=y_with_new[:20], size=pd.Series([10]*20))
@@ -79,10 +54,14 @@ def get_tsne(
     fig.add_scatter(x=X_with_new_emb.iloc[-1:, 0], y=X_with_new_emb.iloc[-1:, 1],
                     hovertemplate='You', name='You', showlegend=False,
                     marker=dict(size=25, color="Red", symbol='x'))
-    fig.update_layout(dict1={'plot_bgcolor': 'rgba(0, 0, 0, 0)','paper_bgcolor': 'rgba(0, 0, 0, 0)',})
+    fig.update_layout(dict1={'plot_bgcolor': 'rgba(0, 0, 0, 0.2)','paper_bgcolor': 'rgba(0, 0, 0, 0.2)'})
+    fig.update_layout(legend=dict(orientation="h", y=-0.2, x=0.5, xanchor='center'))
 
     return fig
 
+###########################
+########## TESTS ##########
+###########################
 
 new_character = {
     'outcast': [0],
@@ -95,21 +74,8 @@ new_character = {
 }
 X = pd.DataFrame.from_dict(new_character)
 
-
 if __name__ == '__main__':
 
     # get_tsne(2, 'Warm', 3, 2, 4, 3, 3).show()
 
     pass
-
-
-
-# st.session_state['outcast'],
-# st.session_state['warm'],
-# st.session_state['empathy'],
-# st.session_state['fighting'],
-# st.session_state['honor'],
-# st.session_state['connections'],
-# st.session_state['unyielding'],
-# st.session_state['gender'],
-# st.session_state['marriage']
