@@ -9,15 +9,15 @@ from got_survival.ml_logic.create_story_house import get_house_text
 from got_survival.ml_logic.t_sne import get_tsne
 
 CLIMATE_OPTIONS = ['Cold', 'Medium', 'Warm']
-SLIDER_OPTIONS = 1, 5, 3, 1
 
+# Set page config
 st.set_page_config(
     page_title="Create your Game of Thrones character",
     page_icon=":chart_with_upwards_trend:",
     layout="centered",
 )
 
-#@st.cache_data
+# Function to read image file as base64 string
 def get_img_as_base64(file):
     try:
         with open(file, "rb") as f:
@@ -27,13 +27,15 @@ def get_img_as_base64(file):
         print(f"Error reading image file: {e}")
         return None
 
+# Get the image as base64 string
 img = get_img_as_base64("processed_data/images/awesome_picture.png")
 
+# Function to change the style of the labels
 def change_label_style(label,
-                       font_size='20px',
+                       font_size='16px',
                        font_color='white',
                        font_family='sans-serif',
-                       text_align='center'):
+                       text_align='justify'):
     html = f"""
     <script>
         var elems = window.parent.document.querySelectorAll('p');
@@ -49,6 +51,7 @@ def change_label_style(label,
         #elem.style.webkitTextStroke = '1px black'; /* Webkit browsers like Chrome and Safari */
         #elem.style.textStroke = '1px black'; /* Standard syntax */
 
+# Custom CSS for background image
 page_element = f"""
     <style>
     [data-testid="stAppViewContainer"] {{
@@ -57,12 +60,29 @@ page_element = f"""
         background-repeat: no-repeat;
         background-position: center;
     }}
-    </style>
+</style>
 """
 
+# Custom CSS styles
+custom_styles = """
+<style>
+    .stSlider div {
+        border-color: #000000;  /* Color of the slider line */
+        color: #000000;  /* Font color of the slider */
+        font-size: 16px;  /* Font size of the slider */
+    }
+
+    .stSlider .slider-value {
+        color: #ff0000;  /* Font color of the slider number */
+    }
+</style>
+"""
+
+# Display the page elements
 st.markdown(page_element, unsafe_allow_html=True)
+st.markdown(custom_styles, unsafe_allow_html=True)
 
-
+# Function to run the app
 def run():
     # Initiate button states
     if 'character' not in st.session_state:
@@ -118,7 +138,7 @@ def run():
 
         #labels col1
         #label_1_questions = 'Rate the following traits on a scale form 1 to 5:'
-        label_1_empathy = 'How empathic are you?'
+        label_1_empathic = 'How empathic are you?'
         label_1_fighting = 'How good are you at fighting?'
         label_1_honor = 'How honorable and loyal are you?'
         label_1_negotiation = 'How good are you at negotiating, networking and building connections?'
@@ -127,7 +147,7 @@ def run():
 
         #labels col1 transformations
         #change_label_style(label_1_questions)
-        change_label_style(label_1_empathy)
+        change_label_style(label_1_empathic)
         change_label_style(label_1_fighting)
         change_label_style(label_1_honor)
         change_label_style(label_1_negotiation)
@@ -135,11 +155,7 @@ def run():
 
 
         with col1:
-            #labels col1
-            #label_rate = 'Rate the following traits on a scale form 1 to 5:'
-            #change_label_style(label_rate)
-            #st.write(label_1_questions)
-            st.slider(label_1_empathy, 1, 5, 3, 1, key='empathy')
+            st.slider(label_1_empathic, 1, 5, 3, 1, key='empathy')
             st.slider(label_1_fighting, 1, 5, 3, 1, key='fighting')
             st.slider(label_1_honor, 1, 5, 3, 1, key='honor')
             st.slider(label_1_negotiation, 1, 5, 3, 1, key='connections')
@@ -170,12 +186,12 @@ def run():
             st.selectbox(label_2_gender, ['Female', 'Male'], key='gender')
             st.selectbox(label_2_marriage, ['Yes', 'No'], key='marriage')
 
-        st.button('Create character', on_click=click_button_character)
+            st.button('Create character', on_click=click_button_character)
 
     '\n\n'
     # Create character and display information
     if st.session_state.character and (not st.session_state.prediction):
-        st.markdown("<h1 style='text-align: center; color: grey;'>Your Amazing Game of Thrones Character</h1>", unsafe_allow_html=True)
+        st.markdown("<h1 style='text-align: center; color: white;'>Your Amazing Game of Thrones Character</h1>", unsafe_allow_html=True)
 
         st.session_state.cache['character'] = get_character(
             st.session_state['guess'],
@@ -236,10 +252,6 @@ def run():
 
         if death_pred_RF(character.drop(columns='lucky')):
             st.markdown("<h2 style='text-align: center; color: grey;'>You made it </h2>", unsafe_allow_html=True)
-
-            # Change comments from the default image to have one created:
-            # st.image(create_image(character, st.session_state.cache["age"]))
-            # st.image("processed_data/images/3186f9f7-9b16-467c-a913-7d3e79050863.png")
 
             if "image" not in st.session_state:
                 st.session_state["story"] = create_character_alive(character, age)
