@@ -1,5 +1,5 @@
 from got_survival.ml_logic.model_death_prediction import death_x_and_y, death_create_pipeline, \
-    death_split_train, death_f1_score, death_create_pipeline_rf,death_f1_macro_score
+    death_split_train, death_f1_macro_score
 from got_survival.ml_logic.model_episode_of_death import episode_x_and_y, \
     episode_create_pipeline, episode_split_train, episode_get_weights
 import pickle
@@ -7,7 +7,7 @@ import pandas as pd
 from sklearn.metrics import f1_score
 
 # Random Forest
-def death_train_RF() -> None:
+def death_train() -> None:
     '''
     Will train a logistic regression pipeline to predict whether a character
     survives or not.
@@ -21,7 +21,7 @@ def death_train_RF() -> None:
     with open("got_survival/models_pickle/death_model.pkl", "wb") as file:
         pickle.dump(pipe, file) # Save trained model for evaluation and prediction
 
-def death_evaluate_RF() -> float:
+def death_evaluate() -> float:
     '''
     Evaluate the trained logistic regression pipeline.
     '''
@@ -35,7 +35,7 @@ def death_evaluate_RF() -> float:
     # maybe save the score somewhere?
     return score
 
-def death_pred_RF(new_character:pd.DataFrame) -> int:
+def death_pred(new_character:pd.DataFrame) -> int:
     '''
     Use the fitted logistic regression pipeline to predict whether a new
     character survives or not.
@@ -100,9 +100,9 @@ new_X = pd.DataFrame.from_dict(test)
 
 if __name__ == '__main__':
 
-    # death_train_RF()
-    # print(death_evaluate_RF())
-    # print(death_pred_RF(new_X))
+    # death_train()
+    # print(death_evaluate())
+    # print(death_pred(new_X))
 
     # episode_train()
     # print(episode_evaluate())
