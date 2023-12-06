@@ -1,18 +1,88 @@
 import streamlit as st
+import base64
 from got_survival.ml_logic.model_character_creation import get_character
 from got_survival.interface.main import episode_pred, death_pred_RF
 from got_survival.ml_logic.create_story_dead import create_character_dead
 from got_survival.ml_logic.create_story_alive import create_character_alive
 from got_survival.ml_logic.create_character_image import create_image
+from got_survival.ml_logic.create_story_house import get_house_text
+from got_survival.ml_logic.t_sne import get_tsne
 
 CLIMATE_OPTIONS = ['Cold', 'Medium', 'Warm']
 
+# Set page config
 st.set_page_config(
     page_title="Create your Game of Thrones character",
     page_icon=":chart_with_upwards_trend:",
     layout="centered",
 )
 
+# Function to read image file as base64 string
+def get_img_as_base64(file):
+    try:
+        with open(file, "rb") as f:
+            data = f.read()
+            return base64.b64encode(data).decode()
+    except Exception as e:
+        print(f"Error reading image file: {e}")
+        return None
+
+# Get the image as base64 string
+img = get_img_as_base64("processed_data/images/awesome_picture.png")
+
+# Function to change the style of the labels
+def change_label_style(label,
+                       font_size='16px',
+                       font_color='white',
+                       font_family='sans-serif',
+                       text_align='justify'):
+    html = f"""
+    <script>
+        var elems = window.parent.document.querySelectorAll('p');
+        var elem = Array.from(elems).find(x => x.innerText == '{label}');
+        elem.style.fontSize = '{font_size}';
+        elem.style.color = '{font_color}';
+        elem.style.fontFamily = '{font_family}';
+        elem.style.textAlign = '{text_align}';
+    </script>
+    """
+    st.components.v1.html(html,height=0)
+
+        #elem.style.webkitTextStroke = '1px black'; /* Webkit browsers like Chrome and Safari */
+        #elem.style.textStroke = '1px black'; /* Standard syntax */
+
+# Custom CSS for background image
+page_element = f"""
+    <style>
+    [data-testid="stAppViewContainer"] {{
+        background-image: url("data:image/png;base64,{img}");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }}
+</style>
+"""
+
+# Custom CSS styles
+custom_styles = """
+<style>
+    .stSlider div {
+        border-color: #000000;  /* Color of the slider line */
+        color: #000000;  /* Font color of the slider */
+        font-size: 16px;  /* Font size of the slider */
+    }
+
+    .stSlider .slider-value {
+        color: #ff0000;  /* Font color of the slider number */
+    }
+</style>
+"""
+
+# Display the page elements
+st.markdown(page_element, unsafe_allow_html=True)
+st.markdown(custom_styles, unsafe_allow_html=True)
+
+# Function to run the app
 def run():
     # Initiate button states
     if 'character' not in st.session_state:
@@ -40,37 +110,70 @@ def run():
 
     # Display the questions for the character creation
     if (not st.session_state.character) and (not st.session_state.prediction):
-        st.markdown("<h1 style='text-align: center; color: grey;'>Create your Game of Thrones character</h1>", unsafe_allow_html=True)
+        st.markdown("<h1 style='text-align: center; color: white;'>Create your Game of Thrones character</h1>", unsafe_allow_html=True)
 
-        st.selectbox('What kind of climate do you prefer?', CLIMATE_OPTIONS, key='warm')
+        label_1_header = 'What kind of climate do you prefer?'
+        change_label_style(label_1_header)
 
         col1, col2 = st.columns(2,gap='medium')
 
+        #labels col1
+        #label_1_questions = 'Rate the following traits on a scale form 1 to 5:'
+        label_1_empathic = 'How empathic are you?'
+        label_1_fighting = 'How good are you at fighting?'
+        label_1_honor = 'How honorable and loyal are you?'
+        label_1_negotiation = 'How good are you at negotiating, networking and building connections?'
+        label_1_belief = 'How likely are you to stand by what you believe regardless of whether someone is trying to influence you in a different direction?'
+
+
+        #labels col1 transformations
+        #change_label_style(label_1_questions)
+        change_label_style(label_1_empathic)
+        change_label_style(label_1_fighting)
+        change_label_style(label_1_honor)
+        change_label_style(label_1_negotiation)
+        change_label_style(label_1_belief)
+
+
         with col1:
-            st.write('Rate the following traits on a scale form 1 to 5:\n\n')
-            st.slider('How empathic are you?', 1, 5, 3, 1, key='empathy')
-            st.slider('How good are you at fighting?', 1, 5, 3, 1, key='fighting')
-            st.slider('How honorable and loyal are you?', 1, 5, 3, 1, key='honor')
-            st.slider('How good are you at negotiating, networking and building connections?', 1, 5, 3, 1, key='connections')
-            st.slider('How likely are you to stand by what you believe regardless of whether someone is trying to influence you in a different direction?', 1, 5, 3, 1, key='unyielding')
+            st.slider(label_1_empathic, 1, 5, 3, 1, key='empathy')
+            st.slider(label_1_fighting, 1, 5, 3, 1, key='fighting')
+            st.slider(label_1_honor, 1, 5, 3, 1, key='honor')
+            st.slider(label_1_negotiation, 1, 5, 3, 1, key='connections')
+            st.slider(label_1_belief, 1, 5, 3, 1, key='unyielding')
+
+        #labels col2
+        label_2_outcast = 'Are you an outcast?'
+        label_2_luck = 'Test your luck! Choose a number from 1 to 100!'
+        label_2_age = 'How old are you?'
+        label_2_gender = 'Choose the gender for your character:'
+        label_2_marriage = 'Are you married?'
+
+        #labels col2 transformations
+        change_label_style(label_2_outcast)
+        change_label_style(label_2_luck)
+        change_label_style(label_2_age)
+        change_label_style(label_2_gender)
+        change_label_style(label_2_marriage)
 
         with col2:
-            st.selectbox('Are you an outcast?', ['No', 'Yes'], key='outcast')
+            st.selectbox(label_1_header, CLIMATE_OPTIONS, key='warm')
+            st.selectbox(label_2_outcast, ['No', 'Yes'], key='outcast')
             if st.session_state['outcast'] == 'Yes':
                 st.session_state.cache['outcast'] = 1
             else:
                 st.session_state.cache['outcast'] = 0
-            st.number_input('Test your luck! Choose a number from 1 to 100!', 1, 100, 50, 1, key='guess')
-            st.number_input('How old are you?', 1, 60, 30, 1, key='age')
-            st.selectbox('Choose the gender for your character:', ['Female', 'Male'], key='gender')
-            st.selectbox('Are you married', ['Yes', 'No'], key='marriage')
-
-        st.button('Create character', on_click=click_button_character)
+            st.number_input(label_2_luck, 1, 100, 50, 1, key='guess')
+            st.number_input(label_2_age, 1, 60, 30, 1, key='age')
+            st.selectbox(label_2_gender, ['Female', 'Male'], key='gender')
+            st.selectbox(label_2_marriage, ['Yes', 'No'], key='marriage')
+            st.write('')
+            st.button('Create character', on_click=click_button_character)
 
     '\n\n'
     # Create character and display information
     if st.session_state.character and (not st.session_state.prediction):
-        st.markdown("<h1 style='text-align: center; color: grey;'>Your Amazing Game of Thrones Character</h1>", unsafe_allow_html=True)
+        st.markdown("<h1 style='text-align: center; color: white;'>Your Amazing Game of Thrones Character</h1>", unsafe_allow_html=True)
 
         st.session_state.cache['character'] = get_character(
             st.session_state['guess'],
@@ -84,6 +187,18 @@ def run():
             st.session_state['gender'],
             st.session_state['marriage']
         )
+
+        # Display the 'house space'
+        fig = get_tsne(
+            st.session_state['outcast'],
+            st.session_state['warm'],
+            st.session_state['empathy'],
+            st.session_state['fighting'],
+            st.session_state['honor'],
+            st.session_state['connections'],
+            st.session_state['unyielding'],
+        )
+        st.plotly_chart(fig)
 
         character = st.session_state.cache['character']
 
@@ -101,29 +216,24 @@ def run():
         # Add a spacer between the image and buttons
         st.write("")
 
-        # work and gets the image
-        #img, filename = create_image(character,age)
-        #st.image(image=filename,use_column_width="auto") #this works
+        col1, col2 = st.columns(2,gap='large')
+        with col1:
+            st.image(image="processed_data/images/test_image.png",use_column_width="auto")
 
-        #temporary solution
-        #filename = "processed_data/images/test_image.png"
-        st.image(image="processed_data/images/test_image.png",use_column_width="auto")
+        with col2:
+            house_description = get_house_text().keys()
+            st.write(house_description)
 
-        # Add a spacer between the image and buttons
-        st.write("")
+
         st.button('Will you survive?', on_click=click_button_prediction)
 
     if st.session_state.prediction:
         character = st.session_state.cache['character']
         age = st.session_state.cache['age']
-        st.write('Will you survive?')
+        st.markdown("<h1 style='text-align: center; color: grey;'>Will you survive ?</h1>", unsafe_allow_html=True)
 
         if death_pred_RF(character.drop(columns='lucky')):
-            st.write('YES! YOU MADE IT')
-
-            # Change comments from the default image to have one created:
-            # st.image(create_image(character, st.session_state.cache["age"]))
-            # st.image("processed_data/images/3186f9f7-9b16-467c-a913-7d3e79050863.png")
+            st.markdown("<h2 style='text-align: center; color: grey;'>You made it </h2>", unsafe_allow_html=True)
 
             if "image" not in st.session_state:
                 st.session_state["story"] = create_character_alive(character, age)
@@ -145,12 +255,11 @@ def run():
                 )
 
         else:
-            st.write('Nooooo......')
+            st.markdown("<h1 style='text-align: center; color: grey;'>Nooooo .... you are dead </h1>", unsafe_allow_html=True)
             episode_number = episode_pred(character.drop(columns="lucky"))
-            if episode_number == 0:
-                st.write(f'You die in episode in early episodes 😢')
-            else:
-                st.write(f'You die in episode in later episodes 😢😢')
+
+            st.markdown(f"<h2 style='text-align: center; color: grey;'>You die in season {episode_number} 😢</h2>", unsafe_allow_html=True)
+
             if "image" not in st.session_state:
 
                 st.session_state["story"] = create_character_dead(character, age)
@@ -172,10 +281,5 @@ def run():
                     help="Click to download the image",
                 )
 
-            #st.image("processed_data/images/3186f9f7-9b16-467c-a913-7d3e79050863.png")
-
-            #st.write(f'Here is how you die:')
-            #st.write(create_story(character, age))
-
-
-run()
+if __name__ == "__main__":
+    run()
