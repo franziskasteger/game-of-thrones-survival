@@ -39,7 +39,7 @@ def change_label_style(label,
                        text_align='justify'):
     html = f"""
     <script>
-        var elems = window.parent.document.querySelectorAll('p');
+        var elems = window.parent.document.querySelectorAll('label');
         var elem = Array.from(elems).find(x => x.innerText == '{label}');
         elem.style.fontSize = '{font_size}';
         elem.style.color = '{font_color}';
@@ -62,6 +62,13 @@ page_element = f"""
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+    }}
+    [data-testid="stMarkdownContainer"] > p{{
+        border-color: #ffffff;  /* Color of the slider line */
+        color: #ffffff;  /* Font color of the slider */
+        font-size: 18px;  /* Font size of the slider */
+        font-weight: bold;  /* Font weight of the slider number */
+        text.shadow: 2px 2px 4px #ffffff;  /* Shadow of the slider font */
     }}
 </style>
 """
