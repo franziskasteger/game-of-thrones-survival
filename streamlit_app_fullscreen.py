@@ -225,7 +225,7 @@ def run():
         st.write("")
 
         house_description = character['origin'][0]
-        st.write(f"house_description: {house_description}")
+        #st.write(f"house_description: {house_description}")
 
         col1, col2 = st.columns(2, gap='large')
         with col1:
