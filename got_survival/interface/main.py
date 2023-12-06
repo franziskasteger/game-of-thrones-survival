@@ -14,11 +14,11 @@ def death_train_RF() -> None:
     '''
     X, y = death_x_and_y() # Import data and split it into features and target
     # Train-test-split with random state so that it is the same split for evaluating
-    # X_train, X_test, y_train, y_test = death_split_train(X, y)
-    pipe = death_create_pipeline_rf() # Create pipeline with preprocessor and model
-    pipe.fit(X, y.values.ravel()) # Fit pipeline
+    X_train, X_test, y_train, y_test = death_split_train(X, y)
+    pipe = death_create_pipeline(y_train) # Create pipeline with preprocessor and model
+    pipe.fit(X_train, y_train.values.ravel()) # Fit pipeline
 
-    with open("got_survival/models_pickle/death_model_RF.pkl", "wb") as file:
+    with open("got_survival/models_pickle/death_model.pkl", "wb") as file:
         pickle.dump(pipe, file) # Save trained model for evaluation and prediction
 
 def death_evaluate_RF() -> float:
@@ -26,7 +26,7 @@ def death_evaluate_RF() -> float:
     Evaluate the trained logistic regression pipeline.
     '''
     # Load trained model
-    death_pipe = pickle.load(open("got_survival/models_pickle/death_model_RF.pkl", "rb"))
+    death_pipe = pickle.load(open("got_survival/models_pickle/death_model.pkl", "rb"))
     X, y = death_x_and_y() # Import data
     # Train-test-split with random state so that it is the same split as training
     X_train, X_test, y_train, y_test = death_split_train(X, y)
@@ -41,7 +41,7 @@ def death_pred_RF(new_character:pd.DataFrame) -> int:
     character survives or not.
     '''
     # Load model
-    death_pipe = pickle.load(open("got_survival/models_pickle/death_model_RF.pkl", "rb"))
+    death_pipe = pickle.load(open("got_survival/models_pickle/death_model.pkl", "rb"))
     return death_pipe.predict(new_character)[0] # Return prediction
 
 
