@@ -130,7 +130,9 @@ def run():
 
     # Display the questions for the character creation
     if (not st.session_state.character) and (not st.session_state.prediction):
-        st.snow()
+        if 'snow' not in st.session_state:
+            st.snow()
+            st.session_state['snow'] = True
         st.markdown("<h1 style='text-align: center; \
                     color: white; text-shadow: 2px 2px 4px #000000;\
                         '>Create your Game of Thrones character</h1>",
