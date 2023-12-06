@@ -8,6 +8,15 @@ from got_survival.ml_logic.create_story_alive import create_character_alive
 from got_survival.ml_logic.create_character_image import create_image
 from got_survival.ml_logic.create_story_house import get_house_text
 from got_survival.ml_logic.t_sne import get_tsne
+import time
+
+def typewriter(text: str, speed=15):
+    tokens = text.split()
+    container = st.empty()
+    for index in range(len(tokens) + 1):
+        curr_full_text = " ".join(tokens[:index])
+        container.markdown(curr_full_text)
+        time.sleep(1 / speed)
 
 CLIMATE_OPTIONS = ['Cold', 'Medium', 'Warm']
 
@@ -68,7 +77,8 @@ page_element = f"""
         color: #ffffff;  /* Font color of the slider */
         font-size: 18px;  /* Font size of the slider */
         font-weight: bold;  /* Font weight of the slider number */
-        text.shadow: 2px 2px 4px #ffffff;  /* Shadow of the slider font */
+        text-shadow: 2px 2px 4px #000000;  /* Shadow of the slider font */
+        text-align: justify;  /* align text */
     }}
 </style>
 """
@@ -107,7 +117,6 @@ def run():
         st.session_state.cache = {
             'character': '',
             'nobility': '',
-            #'outcast': '',
             'age': '',
         }
 
@@ -119,18 +128,16 @@ def run():
         st.session_state.prediction = True
         st.session_state.character = False
 
-
     # Display the questions for the character creation
     if (not st.session_state.character) and (not st.session_state.prediction):
-        st.markdown("<h1 style='text-align: center; color: white;'>Create your Game of Thrones character</h1>", unsafe_allow_html=True)
-
-        label_1_header = 'What kind of climate do you prefer?'
-        change_label_style(label_1_header)
+        st.markdown("<h1 style='text-align: center; \
+                    color: white; text-shadow: 2px 2px 4px #000000;\
+                        '>Create your Game of Thrones character</h1>",
+                    unsafe_allow_html=True)
 
         col1, col2 = st.columns(2,gap='medium')
 
         #labels col1
-        #label_1_questions = 'Rate the following traits on a scale form 1 to 5:'
         label_1_empathic = 'How empathic are you?'
         label_1_fighting = 'How good are you at fighting?'
         label_1_honor = 'How honorable and loyal are you?'
@@ -139,7 +146,7 @@ def run():
 
 
         #labels col1 transformations
-        #change_label_style(label_1_questions)
+        change_label_style(label_1_empathic)
         change_label_style(label_1_empathic)
         change_label_style(label_1_fighting)
         change_label_style(label_1_honor)
@@ -155,6 +162,7 @@ def run():
             st.slider(label_1_belief, 1, 5, 3, 1, key='unyielding')
 
         #labels col2
+        label_2_climate = 'What kind of climate do you prefer?'
         label_2_outcast = 'Are you an outcast?'
         label_2_luck = 'Test your luck! Choose a number from 1 to 100!'
         label_2_age = 'How old are you?'
@@ -162,6 +170,7 @@ def run():
         label_2_marriage = 'Are you married?'
 
         #labels col2 transformations
+        change_label_style(label_2_climate)
         change_label_style(label_2_outcast)
         change_label_style(label_2_luck)
         change_label_style(label_2_age)
@@ -169,7 +178,7 @@ def run():
         change_label_style(label_2_marriage)
 
         with col2:
-            st.selectbox(label_1_header, CLIMATE_OPTIONS, key='warm')
+            st.selectbox(label_2_climate, CLIMATE_OPTIONS, key='warm')
             st.selectbox(label_2_outcast, ['No', 'Yes'], key='outcast')
             st.number_input(label_2_luck, 1, 100, 50, 1, key='guess')
             st.number_input(label_2_age, 1, 60, 30, 1, key='age')
@@ -181,7 +190,10 @@ def run():
     '\n\n'
     # Create character and display information
     if st.session_state.character and (not st.session_state.prediction):
-        st.markdown("<h1 style='text-align: center; color: white;'>Your Amazing Game of Thrones Character</h1>", unsafe_allow_html=True)
+        st.markdown("<h1 style='text-align: center; color: white;\
+            text-shadow: 2px 2px 4px #000000;'>You in Game of Thrones</h1>",
+            unsafe_allow_html=True)
+        st.write('')
 
         st.session_state.cache['character'] = get_character(
             st.session_state['guess'],
@@ -196,27 +208,15 @@ def run():
             st.session_state['marriage']
         )
 
-        # Display the 'house space'
-        fig = get_tsne(
-            st.session_state['outcast'],
-            st.session_state['warm'],
-            st.session_state['empathy'],
-            st.session_state['fighting'],
-            st.session_state['honor'],
-            st.session_state['connections'],
-            st.session_state['unyielding'],
-        )
-        st.plotly_chart(fig)
-
-        character = st.session_state.cache['character']
+        character_info = st.session_state.cache['character']
 
         # elements to pass to create_image_character
         character = {
-            'origin': character['origin'],
-            'popularity': character['popularity'],
-            'male': character['male'],
-            'isNoble': character['isNoble'],
-            'isMarried': character['isMarried'],
+            'origin': character_info['origin'],
+            'popularity': character_info['popularity'],
+            'male': character_info['male'],
+            'isNoble': character_info['isNoble'],
+            'isMarried': character_info['isMarried'],
         }
 
         age = st.session_state['age']
@@ -240,62 +240,109 @@ def run():
             house_description = get_house_text()[house_description]
             st.write(house_description)
 
+        if st.session_state['outcast'] =='Yes' and \
+            character_info['origin'][0] != character_info['ex_house'][0]:
+
+            ex_house = character_info['ex_house'][0]
+            if 'House' in ex_house:
+                saying = f'You were part of {ex_house}'
+            else:
+                saying = f'You were a {ex_house}'
+
+            saying += ', but someting caused you to become '
+
+            if character_info['origin'][0] == 'Outlaw':
+                saying += 'an '
+            elif character_info['origin'][0] == "Night's Watch":
+                saying += 'part of the '
+            else:
+                saying += 'a '
+
+            saying += character_info['origin'][0] + '.'
+            st.write(saying)
+
+
+
+        st.write('Explore how similar you are to the prominent groups in Game of Thrones.')
+        # Display the 'house space'
+        fig = get_tsne(
+            st.session_state['outcast'],
+            st.session_state['warm'],
+            st.session_state['empathy'],
+            st.session_state['fighting'],
+            st.session_state['honor'],
+            st.session_state['connections'],
+            st.session_state['unyielding'],
+        )
+        st.plotly_chart(fig)
 
         st.button('Will you survive?', on_click=click_button_prediction)
 
     if st.session_state.prediction:
         character = st.session_state.cache['character']
         age = st.session_state.cache['age']
-        st.markdown("<h1 style='text-align: center; color: white;'>Will you survive ?</h1>", unsafe_allow_html=True)
 
-        if death_pred(character.drop(columns='lucky')):
-            st.markdown("<h2 style='text-align: center; color: white;'>You made it </h2>", unsafe_allow_html=True)
-
-            if "image" not in st.session_state:
-                st.session_state["story"] = create_character_alive(character, age)
-                img_alive, filename_alive = create_image(character, age, st.session_state["story"])
-                st.session_state["image"] = img_alive
-                st.session_state["image_path"] = filename_alive
-
-            st.write(st.session_state["story"])
-            st.image(st.session_state["image"])
-
-            #if st.button("Download image"):
-            with open(st.session_state["image_path"], "rb") as file:
-                st.download_button(
-                    label="Download image",
-                    data=file.read(),
-                    file_name=st.session_state["image_path"],
-                    key="download_button",
-                    help="Click to download the image",
-                )
-
+        st.markdown("<h1 style='text-align: center; color: white;\
+            text-shadow: 2px 2px 4px #000000;'>Will you survive ?</h1>", unsafe_allow_html=True)
+        pred = death_pred(character.drop(columns='lucky'))
+        if pred:
+            st.markdown("<h2 style='text-align: center; color: white;\
+                text-shadow: 2px 2px 4px #000000;'>You made it </h2>", unsafe_allow_html=True)
         else:
-            st.markdown("<h1 style='text-align: center; color: white;'>Nooooo .... you are dead </h1>", unsafe_allow_html=True)
+            st.markdown("<h1 style='text-align: center; color: white;\
+                text-shadow: 2px 2px 4px #000000;'>Nooooo.... you don't make it.... </h1>", unsafe_allow_html=True)
             episode_number = episode_pred(character.drop(columns="lucky"))
+            st.markdown(f"<h2 style='text-align: center; color: white; \
+                text-shadow: 2px 2px 4px #000000;'>You die in season {episode_number} 😢</h2>", unsafe_allow_html=True)
 
-            st.markdown(f"<h2 style='text-align: center; color: white;'>You die in season {episode_number} 😢</h2>", unsafe_allow_html=True)
+        if "clear" not in st.session_state:
+            my_bar = st.progress(10)
+            for i in range(10):
+                st.write(" ")
 
-            if "image" not in st.session_state:
-
+        if "image" not in st.session_state:
+            if pred:
+                st.session_state["story"] = create_character_alive(character, age)
+            else:
                 st.session_state["story"] = create_character_dead(character, age)
 
+            my_bar.progress(50)
+            try:
+                #import time; time.sleep(5)
+                #raise
                 img_alive, filename_alive = create_image(character, age, st.session_state["story"])
-                st.session_state["image"] = img_alive
-                st.session_state["image_path"] = filename_alive
+            except:
+                img_alive, filename_alive = (None,None)
 
-            st.write(st.session_state["story"])
-            st.image(st.session_state["image"])
+            st.session_state["image"] = img_alive
+            st.session_state["image_path"] = filename_alive
 
-            #if st.button("Download image"):
-            with open(st.session_state["image_path"], "rb") as file:
-                st.download_button(
-                    label="Download image",
-                    data=file.read(),
-                    file_name=st.session_state["image_path"],
-                    key="download_button",
-                    help="Click to download the image",
-                )
+            my_bar.progress(99)
+            time.sleep(0.5)
+
+        if "clear" in st.session_state:
+            if "typewriter" not in st.session_state:
+                typewriter(st.session_state["story"])
+                st.session_state["typewriter"] = True
+            else:
+                st.write(st.session_state["story"])
+
+            if st.session_state["image"]:
+                st.image(st.session_state["image"])
+
+                with open(st.session_state["image_path"], "rb") as file:
+                    st.download_button(
+                        label="Download image",
+                        data=file.read(),
+                        file_name=st.session_state["image_path"],
+                        key="download_button",
+                        help="Click to download the image",
+                    )
+        else:
+            st.session_state["clear"] = True
+            st.experimental_rerun()
+
+
 
 if __name__ == "__main__":
     run()
