@@ -252,26 +252,25 @@ def run():
         # if you are outcast, explain which house you would've been in:
         if st.session_state['outcast'] =='Yes' and \
             character_info['origin'][0] != character_info['ex_house'][0]:
-
+            saying = 'You grew up as '
             ex_house = character_info['ex_house'][0]
             if 'House' in ex_house:
-                saying = f'You were part of {ex_house}'
+                saying += f'part of {ex_house}'
             else:
-                saying = f'You were a {ex_house}'
-
-            saying += ', but someting caused you to leave your life behind and become '
-
+                saying += f'a {ex_house}'
+            saying += ', but an unfortunate event caused you to leave your \
+                comfortable life and become '
             if character_info['origin'][0] == 'Outlaw':
                 saying += 'an '
             elif character_info['origin'][0] == "Night's Watch":
                 saying += 'part of the '
             else:
                 saying += 'a '
-
             saying += character_info['origin'][0] + '.'
             st.write(saying)
 
-        st.write('Explore how similar you are to the prominent groups in Game of Thrones.')
+        st.write('Explore how similar you are to the prominent groups in Game of \
+            Thrones. Hovering over a bubble will reveal the name of the group.')
         # Display the 'house space'
         fig = get_tsne(
             st.session_state['outcast'],
@@ -292,7 +291,7 @@ def run():
         age = st.session_state.cache['age']
 
         st.markdown("<h1 style='text-align: center; color: white;\
-            text-shadow: 2px 2px 4px #000000;'>Will you survive ?</h1>", unsafe_allow_html=True)
+            text-shadow: 2px 2px 4px #000000;'>Will you survive?</h1>", unsafe_allow_html=True)
         # death prediction
         pred = death_pred(character.drop(columns='lucky'))
         if pred:
