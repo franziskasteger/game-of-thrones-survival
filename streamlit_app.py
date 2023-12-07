@@ -52,9 +52,6 @@ def change_label_style(label,
     """
     st.components.v1.html(html,height=0)
 
-    #elem.style.webkitTextStroke = '1px black'; /* Webkit browsers like Chrome and Safari */
-    #elem.style.textStroke = '1px black'; /* Standard syntax */
-
 # Custom CSS for background image
 page_element = f"""
     <style>
@@ -361,12 +358,6 @@ def run():
                         help="Click to download the image",
                     )
             st.write(st.session_state["story"])
-            # if "typewriter" not in st.session_state:
-
-            #     st.write(st.session_state["story"])
-            #     st.session_state["typewriter"] = True
-            # else:
-            #     st.write(st.session_state["story"])
 
         else:
             st.session_state["clear"] = True
