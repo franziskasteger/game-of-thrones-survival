@@ -268,7 +268,7 @@ def run():
             st.session_state['connections'],
             st.session_state['unyielding'],
         )
-        st.plotly_chart(fig)
+        st.plotly_chart(fig, use_container_width=True)
 
         st.button('Will you survive?', on_click=click_button_prediction)
 
