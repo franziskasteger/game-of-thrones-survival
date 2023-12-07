@@ -360,7 +360,7 @@ def run():
                     )
             if st.session_state["image"] is None:
                 st.write('Unfortunately this picture cannot be displayed, as it \
-                    is too gruesome... Refresh the page to try again!')
+                    is too gruesome... Refresh the page to start over!')
                 st.markdown('''---''')
             st.write(st.session_state["story"])
 
