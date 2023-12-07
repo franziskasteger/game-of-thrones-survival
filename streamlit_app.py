@@ -325,7 +325,7 @@ def run():
                 img_alive, filename_alive = create_image(character, age,
                                                          st.session_state["story"])
             except:
-                img_alive, filename_alive = (None,None)
+                img_alive, filename_alive = (None, None)
                 st.markdown(f"<h2 style='text-align: center; color: white; \
                     text-shadow: 2px 2px 4px #000000;'>Somewthing went wrong...</h2>",
                     unsafe_allow_html=True)
@@ -348,6 +348,7 @@ def run():
                     text-shadow: 2px 2px 4px #000000;'>Here's how you ended up \
                         sleeping with the fishes:\
                             </h3>", unsafe_allow_html=True)
+
                 st.image(st.session_state["image"])
                 with open(st.session_state["image_path"], "rb") as file:
                     st.download_button(
@@ -357,6 +358,10 @@ def run():
                         key="download_button",
                         help="Click to download the image",
                     )
+            if st.session_state["image"] is None:
+                st.write('Unfortunately this picture cannot be displayed, as it \
+                    is too gruesome... Refresh the page to try again!')
+                st.markdown('''---''')
             st.write(st.session_state["story"])
 
         else:
