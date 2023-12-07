@@ -2,7 +2,7 @@ import streamlit as st
 import base64
 import os
 from got_survival.ml_logic.model_character_creation import get_character
-from got_survival.interface.main import episode_pred, death_pred
+from got_survival.interface.main import season_pred, death_pred
 from got_survival.ml_logic.create_story_dead import create_character_dead
 from got_survival.ml_logic.create_story_alive import create_character_alive
 from got_survival.ml_logic.create_character_image import create_image
@@ -11,6 +11,9 @@ from got_survival.ml_logic.t_sne import get_tsne
 import time
 
 def typewriter(text: str, speed=15):
+    '''
+    Displays the story bit by bit
+    '''
     tokens = text.split()
     container = st.empty()
     for index in range(len(tokens) + 1):
@@ -153,7 +156,7 @@ def run():
         change_label_style(label_1_negotiation)
         change_label_style(label_1_belief)
 
-
+        # display column 1
         with col1:
             st.slider(label_1_empathic, 1, 5, 3, 1, key='empathy')
             st.slider(label_1_fighting, 1, 5, 3, 1, key='fighting')
@@ -177,6 +180,7 @@ def run():
         change_label_style(label_2_gender)
         change_label_style(label_2_marriage)
 
+        # display column 2
         with col2:
             st.selectbox(label_2_climate, CLIMATE_OPTIONS, key='warm')
             st.selectbox(label_2_outcast, ['No', 'Yes'], key='outcast')
@@ -195,6 +199,7 @@ def run():
             unsafe_allow_html=True)
         st.write('')
 
+        # create character
         st.session_state.cache['character'] = get_character(
             st.session_state['guess'],
             st.session_state['outcast'],
@@ -225,9 +230,10 @@ def run():
         st.write("")
 
         house_description = character['origin'][0]
-        #st.write(f"house_description: {house_description}")
 
         col1, col2 = st.columns(2, gap='large')
+
+        # display sigil
         with col1:
             path_to_house = f"processed_data/images/houses_images/{house_description}.png"
             full_path = os.path.join(os.getcwd(), path_to_house)
@@ -236,10 +242,14 @@ def run():
             else:
                 st.write("Image not found!")
 
+        # display info about group
         with col2:
             house_description = get_house_text()[house_description]
             st.write(house_description)
 
+        st.markdown('''---''')
+
+        # if you are outcast, explain which house you would've been in:
         if st.session_state['outcast'] =='Yes' and \
             character_info['origin'][0] != character_info['ex_house'][0]:
 
@@ -249,7 +259,7 @@ def run():
             else:
                 saying = f'You were a {ex_house}'
 
-            saying += ', but someting caused you to become '
+            saying += ', but someting caused you to leave your life behind and become '
 
             if character_info['origin'][0] == 'Outlaw':
                 saying += 'an '
@@ -260,8 +270,6 @@ def run():
 
             saying += character_info['origin'][0] + '.'
             st.write(saying)
-
-
 
         st.write('Explore how similar you are to the prominent groups in Game of Thrones.')
         # Display the 'house space'
@@ -278,28 +286,37 @@ def run():
 
         st.button('Will you survive?', on_click=click_button_prediction)
 
+    # calculate predictions
     if st.session_state.prediction:
         character = st.session_state.cache['character']
         age = st.session_state.cache['age']
 
         st.markdown("<h1 style='text-align: center; color: white;\
             text-shadow: 2px 2px 4px #000000;'>Will you survive ?</h1>", unsafe_allow_html=True)
+        # death prediction
         pred = death_pred(character.drop(columns='lucky'))
         if pred:
             st.markdown("<h2 style='text-align: center; color: white;\
-                text-shadow: 2px 2px 4px #000000;'>You made it </h2>", unsafe_allow_html=True)
+                text-shadow: 2px 2px 4px #000000;'>Congratulations! You are part \
+                    of the elite group that through hardships, battles and against \
+                        all odds survives until the end of what will be forever \
+                            known as the Game of Thrones.</h2>", unsafe_allow_html=True)
         else:
-            st.markdown("<h1 style='text-align: center; color: white;\
-                text-shadow: 2px 2px 4px #000000;'>Nooooo.... you don't make it.... </h1>", unsafe_allow_html=True)
-            episode_number = episode_pred(character.drop(columns="lucky"))
-            st.markdown(f"<h2 style='text-align: center; color: white; \
-                text-shadow: 2px 2px 4px #000000;'>You die in season {episode_number} 😢</h2>", unsafe_allow_html=True)
+            season_number = season_pred(character.drop(columns="lucky"))
+            st.markdown(f"<h2 style='text-align: center; color: white;\
+                text-shadow: 2px 2px 4px #000000;'>Unfortunately, the hardships, \
+                    battles and horrible events you encountered got the best of you \
+                        and you lost your life in season {season_number}.\
+                        </h2>", unsafe_allow_html=True)
 
+        st.markdown('''---''')
+        # progress bar
         if "clear" not in st.session_state:
             my_bar = st.progress(10)
-            for i in range(10):
+            for i in range(5):
                 st.write(" ")
 
+        # create image and story only once
         if "image" not in st.session_state:
             if pred:
                 st.session_state["story"] = create_character_alive(character, age)
@@ -308,12 +325,15 @@ def run():
 
             my_bar.progress(50)
             try:
-                #import time; time.sleep(5)
-                #raise
-                img_alive, filename_alive = create_image(character, age, st.session_state["story"])
+                import time; time.sleep(5)
+                raise
+                img_alive, filename_alive = create_image(character, age,
+                                                         st.session_state["story"])
             except:
                 img_alive, filename_alive = (None,None)
-                st.write('error')
+                st.markdown(f"<h2 style='text-align: center; color: white; \
+                    text-shadow: 2px 2px 4px #000000;'>Somewthing went wrong...</h2>",
+                    unsafe_allow_html=True)
 
             st.session_state["image"] = img_alive
             st.session_state["image_path"] = filename_alive
@@ -321,8 +341,18 @@ def run():
             my_bar.progress(99)
             time.sleep(0.5)
 
+        # display story once it is created and only once:
         if "clear" in st.session_state:
             if "typewriter" not in st.session_state:
+                if pred:
+                    st.markdown(f"<h3 style='text-align: center; color: white;\
+                    text-shadow: 2px 2px 4px #000000;'>Read about your happily ever after:\
+                            </h3>", unsafe_allow_html=True)
+                else:
+                    st.markdown(f"<h3 style='text-align: left; color: white;\
+                    text-shadow: 2px 2px 4px #000000;'>Here's how you ended up \
+                        sleeping with the fishes:\
+                            </h3>", unsafe_allow_html=True)
                 typewriter(st.session_state["story"])
                 st.session_state["typewriter"] = True
             else:

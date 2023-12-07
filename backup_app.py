@@ -1,6 +1,6 @@
 import streamlit as st
 from got_survival.ml_logic.model_character_creation import get_character
-from got_survival.interface.main import death_pred, episode_pred
+from got_survival.interface.main import death_pred, season_pred
 from got_survival.ml_logic.create_story import create_story
 from got_survival.ml_logic.create_character_image import create_image
 from got_survival.ml_logic.t_sne import get_tsne
@@ -145,7 +145,7 @@ def run():
             st.image("processed_data/images/3186f9f7-9b16-467c-a913-7d3e79050863.png")
         else:
             st.write('Nooooo......')
-            st.write(f'You die in episode {episode_pred(character.drop(columns="lucky"))} 😢')
+            st.write(f'You die in season {season_pred(character.drop(columns="lucky"))} 😢')
 
             # Change comments from the default image and story to have them created:
             # st.image(create_image(character, st.session_state.cache["age"]))
