@@ -1,4 +1,4 @@
-import pandas as pd
+
 
 def get_house_text():
 
