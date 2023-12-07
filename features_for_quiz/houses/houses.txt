@@ -1,31 +1,29 @@
-Wildling|The Wildlings, or Free Folk, in "Game of Thrones" inhabit the northern
-lands beyond the Wall. Emphasizing freedom and independence, they reject the
-authority of the Seven Kingdoms. Comprising diverse clans and tribes, each with
+Wildling|The Wildlings, or Free Folk, inhabit the northernlands beyond the Wall.
+Emphasizing freedom and independence, they reject the authority of the Seven Kingdoms.
+Comprising diverse clans and tribes, each with
 unique customs, Wildlings, led by figures like Mance Rayder, engage in raids and
 skirmishes, often clashing with the Night's Watch and northern inhabitants.
 Adapted to the harsh northern conditions, they face mythical creatures, including
 White Walkers. Their distinctive culture reflects resourcefulness and a desire to
 escape the impending threat from the north.
 
-Outlaw|Outlaws in "Game of Thrones" are characterized by their engagement in
-criminal activities such as robbery and rebellion against established authorities,
-be it the Iron Throne or local lords. Comprising exiled individuals, dispossessed
-figures, and broken men haunted by war, they may form brotherhoods like the
-Brotherhood Without Banners or operate independently. Some outlaws, like rogue
-knights such as the Hound, have abandoned their noble affiliations, emphasizing a
-lack of political alignment and a rejection of the existing power structures in Westeros.
+Outlaw|Outlaws are characterized by their engagement in criminal activities such as
+robbery and rebellion against established authorities, be it the Iron Throne or local lords.
+Comprising exiled individuals, dispossessed figures, and broken men haunted by war,
+they may form brotherhoods like the Brotherhood Without Banners or operate independently.
+Some outlaws, like rogue knights such as the Hound, have abandoned their noble affiliations,
+emphasizing a lack of political alignment and a rejection of the existing power structures in Westeros.
 
-Dothraki|The Dothraki in "Game of Thrones" are nomadic warriors of Essos,
-residing in the vast Dothraki Sea. Organized into khalasars led by a Khal, they
-are skilled horse lords with a deep connection to their horses. Speaking their
-own language, the Dothraki have distinctive customs, including braided hair
-symbolizing achievements and the use of the arakh, a unique weapon. Their
-religious beliefs center around a great stallion and the Dosh khaleen, while
-weddings involve unique rituals like the bride eating a stallion's heart. Rooted
-in a warrior culture that values strength and bravery, the Dothraki build
+Dothraki|The Dothraki are nomadic warriors of Essos, residing in the vast Dothraki Sea.
+Organized into khalasars led by a Khal, they are skilled horse lords with a deep
+connection to their horses. Speaking their own language, the Dothraki have distinctive
+customs, including braided hair symbolizing achievements and the use of the arakh,
+a unique weapon. Their religious beliefs center around a great stallion and the Dosh khaleen,
+while weddings involve unique rituals like the bride eating a stallion's heart.
+Rooted in a warrior culture that values strength and bravery, the Dothraki build
 resistance to poisons and are known for raiding and pillaging.
 
-Night's Watch|The Night's Watch in "Game of Thrones" is defined by a solemn oath
+Night's Watch|The Night's Watch is defined by a solemn oath
 and duty to defend the realms from threats beyond the Wall. Guarding the massive
 ice structure known as the Wall, members, traditionally volunteers, forsake family
 ties through vows of celibacy and wear black clothing symbolizing their commitment.
@@ -35,7 +33,7 @@ Over time, the order faces recruitment challenges and internal conflicts, and
 notable characters like Jon Snow and Samwell Tarly navigate the changing dynamics
 within the Night's Watch, highlighting its complexities.
 
-Soldier|Soldiers in "Game of Thrones" are marked by their loyalty to noble houses,
+Soldier|Soldiers are marked by their loyalty to noble houses,
 reflected in distinctive armor and weapons. Adorned with heraldry and sigils,
 they serve under the banners of their liege lords. Varying in training and skill,
 armies encompass cavalry for speed and impact, and infantry for close combat.
@@ -47,9 +45,9 @@ and grappling with codes of chivalry. Some, associated with mystical elements,
 may wield magic on the battlefield, adding complexity to the diverse portrayal
 of soldiers in Westeros.
 
-Foreign Noble|Foreign nobles in "Game of Thrones" are marked by their diverse
-backgrounds and cultures, bringing unique customs and perspectives from regions
-like Essos. Different titles and social structures, such as the Dothraki khalasars,
+Foreign Noble|Foreign nobles are marked by their diverse backgrounds and cultures,
+bringing unique customs and perspectives from regions like Essos.
+Different titles and social structures, such as the Dothraki khalasars,
 contribute to their distinctiveness. Linguistic diversity, reflected in languages
 like High Valyrian and Dothraki, adds to the multicultural aspect of the world.
 Exotic attire and styles, influenced by Essos and the Free Cities, set them apart
@@ -60,18 +58,17 @@ intricacies, and some, like Melisandre, introduce mystical elements to the narra
 Struggling for recognition and often adapting to Westerosi customs, their presence
 enriches the series with cultural clashes and nuanced character dynamics.
 
-Foreign Peasant|In "Game of Thrones," foreign peasants or common people from
-outside the Seven Kingdoms receive limited exploration within the narrative.
+Foreign Peasant|Foreign peasants are the common people from outside the Seven Kingdoms.
 Coming from diverse cultures, particularly Essos, they may face displacement due
 to conflicts, portraying the harsh realities of war. Stereotypes and prejudices
 against them occasionally surface, reflecting cultural differences and mistrust.
 Like their Westerosi counterparts, foreign peasants are likely part of the working
-class, engaged in labor to sustain their livelihoods. However, due to the narrative's
-focus on noble houses and major characters, foreign peasants often have limited
-screen time, with their stories overshadowed by the broader political and noble
-intrigues central to the series.
+class, engaged in labor to sustain their livelihoods. the Free Cities have a more
+mercantile and less feudal culture, although there is still a significant underclass.
+Slavery is widespread in some parts of Essos, notably in cities like Astapor, Yunkai,
+and Meereen, until Daenerys Targaryen's intervention.
 
-Noble|Nobles in "Game of Thrones" are characterized by inherited titles and lands,
+Noble|Nobles from Westeros are characterized by inherited titles and lands,
 passed down through family lines, encompassing designations like lord, lady,
 knight, or king. Operating within a feudal hierarchy, they owe allegiance to
 higher-ranking nobles or the ruling monarch. Enjoying privileges such as land
