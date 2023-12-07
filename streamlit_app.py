@@ -321,7 +321,7 @@ def run():
             if pred:
                 st.session_state["story"] = create_character_alive(character, age)
             else:
-                st.session_state["story"] = create_character_dead(character, age)
+                st.session_state["story"] = create_character_dead(character, age, season_number)
 
             my_bar.progress(50)
             try:

@@ -5,6 +5,7 @@ from got_survival.params import *
 def create_character_dead(
     character: pd.DataFrame,
     age: int,
+    season_number:int
 ) -> str:
     """
     Generates a short narrative about a Game of Thrones character based on
@@ -18,7 +19,8 @@ def create_character_dead(
     sentence = f"""
         I'm gonna give you a made up character in the world of game of
         thrones, please create a very short funny story of the character's death
-        inspired by the events in game of thrones. Make it shorter than 2 paragraphs!
+        in season {season_number}. It should be inspired by the events in game of
+        thrones in season {season_number}. Make it shorter than 2 paragraphs!
             age: {age},
             house: {character['origin'][0]},
             luck: {character['lucky'][0]},
@@ -26,7 +28,6 @@ def create_character_dead(
             gender: {'male' if character['male'][0] else 'female'},
             nobility: {'noble' if character['isNoble'][0] else 'not noble'},
             married: {'married' if character['isMarried'][0] else 'not married'}.
-
     """
 
     # Set the maximum number of tokens for each prompt chunk
