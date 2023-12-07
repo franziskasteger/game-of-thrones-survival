@@ -320,8 +320,8 @@ def run():
 
             my_bar.progress(50)
             try:
-                # import time; time.sleep(5)
-                # raise
+                import time; time.sleep(5)
+                raise
                 img_alive, filename_alive = create_image(character, age,
                                                          st.session_state["story"])
             except:
