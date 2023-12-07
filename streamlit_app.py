@@ -181,7 +181,7 @@ def run():
     # Create character and display information
     if st.session_state.character and (not st.session_state.prediction):
         st.markdown("<h1 style='text-align: center; color: white;\
-            text-shadow: 2px 2px 4px #000000;'>You in Game of Thrones</h1>",
+            text-shadow: 2px 2px 4px #000000;'>Who are you in Game of Thrones?</h1>",
             unsafe_allow_html=True)
         st.write('')
 
@@ -201,6 +201,22 @@ def run():
 
         character_info = st.session_state.cache['character']
 
+        actual_house = character_info['origin'][0]
+        you_are = 'You are '
+        if 'House' in actual_house:
+            you_are += 'part of '
+        elif actual_house == 'Outlaw':
+            you_are += 'an '
+        elif actual_house == "Night's Watch":
+            you_are += 'part of the '
+        else:
+            you_are += 'a '
+
+        you_are += actual_house + '!'
+
+        st.markdown(f"<h2 style='text-align: center; color: white;\
+            text-shadow: 2px 2px 4px #000000;'>{you_are}</h2>",
+            unsafe_allow_html=True)
         # elements to pass to create_image_character
         character = {
             'origin': character_info['origin'],
