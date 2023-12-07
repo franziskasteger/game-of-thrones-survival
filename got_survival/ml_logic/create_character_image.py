@@ -55,7 +55,7 @@ def create_image(
             """
     else:
         sentence = f"""
-            Create an image for the following story. Don't include any text!
+            Create an image for the following story. Do not include any text!
             {story}
         """
     # Generate image

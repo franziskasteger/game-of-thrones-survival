@@ -24,14 +24,13 @@ a stallion's heart. Rooted in a warrior culture that values strength and bravery
 the Dothraki build resistance to poisons and are known for raiding and pillaging.
 
 Night's Watch|The Night's Watch is defined by a solemn oath and duty to defend the
-realms from threats beyond the Wall. Guarding the massive ice structure known as
-the Wall, members, traditionally volunteers, forsake family ties through vows of
-celibacy and wear black clothing symbolizing their commitment. The Night's Watch
-operates as a brotherhood, fostering camaraderie among diverse members. Discipline
-is maintained through strict punishments, including execution. Over time, the order
-faces recruitment challenges and internal conflicts, and notable characters like
-Jon Snow and Samwell Tarly navigate the changing dynamics within the Night's Watch,
-highlighting its complexities.
+realms from threats beyond the Wall. Guarding the Wall, members, traditionally
+volunteers, forsake family ties through vows of celibacy and wear black clothing
+symbolizing their commitment. The Night's Watch operates as a brotherhood, fostering
+camaraderie among diverse members. Discipline is maintained through strict punishments,
+including execution. Over time, the order faces recruitment challenges and internal
+conflicts, and notable characters like Jon Snow and Samwell Tarly navigate the
+changing dynamics within the Night's Watch, highlighting its complexities.
 
 Soldier|Soldiers are marked by their loyalty to noble houses, reflected in distinctive
 armor and weapons. Adorned with heraldry and sigils, they serve under the banners
@@ -46,43 +45,38 @@ Foreign Noble|Foreign nobles are marked by their diverse backgrounds and culture
 bringing unique customs and perspectives from regions like Essos. Linguistic diversity,
 reflected in languages like High Valyrian, adds to the multicultural aspect of the
 world. Exotic attire and styles, influenced by Essos and the Free Cities, set them
-apart from Westerosi fashion. Many foreign nobles, including exiled figures like
-Daenerys Targaryen, seek refuge in Westeros, adding a layer of displacement and
-political complexity. Forming powerful alliances with Westerosi houses, they navigate
-political intricacies, and some, like Melisandre, introduce mystical elements
-to the narrative. Struggling for recognition and often adapting to Westerosi customs,
-their presence enriches the series with cultural clashes and nuanced character dynamics.
+apart from Westerosi fashion. Forming powerful alliances with Westerosi houses,
+they navigate political intricacies, and some, like Melisandre, introduce mystical
+elements to the narrative. Struggling for recognition and often adapting to Westerosi
+customs, their presence enriches the series with cultural clashes and nuanced character dynamics.
 
 Foreign Peasant|Foreign peasants are the common people from outside the Seven Kingdoms.
 Coming from diverse cultures, particularly Essos, they may face displacement due
 to conflicts, portraying the harsh realities of war. Stereotypes and prejudices
 against them occasionally surface, reflecting cultural differences and mistrust.
 Like their Westerosi counterparts, foreign peasants are likely part of the working
-class, engaged in labor to sustain their livelihoods. the Free Cities have a more
-mercantile and less feudal culture, although there is still a significant underclass.
-Slavery is widespread in some parts of Essos, notably in cities like Astapor, Yunkai,
-and Meereen, until Daenerys Targaryen's intervention.
+class, engaged in labor to sustain their livelihoods. Slavery is widespread in some
+parts of Essos, notably in cities like Astapor, Yunkai, and Meereen, until Daenerys
+Targaryen's intervention.
 
 Noble|Nobles from Westeros are characterized by inherited titles and lands,
-passed down through family lines. Operating within a feudal hierarchy, they owe
-allegiance to higher-ranking nobles or the ruling monarch. Enjoying privileges
-such as land ownership, tax collection, and army raising, they bear responsibilities
-like military service and maintaining order. Nobles display distinctive coats of
-arms and heraldic symbols, representing their house identity. With formal education
-in governance, diplomacy, and combat, they navigate court intrigues, alliances,
-and marriage politics. Varying in wealth, nobles occupy a distinct social class
-above  commoners, reinforcing societal norms and legal structures.
+passed down through family lines. Enjoying privileges such as land ownership,
+tax collection, and army raising, they bear responsibilities like military service
+and maintaining order. Nobles display distinctive coats of arms and heraldic symbols,
+representing their house identity. With formal education in governance, diplomacy,
+and combat, they navigate court intrigues, alliances, and marriage politics.
+Varying in wealth, nobles occupy a distinct social class above  commoners,
+reinforcing societal norms and legal structures.
 
 Peasant|Peasants, or smallfolk, in Westeros are characterized by their lack of
 social status, residing in the lowest strata of society. Engaged in an agrarian
 lifestyle, many work as farmers, cultivating crops and contributing to the economy.
 Subject to the authority of local lords, peasants have limited rights and owe
 various forms of service, taxes, or rents in exchange for protection. They are
-vulnerable during times of war, with lands and homes at risk. Limited in mobility,
-they live and work within their local regions. The impact of seasonal changes,
-especially extended winters, can lead to famine and hardship. Often overlooked by
-high lords, peasants face struggles and concerns ignored in the midst of noble
-conflicts and ambitions.
+vulnerable during times of war, with lands and homes at risk. The impact of seasonal
+changes, especially extended winters, can lead to famine and hardship. Often
+overlooked by high lords, peasants face struggles and concerns ignored in the midst
+of noble conflicts and ambitions.
 
 House Bolton|House Bolton, seated at the ominous Dreadfort in the North, is known
 for its sinister practices. Their sigil, a flayed man, and motto emphasize cruelty
@@ -98,34 +92,30 @@ the Warden of the North, responsible for its defense and governance. Their sigil
 a grey direwolf on a white field, and motto, "Winter is Coming", symbolize the
 harsh North and the need for constant vigilance. Known for their strong sense of
 honor and justice, the Starks follow the Old Gods of the Forest and uphold their
-cultural values. Direwolves, companions to each Stark child, embody loyalty and
-connection to the North. Eddard "Ned" Stark, Lord of Winterfell, exemplifies the
-family's commitment to honor. The Stark children — Robb, Sansa, Arya, Bran, and
-Rickon — contribute diverse perspectives to the narrative. Engaged in the War of
-the Five Kings, House Stark, led by Robb, seeks independence. The tragic Red
-Wedding marks a turning point, resulting in the deaths of key Stark members and
-impacting the house's fate.
+cultural values. Eddard "Ned" Stark, Lord of Winterfell, exemplifies the
+family's commitment to honor. The Stark children contribute diverse perspectives
+to the narrative. Engaged in the War of the Five Kings, House Stark, seeks independence.
+The tragic Red Wedding marks a turning point, resulting inthe deaths of key Stark
+members and impacting the house's fate.
 
 House Arryn|Seated in the impregnable Eyrie, nestled in the Mountains of the Moon,
-House Arryn's sigil, a white falcon and crescent moon on blue, symbolizes their
-commitment to honor with the motto "As High as Honor". Isolation and independence
-are inherent to the Eyrie's mountainous location, contributing to the house's
-historical neutrality in realm politics. The Vale of Arryn, their region, boasts
-mountainous terrain and lush valleys, situated to the east of the Riverlands and
-north of the Stormlands. Initially neutral in the War of the Five Kings, the Vale
-later plays a significant role when Petyr Baelish becomes its Lord Protector.
-Known for producing skilled knights, the Knights of the Vale, led by Sansa Stark
-and Petyr Baelish, crucially impact the Battle of the Bastards.
+House Arryn's sigil, symbolizes their commitment to honor with the motto "As High
+as Honor". Isolation and independence are inherent to the Eyrie's mountainous
+location, contributing to the house's historical neutrality in realm politics. The
+Vale of Arryn, their region, boasts mountainous terrain and lush valleys, situated
+to the east of the Riverlands and north of the Stormlands. Initially neutral in the
+War of the Five Kings, the Vale later plays a significant role when Petyr Baelish
+becomes its Lord Protector. Known for producing skilled knights, the Knights of the
+Vale, led by Sansa Stark and Petyr Baelish, crucially impact the Battle of the Bastards.
 
 House Greyjoy|Hailing from the Iron Islands, House Greyjoy embodies the ironborn
 culture, emphasizing seafaring, reaving, and obtaining through the "iron price".
 Pyke, their ancestral seat, stands on rocky islands connected by rope bridges.
-The golden kraken on a black field symbolizes their naval power, reflecting their
-motto "We Do Not Sow". Following the Drowned God, worship involves drowning rituals,
-anticipating an afterlife in the Drowned God's watery halls. Balon Greyjoy, a
-notable leader, declares himself King of the Iron Islands. Euron Greyjoy, his
-cunning brother, becomes a key player in Westerosi power struggles. The Iron Fleet,
-renowned for speed and maneuverability, enhances House Greyjoy's military strength.
+The ir sigil symbolizes their naval power, reflecting their motto "We Do Not Sow".
+Following the Drowned God, worship involves drowning rituals, anticipating an
+afterlife in the Drowned God's watery halls. Balon Greyjoy, a notable leader,
+declares himself King of the Iron Islands. The Iron Fleet, renowned for speed and
+maneuverability, enhances House Greyjoy's military strength.
 
 House Frey|House Frey, seated at the strategically vital Twins, is characterized
 by its extensive family tree led by Lord Walder Frey. Their wealth comes from toll
@@ -147,45 +137,40 @@ Riverrun and the military prowess of Ser Brynden Tully, known as the Blackfish.
 House Lannister|House Lannister, seated at Casterly Rock, stands out for its
 immense wealth, symbolized by gold mines and the saying "A Lannister always pays
 his debts". Politically ambitious, they wield influence in the Seven Kingdoms
-through advantageous alliances. The golden lion on a crimson field, their sigil,
-represents their fierce nature, echoed in the unofficial motto "Hear Me Roar!".
-Tywin Lannister prioritizes family unity and military prowess, leading the formidable
-"Lannister host". Integral to the War of the Five Kings, the Lannisters support
-Joffrey Baratheon's claim, with key figures like Cersei and Tyrion playing
-pivotal roles in the political landscape.
+through advantageous alliances. Their sigil represents their fierce nature, echoed
+in the unofficial motto "Hear Me Roar!". Tywin Lannister prioritizes family unity
+and military prowess, leading the formidable "Lannister host". Integral to the War
+of the Five Kings, the Lannisters support Joffrey Baratheon's claim, with key
+figures like Cersei and Tyrion playing pivotal roles in the political landscape.
 
 House Tyrell|House Tyrell, seated at Highgarden in the fertile Reach, distinguishes
 itself with wealth, political acumen, and agricultural power. Adept agriculturists,
 they leverage their control over fertile lands for prosperity. Known for political
-lexibility, they form strategic alliances and navigate evolving landscapes. The
-golden rose on a green field signifies growth and fertility, encapsulated in their
-motto "Growing Strong". Marriage alliances, exemplified by Margaery Tyrell,
-illustrate their political savvy. Actively involved in the War of the Five Kings,
-House Tyrell, led by figures like Mace, Margaery, Loras, and Willas, contributes
-significantly to the series' political dynamics.
+flexibility, they form strategic alliances and navigate evolving landscapes. Their
+sigil signifies growth and fertility, encapsulated in their motto "Growing Strong".
+Marriage alliances, exemplified by Margaery Tyrell, illustrate their political savvy.
+Actively involved in the War of the Five Kings, House Tyrell, led by figures like
+Mace, Margaery, Loras, and Willas, contributes significantly to the series' political
+dynamics.
 
 House Martell|House Martell, ruling over Dorne in the southern realm, embodies
 resilience, independence, and distinctiveness. Known for successfully resisting
-Targaryen conquest, their sigil — a red sun pierced by a gold spear on orange —
-captures their motto "Unbowed, Unbent, Unbroken". Dorne's culture reflects
-tolerance and unique customs, such as gender equality. Leadership under figures
-like Prince Doran, Oberyn, and Elia Martell is pivotal. Sunspear, with its
-spear-shaped tower, stands as their distinctive seat. House Martell strategically
-forges alliances, exemplified by historical ties with House Targaryen. In the War
-of the Five Kings, Dorne, initially neutral, later engages in alliances aligned
-with their interests.
+Targaryen conquest, their sigil captures their motto "Unbowed, Unbent, Unbroken".
+Dorne's culture reflects tolerance and unique customs, such as gender equality.
+Leadership under figures like Prince Doran, Oberyn, and Elia Martell is pivotal.
+Sunspear, with its spear-shaped tower, stands as their distinctive seat. House
+Martell strategically forges alliances, exemplified by historical ties with House
+Targaryen.
 
 House Baratheon|House Baratheon is a prominent house in Westeros, known for its
 historic rebellion against House Targaryen and its subsequent rule over the Iron
-Throne. Key aspects include its seat at Storm's End, a formidable castle, the
-crowned black stag on a gold field as its sigil, and the motto "Ours is the Fury".
-The house played a pivotal role in Robert's Rebellion, leading to Robert Baratheon
-becoming king. The War of the Five Kings further explores the house's internal conflicts,
-involving claimants like Joffrey, Myrcella, and Tommen Baratheon, and brothers
-Stannis and Renly Baratheon. The narrative also highlights characters like Stannis,
-known for his sense of justice, Renly, who briefly declares himself king, and Gendry,
-Robert's illegitimate son. The house's fragmented status unfolds due to internal strife,
-external threats, and challenges to its legitimacy.
+Throne. Their seat is located at Storm's End, a formidable castle, and their motto
+reads "Ours is the Fury". The War of the Five Kings further explores the house's
+internal conflicts, involving claimants like brothers Stannis and Renly Baratheon.
+The narrative also highlights Stannis, known for his sense of justice, Renly, who
+briefly declares himself king, and Gendry, Robert's illegitimate son. The house's
+fragmented status unfolds due to internal strife, external threats, and challenges
+to its legitimacy.
 
 House Targaryen|House Targaryen, known for its dragons, ruled the Seven Kingdoms
 following Aegon's successful conquest, establishing the Iron Throne in King's
