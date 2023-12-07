@@ -171,7 +171,7 @@ def run():
             st.selectbox(label_2_climate, CLIMATE_OPTIONS, key='warm')
             st.selectbox(label_2_outcast, ['No', 'Yes'], key='outcast')
             st.number_input(label_2_luck, 1, 100, 50, 1, key='guess')
-            st.number_input(label_2_age, 1, 60, 30, 1, key='age')
+            st.number_input(label_2_age, 1, 100, 30, 1, key='age')
             st.selectbox(label_2_gender, ['Female', 'Male'], key='gender')
             st.selectbox(label_2_marriage, ['Yes', 'No'], key='marriage')
             st.write('')
