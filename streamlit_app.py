@@ -312,10 +312,14 @@ def run():
 
         # progress bar
         if "clear" not in st.session_state:
-            st.markdown(f'<img style="transform:scaleX(-1);" \
-                src="https://media.tenor.com/ZU_roo1-yLoAAAAi/wolf-rennt-run.gif" \
-                    alt="wolf gif">',
-                unsafe_allow_html=True)
+            _left, mid, _right, four, five = st.columns(5)
+            with _left:
+                st.write('')
+            with mid:
+                st.markdown(f'<img style="transform:scaleX(-1); text-align: center;" \
+                    src="https://media.tenor.com/ZU_roo1-yLoAAAAi/wolf-rennt-run.gif" \
+                        alt="wolf gif">',
+                    unsafe_allow_html=True)
 
             my_bar = st.progress(10)
             for i in range(5):
@@ -348,7 +352,7 @@ def run():
 
         # display story once it is created and only once:
         if "clear" in st.session_state:
-            if "typewriter" not in st.session_state:
+            if st.session_state["image"]:
                 if pred:
                     st.markdown(f"<h3 style='text-align: center; color: white;\
                     text-shadow: 2px 2px 4px #000000;'>Read about your happily ever after:\
@@ -358,14 +362,7 @@ def run():
                     text-shadow: 2px 2px 4px #000000;'>Here's how you ended up \
                         sleeping with the fishes:\
                             </h3>", unsafe_allow_html=True)
-                typewriter(st.session_state["story"])
-                st.session_state["typewriter"] = True
-            else:
-                st.write(st.session_state["story"])
-
-            if st.session_state["image"]:
                 st.image(st.session_state["image"])
-
                 with open(st.session_state["image_path"], "rb") as file:
                     st.download_button(
                         label="Download image",
@@ -374,6 +371,13 @@ def run():
                         key="download_button",
                         help="Click to download the image",
                     )
+
+            if "typewriter" not in st.session_state:
+                typewriter(st.session_state["story"])
+                st.session_state["typewriter"] = True
+            else:
+                st.write(st.session_state["story"])
+
         else:
             st.session_state["clear"] = True
             st.experimental_rerun()
