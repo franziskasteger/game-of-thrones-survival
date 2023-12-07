@@ -309,8 +309,14 @@ def run():
                         </h2>", unsafe_allow_html=True)
 
         st.markdown('''---''')
+
         # progress bar
         if "clear" not in st.session_state:
+            st.markdown(f'<img style="transform:scaleX(-1);" \
+                src="https://media.tenor.com/ZU_roo1-yLoAAAAi/wolf-rennt-run.gif" \
+                    alt="wolf gif">',
+                unsafe_allow_html=True)
+
             my_bar = st.progress(10)
             for i in range(5):
                 st.write(" ")
