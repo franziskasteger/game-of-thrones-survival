@@ -257,6 +257,7 @@ def run():
 
         st.write('Explore how similar you are to the prominent groups in Game of \
             Thrones. Hovering over a bubble will reveal the name of the group.')
+        st.write('(To zoom back out, double click/tap the map)')
         # Display the 'house space'
         fig = get_tsne(
             st.session_state['outcast'],
