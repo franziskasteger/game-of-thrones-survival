@@ -10,17 +10,6 @@ from got_survival.ml_logic.create_story_house import get_house_text
 from got_survival.ml_logic.t_sne import get_tsne
 import time
 
-def typewriter(text: str, speed=15):
-    '''
-    Displays the story bit by bit
-    '''
-    tokens = text.split()
-    container = st.empty()
-    for index in range(len(tokens) + 1):
-        curr_full_text = " ".join(tokens[:index])
-        container.markdown(curr_full_text)
-        time.sleep(1 / speed)
-
 CLIMATE_OPTIONS = ['Cold', 'Medium', 'Warm']
 
 # Set page config
@@ -371,12 +360,13 @@ def run():
                         key="download_button",
                         help="Click to download the image",
                     )
+            st.write(st.session_state["story"])
+            # if "typewriter" not in st.session_state:
 
-            if "typewriter" not in st.session_state:
-                typewriter(st.session_state["story"])
-                st.session_state["typewriter"] = True
-            else:
-                st.write(st.session_state["story"])
+            #     st.write(st.session_state["story"])
+            #     st.session_state["typewriter"] = True
+            # else:
+            #     st.write(st.session_state["story"])
 
         else:
             st.session_state["clear"] = True
