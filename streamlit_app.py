@@ -138,18 +138,14 @@ def run():
         label_1_empathic = 'How empathic are you?'
         label_1_fighting = 'How good are you at fighting?'
         label_1_honor = 'How honorable and loyal are you?'
-        label_1_negotiation = 'How good are you at negotiating, networking and \
-            building connections?'
-        label_1_belief = 'How likely are you to stand by what you believe regardless \
-            of whether someone is trying to influence you in a different direction?'
+        label_1_negotiation = 'How good are you at negotiating, networking and building connections?'
+        label_1_belief = 'How likely are you to stand by what you believe regardless of whether someone is trying to influence you in a different direction?'
 
         #labels col1 transformations
         change_label_style(label_1_empathic)
         change_label_style(label_1_empathic)
         change_label_style(label_1_fighting)
         change_label_style(label_1_honor)
-        change_label_style(label_1_negotiation)
-        change_label_style(label_1_belief)
         change_label_style(label_1_negotiation)
         change_label_style(label_1_belief)
 
