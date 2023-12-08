@@ -318,7 +318,7 @@ def run():
             st.markdown(f"<h2 style='text-align: center; color: white;\
                 text-shadow: 2px 2px 4px #000000;'>Unfortunately, the hardships, \
                     battles and horrible events you encountered along the way got \
-                        the best of you and you lost your life in <u>season {season_number}.</u>\
+                        the best of you and you lost your life in <u>season {season_number}</u>.\
                         </h2>", unsafe_allow_html=True)
 
         st.markdown('''---''')
@@ -333,7 +333,6 @@ def run():
                     src="https://media.tenor.com/ZU_roo1-yLoAAAAi/wolf-rennt-run.gif" \
                         alt="wolf gif">',
                     unsafe_allow_html=True)
-
 
             my_bar = st.progress(1)
             st.write('Loading...')
