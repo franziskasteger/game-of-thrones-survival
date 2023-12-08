@@ -150,6 +150,8 @@ def run():
         change_label_style(label_1_honor)
         change_label_style(label_1_negotiation)
         change_label_style(label_1_belief)
+        change_label_style(label_1_negotiation)
+        change_label_style(label_1_belief)
 
         # display column 1
         with col1:
