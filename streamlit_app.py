@@ -86,6 +86,14 @@ custom_styles = """
         font-weight: bold;  /* Font weight of the slider number */
         color: #ffffff;  /* Font color of the slider number */
     }
+
+    div.row-widget.stButton{
+        text-align: center;
+    }
+
+    div.row-widget.stDownloadButton > div.stTooltipIcon {
+        text-align: center;
+    }
 </style>
 """
 
@@ -130,9 +138,10 @@ def run():
         label_1_empathic = 'How empathic are you?'
         label_1_fighting = 'How good are you at fighting?'
         label_1_honor = 'How honorable and loyal are you?'
-        label_1_negotiation = 'How good are you at negotiating, networking and building connections?'
-        label_1_belief = 'How likely are you to stand by what you believe regardless of whether someone is trying to influence you in a different direction?'
-
+        label_1_negotiation = 'How good are you at negotiating, networking and \
+            building connections?'
+        label_1_belief = 'How likely are you to stand by what you believe regardless \
+            of whether someone is trying to influence you in a different direction?'
 
         #labels col1 transformations
         change_label_style(label_1_empathic)
@@ -173,11 +182,10 @@ def run():
             st.number_input(label_2_luck, 1, 100, 50, 1, key='guess')
             st.number_input(label_2_age, 1, 100, 30, 1, key='age')
             st.selectbox(label_2_gender, ['Female', 'Male'], key='gender')
-            st.selectbox(label_2_marriage, ['Yes', 'No'], key='marriage')
+            st.selectbox(label_2_marriage, ['No', 'Yes'], key='marriage')
             st.write('')
             st.button('Create character', on_click=click_button_character)
 
-    '\n\n'
     # Create character and display information
     if st.session_state.character and (not st.session_state.prediction):
         st.markdown("<h1 style='text-align: center; color: white;\
@@ -253,7 +261,7 @@ def run():
 
         # if you are outcast, explain which house you would've been in:
         if st.session_state['outcast'] =='Yes' and \
-            character_info['origin'][0] != character_info['ex_house'][0]:
+            actual_house != character_info['ex_house'][0]:
             saying = 'You grew up as '
             ex_house = character_info['ex_house'][0]
             if 'House' in ex_house:
@@ -262,13 +270,13 @@ def run():
                 saying += f'a {ex_house}'
             saying += ', but an unfortunate event caused you to leave your \
                 comfortable life and become '
-            if character_info['origin'][0] == 'Outlaw':
+            if actual_house == 'Outlaw':
                 saying += 'an '
-            elif character_info['origin'][0] == "Night's Watch":
+            elif actual_house == "Night's Watch":
                 saying += 'part of the '
             else:
                 saying += 'a '
-            saying += character_info['origin'][0] + '.'
+            saying += actual_house + '.'
             st.write(saying)
 
         st.write('Explore how similar you are to the prominent groups in Game of \
@@ -307,8 +315,8 @@ def run():
             season_number = season_pred(character.drop(columns="lucky"))
             st.markdown(f"<h2 style='text-align: center; color: white;\
                 text-shadow: 2px 2px 4px #000000;'>Unfortunately, the hardships, \
-                    battles and horrible events you encountered got the best of you \
-                        and you lost your life in season {season_number}.\
+                    battles and horrible events you encountered along the way got \
+                        the best of you and you lost your life in <u>season {season_number}</u>.\
                         </h2>", unsafe_allow_html=True)
 
         st.markdown('''---''')
@@ -324,9 +332,13 @@ def run():
                         alt="wolf gif">',
                     unsafe_allow_html=True)
 
-            my_bar = st.progress(10)
+            my_bar = st.progress(1)
+            st.write('Loading...')
             for i in range(5):
                 st.write(" ")
+
+            time.sleep(0.5)
+            my_bar.progress(10)
 
         # create image and story only once
         if "image" not in st.session_state:
@@ -344,7 +356,7 @@ def run():
             except:
                 img_alive, filename_alive = (None, None)
                 st.markdown(f"<h2 style='text-align: center; color: white; \
-                    text-shadow: 2px 2px 4px #000000;'>Somewthing went wrong...</h2>",
+                    text-shadow: 2px 2px 4px #000000;'>Something went wrong...</h2>",
                     unsafe_allow_html=True)
 
             st.session_state["image"] = img_alive
