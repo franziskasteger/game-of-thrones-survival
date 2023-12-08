@@ -372,8 +372,8 @@ def run():
                             </h3>", unsafe_allow_html=True)
                 else:
                     st.markdown(f"<h3 style='text-align: left; color: white;\
-                    text-shadow: 2px 2px 4px #000000;'>Here's how you ended up \
-                        sleeping with the fishes:\
+                    text-shadow: 2px 2px 4px #000000;'>Here's how you tragically \
+                        lost your life:\
                             </h3>", unsafe_allow_html=True)
 
                 st.image(st.session_state["image"])
