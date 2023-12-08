@@ -143,7 +143,6 @@ def run():
         label_1_belief = 'How likely are you to stand by what you believe regardless \
             of whether someone is trying to influence you in a different direction?'
 
-
         #labels col1 transformations
         change_label_style(label_1_empathic)
         change_label_style(label_1_empathic)
@@ -187,7 +186,6 @@ def run():
             st.write('')
             st.button('Create character', on_click=click_button_character)
 
-    '\n\n'
     # Create character and display information
     if st.session_state.character and (not st.session_state.prediction):
         st.markdown("<h1 style='text-align: center; color: white;\
