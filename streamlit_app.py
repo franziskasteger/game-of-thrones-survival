@@ -208,15 +208,19 @@ def run():
         character_info = st.session_state.cache['character']
 
         actual_house = character_info['origin'][0]
-        you_are = 'You are '
+        you_are = 'You '
         if 'House' in actual_house:
-            you_are += 'part of '
+            you_are += 'are part of '
         elif actual_house == 'Outlaw':
-            you_are += 'an '
+            you_are += 'are an '
         elif actual_house == "Night's Watch":
+            if st.session_state['marriage'] == 'Yes':
+                you_are += 'left your spouse and became '
+            else:
+                you_are += 'are '
             you_are += 'part of the '
         else:
-            you_are += 'a '
+            you_are += 'are a '
 
         you_are += actual_house + '!'
 
