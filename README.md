@@ -1,4 +1,4 @@
-<h4><img align="center" src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" alt="le wagon" width="30" height="30"/> This project was created as the final project for the Le Wagon Datascience & AI bootcamp in Lisbon</h4>
+<h4><img align="center" src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" alt="le wagon" width="30" height="30"/> This project was created as the final project for the Le Wagon Data Science & AI bootcamp in Lisbon</h4>
 
 # Game of Thrones Survival ⚔️
 
