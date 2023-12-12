@@ -108,6 +108,8 @@ def run():
         st.session_state.character = False
     if 'prediction' not in st.session_state:
         st.session_state.prediction = False
+    if 'api' not in st.session_state:
+        st.session_state.api = False
 
     # Create empty variables
     if 'cache' not in st.session_state:
@@ -115,6 +117,7 @@ def run():
             'character': '',
             'nobility': '',
             'age': '',
+            'api_key': ''
         }
 
     # Define functions to be called when buttons are clicked
@@ -124,6 +127,9 @@ def run():
     def click_button_prediction():
         st.session_state.prediction = True
         st.session_state.character = False
+
+    def click_button_api():
+        st.session_state.api = True
 
     # Display the questions for the character creation
     if (not st.session_state.character) and (not st.session_state.prediction):
@@ -303,100 +309,119 @@ def run():
         character = st.session_state.cache['character']
         age = st.session_state.cache['age']
 
-        st.markdown("<h1 style='text-align: center; color: white;\
-            text-shadow: 2px 2px 4px #000000;'>Will you survive?</h1>", unsafe_allow_html=True)
-        # death prediction
-        pred = death_pred(character.drop(columns='lucky'))
-        if pred:
-            st.markdown("<h2 style='text-align: center; color: white;\
-                text-shadow: 2px 2px 4px #000000;'>Congratulations! You are part \
-                    of the elite group that through hardships, battles and against \
-                        all odds survives until the end of what will be forever \
-                            known as the Game of Thrones.</h2>", unsafe_allow_html=True)
-        else:
-            season_number = season_pred(character.drop(columns="lucky"))
-            st.markdown(f"<h2 style='text-align: center; color: white;\
-                text-shadow: 2px 2px 4px #000000;'>Unfortunately, the hardships, \
-                    battles and horrible events you encountered along the way got \
-                        the best of you and you lost your life in <u>season {season_number}</u>.\
-                        </h2>", unsafe_allow_html=True)
+        if not st.session_state.api:
+            label_api = 'If you want to create a story and image about you or your death in Game of Thrones, please enter your openAI api key here:'
+            change_label_style(label_api)
+            change_label_style(label_api)
+            # Ask for OpenAI api key:
+            st.session_state.cache['api_key'] = st.text_input(label=label_api)
+            api_key = st.session_state.cache['api_key']
 
-        st.markdown('''---''')
+            st.button('Get Prediction', on_click=click_button_api)
 
-        # progress bar
-        if "clear" not in st.session_state:
-            _left, mid, _right, four, five = st.columns(5)
-            with _left:
-                st.write('')
-            with mid:
-                st.markdown(f'<img style="transform:scaleX(-1); text-align: center;" \
-                    src="https://media.tenor.com/ZU_roo1-yLoAAAAi/wolf-rennt-run.gif" \
-                        alt="wolf gif">',
-                    unsafe_allow_html=True)
-
-            my_bar = st.progress(1)
-            st.write('Loading...')
-            for i in range(5):
-                st.write(" ")
-
-            time.sleep(0.5)
-            my_bar.progress(10)
-
-        # create image and story only once
-        if "image" not in st.session_state:
+        if st.session_state.api:
+            api_key = st.session_state.cache['api_key']
+            st.markdown("<h1 style='text-align: center; color: white;\
+                text-shadow: 2px 2px 4px #000000;'>Will you survive?</h1>", unsafe_allow_html=True)
+            # death prediction
+            pred = death_pred(character.drop(columns='lucky'))
             if pred:
-                st.session_state["story"] = create_character_alive(character, age)
+                st.markdown("<h2 style='text-align: center; color: white;\
+                    text-shadow: 2px 2px 4px #000000;'>Congratulations! You are part \
+                        of the elite group that through hardships, battles and against \
+                            all odds survives until the end of what will be forever \
+                                known as the Game of Thrones.</h2>", unsafe_allow_html=True)
             else:
-                st.session_state["story"] = create_character_dead(character, age, season_number)
+                season_number = season_pred(character.drop(columns="lucky"))
+                st.markdown(f"<h2 style='text-align: center; color: white;\
+                    text-shadow: 2px 2px 4px #000000;'>Unfortunately, the hardships, \
+                        battles and horrible events you encountered along the way got \
+                            the best of you and you lost your life in <u>season {season_number}</u>.\
+                            </h2>", unsafe_allow_html=True)
 
-            my_bar.progress(50)
-            try:
-                # import time; time.sleep(5)
-                # raise
-                img_alive, filename_alive = create_image(character, age,
-                                                         st.session_state["story"])
-            except:
-                img_alive, filename_alive = (None, None)
-                st.markdown(f"<h2 style='text-align: center; color: white; \
-                    text-shadow: 2px 2px 4px #000000;'>Something went wrong...</h2>",
-                    unsafe_allow_html=True)
+            st.markdown('''---''')
 
-            st.session_state["image"] = img_alive
-            st.session_state["image_path"] = filename_alive
+            # progress bar
+            if "clear" not in st.session_state:
+                _left, mid, _right, four, five = st.columns(5)
+                with _left:
+                    st.write('')
+                with mid:
+                    st.markdown(f'<img style="transform:scaleX(-1); text-align: center;" \
+                        src="https://media.tenor.com/ZU_roo1-yLoAAAAi/wolf-rennt-run.gif" \
+                            alt="wolf gif">',
+                        unsafe_allow_html=True)
 
-            my_bar.progress(99)
-            time.sleep(0.5)
+                my_bar = st.progress(1)
+                st.write('Loading...')
+                for i in range(5):
+                    st.write(" ")
 
-        # display story once it is created and only once:
-        if "clear" in st.session_state:
-            if st.session_state["image"]:
-                if pred:
-                    st.markdown(f"<h3 style='text-align: center; color: white;\
-                    text-shadow: 2px 2px 4px #000000;'>Read about your happily ever after:\
-                            </h3>", unsafe_allow_html=True)
-                else:
-                    st.markdown(f"<h3 style='text-align: left; color: white;\
-                    text-shadow: 2px 2px 4px #000000;'>Here's how it happened:\
-                            </h3>", unsafe_allow_html=True)
+                time.sleep(0.5)
+                my_bar.progress(10)
 
-                st.image(st.session_state["image"])
-                with open(st.session_state["image_path"], "rb") as file:
-                    st.download_button(
-                        label="Download image",
-                        data=file.read(),
-                        file_name=st.session_state["image_path"],
-                        key="download_button",
-                        help="Click to download the image",
-                    )
-            if st.session_state["image"] is None:
-                st.write('Unfortunately this picture cannot be displayed, as it \
-                    is too gruesome... Refresh the page to start over!')
-                st.markdown('''---''')
-            st.write(st.session_state["story"])
+            # create image and story only once if a key was provided
+            if "image" not in st.session_state:
+                try:
+                    if pred:
+                        st.session_state["story"] = create_character_alive(character,
+                                                                age, api_key=api_key)
+                    else:
+                        st.session_state["story"] = create_character_dead(character,
+                                                age, season_number, api_key=api_key)
+                    my_bar.progress(50)
+                    try:
+                        # import time; time.sleep(5)
+                        # raise
+                        img_alive, filename_alive = create_image(character, age,
+                                        st.session_state["story"], api_key=api_key)
+                    except:
+                        img_alive, filename_alive = (None, None)
+                        st.markdown(f"<h2 style='text-align: center; color: white; \
+                            text-shadow: 2px 2px 4px #000000;'>Something went wrong...</h2>",
+                            unsafe_allow_html=True)
+                except:
+                    st.session_state["story"] = ''
+                    img_alive, filename_alive = (None, None)
 
-        else:
-            st.session_state["clear"] = True
-            st.experimental_rerun()
+                st.session_state["image"] = img_alive
+                st.session_state["image_path"] = filename_alive
+
+                my_bar.progress(99)
+                time.sleep(0.5)
+
+            # display story once it is created and only once:
+            if "clear" in st.session_state:
+                if st.session_state["image"]:
+                    if pred:
+                        st.markdown(f"<h3 style='text-align: center; color: white;\
+                        text-shadow: 2px 2px 4px #000000;'>Read about your happily ever after:\
+                                </h3>", unsafe_allow_html=True)
+                    else:
+                        st.markdown(f"<h3 style='text-align: left; color: white;\
+                        text-shadow: 2px 2px 4px #000000;'>Here's how it happened:\
+                                </h3>", unsafe_allow_html=True)
+
+                    st.image(st.session_state["image"])
+                    with open(st.session_state["image_path"], "rb") as file:
+                        st.download_button(
+                            label="Download image",
+                            data=file.read(),
+                            file_name=st.session_state["image_path"],
+                            key="download_button",
+                            help="Click to download the image",
+                        )
+                if st.session_state["image"] is None and st.session_state["story"]=='':
+                    st.write('No api key was provided, so no story or image was created...')
+                elif st.session_state["image"] is None:
+                    st.write('Unfortunately this picture cannot be displayed, as it \
+                        is too gruesome... Refresh the page to start over!')
+                    st.markdown('''---''')
+                st.write(st.session_state["story"])
+
+            else:
+                st.session_state["clear"] = True
+                st.experimental_rerun()
 
 
 

@@ -5,13 +5,19 @@ from got_survival.params import *
 def create_character_alive(
     character: pd.DataFrame,
     age: int,
+    api_key:str=''
 ) -> str:
     """
     Generates a short narrative about a Game of Thrones character based on
     their given information.
     """
+
     # Initialize OpenAI client with the API key
-    client = OpenAI(api_key=OPENAI_API_KEY)
+    # if api_key=='':
+    #     client = OpenAI(api_key=OPENAI_API_KEY)
+    # else:
+    #     client = OpenAI(api_key=api_key)
+    client = OpenAI(api_key=api_key)
 
     # Craft the text prompt based on character details
     sentence = f"""
