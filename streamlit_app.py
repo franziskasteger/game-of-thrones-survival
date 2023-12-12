@@ -310,12 +310,14 @@ def run():
         age = st.session_state.cache['age']
 
         if not st.session_state.api:
-            st.write('If you want to create a story and image about you or your death in Game of Thrones, please enter your openAI api key here:')
+            st.write('If you want to create a story and image about you or your \
+                death in Game of Thrones, please enter your openAI api key here:')
             #change_label_style(label_api)
             #change_label_style(label_api)
             # Ask for OpenAI api key:
             st.session_state.cache['api_key'] = st.text_input(label='')
             api_key = st.session_state.cache['api_key']
+            st.write(api_key)
 
             st.button('Get Prediction', on_click=click_button_api)
 
