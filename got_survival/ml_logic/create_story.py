@@ -4,16 +4,18 @@ import pandas as pd
 
 def create_story(
         character: pd.DataFrame,
-        age: int
+        age: int,
+        api_key:str=None
     ) -> str:
     '''
     Given information about a character will create a story about their death
     using the OpenAI api.
     '''
-    # Instantiate OpenAI with the key
-    client = OpenAI(
-        api_key=OPENAI_API_KEY
-    )
+    # Initialize OpenAI client with the API key
+    if api_key is None:
+        client = OpenAI(api_key=OPENAI_API_KEY)
+    else:
+        client = OpenAI(api_key=api_key)
 
     # Define the prompt
     text_prompt = f"""Character Overview:
