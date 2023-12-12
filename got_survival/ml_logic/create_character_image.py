@@ -18,10 +18,11 @@ def create_image(
     Given information about a character will create an image using the OpenAI api.
     '''
     # Instantiate OpenAI with the key
-    if api_key=='':
-        client = OpenAI(api_key=OPENAI_API_KEY)
-    else:
-        client = OpenAI(api_key=api_key)
+    # if api_key=='':
+    #     client = OpenAI(api_key=OPENAI_API_KEY)
+    # else:
+    #     client = OpenAI(api_key=api_key)
+    client = OpenAI(api_key=api_key)
 
     # Define prompt
     if story is None:

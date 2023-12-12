@@ -13,10 +13,11 @@ def create_character_alive(
     """
 
     # Initialize OpenAI client with the API key
-    if api_key=='':
-        client = OpenAI(api_key=OPENAI_API_KEY)
-    else:
-        client = OpenAI(api_key=api_key)
+    # if api_key=='':
+    #     client = OpenAI(api_key=OPENAI_API_KEY)
+    # else:
+    #     client = OpenAI(api_key=api_key)
+    client = OpenAI(api_key=api_key)
 
     # Craft the text prompt based on character details
     sentence = f"""
