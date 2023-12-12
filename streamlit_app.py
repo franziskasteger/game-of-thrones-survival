@@ -316,8 +316,8 @@ def run():
             #change_label_style(label_api)
             # Ask for OpenAI api key:
             st.session_state.cache['api_key'] = st.text_input(label='')
-            api_key = st.session_state.cache['api_key']
-            st.write(api_key)
+            #api_key = st.session_state.cache['api_key']
+            #st.write(api_key)
 
             st.button('Get Prediction', on_click=click_button_api)
 
