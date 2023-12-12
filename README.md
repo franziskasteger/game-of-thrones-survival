@@ -1,5 +1,4 @@
-🚗 **This project was created as the final project for the Le Wagon Datascience & AI bootcamp in Lisbon**
-
+<img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" alt="le wagon" width="30" height="30"/> **This project was created as the final project for the Le Wagon Datascience & AI bootcamp in Lisbon**
 # Game of Thrones Survival ⚔️
 
 I ♥️ Game of Thrones. And I ♥️ speculating about how long I would survive in a movie or TV show. So finally we were able to make a website that will create a character based on the user's character traits and then predict how long they would survive in **Game of Thrones**.
