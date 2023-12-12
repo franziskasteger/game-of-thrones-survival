@@ -295,6 +295,9 @@ def run():
             st.session_state['unyielding'],
         )
         st.plotly_chart(fig, use_container_width=True)
+        label_api = 'If you want to create a story and image about you or your death in Game of Thrones, please enter your openAI api key here:'
+        change_label_style(label_api)
+        st.text_input(label=label_api, value='',key='api_key')
 
         st.button('Will you survive?', on_click=click_button_prediction)
 
@@ -344,22 +347,25 @@ def run():
 
         # create image and story only once
         if "image" not in st.session_state:
-            if pred:
-                st.session_state["story"] = create_character_alive(character, age)
-            else:
-                st.session_state["story"] = create_character_dead(character, age, season_number)
-
-            my_bar.progress(50)
             try:
-                # import time; time.sleep(5)
-                # raise
-                img_alive, filename_alive = create_image(character, age,
-                                                         st.session_state["story"])
+                if pred:
+                    st.session_state["story"] = create_character_alive(character, age)
+                else:
+                    st.session_state["story"] = create_character_dead(character, age, season_number)
+                my_bar.progress(50)
+                try:
+                    # import time; time.sleep(5)
+                    # raise
+                    img_alive, filename_alive = create_image(character, age,
+                                                            st.session_state["story"])
+                except:
+                    img_alive, filename_alive = (None, None)
+                    st.markdown(f"<h2 style='text-align: center; color: white; \
+                        text-shadow: 2px 2px 4px #000000;'>Something went wrong...</h2>",
+                        unsafe_allow_html=True)
             except:
+                st.session_state["story"] = ''
                 img_alive, filename_alive = (None, None)
-                st.markdown(f"<h2 style='text-align: center; color: white; \
-                    text-shadow: 2px 2px 4px #000000;'>Something went wrong...</h2>",
-                    unsafe_allow_html=True)
 
             st.session_state["image"] = img_alive
             st.session_state["image_path"] = filename_alive
@@ -388,7 +394,9 @@ def run():
                         key="download_button",
                         help="Click to download the image",
                     )
-            if st.session_state["image"] is None:
+            if st.session_state["image"] is None and st.session_state["story"]=='':
+                st.write('No api key was provided, so no story or image was created...')
+            elif st.session_state["image"] is None:
                 st.write('Unfortunately this picture cannot be displayed, as it \
                     is too gruesome... Refresh the page to start over!')
                 st.markdown('''---''')

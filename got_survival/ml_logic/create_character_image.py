@@ -12,13 +12,13 @@ def create_image(
         new_character:pd.DataFrame,
         age:int,
         story:str=None,
-        api_key:str=None
+        api_key:str=''
     ) -> Image:
     '''
     Given information about a character will create an image using the OpenAI api.
     '''
     # Instantiate OpenAI with the key
-    if api_key is None:
+    if api_key=='':
         client = OpenAI(api_key=OPENAI_API_KEY)
     else:
         client = OpenAI(api_key=api_key)

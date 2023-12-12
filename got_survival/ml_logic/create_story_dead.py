@@ -6,14 +6,14 @@ def create_character_dead(
     character: pd.DataFrame,
     age: int,
     season_number:int,
-    api_key:str=None
+    api_key:str=''
 ) -> str:
     """
     Generates a short narrative about a Game of Thrones character based on
     their given information.
     """
     # Initialize OpenAI client with the API key
-    if api_key is None:
+    if api_key=='':
         client = OpenAI(api_key=OPENAI_API_KEY)
     else:
         client = OpenAI(api_key=api_key)
