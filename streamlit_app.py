@@ -297,7 +297,9 @@ def run():
         st.plotly_chart(fig, use_container_width=True)
         label_api = 'If you want to create a story and image about you or your death in Game of Thrones, please enter your openAI api key here:'
         change_label_style(label_api)
-        st.text_input(label=label_api, value='',key='api_key')
+
+        # Ask for OpenAI api key:
+        st.session_state.cache['api_key'] = st.text_input(label=label_api, value='', key='api_key')
 
         st.button('Will you survive?', on_click=click_button_prediction)
 
@@ -305,6 +307,7 @@ def run():
     if st.session_state.prediction:
         character = st.session_state.cache['character']
         age = st.session_state.cache['age']
+        api_key = st.session_state.cache['api_key']
 
         st.markdown("<h1 style='text-align: center; color: white;\
             text-shadow: 2px 2px 4px #000000;'>Will you survive?</h1>", unsafe_allow_html=True)
@@ -345,19 +348,21 @@ def run():
             time.sleep(0.5)
             my_bar.progress(10)
 
-        # create image and story only once
+        # create image and story only once if a key was provided
         if "image" not in st.session_state:
             try:
                 if pred:
-                    st.session_state["story"] = create_character_alive(character, age)
+                    st.session_state["story"] = create_character_alive(character,
+                                                            age, api_key=api_key)
                 else:
-                    st.session_state["story"] = create_character_dead(character, age, season_number)
+                    st.session_state["story"] = create_character_dead(character,
+                                            age, season_number, api_key=api_key)
                 my_bar.progress(50)
                 try:
                     # import time; time.sleep(5)
                     # raise
                     img_alive, filename_alive = create_image(character, age,
-                                                            st.session_state["story"])
+                                    st.session_state["story"], api_key=api_key)
                 except:
                     img_alive, filename_alive = (None, None)
                     st.markdown(f"<h2 style='text-align: center; color: white; \
